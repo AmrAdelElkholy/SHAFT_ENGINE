@@ -1,0 +1,406 @@
+{
+  "uid" : "d5cacaab8292a73d",
+  "name" : "assertThatSearchIsDisplayed",
+  "fullName" : "testPackage01.Test_AppiumNative.assertThatSearchIsDisplayed",
+  "historyId" : "ea7c0bd01a4f98d73fae5657aa7bd747",
+  "time" : {
+    "start" : 1633399285795,
+    "stop" : 1633399332279,
+    "duration" : 46484
+  },
+  "status" : "failed",
+  "statusMessage" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.id: com.jumia.android:id/search_input_text'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+  "statusTrace" : "java.lang.AssertionError: Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.id: com.jumia.android:id/search_input_text'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.validation.ValidationHelper.reportValidationState(ValidationHelper.java:795)\n\tat com.shaft.validation.ValidationHelper.fail(ValidationHelper.java:558)\n\tat com.shaft.validation.ValidationHelper.validateElementExists(ValidationHelper.java:152)\n\tat com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:133)\n\tat testPackage01.Test_AppiumNative.assertThatSearchIsDisplayed(Test_AppiumNative.java:33)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1633399226386,
+      "stop" : 1633399285584,
+      "duration" : 59198
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Android], [http://localhost:4723/wd/hub].",
+      "time" : {
+        "start" : 1633399226393,
+        "stop" : 1633399226395,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Android], [http://localhost:4723/wd/hub]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [NativeMobileApp].",
+      "time" : {
+        "start" : 1633399285577,
+        "stop" : 1633399285578,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [NativeMobileApp]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c934ab8472998779",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: setup",
+      "source" : "c934ab8472998779.txt",
+      "type" : "text/plain",
+      "size" : 422
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.id: com.jumia.android:id/search_input_text'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+    "statusTrace" : "java.lang.AssertionError: Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.id: com.jumia.android:id/search_input_text'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.validation.ValidationHelper.reportValidationState(ValidationHelper.java:795)\n\tat com.shaft.validation.ValidationHelper.fail(ValidationHelper.java:558)\n\tat com.shaft.validation.ValidationHelper.validateElementExists(ValidationHelper.java:152)\n\tat com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:133)\n\tat testPackage01.Test_AppiumNative.assertThatSearchIsDisplayed(Test_AppiumNative.java:33)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [Egypt].",
+      "time" : {
+        "start" : 1633399297749,
+        "stop" : 1633399297758,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [Egypt]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [English].",
+      "time" : {
+        "start" : 1633399300573,
+        "stop" : 1633399300573,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [English]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.id: com.jumia.android:id/search_input_text'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1633399332230,
+        "stop" : 1633399332241,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7dd56496034c223a",
+        "name" : "Attachment: Screenshot - 1633399331994_assertThatSearchIsDisplayed_ValidateElementExists_failed",
+        "source" : "7dd56496034c223a.png",
+        "type" : "image/png",
+        "size" : 81939
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "7"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.id: com.jumia.android:id/search_input_text'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1633399331994_assertThatSearchIsDisplayed_ValidateElementExists_failed, java.io.ByteArrayInputStream@34647f58]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "41197859f2b05cd9",
+      "name" : "Attachment: Animated Gif - assertThatSearchIsDisplayed",
+      "source" : "41197859f2b05cd9.gif",
+      "type" : "image/gif",
+      "size" : 251383
+    }, {
+      "uid" : "cfba65cfe6220308",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: assertThatSearchIsDisplayed",
+      "source" : "cfba65cfe6220308.txt",
+      "type" : "text/plain",
+      "size" : 1567
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1633399332511,
+      "stop" : 1633399334606,
+      "duration" : 2095
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1633399334605,
+        "stop" : 1633399334605,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "8"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2eeb2e5cd9981fad",
+      "name" : "Attachment: Video Recording - teardown",
+      "source" : "2eeb2e5cd9981fad.mp4",
+      "type" : "video/mp4",
+      "size" : 776997
+    }, {
+      "uid" : "393f161f162ae0d0",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: teardown",
+      "source" : "393f161f162ae0d0.txt",
+      "type" : "text/plain",
+      "size" : 182
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1633399334618,
+      "stop" : 1633399335176,
+      "duration" : 558
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1633399334625,
+        "stop" : 1633399334626,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3e39a7fd5316c89",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211005-020214",
+        "source" : "a3e39a7fd5316c89.csv",
+        "type" : "text/csv",
+        "size" : 135
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "9"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211005-020214, java.io.ByteArrayInputStream@2a341e3d]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "40bb5f1b6de4cbca",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211005-020214",
+      "source" : "40bb5f1b6de4cbca.txt",
+      "type" : "text/plain",
+      "size" : 3851
+    }, {
+      "uid" : "96c13d1d50d56b9c",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "96c13d1d50d56b9c.html",
+      "type" : "text/html",
+      "size" : 462753
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_AppiumNative"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_AppiumNative"
+  }, {
+    "name" : "testMethod",
+    "value" : "assertThatSearchIsDisplayed"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_AppiumNative"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1633398748526.local"
+  }, {
+    "name" : "thread",
+    "value" : "10995@Mac-1633398748526.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "8a9472ad574a5d96",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/87//#testresult/8a9472ad574a5d96",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewRemoteDriverInstance] failed. With the following test data [Unhandled Error.].",
+        "time" : {
+          "start" : 1633388160166,
+          "stop" : 1633388160201,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "824d67b24919fc61",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/86//#testresult/824d67b24919fc61",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewRemoteDriverInstance] failed. With the following test data [Unhandled Error.].",
+        "time" : {
+          "start" : 1633313343725,
+          "stop" : 1633313343760,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "f24fe24feadbeccc",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/84//#testresult/f24fe24feadbeccc",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'By.id: com.jumia.android:id/search_input_text'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1633139800790,
+          "stop" : 1633139848569,
+          "duration" : 47779
+        }
+      }, {
+        "uid" : "5fcd791824e8f618",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/81//#testresult/5fcd791824e8f618",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewRemoteDriverInstance] failed. With the following test data [Unhandled Error.].",
+        "time" : {
+          "start" : 1633038504679,
+          "stop" : 1633038504709,
+          "duration" : 30
+        }
+      }, {
+        "uid" : "3400e12204b8c69c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/79//#testresult/3400e12204b8c69c",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewRemoteDriverInstance] failed. With the following test data [Unhandled Error.].",
+        "time" : {
+          "start" : 1633035574994,
+          "stop" : 1633035575054,
+          "duration" : 60
+        }
+      }, {
+        "uid" : "3e96b534d092769c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/77//#testresult/3e96b534d092769c",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewRemoteDriverInstance] failed. With the following test data [Unhandled Error.].",
+        "time" : {
+          "start" : 1632967676200,
+          "stop" : 1632967676249,
+          "duration" : 49
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d5cacaab8292a73d.json",
+  "parameterValues" : [ ]
+}
