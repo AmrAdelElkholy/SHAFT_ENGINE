@@ -1,0 +1,408 @@
+{
+  "uid" : "522b15289b11eb5c",
+  "name" : "TC002 - Search for Query and Assert that the number of results is displayed",
+  "fullName" : "testPackage01.Test_google_playwright.searchForQueryandAssertResultsNumDisplayed",
+  "historyId" : "8c403aaf85c1c2abafe0a9a5d008562b",
+  "time" : {
+    "start" : 1634608980589,
+    "stop" : 1634608983645,
+    "duration" : 3056
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1634608950352,
+      "stop" : 1634608978353,
+      "duration" : 28001
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/testSuite01/TestData.xlsx].",
+      "time" : {
+        "start" : 1634608950378,
+        "stop" : 1634608950378,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "409c412e52f32c03",
+        "name" : "Attachment: Test Data - Excel",
+        "source" : "409c412e52f32c03.xlsx",
+        "type" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size" : 12483
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "519"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/testSuite01/TestData.xlsx]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, Excel, java.io.FileInputStream@4930b3d6]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Attempting to run using Playwright locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1634608974194,
+        "stop" : 1634608974195,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "520"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run using Playwright locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1920, 1080)].",
+      "time" : {
+        "start" : 1634608978352,
+        "stop" : 1634608978352,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "521"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1920, 1080)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6304c8178e548130",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeClass",
+      "source" : "6304c8178e548130.txt",
+      "type" : "text/plain",
+      "size" : 937
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element Action [Type] successfully performed. With the following test data [SHAFT_Engine].",
+      "time" : {
+        "start" : 1634608980826,
+        "stop" : 1634608980826,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "524"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [KeyPress] successfully performed. With the following test data [Enter].",
+      "time" : {
+        "start" : 1634608980866,
+        "stop" : 1634608980866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "525"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [KeyPress] successfully performed. With the following test data [Enter]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateElementAttribute] PASSED. Expected [Value Should not be '' for the 'text' attribute, element locator 'xpath=//div[@id='appbar']'] and Actual [About 950,000 results (0.74 seconds) \n]. Comparison Type [EQUALS]. Validation Type [NEGATIVE].",
+      "time" : {
+        "start" : 1634608983642,
+        "stop" : 1634608983645,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f7553aa4c908777",
+        "name" : "Attachment: Screenshot - 1634608983400_searchForQueryandAssertResultsNumDisplayed_ValidateElementAttribute_passed",
+        "source" : "2f7553aa4c908777.png",
+        "type" : "image/png",
+        "size" : 488906
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "526"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateElementAttribute] PASSED. Expected [Value Should not be '' for the 'text' attribute, element locator 'xpath=//div[@id='appbar']'] and Actual [About 950,000 results (0.74 seconds) \n]. Comparison Type [EQUALS]. Validation Type [NEGATIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1634608983400_searchForQueryandAssertResultsNumDisplayed_ValidateElementAttribute_passed, java.io.ByteArrayInputStream@5960ec33]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bb41af1bdf46f306",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: searchForQueryandAssertResultsNumDisplayed",
+      "source" : "bb41af1bdf46f306.txt",
+      "type" : "text/plain",
+      "size" : 1534
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1634608983895,
+      "stop" : 1634608983934,
+      "duration" : 39
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed PlayWright Driver.",
+      "time" : {
+        "start" : 1634608983933,
+        "stop" : 1634608983933,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "528"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed PlayWright Driver."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c269970400f565f0",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: afterClass",
+      "source" : "c269970400f565f0.txt",
+      "type" : "text/plain",
+      "size" : 159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1634609002681,
+      "stop" : 1634609003232,
+      "duration" : 551
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1634609002681,
+        "stop" : 1634609002681,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "570"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1634609002694,
+        "stop" : 1634609002759,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bfe89538e5b6e9b",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211019-020322",
+        "source" : "5bfe89538e5b6e9b.csv",
+        "type" : "text/csv",
+        "size" : 640
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "571"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211019-020322, java.io.ByteArrayInputStream@75bfe835]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8fcd8847faabc7d1",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211019-020322",
+      "source" : "8fcd8847faabc7d1.txt",
+      "type" : "text/plain",
+      "size" : 248380
+    }, {
+      "uid" : "3ace0d3535f1922e",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "3ace0d3535f1922e.html",
+      "type" : "text/html",
+      "size" : 9094635
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchForQueryandAssertResultsNumDisplayed"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1634608309617.local"
+  }, {
+    "name" : "thread",
+    "value" : "2012@Mac-1634608309617.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6879e055625d126",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/804//#testresult/6879e055625d126",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634158660976,
+          "stop" : 1634158664235,
+          "duration" : 3259
+        }
+      }, {
+        "uid" : "8371c9472676817",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/801//#testresult/8371c9472676817",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634004257171,
+          "stop" : 1634004260953,
+          "duration" : 3782
+        }
+      }, {
+        "uid" : "2f45fd8235e64c0d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/800//#testresult/2f45fd8235e64c0d",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementAttribute] FAILED. Expected [Value Should not be '' for the 'text' attribute, element locator 'xpath=//div[@id='appbar']'] and Actual [Failed to read the desired element attribute]. Comparison Type [EQUALS]. Validation Type [NEGATIVE].",
+        "time" : {
+          "start" : 1633965000693,
+          "stop" : 1633965006169,
+          "duration" : 5476
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "522b15289b11eb5c.json",
+  "parameterValues" : [ ]
+}
