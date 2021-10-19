@@ -1,0 +1,407 @@
+{
+  "uid" : "f4e8085c71d716af",
+  "name" : "f21",
+  "fullName" : "testPackage01.Test_NewValidationHelper.f21",
+  "historyId" : "259a17265cbc92933de3cafb98400a6e",
+  "time" : {
+    "start" : 1634608748442,
+    "stop" : 1634608774064,
+    "duration" : 25622
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openBrowser",
+    "time" : {
+      "start" : 1634608746912,
+      "stop" : 1634608748441,
+      "duration" : 1529
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1634608746912,
+        "stop" : 1634608746912,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "349"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1634608747149,
+        "stop" : 1634608747150,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "350"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/].",
+      "time" : {
+        "start" : 1634608748440,
+        "stop" : 1634608748440,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "351"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c12d8a3496e9c08",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: openBrowser",
+      "source" : "c12d8a3496e9c08.txt",
+      "type" : "text/plain",
+      "size" : 744
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element Action [IdentifyUniqueElement] failed. With the following test data [zero elements found matching this locator \"By.tagName: h3\".].",
+      "time" : {
+        "start" : 1634608774063,
+        "stop" : 1634608774063,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a41da5318b399660",
+        "name" : "Attachment: Screenshot - 1634608773993_f21_IdentifyUniqueElement_failed",
+        "source" : "a41da5318b399660.png",
+        "type" : "image/png",
+        "size" : 55516
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "352"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [IdentifyUniqueElement] failed. With the following test data [zero elements found matching this locator \"By.tagName: h3\".]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1634608773993_f21_IdentifyUniqueElement_failed, java.io.ByteArrayInputStream@5be78dff]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'Welcome' for the 'text' attribute, element locator 'By.tagName: h3'] and Actual [Failed to read the desired element attribute]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1634608774064,
+        "stop" : 1634608774064,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "353"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'Welcome' for the 'text' attribute, element locator 'By.tagName: h3'] and Actual [Failed to read the desired element attribute]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7822f94c66cdb5e",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: f21",
+      "source" : "7822f94c66cdb5e.txt",
+      "type" : "text/plain",
+      "size" : 1040
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1634608774067,
+      "stop" : 1634608774142,
+      "duration" : 75
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1634608774141,
+        "stop" : 1634608774141,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "354"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "12d92269d879b07d",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: closeBrowser",
+      "source" : "12d92269d879b07d.txt",
+      "type" : "text/plain",
+      "size" : 76
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1634608880031,
+      "stop" : 1634608880726,
+      "duration" : 695
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1634608880031,
+        "stop" : 1634608880031,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "534"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1634608880039,
+        "stop" : 1634608880040,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24915f8f7d296c7c",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211019-020120",
+        "source" : "24915f8f7d296c7c.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "535"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211019-020120, java.io.ByteArrayInputStream@60668590]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bcf525a9b0c66102",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211019-020120",
+      "source" : "bcf525a9b0c66102.txt",
+      "type" : "text/plain",
+      "size" : 235580
+    }, {
+      "uid" : "d3ca2cbe5905a02a",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "d3ca2cbe5905a02a.html",
+      "type" : "text/html",
+      "size" : 8462979
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testMethod",
+    "value" : "f21"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "host",
+    "value" : "fv-az216-446"
+  }, {
+    "name" : "thread",
+    "value" : "3687@fv-az216-446.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "cb3fa5e63a677218",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/811//#testresult/cb3fa5e63a677218",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634522636906,
+          "stop" : 1634522662541,
+          "duration" : 25635
+        }
+      }, {
+        "uid" : "d571fd3b5cb135d4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/809//#testresult/d571fd3b5cb135d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634349656754,
+          "stop" : 1634349682358,
+          "duration" : 25604
+        }
+      }, {
+        "uid" : "da60922d6cf0ebe9",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/808//#testresult/da60922d6cf0ebe9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634263111801,
+          "stop" : 1634263137376,
+          "duration" : 25575
+        }
+      }, {
+        "uid" : "3b7e4a6d013e2dfe",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/806//#testresult/3b7e4a6d013e2dfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634202390433,
+          "stop" : 1634202415993,
+          "duration" : 25560
+        }
+      }, {
+        "uid" : "2e696c88aac0b5a5",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/805//#testresult/2e696c88aac0b5a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634176675973,
+          "stop" : 1634176701544,
+          "duration" : 25571
+        }
+      }, {
+        "uid" : "a96c803a357bc604",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/801//#testresult/a96c803a357bc604",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634003985090,
+          "stop" : 1634004010652,
+          "duration" : 25562
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f4e8085c71d716af.json",
+  "parameterValues" : [ ]
+}
