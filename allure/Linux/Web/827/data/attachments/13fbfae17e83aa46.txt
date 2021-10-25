@@ -1,0 +1,18 @@
+
+################################################################################################################################################
+Starting Execution:	[73 out of 143] test cases in the current suite
+Test Method:		[testPackage01.Test_chainableElementActions.chainElementActions]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @25-10-2021 21:25:19.0954 PM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @25-10-2021 21:25:19.0955 PM
+[ReportManager] Successfully Opened [GoogleChrome]. @25-10-2021 21:25:21.0417 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @25-10-2021 21:25:21.0417 PM
+[ReportManager] Initial URL: [data:,] @25-10-2021 21:25:21.0443 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @25-10-2021 21:25:22.0184 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [chained type 1]. @25-10-2021 21:25:22.0373 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [chained type 2]. @25-10-2021 21:25:22.0615 PM
+[ReportManager] Element Action [TypeAppend] successfully performed. With the following test data [345]. @25-10-2021 21:25:22.0738 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [chained type 1chained type 2345]. @25-10-2021 21:25:22.0931 PM
+[ReportManager] Loaded Shared OpenCV @25-10-2021 21:25:23.0172 PM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'chained type 2345' for the 'text' attribute, element locator 'By.name: q'] and Actual [chained type 1chained type 2345]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @25-10-2021 21:25:23.0392 PM
+[ReportManager] Successfully created attachment [Screenshot - 1635197123171_chainElementActions_ValidateElementAttribute_failed] @25-10-2021 21:25:23.0393 P
