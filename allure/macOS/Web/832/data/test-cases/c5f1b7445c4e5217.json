@@ -1,0 +1,451 @@
+{
+  "uid" : "c5f1b7445c4e5217",
+  "name" : "dynamicLoading_elementIsHidden",
+  "fullName" : "testPackage01.Test_dynamicLoading.dynamicLoading_elementIsHidden",
+  "historyId" : "c80eb0293658685903bd1fd24f492c08",
+  "time" : {
+    "start" : 1635274780480,
+    "stop" : 1635274782100,
+    "duration" : 1620
+  },
+  "status" : "broken",
+  "statusMessage" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+  "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.getRect(RemoteWebElement.java:343)\n\tat com.shaft.gui.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:405)\n\tat com.shaft.gui.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:141)\n\tat com.shaft.validation.ValidationHelper.reportValidationState(ValidationHelper.java:758)\n\tat com.shaft.validation.ValidationHelper.pass(ValidationHelper.java:534)\n\tat com.shaft.validation.ValidationHelper.reportValidationResultOfElementAttribute(ValidationHelper.java:622)\n\tat com.shaft.validation.ValidationHelper.validateElementAttribute(ValidationHelper.java:260)\n\tat com.shaft.validation.Assertions.assertElementAttribute(Assertions.java:200)\n\tat testPackage01.Test_dynamicLoading.dynamicLoading_elementIsHidden(Test_dynamicLoading.java:20)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1635274779652,
+      "stop" : 1635274780478,
+      "duration" : 826
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1635274779652,
+        "stop" : 1635274779652,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "434"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened Safari.",
+      "time" : {
+        "start" : 1635274780444,
+        "stop" : 1635274780444,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "435"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened Safari."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 811)].",
+      "time" : {
+        "start" : 1635274780477,
+        "stop" : 1635274780477,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "436"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 811)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "59f8790efe4b9db9",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeMethod",
+      "source" : "59f8790efe4b9db9.txt",
+      "type" : "text/plain",
+      "size" : 700
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.getRect(RemoteWebElement.java:343)\n\tat com.shaft.gui.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:405)\n\tat com.shaft.gui.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:141)\n\tat com.shaft.validation.ValidationHelper.reportValidationState(ValidationHelper.java:758)\n\tat com.shaft.validation.ValidationHelper.pass(ValidationHelper.java:534)\n\tat com.shaft.validation.ValidationHelper.reportValidationResultOfElementAttribute(ValidationHelper.java:622)\n\tat com.shaft.validation.ValidationHelper.validateElementAttribute(ValidationHelper.java:260)\n\tat com.shaft.validation.Assertions.assertElementAttribute(Assertions.java:200)\n\tat testPackage01.Test_dynamicLoading.dynamicLoading_elementIsHidden(Test_dynamicLoading.java:20)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/dynamic_loading/1].",
+      "time" : {
+        "start" : 1635274781800,
+        "stop" : 1635274781800,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "437"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://the-internet.herokuapp.com/dynamic_loading/1]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Click] successfully performed. With the following test data [Start].",
+      "time" : {
+        "start" : 1635274782049,
+        "stop" : 1635274782049,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "438"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Click] successfully performed. With the following test data [Start]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cbdaeb4170b641eb",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: dynamicLoading_elementIsHidden",
+      "source" : "cbdaeb4170b641eb.txt",
+      "type" : "text/plain",
+      "size" : 1074
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1635274782101,
+      "stop" : 1635274782188,
+      "duration" : 87
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1635274782187,
+        "stop" : 1635274782188,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6923b81c9272762",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "d6923b81c9272762.html",
+        "type" : "text/html",
+        "size" : 2186
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "439"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html class=\"no-js\" lang=\"en\"><!--<![endif]--><head>\n    <script src=\"/js/vendor/298279967.js\"></script>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>The Internet</title>\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n    <link href=\"/css/font-awesome.css\" rel=\"stylesheet\">\n    <script src=\"/js/vendor/jquery-1.11.3.min.js\"></script>\n    <script src=\"/js/vendor/jquery-ui-1.11.4/jquery-ui.js\"></script>\n    <script src=\"/js/foundation/foundation.js\"></script><meta class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><style></style>\n    <script src=\"/js/foundation/foundation.alerts.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </head>\n  <body>\n    <div class=\"row\">\n      <div id=\"flash-messages\" class=\"large-12 columns\">\n      \n        \n      \n        \n      \n        \n      \n      </div>\n    </div>\n    <div class=\"row\">\n      <a href=\"https://github.com/tourdedave/the-internet\"><img style=\"position: absolute; top: 0; right: 0; border: 0;\" src=\"/img/forkme_right_green_007200.png\" alt=\"Fork me on GitHub\"></a>\n      <div id=\"content\" class=\"large-12 columns\">\n        <script>\n  $(function(){\n    $('#start button').click(function(){\n      $('#start').hide();\n      $('#start').before(\"<div id='loading'>Loading... <img src='/img/ajax-loader.gif'></div>\");\n      setTimeout(function() {\n        $('#loading').hide();\n        $('#finish').show();\n      } , 5000 );\n    });\n  });\n</script>\n\n<div class=\"example\">\n  <h3>Dynamically Loaded Page Elements</h3>\n  <h4>Example 1: Element on page that is hidden</h4>\n\n  <br>\n\n  <div id=\"loading\">Loading... <img src=\"/img/ajax-loader.gif\"></div><div id=\"start\" style=\"display: none;\">\n    <button>Start</button>\n  </div>\n\n  <div id=\"finish\" style=\"display:none\">\n    <h4>Hello World!</h4>\n  </div>\n\n</div>\n\n      </div>\n    </div>\n    <div id=\"page-footer\" class=\"row\">\n      <div class=\"large-4 large-centered columns\">\n        <hr>\n        <div style=\"text-align: center;\">Powered by <a target=\"_blank\" href=\"http://elementalselenium.com/\">Elemental Selenium</a></div>\n      </div>\n    </div>\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "20d407535903049c",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: afterMethod",
+      "source" : "20d407535903049c.txt",
+      "type" : "text/plain",
+      "size" : 243
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1635274784834,
+      "stop" : 1635274785398,
+      "duration" : 564
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1635274784836,
+        "stop" : 1635274784836,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "446"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 11, New issues for Failed Tests = 9, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1635274784881,
+        "stop" : 1635274784882,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11d2fbb3320b2938",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211026-185944",
+        "source" : "11d2fbb3320b2938.csv",
+        "type" : "text/csv",
+        "size" : 1582
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "447"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 11, New issues for Failed Tests = 9, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211026-185944, java.io.ByteArrayInputStream@d88da41]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1572b8f489709ca6",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211026-185944",
+      "source" : "1572b8f489709ca6.txt",
+      "type" : "text/plain",
+      "size" : 213836
+    }, {
+      "uid" : "c73792ed193f497f",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "c73792ed193f497f.html",
+      "type" : "text/html",
+      "size" : 5697119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_dynamicLoading"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_dynamicLoading"
+  }, {
+    "name" : "testMethod",
+    "value" : "dynamicLoading_elementIsHidden"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_dynamicLoading"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1635273060218.local"
+  }, {
+    "name" : "thread",
+    "value" : "2503@Mac-1635273060218.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 10,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "ed620a12e01a8dba",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/828//#testresult/ed620a12e01a8dba",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635213113233,
+          "stop" : 1635213114777,
+          "duration" : 1544
+        }
+      }, {
+        "uid" : "dd9da7b80ebe61e9",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/826//#testresult/dd9da7b80ebe61e9",
+        "status" : "broken",
+        "statusDetails" : "Build info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'Mac-1635169466879.local', ip: '10.212.3.10', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [53B075C9-D203-44A2-B337-1257523AD585, getElementRect {id=node-DDED0A71-5BFE-4567-8186-EA3C9D2337E7}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H1417, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nElement: [[SafariDriver: Safari on MAC (53B075C9-D203-44A2-B337-1257523AD585)] -> id: finish]\nSession ID: 53B075C9-D203-44A2-B337-1257523AD585",
+        "time" : {
+          "start" : 1635170151074,
+          "stop" : 1635170152554,
+          "duration" : 1480
+        }
+      }, {
+        "uid" : "41aab7ecacf60039",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/824//#testresult/41aab7ecacf60039",
+        "status" : "broken",
+        "statusDetails" : "\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-1635126304885.local', ip: '10.79.0.153', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H1417, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: D822AEFE-3685-4815-8C62-9F063265B215",
+        "time" : {
+          "start" : 1635127325642,
+          "stop" : 1635127326867,
+          "duration" : 1225
+        }
+      }, {
+        "uid" : "701d759e414ca73c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/822//#testresult/701d759e414ca73c",
+        "status" : "broken",
+        "statusDetails" : "\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-1635022570610.local', ip: '10.213.7.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H1417, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: E127B987-8CA9-4742-BBFF-71D7ADF0FE99",
+        "time" : {
+          "start" : 1635023445327,
+          "stop" : 1635023446197,
+          "duration" : 870
+        }
+      }, {
+        "uid" : "e36b5d21005b41da",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/816//#testresult/e36b5d21005b41da",
+        "status" : "broken",
+        "statusDetails" : "\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-1634781209352.local', ip: '10.79.2.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H1417, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 20669E68-6AC1-4050-AB98-98A8BA37D89F",
+        "time" : {
+          "start" : 1634782141351,
+          "stop" : 1634782142174,
+          "duration" : 823
+        }
+      }, {
+        "uid" : "ba6c0186065fcde3",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/813//#testresult/ba6c0186065fcde3",
+        "status" : "broken",
+        "statusDetails" : "\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-1634608309617.local', ip: '10.213.5.114', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G165, safari:platformVersion: 11.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 814F159A-572A-4D1B-8335-070B867213AB",
+        "time" : {
+          "start" : 1634608994424,
+          "stop" : 1634608995178,
+          "duration" : 754
+        }
+      }, {
+        "uid" : "7bab3bf44c281685",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/804//#testresult/7bab3bf44c281685",
+        "status" : "broken",
+        "statusDetails" : "\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-1634158032645.local', ip: '10.79.0.82', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H1417, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: B632029D-975E-4347-8E57-7D16CC1D3F7A",
+        "time" : {
+          "start" : 1634158676953,
+          "stop" : 1634158678102,
+          "duration" : 1149
+        }
+      }, {
+        "uid" : "f5796820022550b2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/801//#testresult/f5796820022550b2",
+        "status" : "broken",
+        "statusDetails" : "\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-1634003317835.local', ip: '10.79.0.206', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H1417, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 29936A69-895A-4E81-A828-C1F714064B58",
+        "time" : {
+          "start" : 1634004275749,
+          "stop" : 1634004277095,
+          "duration" : 1346
+        }
+      }, {
+        "uid" : "fe5f26c752b44eda",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/800//#testresult/fe5f26c752b44eda",
+        "status" : "broken",
+        "statusDetails" : "\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Mac-1633962559257.local', ip: '10.79.8.192', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '17'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H1417, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 9DAA98F0-6E98-4FD2-854E-0E44BD8D4315",
+        "time" : {
+          "start" : 1633965017713,
+          "stop" : 1633965019245,
+          "duration" : 1532
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c5f1b7445c4e5217.json",
+  "parameterValues" : [ ]
+}
