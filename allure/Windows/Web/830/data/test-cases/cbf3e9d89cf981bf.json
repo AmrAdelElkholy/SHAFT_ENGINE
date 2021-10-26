@@ -1,0 +1,517 @@
+{
+  "uid" : "cbf3e9d89cf981bf",
+  "name" : "waitForElementToBePresent_true_expectedToFail",
+  "fullName" : "unitTests.tests_element_elementActions.waitForElementToBePresent_true_expectedToFail",
+  "historyId" : "3b2afb193a21ad7584f3b3879b7e7304",
+  "time" : {
+    "start" : 1635248233774,
+    "stop" : 1635248235519,
+    "duration" : 1745
+  },
+  "status" : "failed",
+  "statusMessage" : "Browser Action [NavigateToURL] failed. With the following test data [https://www.google.com/ncr].",
+  "statusTrace" : "java.lang.AssertionError: Browser Action [NavigateToURL] failed. With the following test data [https://www.google.com/ncr].\r\n\tat org.testng.Assert.fail(Assert.java:87)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:611)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:604)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:305)\r\n\tat com.shaft.gui.browser.BrowserActions.navigateToURL(BrowserActions.java:107)\r\n\tat unitTests.tests_element_elementActions.waitForElementToBePresent_true_expectedToFail(tests_element_elementActions.java:37)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\nCaused by: org.openqa.selenium.UnsupportedCommandException: {\"value\":{\"error\":\"unknown method\",\"message\":\"Method is not implemented\",\"stacktrace\":\"NotImplementedError: Method is not implemented\\n    at XCUITestDriver.getUrl (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/commands/web.js:90:11)\\n    at commandExecutor (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:335:9)\\n    at /nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:146:12\\n    at AsyncLock._promiseTry (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:280:31)\\n    at exec (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:145:9)\\n    at AsyncLock.acquire (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:162:3)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:348:39)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/driver.js:754:24)\\n    at AppiumDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/lib/appium.js:563:36)\\n    at runMicrotasks (<anonymous>)\\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\\n    at asyncHandler (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/protocol/protocol.js:297:21)\"}}\nCommand duration or timeout: 708 milliseconds\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-140', ip: '10.1.0.233', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: io.appium.java_client.ios.IOSDriver\nCommand: [b59e643785ab336cef67796f109aae1acbd275d8, getCurrentUrl {}]\nCapabilities {appWaitActivity: *, automationName: xcuitest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.isTargetBased: true, bundleID: com.browserstack.Sample-iOS, bundleId: com.browserstack.Sample-iOS, databaseEnabled: false, deviceName: iphone 12 pro max, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008101-000908661112001E, useXctestrunFile: true, waitForQuiescence: false, wdaStartupRetries: 3, webStorageEnabled: false, webkitResponseTimeout: 20000}\nSession ID: b59e643785ab336cef67796f109aae1acbd275d8\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:44)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:340)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:277)\r\n\t... 35 more\r\n",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1635248212352,
+      "stop" : 1635248233772,
+      "duration" : 21420
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [iOS], [http://mohabmohie1:7E7PgzBtwk4sWLUcF8Y5@hub-cloud.browserstack.com/wd/hub].",
+      "time" : {
+        "start" : 1635248212353,
+        "stop" : 1635248212353,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "169"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [iOS], [http://mohabmohie1:7E7PgzBtwk4sWLUcF8Y5@hub-cloud.browserstack.com/wd/hub]."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [NativeMobileApp].",
+      "time" : {
+        "start" : 1635248233771,
+        "stop" : 1635248233771,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "170"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [NativeMobileApp]."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6095dd7598230287",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeMethod",
+      "source" : "6095dd7598230287.txt",
+      "type" : "text/plain",
+      "size" : 424
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Browser Action [NavigateToURL] failed. With the following test data [https://www.google.com/ncr].",
+    "statusTrace" : "java.lang.AssertionError: Browser Action [NavigateToURL] failed. With the following test data [https://www.google.com/ncr].\r\n\tat org.testng.Assert.fail(Assert.java:87)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:611)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:604)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:305)\r\n\tat com.shaft.gui.browser.BrowserActions.navigateToURL(BrowserActions.java:107)\r\n\tat unitTests.tests_element_elementActions.waitForElementToBePresent_true_expectedToFail(tests_element_elementActions.java:37)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\nCaused by: org.openqa.selenium.UnsupportedCommandException: {\"value\":{\"error\":\"unknown method\",\"message\":\"Method is not implemented\",\"stacktrace\":\"NotImplementedError: Method is not implemented\\n    at XCUITestDriver.getUrl (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/commands/web.js:90:11)\\n    at commandExecutor (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:335:9)\\n    at /nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:146:12\\n    at AsyncLock._promiseTry (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:280:31)\\n    at exec (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:145:9)\\n    at AsyncLock.acquire (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:162:3)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:348:39)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/driver.js:754:24)\\n    at AppiumDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/lib/appium.js:563:36)\\n    at runMicrotasks (<anonymous>)\\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\\n    at asyncHandler (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/protocol/protocol.js:297:21)\"}}\nCommand duration or timeout: 708 milliseconds\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-140', ip: '10.1.0.233', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: io.appium.java_client.ios.IOSDriver\nCommand: [b59e643785ab336cef67796f109aae1acbd275d8, getCurrentUrl {}]\nCapabilities {appWaitActivity: *, automationName: xcuitest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.isTargetBased: true, bundleID: com.browserstack.Sample-iOS, bundleId: com.browserstack.Sample-iOS, databaseEnabled: false, deviceName: iphone 12 pro max, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008101-000908661112001E, useXctestrunFile: true, waitForQuiescence: false, wdaStartupRetries: 3, webStorageEnabled: false, webkitResponseTimeout: 20000}\nSession ID: b59e643785ab336cef67796f109aae1acbd275d8\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:44)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:340)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:277)\r\n\t... 35 more\r\n",
+    "steps" : [ {
+      "name" : "An Exception Occured with this Message: {\"value\":{\"error\":\"unknown method\",\"message\":\"Method is not implemented\",\"stacktrace\":\"NotImplementedError: Method is not implemented\\n    at XCUITestDriver.execute (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/commands/execute.js:37:11)\\n    at commandExecutor (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:335:9)\\n    at /nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:146:12\\n    at AsyncLock._promiseTry (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:280:31)\\n    at exec (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:145:9)\\n    at AsyncLock.acquire (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:162:3)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:348:39)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/driver.js:754:24)\\n    at AppiumDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/lib/appium.js:563:36)\\n    at runMicrotasks (<anonymous>)\\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\\n    at asyncHandler (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/protocol/protocol.js:297:21)\"}}.",
+      "time" : {
+        "start" : 1635248234139,
+        "stop" : 1635248234140,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85a32d4d98a4ed2e",
+        "name" : "Attachment: Exception Stack Trace - org.openqa.selenium.UnsupportedCommandException",
+        "source" : "85a32d4d98a4ed2e.txt",
+        "type" : "text/plain",
+        "size" : 6310
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "171"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: {\"value\":{\"error\":\"unknown method\",\"message\":\"Method is not implemented\",\"stacktrace\":\"NotImplementedError: Method is not implemented\\n    at XCUITestDriver.execute (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/commands/execute.js:37:11)\\n    at commandExecutor (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:335:9)\\n    at /nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:146:12\\n    at AsyncLock._promiseTry (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:280:31)\\n    at exec (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:145:9)\\n    at AsyncLock.acquire (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:162:3)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:348:39)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/driver.js:754:24)\\n    at AppiumDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/lib/appium.js:563:36)\\n    at runMicrotasks (<anonymous>)\\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\\n    at asyncHandler (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/protocol/protocol.js:297:21)\"}}."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, org.openqa.selenium.UnsupportedCommandException, org.openqa.selenium.UnsupportedCommandException:\r\n{\"value\":{\"error\":\"unknown method\",\"message\":\"Method is not implemented\",\"stacktrace\":\"NotImplementedError: Method is not implemented\\n    at XCUITestDriver.execute (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/commands/execute.js:37:11)\\n    at commandExecutor (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:335:9)\\n    at /nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:146:12\\n    at AsyncLock._promiseTry (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:280:31)\\n    at exec (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:145:9)\\n    at AsyncLock.acquire (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/async-lock/lib/index.js:162:3)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/basedriver/driver.js:348:39)\\n    at XCUITestDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-xcuitest-driver/lib/driver.js:754:24)\\n    at AppiumDriver.executeCommand (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/lib/appium.js:563:36)\\n    at runMicrotasks (<anonymous>)\\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\\n    at asyncHandler (/nix/store/fjjkigsx6fh18dhj8ns9nqfwwdqz9xwl-appium-1.21.0/node_modules/appium-base-driver/lib/protocol/protocol.js:297:21)\"}}\nCommand duration or timeout: 364 milliseconds\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-140', ip: '10.1.0.233', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: io.appium.java_client.ios.IOSDriver\nCommand: [b59e643785ab336cef67796f109aae1acbd275d8, executeScript {script=return window.stop;, args=[]}]\nCapabilities {appWaitActivity: *, automationName: xcuitest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserstack.isTargetBased: true, bundleID: com.browserstack.Sample-iOS, bundleId: com.browserstack.Sample-iOS, databaseEnabled: false, deviceName: iphone 12 pro max, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, orientation: PORTRAIT, platform: MAC, platformName: iOS, realMobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008101-000908661112001E, useXctestrunFile: true, waitForQuiescence: false, wdaStartupRetries: 3, webStorageEnabled: false, webkitResponseTimeout: 20000}\nSession ID: b59e643785ab336cef67796f109aae1acbd275d8\r\njdk.internal.reflect.GeneratedConstructorAccessor36.newInstance(Unknown Source)\r\njava.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\njava.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\njava.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\norg.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)\r\norg.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)\r\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)\r\norg.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:493)\r\ncom.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)\r\ncom.shaft.gui.browser.BrowserActions.navigateToURL(BrowserActions.java:107)\r\nunitTests.tests_element_elementActions.waitForElementToBePresent_true_expectedToFail(tests_element_elementActions.java:37)\r\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\r\norg.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\norg.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\norg.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\norg.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\norg.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\norg.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\norg.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\norg.testng.TestRunner.privateRun(TestRunner.java:794)\r\norg.testng.TestRunner.run(TestRunner.java:596)\r\norg.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\norg.testng.SuiteRunner.run(SuiteRunner.java:276)\r\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\norg.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\norg.testng.TestNG.runSuites(TestNG.java:1063)\r\norg.testng.TestNG.run(TestNG.java:1031)\r\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n]]"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [NavigateToURL] failed. With the following test data [https://www.google.com/ncr].",
+      "time" : {
+        "start" : 1635248235517,
+        "stop" : 1635248235517,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "173"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] failed. With the following test data [https://www.google.com/ncr]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4a911afcfe5d507d",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: waitForElementToBePresent_true_expectedToFail",
+      "source" : "4a911afcfe5d507d.txt",
+      "type" : "text/plain",
+      "size" : 2591
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1635248235521,
+      "stop" : 1635248236980,
+      "duration" : 1459
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1635248236978,
+        "stop" : 1635248236979,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f634bdeb269a7470",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "f634bdeb269a7470.xml",
+        "type" : "application/xml",
+        "size" : 4529
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "174"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Sample iOS\" label=\"Sample iOS\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n            <XCUIElementTypeNavigationBar type=\"XCUIElementTypeNavigationBar\" name=\"UI Elements\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"44\" width=\"375\" height=\"44\" index=\"0\">\n              <XCUIElementTypeStaticText type=\"XCUIElementTypeStaticText\" value=\"UI Elements\" name=\"UI Elements\" label=\"UI Elements\" enabled=\"true\" visible=\"true\" accessible=\"true\" x=\"140\" y=\"55\" width=\"95\" height=\"21\" index=\"0\"/>\n            </XCUIElementTypeNavigationBar>\n            <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"1\">\n              <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n                <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n                  <XCUIElementTypeButton type=\"XCUIElementTypeButton\" name=\"Text Button\" label=\"Text\" enabled=\"true\" visible=\"true\" accessible=\"true\" x=\"0\" y=\"97\" width=\"375\" height=\"60\" index=\"0\">\n                    <XCUIElementTypeStaticText type=\"XCUIElementTypeStaticText\" value=\"Text\" name=\"Text\" label=\"Text\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"181\" y=\"118\" width=\"29\" height=\"18\" index=\"0\"/>\n                  </XCUIElementTypeButton>\n                  <XCUIElementTypeButton type=\"XCUIElementTypeButton\" name=\"Alert Button\" label=\"Alert\" enabled=\"true\" visible=\"true\" accessible=\"true\" x=\"0\" y=\"165\" width=\"375\" height=\"60\" index=\"1\">\n                    <XCUIElementTypeStaticText type=\"XCUIElementTypeStaticText\" value=\"Alert\" name=\"Alert\" label=\"Alert\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"179\" y=\"186\" width=\"33\" height=\"18\" index=\"0\"/>\n                  </XCUIElementTypeButton>\n                </XCUIElementTypeOther>\n              </XCUIElementTypeOther>\n            </XCUIElementTypeOther>\n          </XCUIElementTypeOther>\n        </XCUIElementTypeOther>\n      </XCUIElementTypeOther>\n      <XCUIElementTypeTabBar type=\"XCUIElementTypeTabBar\" name=\"Tab Bar\" label=\"Tab Bar\" enabled=\"true\" visible=\"true\" accessible=\"false\" x=\"0\" y=\"729\" width=\"375\" height=\"83\" index=\"1\">\n        <XCUIElementTypeButton type=\"XCUIElementTypeButton\" value=\"1\" name=\"UI Elements\" label=\"UI Elements\" enabled=\"true\" visible=\"true\" accessible=\"true\" x=\"2\" y=\"730\" width=\"121\" height=\"48\" index=\"0\"/>\n        <XCUIElementTypeButton type=\"XCUIElementTypeButton\" name=\"Web View\" label=\"Web View\" enabled=\"true\" visible=\"true\" accessible=\"true\" x=\"127\" y=\"730\" width=\"121\" height=\"48\" index=\"1\"/>\n        <XCUIElementTypeButton type=\"XCUIElementTypeButton\" name=\"Local Testing\" label=\"Local Testing\" enabled=\"true\" visible=\"true\" accessible=\"true\" x=\"252\" y=\"730\" width=\"121\" height=\"48\" index=\"2\"/>\n      </XCUIElementTypeTabBar>\n    </XCUIElementTypeOther>\n  </XCUIElementTypeWindow>\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"false\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"1\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" accessible=\"false\" x=\"0\" y=\"0\" width=\"375\" height=\"812\" index=\"0\"/>\n    </XCUIElementTypeOther>\n  </XCUIElementTypeWindow>\n</XCUIElementTypeApplication></AppiumAUT>]]"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c4e9b5d2095b20ef",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: afterMethod",
+      "source" : "c4e9b5d2095b20ef.txt",
+      "type" : "text/plain",
+      "size" : 245
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1635248293681,
+      "stop" : 1635248304279,
+      "duration" : 10598
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1635248303737,
+        "stop" : 1635248303737,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "203"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 25, New issues for Failed Tests = 23, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1635248303758,
+        "stop" : 1635248303759,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4c46a54142f9a6b",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211026-113823",
+        "source" : "a4c46a54142f9a6b.csv",
+        "type" : "text/csv",
+        "size" : 3486
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "204"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 25, New issues for Failed Tests = 23, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211026-113823, java.io.ByteArrayInputStream@4e9e4145]]"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "eb791aedff977e44",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211026-113823",
+      "source" : "eb791aedff977e44.txt",
+      "type" : "text/plain",
+      "size" : 171991
+    }, {
+      "uid" : "2bafc3241c6b7a64",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "2bafc3241c6b7a64.html",
+      "type" : "text/html",
+      "size" : 2205152
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "unitTests.tests_element_elementActions"
+  }, {
+    "name" : "testClass",
+    "value" : "unitTests.tests_element_elementActions"
+  }, {
+    "name" : "testMethod",
+    "value" : "waitForElementToBePresent_true_expectedToFail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "unitTests.tests_element_elementActions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az177-140"
+  }, {
+    "name" : "thread",
+    "value" : "532@fv-az177-140.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "9563ced2bb35752",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/822//#testresult/9563ced2bb35752",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635022486678,
+          "stop" : 1635022492840,
+          "duration" : 6162
+        }
+      }, {
+        "uid" : "64b3218b687ade72",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/801//#testresult/64b3218b687ade72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634004412764,
+          "stop" : 1634004419101,
+          "duration" : 6337
+        }
+      }, {
+        "uid" : "ff73315e9223b7e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/794//#testresult/ff73315e9223b7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633831116822,
+          "stop" : 1633831123270,
+          "duration" : 6448
+        }
+      }, {
+        "uid" : "83b2e802fb784e23",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/785//#testresult/83b2e802fb784e23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633524377582,
+          "stop" : 1633524383960,
+          "duration" : 6378
+        }
+      }, {
+        "uid" : "25479102f6bc848c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/783//#testresult/25479102f6bc848c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633485790864,
+          "stop" : 1633485797322,
+          "duration" : 6458
+        }
+      }, {
+        "uid" : "c476ff43cb4b496d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/779//#testresult/c476ff43cb4b496d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633226449185,
+          "stop" : 1633226455649,
+          "duration" : 6464
+        }
+      }, {
+        "uid" : "c4b254fb739b7dc8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/776//#testresult/c4b254fb739b7dc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633053860550,
+          "stop" : 1633053866951,
+          "duration" : 6401
+        }
+      }, {
+        "uid" : "5732912c140376c5",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/775//#testresult/5732912c140376c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633038584425,
+          "stop" : 1633038590713,
+          "duration" : 6288
+        }
+      }, {
+        "uid" : "514a0980f6c18c47",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/774//#testresult/514a0980f6c18c47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633037721143,
+          "stop" : 1633037727468,
+          "duration" : 6325
+        }
+      }, {
+        "uid" : "a171768ac47af32b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/760//#testresult/a171768ac47af32b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632534912220,
+          "stop" : 1632534918531,
+          "duration" : 6311
+        }
+      }, {
+        "uid" : "905f6c0538e6aed6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/759//#testresult/905f6c0538e6aed6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632448657236,
+          "stop" : 1632448663827,
+          "duration" : 6591
+        }
+      }, {
+        "uid" : "b92fec4cc4b600b3",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/756//#testresult/b92fec4cc4b600b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632387190907,
+          "stop" : 1632387197214,
+          "duration" : 6307
+        }
+      }, {
+        "uid" : "e5377d82f1eb41ee",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/753//#testresult/e5377d82f1eb41ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632320736807,
+          "stop" : 1632320743461,
+          "duration" : 6654
+        }
+      }, {
+        "uid" : "9411c539bf8d7b4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/750//#testresult/9411c539bf8d7b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632275937613,
+          "stop" : 1632275944204,
+          "duration" : 6591
+        }
+      }, {
+        "uid" : "1c6f15fb8619f86a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/748//#testresult/1c6f15fb8619f86a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632155165744,
+          "stop" : 1632155172087,
+          "duration" : 6343
+        }
+      }, {
+        "uid" : "d798dd98d60ec18d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/738//#testresult/d798dd98d60ec18d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632103122069,
+          "stop" : 1632103128465,
+          "duration" : 6396
+        }
+      }, {
+        "uid" : "88907a48898916ed",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/737//#testresult/88907a48898916ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632016674597,
+          "stop" : 1632016681062,
+          "duration" : 6465
+        }
+      }, {
+        "uid" : "f120355cbf9932ee",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/736//#testresult/f120355cbf9932ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631930293397,
+          "stop" : 1631930299881,
+          "duration" : 6484
+        }
+      }, {
+        "uid" : "d2e61df56c050d16",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/734//#testresult/d2e61df56c050d16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631821202605,
+          "stop" : 1631821209064,
+          "duration" : 6459
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cbf3e9d89cf981bf.json",
+  "parameterValues" : [ ]
+}
