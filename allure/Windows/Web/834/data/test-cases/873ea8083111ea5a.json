@@ -1,0 +1,354 @@
+{
+  "uid" : "873ea8083111ea5a",
+  "name" : "f6_1",
+  "fullName" : "testPackage01.Test_NewValidationHelper.f6_1",
+  "historyId" : "8f7225c8a7be388cf13fecdcb10b58f2",
+  "time" : {
+    "start" : 1635317321267,
+    "stop" : 1635317321273,
+    "duration" : 6
+  },
+  "status" : "skipped",
+  "statusMessage" : "Driver Factory Action [createNewLocalDriverInstance] failed. With the following test data [Failed to create new Browser Session].",
+  "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstance] failed. With the following test data [Failed to create new Browser Session].\r\n\tat org.testng.Assert.fail(Assert.java:87)\r\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:305)\r\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:606)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:821)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:141)\r\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\r\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:20)\r\n\tat testPackage01.Test_NewValidationHelper.openBrowser(Test_NewValidationHelper.java:326)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: MSEdge failed to start: exited normally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from msedge location C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is no longer running, so MSEdgeDriver is assuming that MSEdge has crashed.)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-140', ip: '10.1.0.41', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [null, newSession {capabilities=[Capabilities {goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: normal, platformName: windows, timeouts: {pageLoad: 30000, script: 30000}}, Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, pageLoadStrategy: normal, platformName: windows, timeouts: {pageLoad: 30000, script: 30000}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, loggingPrefs: org.openqa.selenium.logging..., ms:edgeOptions: {args: [], extensions: []}, pageLoadStrategy: normal, platformName: WINDOWS, timeouts: {pageLoad: 30000, script: 30000}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)\r\n\tat org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)\r\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForEdge(DriverFactoryHelper.java:572)\r\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:601)\r\n\t... 42 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Driver Factory Action [createNewLocalDriverInstance] failed. With the following test data [Failed to create new Browser Session].",
+    "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstance] failed. With the following test data [Failed to create new Browser Session].\r\n\tat org.testng.Assert.fail(Assert.java:87)\r\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:305)\r\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:606)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:821)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:141)\r\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\r\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:20)\r\n\tat testPackage01.Test_NewValidationHelper.openBrowser(Test_NewValidationHelper.java:326)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\nCaused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: MSEdge failed to start: exited normally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from msedge location C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is no longer running, so MSEdgeDriver is assuming that MSEdge has crashed.)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-140', ip: '10.1.0.41', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [null, newSession {capabilities=[Capabilities {goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: normal, platformName: windows, timeouts: {pageLoad: 30000, script: 30000}}, Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, pageLoadStrategy: normal, platformName: windows, timeouts: {pageLoad: 30000, script: 30000}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, loggingPrefs: org.openqa.selenium.logging..., ms:edgeOptions: {args: [], extensions: []}, pageLoadStrategy: normal, platformName: WINDOWS, timeouts: {pageLoad: 30000, script: 30000}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)\r\n\tat org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)\r\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForEdge(DriverFactoryHelper.java:572)\r\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:601)\r\n\t... 42 more\r\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4d158ac60f39cc40",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: f6_1",
+      "source" : "4d158ac60f39cc40.txt",
+      "type" : "text/plain",
+      "size" : 421
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1635317535692,
+      "stop" : 1635317536698,
+      "duration" : 1006
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1635317535693,
+        "stop" : 1635317535693,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "605"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1635317535720,
+        "stop" : 1635317535721,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "36aabf5f8f65495a",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211027-065215",
+        "source" : "36aabf5f8f65495a.csv",
+        "type" : "text/csv",
+        "size" : 229
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "606"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211027-065215, java.io.ByteArrayInputStream@3f4cf52e]]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3195a5e7c8b98dee",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211027-065215",
+      "source" : "3195a5e7c8b98dee.txt",
+      "type" : "text/plain",
+      "size" : 257209
+    }, {
+      "uid" : "ee84672f07bb9881",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "ee84672f07bb9881.html",
+      "type" : "text/html",
+      "size" : 9859851
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testMethod",
+    "value" : "f6_1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "host",
+    "value" : "fv-az177-140"
+  }, {
+    "name" : "thread",
+    "value" : "5800@fv-az177-140.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "db2ba3872bbc47c3",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/830//#testresult/db2ba3872bbc47c3",
+        "status" : "skipped",
+        "statusDetails" : "Browser Action [NavigateToURL] failed. With the following test data [https://the-internet.herokuapp.com/].",
+        "time" : {
+          "start" : 1635247667063,
+          "stop" : 1635247667065,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "83a4afb9eacbc7ef",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/822//#testresult/83a4afb9eacbc7ef",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: MSEdge failed to start: exited normally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from msedge location C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is no longer running, so MSEdgeDriver is assuming that MSEdge has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az177-140', ip: '10.1.1.222', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17'\nDriver info: driver.version: EdgeDriver\nremote stacktrace: Backtrace:\n\tMicrosoft::Applications::Events::EventProperties::SetName [0x00007FF731533202+11666]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF7311691D3+943811]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF731191EA8+1110936]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF731189296+1075078]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF7311C4420+1317136]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF7311BF61F+1297167]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF73119577F+1125487]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF73119688F+1129855]\n\tMicrosoft::Applications::Events::EventProperty::~EventProperty [0x00007FF73124E9CD+17933]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF7311FDB41+1552433]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF731401729+2633]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF7311FEBC9+1556665]\n\tMicrosoft::Applications::Events::EventProperties::SetName [0x00007FF731533AC8+13912]\n\tMicrosoft::Applications::Events::EventProperties::SetName [0x00007FF731533534+12484]\n\tMicrosoft::Applications::Events::EventProperties::SetName [0x00007FF731533386+12054]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF7314D465C+73452]\n\tBaseThreadInitThunk [0x00007FFCB2117974+20]\n\tRtlUserThreadStart [0x00007FFCB226A2F1+33]\n",
+        "time" : {
+          "start" : 1635022384141,
+          "stop" : 1635022384142,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c6ebb4090074a2c1",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/801//#testresult/c6ebb4090074a2c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634004298133,
+          "stop" : 1634004298134,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d760e0a91565f73e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/794//#testresult/d760e0a91565f73e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633830998372,
+          "stop" : 1633830998374,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "6b9bfcc8f2487f32",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/785//#testresult/6b9bfcc8f2487f32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633524262108,
+          "stop" : 1633524262110,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "6f669880bad136fd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/783//#testresult/6f669880bad136fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633485676210,
+          "stop" : 1633485676211,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7f49df036dce0dce",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/779//#testresult/7f49df036dce0dce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633226329502,
+          "stop" : 1633226329503,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d70c6e86e056341",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/776//#testresult/d70c6e86e056341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633053742291,
+          "stop" : 1633053742293,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "ab96726a799dc19b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/775//#testresult/ab96726a799dc19b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633038473116,
+          "stop" : 1633038473117,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3fe4d411b63475a6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/774//#testresult/3fe4d411b63475a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633037606692,
+          "stop" : 1633037606693,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "45e64df782dba4c8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/760//#testresult/45e64df782dba4c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632534801833,
+          "stop" : 1632534801834,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d5bb5a2c13b45fe9",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/759//#testresult/d5bb5a2c13b45fe9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632448538472,
+          "stop" : 1632448538474,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "a4b595b86eebe185",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/756//#testresult/a4b595b86eebe185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632387079732,
+          "stop" : 1632387079733,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c2c81697a0763275",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/753//#testresult/c2c81697a0763275",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632320617226,
+          "stop" : 1632320617227,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "af8425c7dbb89ec",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/750//#testresult/af8425c7dbb89ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632275821868,
+          "stop" : 1632275821870,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "f19ddd20e287a52a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/748//#testresult/f19ddd20e287a52a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632155060711,
+          "stop" : 1632155060712,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "46c0615719badfb8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/738//#testresult/46c0615719badfb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632103009883,
+          "stop" : 1632103009884,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "dc1546592b9837d9",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/737//#testresult/dc1546592b9837d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632016561133,
+          "stop" : 1632016561134,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e5618dfe49c77f74",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/736//#testresult/e5618dfe49c77f74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631930183885,
+          "stop" : 1631930183886,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2602ede7f393fdfc",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/734//#testresult/2602ede7f393fdfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631821093723,
+          "stop" : 1631821093724,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "873ea8083111ea5a.json",
+  "parameterValues" : [ ]
+}
