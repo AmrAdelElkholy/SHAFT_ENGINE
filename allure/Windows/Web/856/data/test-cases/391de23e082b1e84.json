@@ -1,0 +1,638 @@
+{
+  "uid" : "391de23e082b1e84",
+  "name" : "test_assertElementAttribute",
+  "fullName" : "testPackage01.Test_assertEquals.test_assertElementAttribute",
+  "historyId" : "5702a1676b94e58bea6b43247a9f5f63",
+  "time" : {
+    "start" : 1635804135482,
+    "stop" : 1635804135491,
+    "duration" : 9
+  },
+  "status" : "skipped",
+  "statusMessage" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: MicrosoftEdge=95.0.1020.40)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-186', ip: '10.1.1.211', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7c7b11c008e5a70fd7642552c4a413b8, getCurrentWindowSize {}]\nCapabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50024}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\\Users\\RUNNER~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50024/devtoo..., se:cdpVersion: 95.0.1020.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7c7b11c008e5a70fd7642552c4a413b8",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: MicrosoftEdge=95.0.1020.40)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-186', ip: '10.1.1.211', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7c7b11c008e5a70fd7642552c4a413b8, getCurrentWindowSize {}]\nCapabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50024}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\\Users\\RUNNER~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50024/devtoo..., se:cdpVersion: 95.0.1020.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7c7b11c008e5a70fd7642552c4a413b8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:903)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.maximizeWindow(WebDriverBrowserActions.java:461)\r\n\tat com.shaft.gui.browser.BrowserActions.maximizeWindow(BrowserActions.java:152)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:827)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\r\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\r\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:20)\r\n\tat testPackage01.Test_assertEquals.beforeClass(Test_assertEquals.java:52)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1635804029261,
+      "stop" : 1635804032158,
+      "duration" : 2897
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1635804029369,
+        "stop" : 1635804029371,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [C:\\Users\\runneradmin\\.m2\\repository\\allure\\] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1635804029373,
+        "stop" : 1635804029373,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [C:\\Users\\runneradmin\\.m2\\repository\\allure\\] was not found, it may have already been deleted."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.0/allure-commandline-2.16.0.zip] to this directory [target\\allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1635804029374,
+        "stop" : 1635804029374,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.0/allure-commandline-2.16.0.zip] to this directory [target\\allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1635804031296,
+        "stop" : 1635804031296,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d50b54e2d927d844",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "d50b54e2d927d844.uri",
+      "type" : "text/uri-list",
+      "size" : 335
+    }, {
+      "uid" : "7020c8c0d0eec5d1",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "7020c8c0d0eec5d1.properties",
+      "type" : "text/plain",
+      "size" : 899
+    }, {
+      "uid" : "c377dd307525c9f8",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "c377dd307525c9f8.properties",
+      "type" : "text/plain",
+      "size" : 230
+    }, {
+      "uid" : "7f35a1e4917db862",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "7f35a1e4917db862.properties",
+      "type" : "text/plain",
+      "size" : 403
+    }, {
+      "uid" : "b48bfb855adab23",
+      "name" : "Attachment: Properties - internal",
+      "source" : "b48bfb855adab23.properties",
+      "type" : "text/plain",
+      "size" : 120
+    }, {
+      "uid" : "88ec57ed1cddcae6",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "88ec57ed1cddcae6.properties",
+      "type" : "text/plain",
+      "size" : 484
+    }, {
+      "uid" : "b3b379ad6cd5d9e4",
+      "name" : "Attachment: Properties - path",
+      "source" : "b3b379ad6cd5d9e4.properties",
+      "type" : "text/plain",
+      "size" : 704
+    }, {
+      "uid" : "a33d37bf5def1a7a",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "a33d37bf5def1a7a.properties",
+      "type" : "text/plain",
+      "size" : 574
+    }, {
+      "uid" : "770cb7131c5cc38a",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "770cb7131c5cc38a.properties",
+      "type" : "text/plain",
+      "size" : 602
+    }, {
+      "uid" : "927778d093ddb74d",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "927778d093ddb74d.properties",
+      "type" : "text/plain",
+      "size" : 597
+    }, {
+      "uid" : "b973358c45c88a3c",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "b973358c45c88a3c.properties",
+      "type" : "text/plain",
+      "size" : 505
+    }, {
+      "uid" : "2f3f7cb265c472fa",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "2f3f7cb265c472fa.properties",
+      "type" : "text/plain",
+      "size" : 744
+    }, {
+      "uid" : "ea0c8b8a6e65d2fe",
+      "name" : "Attachment: Properties - video",
+      "source" : "ea0c8b8a6e65d2fe.properties",
+      "type" : "text/plain",
+      "size" : 785
+    }, {
+      "uid" : "cd54e86da03f11af",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "cd54e86da03f11af.properties",
+      "type" : "text/plain",
+      "size" : 740
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1635804037011,
+      "stop" : 1635804135412,
+      "duration" : 98401
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: MicrosoftEdge=95.0.1020.40)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-186', ip: '10.1.1.211', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7c7b11c008e5a70fd7642552c4a413b8, getCurrentWindowSize {}]\nCapabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50024}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\\Users\\RUNNER~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50024/devtoo..., se:cdpVersion: 95.0.1020.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7c7b11c008e5a70fd7642552c4a413b8",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: MicrosoftEdge=95.0.1020.40)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-186', ip: '10.1.1.211', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7c7b11c008e5a70fd7642552c4a413b8, getCurrentWindowSize {}]\nCapabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50024}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\\Users\\RUNNER~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50024/devtoo..., se:cdpVersion: 95.0.1020.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7c7b11c008e5a70fd7642552c4a413b8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:903)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.maximizeWindow(WebDriverBrowserActions.java:461)\r\n\tat com.shaft.gui.browser.BrowserActions.maximizeWindow(BrowserActions.java:152)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:827)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\r\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\r\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:20)\r\n\tat testPackage01.Test_assertEquals.beforeClass(Test_assertEquals.java:52)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Windows-64], [MicrosoftEdge], Headless Execution.",
+      "time" : {
+        "start" : 1635804037038,
+        "stop" : 1635804037038,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "9"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Windows-64], [MicrosoftEdge], Headless Execution."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...",
+      "time" : {
+        "start" : 1635804037038,
+        "stop" : 1635804037039,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "10"
+      }, {
+        "name" : "logText",
+        "value" : "Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time..."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened Microsoft Edge.",
+      "time" : {
+        "start" : 1635804105372,
+        "stop" : 1635804105372,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "11"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened Microsoft Edge."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: MicrosoftEdge=95.0.1020.40)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-186', ip: '10.1.1.211', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7c7b11c008e5a70fd7642552c4a413b8, getCurrentWindowSize {}]\nCapabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50024}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\\Users\\RUNNER~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50024/devtoo..., se:cdpVersion: 95.0.1020.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7c7b11c008e5a70fd7642552c4a413b8",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: MicrosoftEdge=95.0.1020.40)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az177-186', ip: '10.1.1.211', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7c7b11c008e5a70fd7642552c4a413b8, getCurrentWindowSize {}]\nCapabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50024}, msedge: {msedgedriverVersion: 95.0.1020.40 (1f61f1c45c1e4..., userDataDir: C:\\Users\\RUNNER~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50024/devtoo..., se:cdpVersion: 95.0.1020.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7c7b11c008e5a70fd7642552c4a413b8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:903)\r\n\tat com.shaft.gui.browser.WebDriverBrowserActions.maximizeWindow(WebDriverBrowserActions.java:461)\r\n\tat com.shaft.gui.browser.BrowserActions.maximizeWindow(BrowserActions.java:152)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:827)\r\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\r\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\r\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:20)\r\n\tat testPackage01.Test_assertEquals.beforeClass(Test_assertEquals.java:52)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d96824f730546f25",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: test_assertElementAttribute",
+      "source" : "d96824f730546f25.txt",
+      "type" : "text/plain",
+      "size" : 436
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1635804135494,
+      "stop" : 1635804135494,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1635804637204,
+      "stop" : 1635804637946,
+      "duration" : 742
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1635804637204,
+        "stop" : 1635804637204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "677"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1635804637226,
+        "stop" : 1635804637230,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9cd664185e848c24",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211101-221037",
+        "source" : "9cd664185e848c24.csv",
+        "type" : "text/csv",
+        "size" : 754
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "678"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211101-221037, java.io.ByteArrayInputStream@494c7ed6]]"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "35ae43bba39e2816",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211101-221037",
+      "source" : "35ae43bba39e2816.txt",
+      "type" : "text/plain",
+      "size" : 271075
+    }, {
+      "uid" : "a323d261d20ed96d",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "a323d261d20ed96d.html",
+      "type" : "text/html",
+      "size" : 13653388
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_assertEquals"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_assertEquals"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_assertElementAttribute"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_assertEquals"
+  }, {
+    "name" : "host",
+    "value" : "fv-az177-186"
+  }, {
+    "name" : "thread",
+    "value" : "5696@fv-az177-186.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "d2fdd367d5fd796",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/834//#testresult/d2fdd367d5fd796",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635317189865,
+          "stop" : 1635317193498,
+          "duration" : 3633
+        }
+      }, {
+        "uid" : "d25a4f2ebbb2dde4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/830//#testresult/d25a4f2ebbb2dde4",
+        "status" : "failed",
+        "statusDetails" : "Browser Action [NavigateToURL] failed. With the following test data [https://www.google.com/ncr].",
+        "time" : {
+          "start" : 1635246887774,
+          "stop" : 1635246889052,
+          "duration" : 1278
+        }
+      }, {
+        "uid" : "dc15e1233a84573a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/822//#testresult/dc15e1233a84573a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635022263482,
+          "stop" : 1635022266753,
+          "duration" : 3271
+        }
+      }, {
+        "uid" : "be7184266f51822b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/801//#testresult/be7184266f51822b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634004122776,
+          "stop" : 1634004126509,
+          "duration" : 3733
+        }
+      }, {
+        "uid" : "da405964bfe21d49",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/794//#testresult/da405964bfe21d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633830786241,
+          "stop" : 1633830790483,
+          "duration" : 4242
+        }
+      }, {
+        "uid" : "d3afd0cc9973fa15",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/785//#testresult/d3afd0cc9973fa15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633524097414,
+          "stop" : 1633524101444,
+          "duration" : 4030
+        }
+      }, {
+        "uid" : "1d7b4a6dfac65c95",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/783//#testresult/1d7b4a6dfac65c95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633485489275,
+          "stop" : 1633485493725,
+          "duration" : 4450
+        }
+      }, {
+        "uid" : "a29a1288de504578",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/779//#testresult/a29a1288de504578",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633226145874,
+          "stop" : 1633226150424,
+          "duration" : 4550
+        }
+      }, {
+        "uid" : "fdafa4bfec58891c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/776//#testresult/fdafa4bfec58891c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633053545643,
+          "stop" : 1633053550064,
+          "duration" : 4421
+        }
+      }, {
+        "uid" : "21393579bc9a2c53",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/775//#testresult/21393579bc9a2c53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633038314879,
+          "stop" : 1633038318960,
+          "duration" : 4081
+        }
+      }, {
+        "uid" : "a7d8cdd88bba50c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/774//#testresult/a7d8cdd88bba50c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633037448667,
+          "stop" : 1633037452686,
+          "duration" : 4019
+        }
+      }, {
+        "uid" : "42c824c186f158e1",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/760//#testresult/42c824c186f158e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632534644078,
+          "stop" : 1632534647989,
+          "duration" : 3911
+        }
+      }, {
+        "uid" : "a9b5ab70a2508641",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/759//#testresult/a9b5ab70a2508641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632448357482,
+          "stop" : 1632448361712,
+          "duration" : 4230
+        }
+      }, {
+        "uid" : "73cd4713911d7b64",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/756//#testresult/73cd4713911d7b64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632386904541,
+          "stop" : 1632386909159,
+          "duration" : 4618
+        }
+      }, {
+        "uid" : "d3fce72d7c8de4c7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/753//#testresult/d3fce72d7c8de4c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632320438006,
+          "stop" : 1632320442730,
+          "duration" : 4724
+        }
+      }, {
+        "uid" : "7de6cb6ab1710e57",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/750//#testresult/7de6cb6ab1710e57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632275655814,
+          "stop" : 1632275660771,
+          "duration" : 4957
+        }
+      }, {
+        "uid" : "7691697ef8fc5da",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/748//#testresult/7691697ef8fc5da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632154900674,
+          "stop" : 1632154905077,
+          "duration" : 4403
+        }
+      }, {
+        "uid" : "1ec72571a1e1d37f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/738//#testresult/1ec72571a1e1d37f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632102844984,
+          "stop" : 1632102849246,
+          "duration" : 4262
+        }
+      }, {
+        "uid" : "d60965248a908e7d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/737//#testresult/d60965248a908e7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632016400423,
+          "stop" : 1632016404357,
+          "duration" : 3934
+        }
+      }, {
+        "uid" : "36c7b4683b959867",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/736//#testresult/36c7b4683b959867",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631930030454,
+          "stop" : 1631930034753,
+          "duration" : 4299
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "391de23e082b1e84.json",
+  "parameterValues" : [ ]
+}
