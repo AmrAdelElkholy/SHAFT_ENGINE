@@ -1,0 +1,395 @@
+{
+  "uid" : "3eed6b34d6e32f62",
+  "name" : "uploadFile_invisibleUploadInput",
+  "fullName" : "testPackage01.Test_uploadFile.uploadFile_invisibleUploadInput",
+  "historyId" : "83e3cd745c904b39ba98498d793686ca",
+  "time" : {
+    "start" : 1635766803055,
+    "stop" : 1635766833138,
+    "duration" : 30083
+  },
+  "status" : "broken",
+  "statusMessage" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+  "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:957)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:661)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:286)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:218)\n\tat com.shaft.gui.browser.BrowserActions.navigateToURL(BrowserActions.java:90)\n\tat testPackage01.Test_uploadFile.uploadFile_invisibleUploadInput(Test_uploadFile.java:27)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1635766802203,
+      "stop" : 1635766803033,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1635766802204,
+        "stop" : 1635766802204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "220"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened Safari.",
+      "time" : {
+        "start" : 1635766802994,
+        "stop" : 1635766802994,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "221"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened Safari."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 811)].",
+      "time" : {
+        "start" : 1635766803032,
+        "stop" : 1635766803033,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "222"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 811)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:957)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:661)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:286)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:218)\n\tat com.shaft.gui.browser.BrowserActions.navigateToURL(BrowserActions.java:90)\n\tat testPackage01.Test_uploadFile.uploadFile_invisibleUploadInput(Test_uploadFile.java:27)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "18d27cfa3f582ddf",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: uploadFile_invisibleUploadInput",
+      "source" : "18d27cfa3f582ddf.txt",
+      "type" : "text/plain",
+      "size" : 604
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1635766833145,
+      "stop" : 1635766863338,
+      "duration" : 30193
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Could not initialize class org.openqa.selenium.TimeoutException",
+    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.TimeoutException\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat com.shaft.gui.element.JavaScriptWaitManager.waitForJSLoadIfDefined(JavaScriptWaitManager.java:137)\n\tat com.shaft.gui.element.JavaScriptWaitManager.waitForLazyLoading(JavaScriptWaitManager.java:43)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.closeCurrentWindow(WebDriverBrowserActions.java:417)\n\tat com.shaft.gui.browser.BrowserActions.closeCurrentWindow(BrowserActions.java:143)\n\tat testPackage01.Test_uploadFile.afterMethod(Test_uploadFile.java:39)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1635766981937,
+      "stop" : 1635766982012,
+      "duration" : 75
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:455)\n\tat com.shaft.driver.DriverFactoryHelper.attemptToCloseOrQuitDriver(DriverFactoryHelper.java:739)\n\tat com.shaft.driver.DriverFactoryHelper.closeAllDrivers(DriverFactoryHelper.java:238)\n\tat com.shaft.driver.DriverFactory.closeAllDrivers(DriverFactory.java:175)\n\tat com.shaft.gui.browser.BrowserFactory.closeAllBrowsers(BrowserFactory.java:49)\n\tat com.shaft.tools.io.LogsHelper.attachBrowserLogs(LogsHelper.java:33)\n\tat com.shaft.tools.io.LogsHelper.closureActivities(LogsHelper.java:16)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:344)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_uploadFile"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_uploadFile"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadFile_invisibleUploadInput"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_uploadFile"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1635766509523.local"
+  }, {
+    "name" : "thread",
+    "value" : "2223@Mac-1635766509523.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 8,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "36dd97a863d54bf0",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/853//#testresult/36dd97a863d54bf0",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635751659664,
+          "stop" : 1635751660944,
+          "duration" : 1280
+        }
+      }, {
+        "uid" : "849c675aa8a7778a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/847//#testresult/849c675aa8a7778a",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635625309743,
+          "stop" : 1635625311487,
+          "duration" : 1744
+        }
+      }, {
+        "uid" : "9cb309f2fa26beb4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/845//#testresult/9cb309f2fa26beb4",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635621572537,
+          "stop" : 1635621576463,
+          "duration" : 3926
+        }
+      }, {
+        "uid" : "1646997141d1d533",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/844//#testresult/1646997141d1d533",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635621033265,
+          "stop" : 1635621035113,
+          "duration" : 1848
+        }
+      }, {
+        "uid" : "1336364c30d0a04c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/842//#testresult/1336364c30d0a04c",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.SessionNotCreatedException",
+        "time" : {
+          "start" : 1635558526267,
+          "stop" : 1635558526269,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "dbaa6ce5e49b652f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/839//#testresult/dbaa6ce5e49b652f",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1635472386777,
+          "stop" : 1635472388920,
+          "duration" : 2143
+        }
+      }, {
+        "uid" : "906429cb30064b0f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/836//#testresult/906429cb30064b0f",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635415072559,
+          "stop" : 1635415074019,
+          "duration" : 1460
+        }
+      }, {
+        "uid" : "f777192a4a58b42",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/835//#testresult/f777192a4a58b42",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635385860558,
+          "stop" : 1635385862425,
+          "duration" : 1867
+        }
+      }, {
+        "uid" : "5cda659d974e6235",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/832//#testresult/5cda659d974e6235",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.WebDriverException",
+        "time" : {
+          "start" : 1635274689238,
+          "stop" : 1635274689242,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "4568d965fa21002c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/828//#testresult/4568d965fa21002c",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635213003810,
+          "stop" : 1635213005533,
+          "duration" : 1723
+        }
+      }, {
+        "uid" : "650625a4f7b7bd0e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/826//#testresult/650625a4f7b7bd0e",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1635169789381,
+          "stop" : 1635169792020,
+          "duration" : 2639
+        }
+      }, {
+        "uid" : "2e0a4f52606caf49",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/824//#testresult/2e0a4f52606caf49",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1635127081469,
+          "stop" : 1635127083334,
+          "duration" : 1865
+        }
+      }, {
+        "uid" : "6cd38a5a3cd7fb69",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/822//#testresult/6cd38a5a3cd7fb69",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1635023237704,
+          "stop" : 1635023239599,
+          "duration" : 1895
+        }
+      }, {
+        "uid" : "99136b35936408b1",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/816//#testresult/99136b35936408b1",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1634781930767,
+          "stop" : 1634781932420,
+          "duration" : 1653
+        }
+      }, {
+        "uid" : "b2c178ccc17d7a5e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/813//#testresult/b2c178ccc17d7a5e",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1634608687795,
+          "stop" : 1634608689432,
+          "duration" : 1637
+        }
+      }, {
+        "uid" : "d497fac50b302d01",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/804//#testresult/d497fac50b302d01",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1634158416410,
+          "stop" : 1634158418555,
+          "duration" : 2145
+        }
+      }, {
+        "uid" : "f9530cd689e5dc32",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/801//#testresult/f9530cd689e5dc32",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1634004049389,
+          "stop" : 1634004051410,
+          "duration" : 2021
+        }
+      }, {
+        "uid" : "3a4fd55d309c51dd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/800//#testresult/3a4fd55d309c51dd",
+        "status" : "failed",
+        "statusDetails" : "Element Action [TypeFileLocationForUpload] failed. With the following test data [/Users/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+        "time" : {
+          "start" : 1633964759040,
+          "stop" : 1633964761238,
+          "duration" : 2198
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3eed6b34d6e32f62.json",
+  "parameterValues" : [ ]
+}
