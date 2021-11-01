@@ -1,0 +1,366 @@
+{
+  "uid" : "b50a96b5362daf8d",
+  "name" : "TC001 - Navigate to URL and Verify Google Logo is Displayed",
+  "fullName" : "testPackage01.Test_google_playwright.navigateToURLandVerifyGoogleLogoIsDisplayed",
+  "historyId" : "2b4beb423f2d0918a09c19ca2ce5f015",
+  "time" : {
+    "start" : 1635804103574,
+    "stop" : 1635804103575,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "src/main/resources/properties",
+  "statusTrace" : "java.io.UncheckedIOException: src/main/resources/properties\n\tat org.apache.commons.io.FileUtils.listFiles(FileUtils.java:2135)\n\tat com.shaft.cli.FileActions.listFilesInDirectory(FileActions.java:85)\n\tat com.shaft.tools.io.LogsHelper.attachPropertyFiles(LogsHelper.java:93)\n\tat com.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: java.nio.file.NoSuchFileException: src/main/resources/properties\n\tat java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)\n\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)\n\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)\n\tat java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)\n\tat java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)\n\tat java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)\n\tat java.base/java.nio.file.Files.readAttributes(Files.java:1851)\n\tat java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:220)\n\tat java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:277)\n\tat java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:323)\n\tat java.base/java.nio.file.Files.walkFileTree(Files.java:2804)\n\tat org.apache.commons.io.FileUtils.listAccumulate(FileUtils.java:2076)\n\tat org.apache.commons.io.FileUtils.listFiles(FileUtils.java:2132)\n\t... 27 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1635804103572,
+      "stop" : 1635804103572,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1635804100762,
+      "stop" : 1635804101838,
+      "duration" : 1076
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "src/main/resources/properties",
+    "statusTrace" : "java.io.UncheckedIOException: src/main/resources/properties\n\tat org.apache.commons.io.FileUtils.listFiles(FileUtils.java:2135)\n\tat com.shaft.cli.FileActions.listFilesInDirectory(FileActions.java:85)\n\tat com.shaft.tools.io.LogsHelper.attachPropertyFiles(LogsHelper.java:93)\n\tat com.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: java.nio.file.NoSuchFileException: src/main/resources/properties\n\tat java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)\n\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)\n\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)\n\tat java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)\n\tat java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)\n\tat java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)\n\tat java.base/java.nio.file.Files.readAttributes(Files.java:1851)\n\tat java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:220)\n\tat java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:277)\n\tat java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:323)\n\tat java.base/java.nio.file.Files.walkFileTree(Files.java:2804)\n\tat org.apache.commons.io.FileUtils.listAccumulate(FileUtils.java:2076)\n\tat org.apache.commons.io.FileUtils.listFiles(FileUtils.java:2132)\n\t... 27 more\n",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1635804100922,
+        "stop" : 1635804100924,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f2f75078f6372253",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "f2f75078f6372253.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "src/main/resources/properties",
+    "statusTrace" : "java.io.UncheckedIOException: src/main/resources/properties\n\tat org.apache.commons.io.FileUtils.listFiles(FileUtils.java:2135)\n\tat com.shaft.cli.FileActions.listFilesInDirectory(FileActions.java:85)\n\tat com.shaft.tools.io.LogsHelper.attachPropertyFiles(LogsHelper.java:93)\n\tat com.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: java.nio.file.NoSuchFileException: src/main/resources/properties\n\tat java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)\n\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)\n\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)\n\tat java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)\n\tat java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)\n\tat java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)\n\tat java.base/java.nio.file.Files.readAttributes(Files.java:1851)\n\tat java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:220)\n\tat java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:277)\n\tat java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:323)\n\tat java.base/java.nio.file.Files.walkFileTree(Files.java:2804)\n\tat org.apache.commons.io.FileUtils.listAccumulate(FileUtils.java:2076)\n\tat org.apache.commons.io.FileUtils.listFiles(FileUtils.java:2132)\n\t... 27 more\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb836bc68fbb5ef7",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: navigateToURLandVerifyGoogleLogoIsDisplayed",
+      "source" : "bb836bc68fbb5ef7.txt",
+      "type" : "text/plain",
+      "size" : 533
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1635804103583,
+      "stop" : 1635804103583,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1635804103591,
+      "stop" : 1635804103591,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToURLandVerifyGoogleLogoIsDisplayed"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "host",
+    "value" : "fv-az292-236"
+  }, {
+    "name" : "thread",
+    "value" : "4360@fv-az292-236.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "c26eae151cc17f64",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/855//#testresult/c26eae151cc17f64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635767309763,
+          "stop" : 1635767313406,
+          "duration" : 3643
+        }
+      }, {
+        "uid" : "80072ffacb72f15d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/854//#testresult/80072ffacb72f15d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635759229112,
+          "stop" : 1635759232611,
+          "duration" : 3499
+        }
+      }, {
+        "uid" : "78ed47b0cf9bb8af",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/853//#testresult/78ed47b0cf9bb8af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635752159703,
+          "stop" : 1635752163280,
+          "duration" : 3577
+        }
+      }, {
+        "uid" : "55da70a3519b4655",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/849//#testresult/55da70a3519b4655",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635645772825,
+          "stop" : 1635645776055,
+          "duration" : 3230
+        }
+      }, {
+        "uid" : "41769dd00e65ada7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/847//#testresult/41769dd00e65ada7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635625768972,
+          "stop" : 1635625772099,
+          "duration" : 3127
+        }
+      }, {
+        "uid" : "5ec7abd096ada9e2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/844//#testresult/5ec7abd096ada9e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635621687882,
+          "stop" : 1635621691085,
+          "duration" : 3203
+        }
+      }, {
+        "uid" : "7430437196bc048c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/836//#testresult/7430437196bc048c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635415580063,
+          "stop" : 1635415583144,
+          "duration" : 3081
+        }
+      }, {
+        "uid" : "28ebc339cd6d84f5",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/835//#testresult/28ebc339cd6d84f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635386359847,
+          "stop" : 1635386364241,
+          "duration" : 4394
+        }
+      }, {
+        "uid" : "4e51fb346265fbc9",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/833//#testresult/4e51fb346265fbc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635299912864,
+          "stop" : 1635299916270,
+          "duration" : 3406
+        }
+      }, {
+        "uid" : "6abbb9184a07abf9",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/832//#testresult/6abbb9184a07abf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635275342233,
+          "stop" : 1635275345483,
+          "duration" : 3250
+        }
+      }, {
+        "uid" : "8a7afc6ce478f963",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/831//#testresult/8a7afc6ce478f963",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635274326920,
+          "stop" : 1635274330188,
+          "duration" : 3268
+        }
+      }, {
+        "uid" : "5b0a845ae7ca1b5b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/830//#testresult/5b0a845ae7ca1b5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635247913002,
+          "stop" : 1635247916188,
+          "duration" : 3186
+        }
+      }, {
+        "uid" : "1587253b333ca231",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/827//#testresult/1587253b333ca231",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635199306162,
+          "stop" : 1635199309842,
+          "duration" : 3680
+        }
+      }, {
+        "uid" : "f57370adbb6657ae",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/825//#testresult/f57370adbb6657ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635157788506,
+          "stop" : 1635157791690,
+          "duration" : 3184
+        }
+      }, {
+        "uid" : "e9d2cd05e2d9425a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/824//#testresult/e9d2cd05e2d9425a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635127130825,
+          "stop" : 1635127133980,
+          "duration" : 3155
+        }
+      }, {
+        "uid" : "4762dd6cee29507e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/823//#testresult/4762dd6cee29507e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635040813807,
+          "stop" : 1635040817827,
+          "duration" : 4020
+        }
+      }, {
+        "uid" : "3e90caa8dda8b6c6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/817//#testresult/3e90caa8dda8b6c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634868470710,
+          "stop" : 1634868473774,
+          "duration" : 3064
+        }
+      }, {
+        "uid" : "cd82671278ffa925",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/816//#testresult/cd82671278ffa925",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634781979792,
+          "stop" : 1634781982786,
+          "duration" : 2994
+        }
+      }, {
+        "uid" : "27f1704c57bc6e52",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/811//#testresult/27f1704c57bc6e52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634522750711,
+          "stop" : 1634522753970,
+          "duration" : 3259
+        }
+      }, {
+        "uid" : "2588fdcf787aa45f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/809//#testresult/2588fdcf787aa45f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634349771656,
+          "stop" : 1634349774951,
+          "duration" : 3295
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b50a96b5362daf8d.json",
+  "parameterValues" : [ ]
+}
