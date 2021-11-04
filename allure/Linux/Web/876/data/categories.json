@@ -1,0 +1,124 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.io.FileNotFoundException: /home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/test/resources/testDataFiles/schema.json (No such file or directory)",
+      "children" : [ {
+        "name" : "checkAPI_ResponseSchema",
+        "uid" : "26f2c47627eced1a",
+        "parentUid" : "4fa78704e75c14401f5120c2617fcdf1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1635990827284,
+          "stop" : 1635990827775,
+          "duration" : 491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fa78704e75c14401f5120c2617fcdf1"
+    }, {
+      "name" : "src/test/resources/testDataFiles/JsonFileTest2.json",
+      "children" : [ {
+        "name" : "f",
+        "uid" : "ec93eabb94b82c7a",
+        "parentUid" : "d521b6bf64d00147a169b4d63f87c66c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1635991360614,
+          "stop" : 1635991360616,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "f2",
+        "uid" : "334d1467d51fc522",
+        "parentUid" : "d521b6bf64d00147a169b4d63f87c66c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1635991360619,
+          "stop" : 1635991360621,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d521b6bf64d00147a169b4d63f87c66c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Browser Action [NavigateToNewURL] failed. With the following test data [https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/HTML/Element/select/_sample_.Basic_select.html].",
+      "children" : [ {
+        "name" : "simpleSelect",
+        "uid" : "e895d5860bbe4cca",
+        "parentUid" : "0115fb0a421050fb7e48c378ae877e32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635990836861,
+          "stop" : 1635991019556,
+          "duration" : 182695
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0115fb0a421050fb7e48c378ae877e32"
+    }, {
+      "name" : "Couldn't find the desired file. [src/test/resources/testDataFiles/simpleJSON.json].",
+      "children" : [ {
+        "name" : "readStringFromJson",
+        "uid" : "ce8096d4024f8246",
+        "parentUid" : "37b9095964c164c0f036364e76cc9f8a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635991332527,
+          "stop" : 1635991332533,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37b9095964c164c0f036364e76cc9f8a"
+    }, {
+      "name" : "API Action [CompareJSON] failed. With the following test data [Couldn't parse the desired file. [src/test/resources/testDataFiles/specialCharacters.json].].",
+      "children" : [ {
+        "name" : "specialCharacters",
+        "uid" : "e12966e0b46c07c3",
+        "parentUid" : "6da211f668c8b489f7feb2e8202dfeb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635991376366,
+          "stop" : 1635991376394,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "specialCharacters_assertion",
+        "uid" : "84b43629a95a0c89",
+        "parentUid" : "6da211f668c8b489f7feb2e8202dfeb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635991376397,
+          "stop" : 1635991376403,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6da211f668c8b489f7feb2e8202dfeb8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
