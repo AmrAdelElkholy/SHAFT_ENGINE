@@ -1,0 +1,624 @@
+{
+  "uid" : "92a25e2a375d24cc",
+  "name" : "f22",
+  "fullName" : "testPackage01.Test_NewValidationHelper.f22",
+  "historyId" : "69bacfe7d32090425eadf00e77ec2fcd",
+  "time" : {
+    "start" : 1636272036202,
+    "stop" : 1636272036203,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+  "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:455)\n\tat com.shaft.driver.DriverFactoryHelper.attemptToCloseOrQuitDriver(DriverFactoryHelper.java:737)\n\tat com.shaft.driver.DriverFactoryHelper.closeAllDrivers(DriverFactoryHelper.java:238)\n\tat com.shaft.driver.DriverFactory.closeAllDrivers(DriverFactory.java:175)\n\tat com.shaft.gui.browser.BrowserFactory.closeAllBrowsers(BrowserFactory.java:50)\n\tat testPackage01.Test_NewValidationHelper.closeBrowser(Test_NewValidationHelper.java:332)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openBrowser",
+    "time" : {
+      "start" : 1636272036198,
+      "stop" : 1636272036198,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1636271912309,
+      "stop" : 1636271914836,
+      "duration" : 2527
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1636271912382,
+        "stop" : 1636271912385,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1636271912386,
+        "stop" : 1636271912386,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1636271912387,
+        "stop" : 1636271912387,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1636271913937,
+        "stop" : 1636271913937,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1636271913945,
+        "stop" : 1636271913945,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1636271914042,
+        "stop" : 1636271914042,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d4fc2da82b656f5",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "d4fc2da82b656f5.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "c15f91aab0e0524f",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "c15f91aab0e0524f.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "5d77e24a59642180",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "5d77e24a59642180.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "48d9a91b470c49ed",
+      "name" : "Attachment: Properties - path",
+      "source" : "48d9a91b470c49ed.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "6ecca030345b1a5c",
+      "name" : "Attachment: Properties - video",
+      "source" : "6ecca030345b1a5c.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "4af824a597da26f8",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "4af824a597da26f8.properties",
+      "type" : "text/plain",
+      "size" : 564
+    }, {
+      "uid" : "b3ce9b32657b11d",
+      "name" : "Attachment: Properties - internal",
+      "source" : "b3ce9b32657b11d.properties",
+      "type" : "text/plain",
+      "size" : 117
+    }, {
+      "uid" : "de3f9a3c048c38e0",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "de3f9a3c048c38e0.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "939a5296abe3a657",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "939a5296abe3a657.properties",
+      "type" : "text/plain",
+      "size" : 226
+    }, {
+      "uid" : "19096a4f9db56b52",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "19096a4f9db56b52.properties",
+      "type" : "text/plain",
+      "size" : 588
+    }, {
+      "uid" : "cd34804287447bcf",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "cd34804287447bcf.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "dcea068789ce999b",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "dcea068789ce999b.properties",
+      "type" : "text/plain",
+      "size" : 583
+    }, {
+      "uid" : "f5732e944161f14d",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "f5732e944161f14d.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "1c6d4831419165c5",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "1c6d4831419165c5.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:583)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:455)\n\tat com.shaft.driver.DriverFactoryHelper.attemptToCloseOrQuitDriver(DriverFactoryHelper.java:737)\n\tat com.shaft.driver.DriverFactoryHelper.closeAllDrivers(DriverFactoryHelper.java:238)\n\tat com.shaft.driver.DriverFactory.closeAllDrivers(DriverFactory.java:175)\n\tat com.shaft.gui.browser.BrowserFactory.closeAllBrowsers(BrowserFactory.java:50)\n\tat testPackage01.Test_NewValidationHelper.closeBrowser(Test_NewValidationHelper.java:332)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c06caac173479b4",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: f22",
+      "source" : "c06caac173479b4.txt",
+      "type" : "text/plain",
+      "size" : 416
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1636272036204,
+      "stop" : 1636272036204,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1636272105191,
+      "stop" : 1636272105735,
+      "duration" : 544
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1636272105191,
+        "stop" : 1636272105191,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "383"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 7, New issues for Failed Tests = 5, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1636272105208,
+        "stop" : 1636272105209,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2d830d8f17568a0",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211107-080145",
+        "source" : "c2d830d8f17568a0.csv",
+        "type" : "text/csv",
+        "size" : 963
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "384"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 7, New issues for Failed Tests = 5, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211107-080145, java.io.ByteArrayInputStream@74f39ad3]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e6b5d76fcd895a81",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211107-080145",
+      "source" : "e6b5d76fcd895a81.txt",
+      "type" : "text/plain",
+      "size" : 198866
+    }, {
+      "uid" : "44010133e97c965b",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "44010133e97c965b.html",
+      "type" : "text/html",
+      "size" : 5266425
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testMethod",
+    "value" : "f22"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1636267501822.local"
+  }, {
+    "name" : "thread",
+    "value" : "2226@Mac-1636267501822.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 15,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 24
+      },
+      "items" : [ {
+        "uid" : "a9eb9c6e486ff4be",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/885//#testresult/a9eb9c6e486ff4be",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1636250361780,
+          "stop" : 1636250361783,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "6d9b30b9bfc5ad2c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/876//#testresult/6d9b30b9bfc5ad2c",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635991042833,
+          "stop" : 1635991042834,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4b1652f6f67f339a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/874//#testresult/4b1652f6f67f339a",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635977035200,
+          "stop" : 1635977035208,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "49fbbd4ea04872a7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/864//#testresult/49fbbd4ea04872a7",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635917045504,
+          "stop" : 1635917045505,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3f21b687d3b8738",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/856//#testresult/3f21b687d3b8738",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635804180367,
+          "stop" : 1635804180381,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "1f2e4d70f87a2256",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/853//#testresult/1f2e4d70f87a2256",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635751675025,
+          "stop" : 1635751675026,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "69e4aeff390b074f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/847//#testresult/69e4aeff390b074f",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635625327110,
+          "stop" : 1635625327112,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "daa0fe03ffe32362",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/845//#testresult/daa0fe03ffe32362",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635621590575,
+          "stop" : 1635621590577,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "8d7f8e5642fe7a64",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/844//#testresult/8d7f8e5642fe7a64",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635621143009,
+          "stop" : 1635621143093,
+          "duration" : 84
+        }
+      }, {
+        "uid" : "d6d1ac04fe927851",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/842//#testresult/d6d1ac04fe927851",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635558536040,
+          "stop" : 1635558536042,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "3a647a1f5d09dc0f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/839//#testresult/3a647a1f5d09dc0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635472487421,
+          "stop" : 1635472487613,
+          "duration" : 192
+        }
+      }, {
+        "uid" : "93db146fab0713b7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/836//#testresult/93db146fab0713b7",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635415089214,
+          "stop" : 1635415089215,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3b01d9f8b899a3d3",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/835//#testresult/3b01d9f8b899a3d3",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635385963971,
+          "stop" : 1635385963974,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "27f51071613b5e56",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/832//#testresult/27f51071613b5e56",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635274700682,
+          "stop" : 1635274700684,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "47a2a7d0c6ee4541",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/828//#testresult/47a2a7d0c6ee4541",
+        "status" : "skipped",
+        "statusDetails" : "Could not initialize class org.openqa.selenium.remote.UnreachableBrowserException",
+        "time" : {
+          "start" : 1635213023658,
+          "stop" : 1635213023659,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "446882895624a0da",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/826//#testresult/446882895624a0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635170036826,
+          "stop" : 1635170037020,
+          "duration" : 194
+        }
+      }, {
+        "uid" : "a05ae9a6af5f6462",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/824//#testresult/a05ae9a6af5f6462",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635127183423,
+          "stop" : 1635127183734,
+          "duration" : 311
+        }
+      }, {
+        "uid" : "262ab7f48227ba82",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/822//#testresult/262ab7f48227ba82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635023335484,
+          "stop" : 1635023335691,
+          "duration" : 207
+        }
+      }, {
+        "uid" : "c82cbed5b31027b2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/816//#testresult/c82cbed5b31027b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634782028347,
+          "stop" : 1634782028551,
+          "duration" : 204
+        }
+      }, {
+        "uid" : "bf612565ee0c600c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/813//#testresult/bf612565ee0c600c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634608890259,
+          "stop" : 1634608890496,
+          "duration" : 237
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "92a25e2a375d24cc.json",
+  "parameterValues" : [ ]
+}
