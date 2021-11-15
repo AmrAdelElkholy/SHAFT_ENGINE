@@ -1,0 +1,124 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.io.FileNotFoundException: /home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/test/resources/testDataFiles/schema.json (No such file or directory)",
+      "children" : [ {
+        "name" : "checkAPI_ResponseSchema",
+        "uid" : "31cd8087880a0e8c",
+        "parentUid" : "4fa78704e75c14401f5120c2617fcdf1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636941036275,
+          "stop" : 1636941036713,
+          "duration" : 438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fa78704e75c14401f5120c2617fcdf1"
+    }, {
+      "name" : "src/test/resources/testDataFiles/JsonFileTest2.json",
+      "children" : [ {
+        "name" : "f",
+        "uid" : "c2fb62466d553e13",
+        "parentUid" : "d521b6bf64d00147a169b4d63f87c66c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636941279548,
+          "stop" : 1636941279560,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "f2",
+        "uid" : "5ddba8de396ccb98",
+        "parentUid" : "d521b6bf64d00147a169b4d63f87c66c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636941279566,
+          "stop" : 1636941279567,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d521b6bf64d00147a169b4d63f87c66c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'GitHub - MohabMohie/SHAFT_ENGINE' for the 'text' attribute, element locator '[unknown locator]'] and Actual [Turboshaft - Wikipedia]. Comparison Type [CONTAINS]. Validation Type [POSITIVE].",
+      "children" : [ {
+        "name" : "relativeLocatorsTest1",
+        "uid" : "7521a697d8fa577b",
+        "parentUid" : "49619340841f6bbfae75f962281bef57",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636941038376,
+          "stop" : 1636941041380,
+          "duration" : 3004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49619340841f6bbfae75f962281bef57"
+    }, {
+      "name" : "Couldn't find the desired file. [src/test/resources/testDataFiles/simpleJSON.json].",
+      "children" : [ {
+        "name" : "readStringFromJson",
+        "uid" : "5403602d46bccf34",
+        "parentUid" : "37b9095964c164c0f036364e76cc9f8a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636941255882,
+          "stop" : 1636941255886,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37b9095964c164c0f036364e76cc9f8a"
+    }, {
+      "name" : "API Action [CompareJSON] failed. With the following test data [Couldn't parse the desired file. [src/test/resources/testDataFiles/specialCharacters.json].].",
+      "children" : [ {
+        "name" : "specialCharacters",
+        "uid" : "867d94ce0feacaf2",
+        "parentUid" : "6da211f668c8b489f7feb2e8202dfeb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636941295119,
+          "stop" : 1636941295135,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "specialCharacters_assertion",
+        "uid" : "132a779b0550cc08",
+        "parentUid" : "6da211f668c8b489f7feb2e8202dfeb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636941295137,
+          "stop" : 1636941295140,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6da211f668c8b489f7feb2e8202dfeb8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
