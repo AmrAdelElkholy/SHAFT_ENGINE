@@ -1,0 +1,23 @@
+
+################################################################################################################################################
+Starting Execution:	[129 out of 146] test cases in the current suite
+Test Method:		[testPackage01.Test_chainableElementActions.chainElementActions]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @16-11-2021 21:55:34.0276 PM
+[ReportManager] Attempting to run locally on: [Mac-64], [GoogleChrome], Headless Execution. @16-11-2021 21:55:34.0277 PM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @16-11-2021 21:55:34.0278 PM
+[ReportManager] Successfully Opened Google Chrome. @16-11-2021 21:55:39.0249 PM
+[ReportManager] Initial window size: (1920, 1080) @16-11-2021 21:55:39.0262 PM
+[ReportManager] Window size after SWD Maximize: (1920, 1080) @16-11-2021 21:55:39.0387 PM
+[ReportManager] Window size after Toolkit: (1920, 1080) @16-11-2021 21:55:39.0842 PM
+[ReportManager] Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1920, 1080)]. @16-11-2021 21:55:39.0846 PM
+[ReportManager] Target URL: [https://www.google.com/ncr], and after redirection: [https://www.google.com] @16-11-2021 21:55:39.0846 PM
+[ReportManager] Initial URL: [data:,] @16-11-2021 21:55:39.0886 PM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.google.com/ncr]. @16-11-2021 21:55:41.0561 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [chained type 1]. @16-11-2021 21:55:41.0948 PM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [chained type 2]. @16-11-2021 21:55:42.0246 PM
+[ReportManager] Element Action [TypeAppend] successfully performed. With the following test data [345]. @16-11-2021 21:55:42.0374 PM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [chained type 1chained type 2345]. @16-11-2021 21:55:42.0524 PM
+[ReportManager] Loaded Shared OpenCV @16-11-2021 21:55:42.0921 PM
+[ReportManager] Assertion [ValidateElementAttribute] FAILED. Expected [Value Should be 'chained type 2345' for the 'text' attribute, element locator 'By.name: q'] and Actual [chained type 1chained type 2345]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @16-11-2021 21:55:43.0238 PM
+[ReportManager] Successfully created attachment [Screenshot - 1637099742921_chainElementActions_ValidateElementAttribute_failed] @16-11-2021 21:55:43.0278 P
