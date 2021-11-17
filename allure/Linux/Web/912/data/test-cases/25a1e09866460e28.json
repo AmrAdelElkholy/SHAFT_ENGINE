@@ -1,0 +1,331 @@
+{
+  "uid" : "25a1e09866460e28",
+  "name" : "checkAPI_ResponseSchema",
+  "fullName" : "testPackage01.Test_MatchJsonSchema.checkAPI_ResponseSchema",
+  "historyId" : "e025b82a7d1b9f5f8cfaebf774709daa",
+  "time" : {
+    "start" : 1637154101627,
+    "stop" : 1637154102442,
+    "duration" : 815
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1637154072569,
+      "stop" : 1637154073432,
+      "duration" : 863
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637154072693,
+        "stop" : 1637154072695,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "81b8368332532ef",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "81b8368332532ef.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: Evaluating the actual response status code against the expected one...",
+      "time" : {
+        "start" : 1637154101730,
+        "stop" : 1637154101730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "39"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Evaluating the actual response status code against the expected one..."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"http://api.zippopotam.us/us/90210\" | Content Type: \"*/*\" | Response Time: \"87ms\"].",
+      "time" : {
+        "start" : 1637154101745,
+        "stop" : 1637154101746,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96bb86582dac8b94",
+        "name" : "Attachment: API Request - Specifications",
+        "source" : "96bb86582dac8b94.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "235d5d9b2decfb23",
+        "name" : "Attachment: API Response - JSON Body",
+        "source" : "235d5d9b2decfb23.json",
+        "type" : "text/json",
+        "size" : 279
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "40"
+      }, {
+        "name" : "logText",
+        "value" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"GET\" | Target Status Code: \"200\" | Service URL: \"http://api.zippopotam.us/us/90210\" | Content Type: \"*/*\" | Response Time: \"87ms\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[API Request, Specifications, Headers:\n_______________\n\nContent-Type=*/*\n\n], null, [API Response, JSON Body, java.io.ByteArrayInputStream@14fed6c7]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion Passed: Then I Assert that the API response schema matches that in this file [src/test/resources/testDataFiles/schema.json].",
+      "time" : {
+        "start" : 1637154102439,
+        "stop" : 1637154102441,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9bbf4d1443e69997",
+        "name" : "Attachment: Validation Test Data - Expected JSON Value",
+        "source" : "9bbf4d1443e69997.json",
+        "type" : "text/json",
+        "size" : 5037
+      }, {
+        "uid" : "3ffebd11e70ef6fd",
+        "name" : "Attachment: Validation Test Data - Actual JSON Value",
+        "source" : "3ffebd11e70ef6fd.json",
+        "type" : "text/json",
+        "size" : 279
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "41"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Then I Assert that the API response schema matches that in this file [src/test/resources/testDataFiles/schema.json]."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateResponseFileSchema] PASSED. Expected [Response data should match the JSON File in this path '/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/test/resources/testDataFiles/schema.json'] and Actual [TRUE]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Validation Test Data, Expected JSON Value, java.io.ByteArrayInputStream@46245500], [Validation Test Data, Actual JSON Value, java.io.ByteArrayInputStream@71e869c2]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6e03129415fb232f",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: checkAPI_ResponseSchema",
+      "source" : "6e03129415fb232f.txt",
+      "type" : "text/plain",
+      "size" : 2753
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1637154629832,
+      "stop" : 1637154630437,
+      "duration" : 605
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1637154629832,
+        "stop" : 1637154629832,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "548"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1637154629852,
+        "stop" : 1637154629852,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76726cc63376dd14",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211117-131029",
+        "source" : "76726cc63376dd14.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "549"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211117-131029, java.io.ByteArrayInputStream@78e627ce]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f18a385669e71b3b",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211117-131029",
+      "source" : "f18a385669e71b3b.txt",
+      "type" : "text/plain",
+      "size" : 379655
+    }, {
+      "uid" : "a8a2a8717ec8d4b0",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "a8a2a8717ec8d4b0.html",
+      "type" : "text/html",
+      "size" : 13326875
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_MatchJsonSchema"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_MatchJsonSchema"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAPI_ResponseSchema"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_MatchJsonSchema"
+  }, {
+    "name" : "host",
+    "value" : "fv-az201-484"
+  }, {
+    "name" : "thread",
+    "value" : "4293@fv-az201-484.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5829b89bb1f86ebe",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/911//#testresult/5829b89bb1f86ebe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637140935691,
+          "stop" : 1637140936512,
+          "duration" : 821
+        }
+      }, {
+        "uid" : "dba939ecc0ec5945",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/910//#testresult/dba939ecc0ec5945",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637135421869,
+          "stop" : 1637135422644,
+          "duration" : 775
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "25a1e09866460e28.json",
+  "parameterValues" : [ ]
+}
