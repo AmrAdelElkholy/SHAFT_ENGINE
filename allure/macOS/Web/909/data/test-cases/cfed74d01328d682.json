@@ -1,0 +1,536 @@
+{
+  "uid" : "cfed74d01328d682",
+  "name" : "shadowdom",
+  "fullName" : "testPackage01.Test_ShadowDOM.shadowdom",
+  "historyId" : "bb7188203f90a1a2fad67230270ae7d6",
+  "time" : {
+    "start" : 1637132622771,
+    "stop" : 1637132624724,
+    "duration" : 1953
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1637132621932,
+      "stop" : 1637132622767,
+      "duration" : 835
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1637132621933,
+        "stop" : 1637132621933,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "349"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened Safari.",
+      "time" : {
+        "start" : 1637132622738,
+        "stop" : 1637132622738,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "350"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened Safari."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 811)].",
+      "time" : {
+        "start" : 1637132622767,
+        "stop" : 1637132622767,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "351"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 811)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1637132460447,
+      "stop" : 1637132463373,
+      "duration" : 2926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637132460555,
+        "stop" : 1637132460557,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637132460558,
+        "stop" : 1637132460558,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1637132460559,
+        "stop" : 1637132460559,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637132462441,
+        "stop" : 1637132462441,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637132462449,
+        "stop" : 1637132462449,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637132462579,
+        "stop" : 1637132462579,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ba17ad5eeb91fa55",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "ba17ad5eeb91fa55.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "c153a085dc6f3291",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "c153a085dc6f3291.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "484e37c481d40286",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "484e37c481d40286.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "3f5c529a8d90dea9",
+      "name" : "Attachment: Properties - path",
+      "source" : "3f5c529a8d90dea9.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "2fbfde89ea7875b5",
+      "name" : "Attachment: Properties - video",
+      "source" : "2fbfde89ea7875b5.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "11e257b123467589",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "11e257b123467589.properties",
+      "type" : "text/plain",
+      "size" : 564
+    }, {
+      "uid" : "e83556491d81975c",
+      "name" : "Attachment: Properties - internal",
+      "source" : "e83556491d81975c.properties",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "5b2310a4a66ad117",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "5b2310a4a66ad117.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "fc6fc45a2a411ceb",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "fc6fc45a2a411ceb.properties",
+      "type" : "text/plain",
+      "size" : 226
+    }, {
+      "uid" : "8414872a0e424376",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "8414872a0e424376.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "fcce26d72903f392",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "fcce26d72903f392.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "a6dffd8eb670fcde",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "a6dffd8eb670fcde.properties",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "f8e1644c909f88ba",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "f8e1644c909f88ba.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "ad60ee5d8cc9b3e0",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "ad60ee5d8cc9b3e0.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://mdn.github.io/web-components-examples/popup-info-box-web-component/].",
+      "time" : {
+        "start" : 1637132623165,
+        "stop" : 1637132623165,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "352"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://mdn.github.io/web-components-examples/popup-info-box-web-component/]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Type] successfully performed. With the following test data [Typing into SHADOW DOM...].",
+      "time" : {
+        "start" : 1637132624275,
+        "stop" : 1637132624276,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "353"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Type] successfully performed. With the following test data [Typing into SHADOW DOM...]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateElementAttribute] PASSED. Expected [Value Should be 'Typing into SHADOW DOM...' for the 'Text' attribute, element locator 'By.id: cvc'] and Actual [Typing into SHADOW DOM...]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1637132624640,
+        "stop" : 1637132624642,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92a3353d9bc10896",
+        "name" : "Attachment: Screenshot - 1637132624518_shadowdom_ValidateElementAttribute_passed",
+        "source" : "92a3353d9bc10896.png",
+        "type" : "image/png",
+        "size" : 39784
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "354"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateElementAttribute] PASSED. Expected [Value Should be 'Typing into SHADOW DOM...' for the 'Text' attribute, element locator 'By.id: cvc'] and Actual [Typing into SHADOW DOM...]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1637132624518_shadowdom_ValidateElementAttribute_passed, java.io.ByteArrayInputStream@aac1a01]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "62ca7926e4785aae",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: shadowdom",
+      "source" : "62ca7926e4785aae.txt",
+      "type" : "text/plain",
+      "size" : 1625
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1637132624725,
+      "stop" : 1637132625080,
+      "duration" : 355
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1637132625079,
+        "stop" : 1637132625080,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fd4436127655bee",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "9fd4436127655bee.html",
+        "type" : "text/html",
+        "size" : 537
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "355"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html><head>\n    <meta charset=\"utf-8\">\n    <title>Pop-up info box — web components</title>\n    <script src=\"main.js\" defer=\"\"></script>\n  </head>\n  <body>\n    <h1>Pop-up info widget - web components</h1>\n\n    <form>\n      <div>\n        <label for=\"cvc\">Enter your CVC <popup-info img=\"img/alt.png\" data-text=\"Your card validation code (CVC) is an extra security feature — it is the last 3 or 4 numbers on the back of your card.\"></popup-info></label>\n        <input type=\"text\" id=\"cvc\">\n      </div>\n    </form>\n\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_ShadowDOM"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_ShadowDOM"
+  }, {
+    "name" : "testMethod",
+    "value" : "shadowdom"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_ShadowDOM"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1637130101188.local"
+  }, {
+    "name" : "thread",
+    "value" : "7037@Mac-1637130101188.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b1e034b7d14a10ce",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/907//#testresult/b1e034b7d14a10ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637101989569,
+          "stop" : 1637101991816,
+          "duration" : 2247
+        }
+      }, {
+        "uid" : "482b4e7cc1b1967d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/906//#testresult/482b4e7cc1b1967d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637099711085,
+          "stop" : 1637099713043,
+          "duration" : 1958
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cfed74d01328d682.json",
+  "parameterValues" : [ ]
+}
