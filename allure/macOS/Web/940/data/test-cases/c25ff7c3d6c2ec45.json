@@ -1,0 +1,544 @@
+{
+  "uid" : "c25ff7c3d6c2ec45",
+  "name" : "TC003 - Clicks the next button to make sure that the framework can scroll element into view before clicking it",
+  "fullName" : "testPackage01.Test_google_playwright.clickNextThrice",
+  "historyId" : "9136ef17ad732926a16ab8d92c6bf567",
+  "time" : {
+    "start" : 1637739707868,
+    "stop" : 1637739708192,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1637739674386,
+      "stop" : 1637739702623,
+      "duration" : 28237
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/testDataFiles/testSuite01/TestData.xlsx].",
+      "time" : {
+        "start" : 1637739674414,
+        "stop" : 1637739674414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c102993073abd67",
+        "name" : "Attachment: Test Data - Excel",
+        "source" : "7c102993073abd67.xlsx",
+        "type" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size" : 12483
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "456"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/testDataFiles/testSuite01/TestData.xlsx]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, Excel, java.io.FileInputStream@caa5e76]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Attempting to run using Playwright locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1637739696128,
+        "stop" : 1637739696128,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "457"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run using Playwright locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1920, 1080)].",
+      "time" : {
+        "start" : 1637739702622,
+        "stop" : 1637739702622,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "458"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1920, 1080)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6afa6b6dcc865b35",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeClass",
+      "source" : "6afa6b6dcc865b35.txt",
+      "type" : "text/plain",
+      "size" : 937
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1637739435240,
+      "stop" : 1637739438361,
+      "duration" : 3121
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637739435403,
+        "stop" : 1637739435405,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637739435407,
+        "stop" : 1637739435408,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1637739435408,
+        "stop" : 1637739435408,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637739437217,
+        "stop" : 1637739437217,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637739437225,
+        "stop" : 1637739437225,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637739437336,
+        "stop" : 1637739437336,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "79c7e40767a89273",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "79c7e40767a89273.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "ec314326849e4bac",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "ec314326849e4bac.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "3cbba7d9edaf9b9d",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "3cbba7d9edaf9b9d.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "d6e2add843f006c3",
+      "name" : "Attachment: Properties - path",
+      "source" : "d6e2add843f006c3.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "c4e9394228595ca8",
+      "name" : "Attachment: Properties - video",
+      "source" : "c4e9394228595ca8.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "f12008ce3168df38",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "f12008ce3168df38.properties",
+      "type" : "text/plain",
+      "size" : 564
+    }, {
+      "uid" : "c81829f47560c31c",
+      "name" : "Attachment: Properties - internal",
+      "source" : "c81829f47560c31c.properties",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "90d5a6a8f1e4487c",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "90d5a6a8f1e4487c.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "6b67c187832d240d",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "6b67c187832d240d.properties",
+      "type" : "text/plain",
+      "size" : 226
+    }, {
+      "uid" : "ee54d8b8c33fa693",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "ee54d8b8c33fa693.properties",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "17c1eb541b88318c",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "17c1eb541b88318c.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "756f1d118a066df5",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "756f1d118a066df5.properties",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "96b522085c5a4e36",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "96b522085c5a4e36.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "ece6acc5b275d99a",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "ece6acc5b275d99a.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element Action [Click] successfully performed. With the following test data [Next].",
+      "time" : {
+        "start" : 1637739708190,
+        "stop" : 1637739708191,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "464"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Click] successfully performed. With the following test data [Next]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "67406f547e727cfd",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: clickNextThrice",
+      "source" : "67406f547e727cfd.txt",
+      "type" : "text/plain",
+      "size" : 687
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1637739708193,
+      "stop" : 1637739708240,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed PlayWright Driver.",
+      "time" : {
+        "start" : 1637739708239,
+        "stop" : 1637739708239,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "465"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed PlayWright Driver."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a24b247ff9bf45fe",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: afterClass",
+      "source" : "a24b247ff9bf45fe.txt",
+      "type" : "text/plain",
+      "size" : 159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1637739730633,
+      "stop" : 1637739731237,
+      "duration" : 604
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1637739730633,
+        "stop" : 1637739730633,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "507"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 4, New issues for Failed Tests = 2, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1637739730655,
+        "stop" : 1637739730676,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a24e9675312f5edd",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211124-074210",
+        "source" : "a24e9675312f5edd.csv",
+        "type" : "text/csv",
+        "size" : 502
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "508"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 4, New issues for Failed Tests = 2, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211124-074210, java.io.ByteArrayInputStream@1b76951]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2a33503495413567",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211124-074210",
+      "source" : "2a33503495413567.txt",
+      "type" : "text/plain",
+      "size" : 310672
+    }, {
+      "uid" : "81069713b29713cd",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "81069713b29713cd.html",
+      "type" : "text/html",
+      "size" : 7797555
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickNextThrice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_google_playwright"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1637738953415.local"
+  }, {
+    "name" : "thread",
+    "value" : "3050@Mac-1637738953415.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c25ff7c3d6c2ec45.json",
+  "parameterValues" : [ ]
+}
