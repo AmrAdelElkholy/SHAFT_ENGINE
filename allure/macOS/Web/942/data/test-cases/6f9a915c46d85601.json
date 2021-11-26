@@ -1,0 +1,630 @@
+{
+  "uid" : "6f9a915c46d85601",
+  "name" : "relativeLocatorsTest1",
+  "fullName" : "testPackage01.Test_RelativeLocators.relativeLocatorsTest1",
+  "historyId" : "a2b4829c99b25b0f138408ac2f2752bd",
+  "time" : {
+    "start" : 1637891454596,
+    "stop" : 1637891457782,
+    "duration" : 3186
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1637891453697,
+      "stop" : 1637891454552,
+      "duration" : 855
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1637891453697,
+        "stop" : 1637891453697,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "268"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened Safari.",
+      "time" : {
+        "start" : 1637891454511,
+        "stop" : 1637891454511,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "269"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened Safari."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 803)].",
+      "time" : {
+        "start" : 1637891454552,
+        "stop" : 1637891454552,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "270"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1176, 803)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1637891295744,
+      "stop" : 1637891298187,
+      "duration" : 2443
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637891295821,
+        "stop" : 1637891295824,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637891295826,
+        "stop" : 1637891295826,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1637891295827,
+        "stop" : 1637891295827,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637891297467,
+        "stop" : 1637891297467,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637891297475,
+        "stop" : 1637891297475,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637891297561,
+        "stop" : 1637891297561,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2fbb86afc289be84",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "2fbb86afc289be84.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "6185a2ebec06d0ca",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "6185a2ebec06d0ca.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "1b5a846d606789a4",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "1b5a846d606789a4.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "5a1bf36d0f8478f0",
+      "name" : "Attachment: Properties - path",
+      "source" : "5a1bf36d0f8478f0.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "dd52ba44b902e4d3",
+      "name" : "Attachment: Properties - video",
+      "source" : "dd52ba44b902e4d3.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "817e3aab76520bf8",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "817e3aab76520bf8.properties",
+      "type" : "text/plain",
+      "size" : 564
+    }, {
+      "uid" : "2b7175ab1ca692ba",
+      "name" : "Attachment: Properties - internal",
+      "source" : "2b7175ab1ca692ba.properties",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "d3699db9de33e63c",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "d3699db9de33e63c.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "f6d0bb6e686119f6",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "f6d0bb6e686119f6.properties",
+      "type" : "text/plain",
+      "size" : 226
+    }, {
+      "uid" : "c2b55c514e7087b",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "c2b55c514e7087b.properties",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "6e0c662287dc3dc9",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "6e0c662287dc3dc9.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "68650cea30a32dbc",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "68650cea30a32dbc.properties",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "346849e402615d74",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "346849e402615d74.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "ca472fd0493004d4",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "ca472fd0493004d4.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://duckduckgo.com/].",
+      "time" : {
+        "start" : 1637891455305,
+        "stop" : 1637891455305,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "273"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://duckduckgo.com/]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Type] successfully performed. With the following test data [SHAFT_Engine].",
+      "time" : {
+        "start" : 1637891455446,
+        "stop" : 1637891455446,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "274"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [KeyPress] successfully performed. With the following test data [ENTER].",
+      "time" : {
+        "start" : 1637891456207,
+        "stop" : 1637891456207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "275"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [KeyPress] successfully performed. With the following test data [ENTER]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion Passed: Then I Assert that the element found by [Relative Locator: {root={xpath=//a[@class='result__a js-result-title-link']}, filters=[{kind=below, args=[{xpath=//input[@name='q']}]}]}] text does not equal [].",
+      "time" : {
+        "start" : 1637891457776,
+        "stop" : 1637891457778,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c33459c6d8487455",
+        "name" : "Attachment: Screenshot - 1637891457661_relativeLocatorsTest1_ValidateElementAttribute_passed",
+        "source" : "c33459c6d8487455.png",
+        "type" : "image/png",
+        "size" : 389451
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "276"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Then I Assert that the element found by [Relative Locator: {root={xpath=//a[@class='result__a js-result-title-link']}, filters=[{kind=below, args=[{xpath=//input[@name='q']}]}]}] text does not equal []."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateElementAttribute] PASSED. Expected [Value Should not be '' for the 'text' attribute, element locator '[unknown locator]'] and Actual [Kawasaki Shaft - OEM Parts, Quick Delivery]. Comparison Type [EQUALS]. Validation Type [NEGATIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1637891457661_relativeLocatorsTest1_ValidateElementAttribute_passed, java.io.ByteArrayInputStream@17d8ea00]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ffaedca844b37626",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: relativeLocatorsTest1",
+      "source" : "ffaedca844b37626.txt",
+      "type" : "text/plain",
+      "size" : 1959
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1637891457783,
+      "stop" : 1637891458072,
+      "duration" : 289
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1637891458067,
+        "stop" : 1637891458072,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "115533ce3a26535a",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "115533ce3a26535a.html",
+        "type" : "text/html",
+        "size" : 100790
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "277"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html lang=\"en-US\" class=\"has-zcm  is-link-style-exp is-link-order-exp is-link-breadcrumb-exp is-related-search-exp is-vertical-tabs-exp js no-touch opacity csstransforms3d csstransitions svg cssfilters is-not-mobile-device full-urls breadcrumb-urls has-footer has-right-rail-module\"><link type=\"text/css\" rel=\"stylesheet\" href=\"/share/spice/github/2000/github.css\" media=\"screen\"><head><script type=\"text/javascript\" src=\"/js/moment.2.9.0.min.js\"></script><script type=\"text/javascript\" src=\"/s2483.js\"></script><script type=\"text/javascript\" async=\"\" src=\"/js/spice/github/user:MohabMohie%20SHAFT_ENGINE\"></script><script type=\"text/javascript\" src=\"/share/spice/github/2000/github.spice.js\"></script><meta name=\"description\" content=\"DuckDuckGo. Privacy, Simplified.\"><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><title>SHAFT_Engine at DuckDuckGo</title><link rel=\"stylesheet\" href=\"/s2019.css\" type=\"text/css\"><link rel=\"stylesheet\" href=\"/r2019.css\" type=\"text/css\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"referrer\" content=\"origin\"><meta name=\"apple-mobile-web-app-title\" content=\"SHAFT_Engine\"><link rel=\"preconnect\" href=\"https://links.duckduckgo.com\"><link rel=\"preload\" href=\"/font/ProximaNova-Reg-webfont.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"><link rel=\"preload\" href=\"/font/ProximaNova-Sbold-webfont.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\"><link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\"><link id=\"icon60\" rel=\"apple-touch-icon\" href=\"/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2\"><link id=\"icon76\" rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2\"><link id=\"icon120\" rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2\"><link id=\"icon152\" rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2\"><link rel=\"image_src\" href=\"/assets/icons/meta/DDG-icon_256x256.png\"><script type=\"text/javascript\" async=\"\" src=\"/t.js?q=SHAFT_Engine&amp;l=us-en&amp;s=0&amp;dl=en&amp;ct=US&amp;ss_mkt=us&amp;p_ent=&amp;ex=-1&amp;biaexp=b&amp;msvrtexp=b&amp;nadse=b&amp;eclsexp=a\"></script><script type=\"text/javascript\">var ct,fd,fq,it,iqa,iqm,iqs,iqp,iqq,qw,dl,ra,rv,rad,r1hc,r1c,r2c,r3c,rfq,rq,rds,rs,rt,rl,y,y1,ti,tig,iqd,shfl,shrl,locale,settings_js_version='s2483.js',is_twitter='',rpl=1;fq=0;fd=1;it=0;iqa=0;iqbi=0;iqm=0;iqs=0;iqp=0;iqq=0;qw=1;dl='en';ct='US';iqd=0;r1hc=0;r1c=0;r3c=0;rq='SHAFT_Engine';rqd=\"SHAFT_Engine\";rfq=0;rt='';ra='h_';rv='';rad='';rds=30;rs=0;spice_version='2000';spice_paths='{}';locale='en_US';settings_url_params={};rl='us-en';shfl=1;shrl='us-en';rlo=0;df='';ds='';sfq='';iar='';vqd='3-182388767959602968667494298295195236850-47022682185350441451176662655131592276';safe_ddg=0;show_covid=0;</script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><meta name=\"HandheldFriendly\" content=\"true\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><link title=\"DuckDuckGo\" type=\"application/opensearchdescription+xml\" rel=\"search\" href=\"https://duckduckgo.com/opensearch.xml?atb=v301-2__\"></head><body class=\"body--serp\"><input id=\"state_hidden\" name=\"state_hidden\" type=\"text\" size=\"1\"><!-- Ignore this input please --><div id=\"spacing_hidden_wrapper\"><div id=\"spacing_hidden\"></div></div><script type=\"text/javascript\" src=\"/lib/l124.js\"></script><script type=\"text/javascript\" src=\"/locale/en_US/duckduckgo14.js\"></script><script type=\"text/javascript\" src=\"/util/u592.js\"></script><script type=\"text/javascript\" src=\"/d3025.js\"></script><div class=\"site-wrapper  js-site-wrapper\" style=\"min-height: 751px;\"><div class=\"welcome-wrap js-welcome-wrap\"></div><div id=\"header_wrapper\" class=\"header-wrap js-header-wrap\"><div id=\"header\" class=\"header  cw\"><div class=\"header__search-wrap\"><a tabindex=\"-1\" href=\"/?t=h_\" class=\"header__logo-wrap js-header-logo\"><span class=\"header__logo js-logo-ddg\">DuckDuckGo</span></a><div class=\"header__content  header__search\"><form id=\"search_form\" class=\"search--adv  search--header js-search-form has-text\" name=\"x\" action=\"/\" method=\"GET\"><input type=\"text\" name=\"q\" tabindex=\"1\" autocomplete=\"off\" id=\"search_form_input\" class=\"search__input--adv js-search-input\" value=\"SHAFT_Engine\" autocapitalize=\"off\" autocorrect=\"off\"><input id=\"search_form_input_clear\" class=\"search__clear  js-search-clear\" type=\"button\" tabindex=\"3\" value=\"X\"><input id=\"search_button\" class=\"search__button  js-search-button\" type=\"submit\" tabindex=\"2\" value=\"S\"><a id=\"search_dropdown\" class=\"search__dropdown\" href=\"javascript:;\" tabindex=\"4\"></a><div id=\"search_elements_hidden\" class=\"search__hidden  js-search-hidden\"><input type=\"hidden\" class=\"js-search-hidden-field\" name=\"t\" value=\"h_\"></div><div class=\"search__autocomplete\"><div class=\"acp-wrap js-acp-wrap\"></div><div class=\"acp-footer is-hidden js-acp-footer\"><span class=\"acp-footer__instructions\">Shortcuts to other sites to search off DuckDuckGo</span><span class=\"acp-footer__link\"><a class=\"no-visited js-acp-footer-link\" href=\"/bang\">Learn More</a></span></div></div></form></div></div><div class=\"zcm-wrap-wrap\"><div id=\"duckbar\" class=\"zcm-wrap  zcm-wrap--header  is-noscript-hidden\"><div class=\"zcm\"><ul class=\"zcm__menu zcm__constant has-zci\" id=\"duckbar_static\"><li class=\"zcm__item\"><a data-zci-link=\"web\" class=\"zcm__link  js-zci-link  js-zci-link--web\" href=\"#\"><span class=\"zcm__link__icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 1C2.68629 1 0 3.68629 0 7C0 10.3137 2.68629 13 6 13C7.64669 13 9.13845 12.3366 10.2226 11.2626L14.7873 14.8403C15.1133 15.0959 15.5848 15.0387 15.8403 14.7127C16.0958 14.3867 16.0387 13.9153 15.7126 13.6597L11.1487 10.0826C11.6892 9.18164 12 8.12711 12 7C12 3.68629 9.31371 1 6 1ZM1.5 7C1.5 4.51472 3.51472 2.5 6 2.5C8.48528 2.5 10.5 4.51472 10.5 7C10.5 9.48528 8.48528 11.5 6 11.5C3.51472 11.5 1.5 9.48528 1.5 7Z\" fill=\"currentColor\"></path></svg></span>All</a></li><li class=\"zcm__item\"><a data-zci-link=\"images\" class=\"zcm__link  js-zci-link  js-zci-link--images\" href=\"#\"><span class=\"zcm__link__icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.5 7C5.32843 7 6 6.32843 6 5.5C6 4.67157 5.32843 4 4.5 4C3.67157 4 3 4.67157 3 5.5C3 6.32843 3.67157 7 4.5 7Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3.25 1C1.45507 1 0 2.45507 0 4.25V11.75C0 13.5449 1.45507 15 3.25 15H12.75C14.5449 15 16 13.5449 16 11.75V10.2593C16.0001 10.2531 16.0001 10.2469 16 10.2407V4.25C16 2.45507 14.5449 1 12.75 1H3.25ZM14.5 8.43928V4.25C14.5 3.2835 13.7165 2.5 12.75 2.5H3.25C2.2835 2.5 1.5 3.2835 1.5 4.25V11.75C1.5 11.9563 1.5357 12.1543 1.60126 12.3381L5.96967 7.96967C6.26256 7.67678 6.73744 7.67678 7.03033 7.96967L8.00003 8.93937L10.9697 5.96967C11.2626 5.67678 11.7375 5.67678 12.0304 5.96967L14.5 8.43928ZM9.06069 10L10.0303 10.9697C10.3232 11.2626 10.3232 11.7374 10.0303 12.0303C9.73744 12.3232 9.26256 12.3232 8.96967 12.0303L6.5 9.56066L2.66192 13.3987C2.84572 13.4643 3.04369 13.5 3.25 13.5H12.75C13.7165 13.5 14.5 12.7165 14.5 11.75V10.5606L11.5001 7.56066L9.06069 10Z\" fill=\"currentColor\"></path></svg></span>Images</a></li><li class=\"zcm__item\"><a data-zci-link=\"videos\" class=\"zcm__link  js-zci-link  js-zci-link--videos\" href=\"#\"><span class=\"zcm__link__icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.4887 5.55027C15.3801 6.63605 15.3801 9.36446 13.4887 10.4502L6.23148 14.6164C4.34816 15.6976 2 14.338 2 12.1664L2 3.83407C2 1.66248 4.34816 0.302917 6.23148 1.38408L13.4887 5.55027ZM12.7419 9.14937C13.629 8.64011 13.629 7.36041 12.7419 6.85115L5.48468 2.68496C4.60135 2.17787 3.5 2.81554 3.5 3.83407L3.5 12.1664C3.5 13.185 4.60135 13.8226 5.48468 13.3156L12.7419 9.14937Z\" fill=\"currentColor\"></path></svg></span>Videos</a></li><li class=\"zcm__item\"><a data-zci-link=\"news\" class=\"zcm__link  js-zci-link  js-zci-link--news\" href=\"#\"><span class=\"zcm__link__icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 8.25C3 7.83579 3.33579 7.5 3.75 7.5H8.25C8.66421 7.5 9 7.83579 9 8.25C9 8.66421 8.66421 9 8.25 9H3.75C3.33579 9 3 8.66421 3 8.25Z\" fill=\"currentColor\"></path><path d=\"M3.75 10.5C3.33579 10.5 3 10.8358 3 11.25C3 11.6642 3.33579 12 3.75 12H8.25C8.66421 12 9 11.6642 9 11.25C9 10.8358 8.66421 10.5 8.25 10.5H3.75Z\" fill=\"currentColor\"></path><path d=\"M3 4.75C3 4.33579 3.33579 4 3.75 4H5.25C5.66421 4 6 4.33579 6 4.75V5.25C6 5.66421 5.66421 6 5.25 6H3.75C3.33579 6 3 5.66421 3 5.25V4.75Z\" fill=\"currentColor\"></path><path d=\"M7.75 4C7.33579 4 7 4.33579 7 4.75V5.25C7 5.66421 7.33579 6 7.75 6H8.25C8.66421 6 9 5.66421 9 5.25V4.75C9 4.33579 8.66421 4 8.25 4H7.75Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 3C0 1.89543 0.895431 1 2 1H10C11.1046 1 12 1.89543 12 3H14C15.1046 3 16 3.89543 16 5V12.25C16 13.7688 14.7688 15 13.25 15H3.25C1.45507 15 0 13.5449 0 11.75V3ZM10.7999 13.5H3.25C2.2835 13.5 1.5 12.7165 1.5 11.75V3C1.5 2.72386 1.72386 2.5 2 2.5H10C10.2761 2.5 10.5 2.72386 10.5 3V12.25C10.5 12.7001 10.6081 13.125 10.7999 13.5ZM12 4.5V12.25C12 12.9404 12.5596 13.5 13.25 13.5C13.9404 13.5 14.5 12.9404 14.5 12.25V5C14.5 4.72386 14.2761 4.5 14 4.5H12Z\" fill=\"currentColor\"></path></svg></span>News</a></li><li class=\"zcm__item\"><a data-zci-link=\"maps_expanded\" class=\"zcm__link  js-zci-link  js-zci-link--maps_expanded\" href=\"#\"><span class=\"zcm__link__icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 0C6.81332 0 5.65328 0.351894 4.66658 1.01118C3.67989 1.67047 2.91085 2.60754 2.45673 3.7039C2.0026 4.80026 1.88378 6.00666 2.11529 7.17054C2.35179 8.35952 2.99591 9.39906 3.73051 10.2144C5.0603 11.6902 5.95884 13.0319 6.52237 13.9981C6.80408 14.4812 7.00183 14.87 7.1277 15.1343C7.19062 15.2665 7.23554 15.3675 7.26398 15.4334C7.27819 15.4664 7.28829 15.4907 7.29444 15.5057L7.30075 15.5212L7.30129 15.5226L7.30168 15.5236C7.41829 15.8212 7.71074 16.0123 8.03018 15.9994C8.34937 15.9865 8.62531 15.7729 8.71783 15.4673L8.71818 15.4662L8.72264 15.4522C8.72711 15.4384 8.73473 15.4154 8.74578 15.3837C8.76791 15.3202 8.80379 15.2219 8.85585 15.0927C8.95997 14.8342 9.12867 14.452 9.38109 13.9769C9.88586 13.0267 10.7253 11.7051 12.0529 10.2568C12.7338 9.51391 13.6375 8.41354 13.8847 7.17054C14.1162 6.00666 13.9974 4.80026 13.5433 3.7039C13.0892 2.60754 12.3201 1.67047 11.3334 1.01118C10.3467 0.351894 9.18669 0 8 0ZM8.05642 13.2731C8.01989 13.3419 7.98488 13.409 7.95134 13.4745C7.90893 13.3994 7.86453 13.322 7.81811 13.2425C7.20975 12.1993 6.25213 10.7721 4.84488 9.21027C4.23085 8.5288 3.75511 7.72573 3.58647 6.87791C3.41284 6.00499 3.50195 5.10019 3.84254 4.27792C4.18314 3.45566 4.75992 2.75285 5.49994 2.25839C6.23996 1.76392 7.10999 1.5 8 1.5C8.89002 1.5 9.76005 1.76392 10.5001 2.25839C11.2401 2.75285 11.8169 3.45566 12.1575 4.27793C12.4981 5.10019 12.5872 6.00499 12.4135 6.87791C12.2556 7.67171 11.6276 8.50093 10.9471 9.24321C9.52471 10.7949 8.61414 12.2233 8.05642 13.2731Z\" fill=\"currentColor\"></path></svg></span>Maps</a></li><li class=\"zcm__item\"><a data-zci-link=\"products\" class=\"zcm__link  js-zci-link  js-zci-link--products\" href=\"#\"><span class=\"zcm__link__icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.74994 4.5V4.25C4.74994 3.8232 4.834 3.40059 4.99733 3.00628C5.16066 2.61197 5.40005 2.25369 5.70184 1.9519C6.00363 1.65011 6.36191 1.41072 6.75622 1.24739C7.15053 1.08406 7.57314 1 7.99994 1C8.42674 1 8.84935 1.08406 9.24366 1.24739C9.63797 1.41072 9.99625 1.65011 10.298 1.9519C10.5998 2.25369 10.8392 2.61197 11.0025 3.00628C11.1659 3.40059 11.2499 3.82321 11.2499 4.25V4.5H13.1311C14.1502 4.5 15.0064 5.26627 15.1189 6.27914L15.6869 11.3911C15.9008 13.3163 14.3938 15 12.4568 15H3.54311C1.60607 15 0.0990778 13.3163 0.312988 11.3911L0.880983 6.27914C0.993524 5.26627 1.84965 4.5 2.86875 4.5H4.74994ZM7.33024 2.63321C7.54256 2.54526 7.77013 2.5 7.99994 2.5C8.22975 2.5 8.45732 2.54527 8.66964 2.63321C8.88196 2.72116 9.07487 2.85006 9.23738 3.01256C9.39988 3.17507 9.52878 3.36799 9.61673 3.58031C9.70467 3.79262 9.74994 4.02019 9.74994 4.25V4.5H6.24994V4.25C6.24994 4.02019 6.2952 3.79262 6.38315 3.5803C6.4711 3.36798 6.6 3.17507 6.7625 3.01256C6.925 2.85006 7.11792 2.72116 7.33024 2.63321ZM4.74994 6V7.25C4.74994 7.66421 5.08573 8 5.49994 8C5.91415 8 6.24994 7.66421 6.24994 7.25V6H9.74994V7.25C9.74994 7.66421 10.0857 8 10.4999 8C10.9142 8 11.2499 7.66421 11.2499 7.25V6H13.1311C13.3859 6 13.6 6.19157 13.6281 6.44478L14.1961 11.5567C14.3113 12.5934 13.4998 13.5 12.4568 13.5H3.54311C2.50009 13.5 1.68863 12.5934 1.80381 11.5567L2.37181 6.44478C2.39994 6.19157 2.61398 6 2.86875 6H4.74994Z\" fill=\"currentColor\"></path></svg></span>Shopping</a></li></ul><ul class=\"zcm__menu zcm__dynamic has-zci\" id=\"duckbar_new\"><span id=\"duckbar_dynamic_sep\" class=\"zcm__sep--h sep--before\"></span><li class=\"zcm__item\"><a data-zci-link=\"github\" class=\"zcm__link  js-zci-link  js-zci-link--github  is-active\" href=\"#\">Software</a></li></ul><ul class=\"zcm__menu zcm__dropdowns js-duckbar-dropdowns\" id=\"duckbar_dropdowns\"><span class=\"zcm__sep--h sep--before is-hidden js-duckbar-dropdowns-separator\"></span><li class=\"zcm__item\"><div class=\"dropdown dropdown--settings\"><a class=\"zcm__link dropdown__button js-dropdown-button \">Settings</a></div></li></ul></div></div><div class=\"zcm--right js-zcm-right\"></div></div></div><div class=\"header--aside js-header-aside is-hidden\"><a class=\"header__button--menu  js-side-menu-open\" href=\"#\">⇶</a><div class=\"text_promo header--text_promo\"><a href=\"https://spreadprivacy.com/introducing-app-tracking-protection/?s=pr-hd\" class=\"text_promo--link header--text_promo--link\"><span class=\"text_promo--badge\">New!</span><span class=\"text_promo--text\">Android App Tracking Protection</span></a></div><div class=\"header--aside__item showcase header__label\"><span class=\"header__clickable js-hl-button\" data-type=\"showcase\"><span class=\"js-popout-trig\" aria-haspopup=\"true\" aria-label=\"Check out the list of things that we've also made.\" role=\"button\" aria-pressed=\"false\"><span id=\"wedonttrack\">Privacy, simplified.</span></span><span class=\"popout-trig  js-popout\"><span class=\"js-popout-link js-showcase-popout ddgsi ddgsi-down\" aria-hidden=\"true\" data-type=\"showcase\"></span><div class=\"modal modal--popout modal--popout--bottom-left modal--popout--sm  js-popout-main\" data-type=\"showcase\"><div class=\"modal__box\"><div class=\"modal__body\"><nav aria-labelledby=\"wedonttrack\"><section class=\"showcase__dropdown-top\"><ul aria-label=\"Here are some things that we made that you might like.\"><li class=\"fix showcase__dropdown__list\"><a href=\"/app\" class=\"eighteen js-hl-item\" aria-hidden=\"true\" data-type=\"showcase\" data-id=\"app\"><div class=\"woman-icon\"></div></a><a href=\"/app\" class=\"text-left showcase__link eighty js-hl-item\" data-type=\"showcase\" data-id=\"app\"><h1 class=\"showcase__heading\">Get Our App &amp; Extension</h1><p class=\"showcase__subheading\">Protect your data on every device.</p></a></li><li class=\"fix showcase__dropdown__list\"><a href=\"/newsletter\" class=\"eighteen js-hl-item\" aria-hidden=\"true\" data-type=\"showcase\" data-id=\"newsletter\"><div class=\"mailbox-icon\"></div></a><a href=\"/newsletter\" class=\"text-left showcase__link eighty js-hl-item\" data-type=\"showcase\" data-id=\"newsletter\"><h1 class=\"showcase__heading\">Privacy in Your Inbox</h1><p class=\"showcase__subheading\">Stay protected and informed with our privacy newsletters.</p></a></li><li class=\"fix showcase__dropdown__list\"><a href=\"https://spreadprivacy.com/tag/device-privacy-tips/\" class=\"eighteen js-hl-item\" aria-hidden=\"true\" data-type=\"showcase\" data-id=\"blog\"><div class=\"privacy-simplified-icon\"></div></a><a href=\"https://spreadprivacy.com/tag/device-privacy-tips/\" class=\"text-left showcase__link eighty js-hl-item\" data-type=\"showcase\" data-id=\"blog\"><h1 class=\"showcase__heading\">Protect Your Devices</h1><p class=\"showcase__subheading\">Check out our privacy device guides.</p></a></li><li class=\"fix showcase__dropdown__list\"><a href=\"https://duckduckgo.com/spread\" class=\"eighteen js-hl-item\" aria-hidden=\"true\" data-type=\"showcase\" data-id=\"spread\"><div class=\"spread-icon\"></div></a><a href=\"https://duckduckgo.com/spread\" class=\"text-left showcase__link eighty js-hl-item\" data-type=\"showcase\" data-id=\"spread\"><h1 class=\"showcase__heading\">Spread DuckDuckGo</h1><p class=\"showcase__subheading\">Help your friends and family join the Duck Side!</p></a></li></ul></section><section class=\"showcase__dropdown-bottom\"><ul class=\"text-left\" aria-label=\"We've got even more things for you.\"><li class=\"fix showcase__dropdown__list\"><a href=\"https://duckduckgo.com/donations\" class=\"eighteen showcase__icon js-hl-item\" aria-hidden=\"true\" data-type=\"showcase\" data-id=\"donations\"><div class=\"donations-icon\"></div></a><a href=\"https://duckduckgo.com/donations\" class=\"text-left showcase__link eighty showcase__text js-hl-item\" data-type=\"showcase\" data-id=\"donations\">$2,650,000 in privacy donations!</a></li><li class=\"fix showcase__dropdown__list\"><a href=\"https://duckduckgo.com/traffic\" class=\"eighteen showcase__icon js-hl-item\" aria-hidden=\"true\" data-type=\"showcase\" data-id=\"traffic\"><div class=\"traffic-icon\"></div></a><a href=\"https://duckduckgo.com/traffic\" class=\"text-left showcase__link eighty showcase__text js-hl-item\" data-type=\"showcase\" data-id=\"traffic\">Over 78 Billion anonymous searches.</a></li><li class=\"fix showcase__dropdown__list\"><a href=\"https://donttrack.us/\" class=\"eighteen showcase__icon js-hl-item\" aria-hidden=\"true\" data-type=\"showcase\" data-id=\"dnt\"><div class=\"privacy-tips-icon\"></div></a><a href=\"https://donttrack.us/\" class=\"text-left showcase__link eighty showcase__text js-hl-item\" data-type=\"showcase\" data-id=\"dnt\">Learn why reducing tracking is important.</a></li></ul></section></nav></div></div></div></span></span></div><div class=\"header--aside__item header--aside__social header__label social\"><span class=\"header__clickable js-hl-button\" data-type=\"social\"><span class=\"js-popout-trig header--aside__social-icon \" aria-haspopup=\"true\" aria-label=\"Keep in touch\" role=\"button\" aria-pressed=\"false\"><span class=\"ddgsi ddgsi-horn\" data-type=\"social\"></span></span><span class=\"popout-trig js-popout\"><span class=\"js-popout-link ddgsi ddgsi-down\" aria-hidden=\"true\" data-type=\"social\"></span><div class=\"modal modal--popout modal--popout--bottom-left modal--popout--sm  js-popout-main\" data-type=\"social\"><div class=\"modal__box\"><div class=\"modal__body\"><div class=\"social__link\"><a href=\"https://twitter.com/duckduckgo\" class=\"js-hl-item social__link__text\" data-type=\"social\" data-id=\"twitter\"><img class=\"social__icon js-lazysvg\" data-src=\"/assets/icons/header/twitter.svg\"><span>Twitter</span></a></div><div class=\"social__link\"><a href=\"https://reddit.com/r/duckduckgo\" class=\"js-hl-item social__link__text\" data-type=\"social\" data-id=\"reddit\"><img class=\"social__icon js-lazysvg\" data-src=\"/assets/icons/header/reddit.svg\"><span>Reddit</span></a></div><div class=\"social__link\"><a href=\"https://spreadprivacy.com\" class=\"js-hl-item social__link__text\" data-type=\"social\" data-id=\"blog\"><img class=\"social__icon js-lazysvg\" data-src=\"/assets/icons/header/blog.svg\"><span>Blog</span></a></div><div class=\"social__link\"><a href=\"https://duckduckgo.com/newsletter\" class=\"js-hl-item social__link__text\" data-type=\"social\" data-id=\"newsletter\"><img class=\"social__icon js-lazysvg\" data-src=\"/assets/icons/header/newsletter.svg\"><span>Newsletter</span></a></div></div></div></div></span></span></div></div></div><div id=\"zero_click_wrapper\" class=\"zci-wrap\"><div class=\"zci  zci--github is-active\" id=\"zci-github\"><div class=\"c-info--cw  cw has-aux\"><div class=\"zci__main  c-info\"><div class=\"zci__body\"><div class=\"c-info__body\"><h1 class=\"c-info__title  \"><a href=\"https://github.com/MohabMohie/SHAFT_ENGINE\">SHAFT_ENGINE</a></h1><div class=\"c-info__content chomp js-ellipsis\">SHAFT_ENGINE is a Test Automation Engine that provides a unified high-level interface to any of the underlying test automation frameworks.</div><div class=\"c-info__links\"><a class=\"c-info__link  c-info__link--chomp  chomp--link  js-chomp-link  sep--after\"><i class=\"chomp--link__icn\"></i><span class=\"chomp--link__mr\">Show More</span><span class=\"chomp--link__ls\">Show Less</span></a><a href=\"https://github.com/MohabMohie/SHAFT_ENGINE\" class=\"c-info__link\"><img width=\"16\" height=\"16\" class=\"zci__more-at__icon\" src=\"//external-content.duckduckgo.com/ip3/github.com.ico\">More at GitHub </a></div></div></div></div></div><div class=\"zci__aux\"><div class=\"tile  tile--info  js-infobox-tile\"><div class=\"info\"><span class=\"info__label\">Clone URL</span><span class=\"info__value\">https://github.com/MohabMohie/SHAFT_ENGINE.git</span></div><div class=\"info\"><span class=\"info__label\">Stars</span><span class=\"info__value\">78</span></div><div class=\"info\"><span class=\"info__label\">Last Update</span><span class=\"info__value\">a day ago</span></div><div class=\"info\"><span class=\"info__label\">SSH URL</span><span class=\"info__value\">git@github.com:MohabMohie/SHAFT_ENGINE.git</span></div><div class=\"info\"><span class=\"info__label\">Forks</span><span class=\"info__value\">57</span></div><div class=\"info\"><span class=\"info__label\">Open Issues</span><span class=\"info__value\">6</span></div><div class=\"info\"><span class=\"info__label\">Default Branch</span><span class=\"info__value\">master</span></div><div class=\"tile__expand  tile--info__expand   js-tile-expand\"></div></div></div><span class=\"modal-trig  attribution-wrap--infobox  hide--screen-s  hide--mob\"><a class=\"attribution--link  js-attribution-link\"><span class=\"attribution--link__icon  ddgsi\">I</span></a></span></div></div><div id=\"vertical_wrapper\" class=\"verticals\"></div><div id=\"web_content_wrapper\" class=\"content-wrap\"><div class=\"serp__top-right  js-serp-top-right\"></div><div class=\"serp__bottom-right  js-serp-bottom-right\"><div class=\"js-feedback-btn-wrap\"><div class=\"btn feedback-btn\"><a href=\"javascript:;\" class=\"feedback-btn__send js-feedback-start\">Share Feedback</a><div class=\"feedback-btn__icon-wrap is-hidden js-feedback-icon-wrap\"><a href=\"javascript:;\" class=\"feedback-btn__icon ddgsi feedback-btn__icon--love js-feedback-love\"></a><a href=\"javascript:;\" class=\"feedback-btn__icon ddgsi feedback-btn__icon--nolove js-feedback-nolove\"></a></div></div></div></div><div class=\"cw\"><div id=\"links_wrapper\" class=\"serp__results js-serp-results\"><div class=\"results--main\"><div class=\"search-filters-wrap\"><div class=\"js-search-filters search-filters\"><div class=\"dropdown dropdown--region \"><a class=\"dropdown__button dropdown__button js-dropdown-button all\">All regions</a></div><div class=\"dropdown  dropdown--safe-search \"><a href=\"#\" class=\"dropdown__button js-dropdown-button\">Safe search: moderate</a></div><div class=\"dropdown  dropdown--date \"><a href=\"#\" class=\"dropdown__button js-dropdown-button\">Any time</a></div></div></div><noscript>&lt;meta http-equiv=\"refresh\" content=\"0;URL=/html?q=SHAFT_Engine\"&gt;&lt;link href=\"/css/noscript.css\" rel=\"stylesheet\" type=\"text/css\"&gt;&lt;div class=\"msg msg--noscript\"&gt;&lt;p class=\"msg-title--noscript\"&gt;You are being redirected to the non-JavaScript site.&lt;/p&gt;Click &lt;a href=\"/html/?q=SHAFT_Engine\"&gt;here&lt;/a&gt; if it doesn't happen automatically.&lt;/div&gt;</noscript><div id=\"message\" class=\"results--message\"></div><div class=\"ia-modules js-ia-modules\"></div><div id=\"ads\" class=\"results--ads results--ads--main js-results-ads\"><div id=\"m0-0\" class=\"module-slot\"></div><div id=\"ra-0\" class=\"result results_links highlight_a result--ad--good  result--ad  highlight_sponsored  sponsored result--url-above-snippet\" data-adn=\"3\" data-adf=\"1\" data-domain=\"partzilla.com\" data-hostname=\"duckduckgo.com\" data-source=\"bingv7aa\" data-sld=\"true\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=958bacc46f0fe59618df8886b38ba5cd32ab85c97dc60aba1c105a1109bd8829&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8RSgvbh21VNBAFN8ik_RxijVUCUxrLlK9iGHI1eI6_fAO87FGEZcnn9pF%2Dop4%2DsGWtHc_eP5p2O%2D2Dz_Ry162bhMM8DA3uci1bIevRGs5_99lG0nvOcYPjcZquZbcwch7x5nNTZJgwSNUPWEY2wby0hPM6wmas7va8QugXTqLxMVDL1igOmnaJFArfOdiQr19KkGWtHufoqXJEmAfIXqgSskRqfxy0jVY5on2jfsoxWc33CbRohPwXmF5o10slmpcF3e9kAWHZfVMlTvCfObjDoqF434jcPZsBzu19c4oNDCxCHeNDxsxhOym_5eXpPggJwD2hb%2D6x7WiAspfEGP2fEV8oIk7LIdxRnWFPOnkq5zhf8fdMFPIMb3PA2_wwf048A7RnzlTzl3yN4S1OzU6AERahrXFtF%2DuPk7y94fDDiXEYpYnry4E7Et2feI886V7PH332fnylKxKVBQkd7cCWORLuPOb9jjG_Rrns%2DUIRH9EEeS0obWjqiEN8RGyAh3RWF71qfgsBfgafgN0bN0CaZckFpFHaBO9erkiBnz_UrcSGqhrkymVYJGMjrsMItLHb7bzrl6Mc0InHusRwQQ%2DwV3sC0JNDx7Sng832OhKqqAGI59Jb7FjMXdDtmHajeaNPk2HuT7q6i0HKJ2TTWJ0YVNt6LKhT3HpvpVJ5Gjf65ww5X1ggMzZMSSU7RAoONIdDbaWBCO12051bcPwvVIOeGQOL7UKUMOUPRqog5JvGdDd64F_tGqvNNaNb7J0ALqgqxTpSw%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZrYXdhc2FraSUzZm1zY2xraWQlM2RjMDA3NWM4NGEwNTExYTI5NTY1NjNkMjQ5ZGQxNTZlNSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFROVF9UZXh0JTI1MjAtJTI1MjBLYXdhc2FraSUyNTIwLSUyNTIwTW9kZWwlMjUyME5hbWVzJTI2dXRtX3Rlcm0lM2RTaGFmdCUyNnV0bV9jb250ZW50JTNkS2F3YXNha2klMjUyME1vZGVsJTI1MjBOYW1lcw%26rlid%3Dc0075c84a0511a2956563d249dd156e5&amp;vqd=3-184027533853822039089809952385765119202-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5748.1\">Kawasaki Shaft - OEM Parts, Quick Delivery</a><a class=\"result__check\" rel=\"noopener\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=958bacc46f0fe59618df8886b38ba5cd32ab85c97dc60aba1c105a1109bd8829&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8RSgvbh21VNBAFN8ik_RxijVUCUxrLlK9iGHI1eI6_fAO87FGEZcnn9pF%2Dop4%2DsGWtHc_eP5p2O%2D2Dz_Ry162bhMM8DA3uci1bIevRGs5_99lG0nvOcYPjcZquZbcwch7x5nNTZJgwSNUPWEY2wby0hPM6wmas7va8QugXTqLxMVDL1igOmnaJFArfOdiQr19KkGWtHufoqXJEmAfIXqgSskRqfxy0jVY5on2jfsoxWc33CbRohPwXmF5o10slmpcF3e9kAWHZfVMlTvCfObjDoqF434jcPZsBzu19c4oNDCxCHeNDxsxhOym_5eXpPggJwD2hb%2D6x7WiAspfEGP2fEV8oIk7LIdxRnWFPOnkq5zhf8fdMFPIMb3PA2_wwf048A7RnzlTzl3yN4S1OzU6AERahrXFtF%2DuPk7y94fDDiXEYpYnry4E7Et2feI886V7PH332fnylKxKVBQkd7cCWORLuPOb9jjG_Rrns%2DUIRH9EEeS0obWjqiEN8RGyAh3RWF71qfgsBfgafgN0bN0CaZckFpFHaBO9erkiBnz_UrcSGqhrkymVYJGMjrsMItLHb7bzrl6Mc0InHusRwQQ%2DwV3sC0JNDx7Sng832OhKqqAGI59Jb7FjMXdDtmHajeaNPk2HuT7q6i0HKJ2TTWJ0YVNt6LKhT3HpvpVJ5Gjf65ww5X1ggMzZMSSU7RAoONIdDbaWBCO12051bcPwvVIOeGQOL7UKUMOUPRqog5JvGdDd64F_tGqvNNaNb7J0ALqgqxTpSw%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZrYXdhc2FraSUzZm1zY2xraWQlM2RjMDA3NWM4NGEwNTExYTI5NTY1NjNkMjQ5ZGQxNTZlNSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFROVF9UZXh0JTI1MjAtJTI1MjBLYXdhc2FraSUyNTIwLSUyNTIwTW9kZWwlMjUyME5hbWVzJTI2dXRtX3Rlcm0lM2RTaGFmdCUyNnV0bV9jb250ZW50JTNkS2F3YXNha2klMjUyME1vZGVsJTI1MjBOYW1lcw%26rlid%3Dc0075c84a0511a2956563d249dd156e5&amp;vqd=3-184027533853822039089809952385765119202-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5748.1\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a><span class=\"badge--ad-wrap badge--ad-wrap--default\">&nbsp;<span class=\"badge--ad js-badge--ad\">Ad</span></span></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=958bacc46f0fe59618df8886b38ba5cd32ab85c97dc60aba1c105a1109bd8829&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8RSgvbh21VNBAFN8ik_RxijVUCUxrLlK9iGHI1eI6_fAO87FGEZcnn9pF%2Dop4%2DsGWtHc_eP5p2O%2D2Dz_Ry162bhMM8DA3uci1bIevRGs5_99lG0nvOcYPjcZquZbcwch7x5nNTZJgwSNUPWEY2wby0hPM6wmas7va8QugXTqLxMVDL1igOmnaJFArfOdiQr19KkGWtHufoqXJEmAfIXqgSskRqfxy0jVY5on2jfsoxWc33CbRohPwXmF5o10slmpcF3e9kAWHZfVMlTvCfObjDoqF434jcPZsBzu19c4oNDCxCHeNDxsxhOym_5eXpPggJwD2hb%2D6x7WiAspfEGP2fEV8oIk7LIdxRnWFPOnkq5zhf8fdMFPIMb3PA2_wwf048A7RnzlTzl3yN4S1OzU6AERahrXFtF%2DuPk7y94fDDiXEYpYnry4E7Et2feI886V7PH332fnylKxKVBQkd7cCWORLuPOb9jjG_Rrns%2DUIRH9EEeS0obWjqiEN8RGyAh3RWF71qfgsBfgafgN0bN0CaZckFpFHaBO9erkiBnz_UrcSGqhrkymVYJGMjrsMItLHb7bzrl6Mc0InHusRwQQ%2DwV3sC0JNDx7Sng832OhKqqAGI59Jb7FjMXdDtmHajeaNPk2HuT7q6i0HKJ2TTWJ0YVNt6LKhT3HpvpVJ5Gjf65ww5X1ggMzZMSSU7RAoONIdDbaWBCO12051bcPwvVIOeGQOL7UKUMOUPRqog5JvGdDd64F_tGqvNNaNb7J0ALqgqxTpSw%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZrYXdhc2FraSUzZm1zY2xraWQlM2RjMDA3NWM4NGEwNTExYTI5NTY1NjNkMjQ5ZGQxNTZlNSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFROVF9UZXh0JTI1MjAtJTI1MjBLYXdhc2FraSUyNTIwLSUyNTIwTW9kZWwlMjUyME5hbWVzJTI2dXRtX3Rlcm0lM2RTaGFmdCUyNnV0bV9jb250ZW50JTNkS2F3YXNha2klMjUyME1vZGVsJTI1MjBOYW1lcw%26rlid%3Dc0075c84a0511a2956563d249dd156e5&amp;vqd=3-184027533853822039089809952385765119202-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5748.1\" rel=\"noopener\" class=\"result__url js-result-extras-url\">partzilla.com</a></div><div class=\"report-ad\"><span class=\"report-ad__start js-report-ad-start\"><i class=\"ddgsi-comment ddgsi\"></i><a href=\"#\" class=\"report-ad__link\">Report Ad</a></span></div></div><div class=\"result__snippet js-result-snippet\"><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=958bacc46f0fe59618df8886b38ba5cd32ab85c97dc60aba1c105a1109bd8829&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8RSgvbh21VNBAFN8ik_RxijVUCUxrLlK9iGHI1eI6_fAO87FGEZcnn9pF%2Dop4%2DsGWtHc_eP5p2O%2D2Dz_Ry162bhMM8DA3uci1bIevRGs5_99lG0nvOcYPjcZquZbcwch7x5nNTZJgwSNUPWEY2wby0hPM6wmas7va8QugXTqLxMVDL1igOmnaJFArfOdiQr19KkGWtHufoqXJEmAfIXqgSskRqfxy0jVY5on2jfsoxWc33CbRohPwXmF5o10slmpcF3e9kAWHZfVMlTvCfObjDoqF434jcPZsBzu19c4oNDCxCHeNDxsxhOym_5eXpPggJwD2hb%2D6x7WiAspfEGP2fEV8oIk7LIdxRnWFPOnkq5zhf8fdMFPIMb3PA2_wwf048A7RnzlTzl3yN4S1OzU6AERahrXFtF%2DuPk7y94fDDiXEYpYnry4E7Et2feI886V7PH332fnylKxKVBQkd7cCWORLuPOb9jjG_Rrns%2DUIRH9EEeS0obWjqiEN8RGyAh3RWF71qfgsBfgafgN0bN0CaZckFpFHaBO9erkiBnz_UrcSGqhrkymVYJGMjrsMItLHb7bzrl6Mc0InHusRwQQ%2DwV3sC0JNDx7Sng832OhKqqAGI59Jb7FjMXdDtmHajeaNPk2HuT7q6i0HKJ2TTWJ0YVNt6LKhT3HpvpVJ5Gjf65ww5X1ggMzZMSSU7RAoONIdDbaWBCO12051bcPwvVIOeGQOL7UKUMOUPRqog5JvGdDd64F_tGqvNNaNb7J0ALqgqxTpSw%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZrYXdhc2FraSUzZm1zY2xraWQlM2RjMDA3NWM4NGEwNTExYTI5NTY1NjNkMjQ5ZGQxNTZlNSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFROVF9UZXh0JTI1MjAtJTI1MjBLYXdhc2FraSUyNTIwLSUyNTIwTW9kZWwlMjUyME5hbWVzJTI2dXRtX3Rlcm0lM2RTaGFmdCUyNnV0bV9jb250ZW50JTNkS2F3YXNha2klMjUyME1vZGVsJTI1MjBOYW1lcw%26rlid%3Dc0075c84a0511a2956563d249dd156e5&amp;vqd=3-184027533853822039089809952385765119202-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5748.1\" rel=\"noopener\">Buy OEM Kawasaki Replacement Parts Online Direct From A Dealer. Fast Shipping! Shop OEM Parts &amp; Accessories By Brand. Free Shipping and Price Match Available.</a><br><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=958bacc46f0fe59618df8886b38ba5cd32ab85c97dc60aba1c105a1109bd8829&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8RSgvbh21VNBAFN8ik_RxijVUCUxrLlK9iGHI1eI6_fAO87FGEZcnn9pF%2Dop4%2DsGWtHc_eP5p2O%2D2Dz_Ry162bhMM8DA3uci1bIevRGs5_99lG0nvOcYPjcZquZbcwch7x5nNTZJgwSNUPWEY2wby0hPM6wmas7va8QugXTqLxMVDL1igOmnaJFArfOdiQr19KkGWtHufoqXJEmAfIXqgSskRqfxy0jVY5on2jfsoxWc33CbRohPwXmF5o10slmpcF3e9kAWHZfVMlTvCfObjDoqF434jcPZsBzu19c4oNDCxCHeNDxsxhOym_5eXpPggJwD2hb%2D6x7WiAspfEGP2fEV8oIk7LIdxRnWFPOnkq5zhf8fdMFPIMb3PA2_wwf048A7RnzlTzl3yN4S1OzU6AERahrXFtF%2DuPk7y94fDDiXEYpYnry4E7Et2feI886V7PH332fnylKxKVBQkd7cCWORLuPOb9jjG_Rrns%2DUIRH9EEeS0obWjqiEN8RGyAh3RWF71qfgsBfgafgN0bN0CaZckFpFHaBO9erkiBnz_UrcSGqhrkymVYJGMjrsMItLHb7bzrl6Mc0InHusRwQQ%2DwV3sC0JNDx7Sng832OhKqqAGI59Jb7FjMXdDtmHajeaNPk2HuT7q6i0HKJ2TTWJ0YVNt6LKhT3HpvpVJ5Gjf65ww5X1ggMzZMSSU7RAoONIdDbaWBCO12051bcPwvVIOeGQOL7UKUMOUPRqog5JvGdDd64F_tGqvNNaNb7J0ALqgqxTpSw%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZrYXdhc2FraSUzZm1zY2xraWQlM2RjMDA3NWM4NGEwNTExYTI5NTY1NjNkMjQ5ZGQxNTZlNSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFROVF9UZXh0JTI1MjAtJTI1MjBLYXdhc2FraSUyNTIwLSUyNTIwTW9kZWwlMjUyME5hbWVzJTI2dXRtX3Rlcm0lM2RTaGFmdCUyNnV0bV9jb250ZW50JTNkS2F3YXNha2klMjUyME1vZGVsJTI1MjBOYW1lcw%26rlid%3Dc0075c84a0511a2956563d249dd156e5&amp;vqd=3-184027533853822039089809952385765119202-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5748.1\" rel=\"noopener\">+5 Million Orders Shipped · Price-Match Guarantee</a><br><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=958bacc46f0fe59618df8886b38ba5cd32ab85c97dc60aba1c105a1109bd8829&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8RSgvbh21VNBAFN8ik_RxijVUCUxrLlK9iGHI1eI6_fAO87FGEZcnn9pF%2Dop4%2DsGWtHc_eP5p2O%2D2Dz_Ry162bhMM8DA3uci1bIevRGs5_99lG0nvOcYPjcZquZbcwch7x5nNTZJgwSNUPWEY2wby0hPM6wmas7va8QugXTqLxMVDL1igOmnaJFArfOdiQr19KkGWtHufoqXJEmAfIXqgSskRqfxy0jVY5on2jfsoxWc33CbRohPwXmF5o10slmpcF3e9kAWHZfVMlTvCfObjDoqF434jcPZsBzu19c4oNDCxCHeNDxsxhOym_5eXpPggJwD2hb%2D6x7WiAspfEGP2fEV8oIk7LIdxRnWFPOnkq5zhf8fdMFPIMb3PA2_wwf048A7RnzlTzl3yN4S1OzU6AERahrXFtF%2DuPk7y94fDDiXEYpYnry4E7Et2feI886V7PH332fnylKxKVBQkd7cCWORLuPOb9jjG_Rrns%2DUIRH9EEeS0obWjqiEN8RGyAh3RWF71qfgsBfgafgN0bN0CaZckFpFHaBO9erkiBnz_UrcSGqhrkymVYJGMjrsMItLHb7bzrl6Mc0InHusRwQQ%2DwV3sC0JNDx7Sng832OhKqqAGI59Jb7FjMXdDtmHajeaNPk2HuT7q6i0HKJ2TTWJ0YVNt6LKhT3HpvpVJ5Gjf65ww5X1ggMzZMSSU7RAoONIdDbaWBCO12051bcPwvVIOeGQOL7UKUMOUPRqog5JvGdDd64F_tGqvNNaNb7J0ALqgqxTpSw%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZrYXdhc2FraSUzZm1zY2xraWQlM2RjMDA3NWM4NGEwNTExYTI5NTY1NjNkMjQ5ZGQxNTZlNSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFROVF9UZXh0JTI1MjAtJTI1MjBLYXdhc2FraSUyNTIwLSUyNTIwTW9kZWwlMjUyME5hbWVzJTI2dXRtX3Rlcm0lM2RTaGFmdCUyNnV0bV9jb250ZW50JTNkS2F3YXNha2klMjUyME1vZGVsJTI1MjBOYW1lcw%26rlid%3Dc0075c84a0511a2956563d249dd156e5&amp;vqd=3-184027533853822039089809952385765119202-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5748.1\" rel=\"noopener\"><b>Brands</b>: Honda, Kawasaki, Yamaha, Suzuki, Polaris, Can-Am, Sea-Doo</a><br></div></div></div><div class=\"result__sitelinks result__sitelinks--ads result__sitelinks--large js-sitelinks\"><div class=\"sitelink\" id=\"sl-0\" data-domain=\"partzilla.com\"><a class=\"result__sitelink-title result__a result__sitelink-title--desktop js-sitelinks-title\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=121e98567642e165d7d48fbf185cbbc9f92eb6a3a53f2413b594072e5f7bab93&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De889Ux0Mr4sNPZ9ZBqitowZDVUCUyrXHpBSwQLunI8rYBN0a9GgQX0N7T26fH4DS6FfgRQt5bkOkjWC1Q6FGb6PvRJL1jd9VHf3sBxola1lG8GqA%2DHOSYYlXc%2DiKBzkzU86wIn5cHeias3_QJoAeySnVkR3ru0Iu3L3IrPyii021Ry%2DxVkpD8u5rUFwlQO5JnZj9ahBcDsPXMf1mSDy3ZYhL3PQpd0YyV7NU9p_3sgd6JSAZ88O1iHYNpL1bKL0uoHl0qjfathwxyc_24otCTLaOd_I5buyfQDWwNeFpJ1Yf5rxK86B5YLOTQjB6ua2tM73Kso8gFLD597zotmQSITbfs7r9yzqFOr23SGMfyQrFEBRvzOO0rD1t%2Dh%2D519bMKUb8eEi8Wzu0dGZ1GSE5AH7GVL9bVruWzgCCkiwwN9AlT2zPFGBOM6_yiaFb%2D8_3ho8OIeygCdT%2D6y602g7f_4SZQSrTvyWWwvZI3CGaiCVkxhCp0pf8AoysqRqGozHDb2lJ_LYUOyxVrS9nIYVEoW8BLAchXkQigevfHTjvCWk4U3zH_b2H3VL4ogyL_PerPhRKN8g0WuGZqjm51qcFzQ2uN0nlqx3ktNAlcKGjZLOjtns8uOjv%2DEdoAzbuzXlfQuTNBFwEgO9n8JTXsaffRRuC7Hxuuo82jyLk6afNEPBVUQnZ7290DKdclwinEcu2fmRtHnpMGre5smgk0wi4H8dxPNshLxuhIvWkmOLAR0cPekpY6E7ub1P2Ozvs9UaA1trS4w8kaSvfDgRIzG0sdEpHAYs_o%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZrYXdhc2FraSUzZm1zY2xraWQlM2Q5ODdiMDAwN2NjMjkxNTM0MGNlMzYxYTdmMWE5ODZlMSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFROVF9UZXh0JTI1MjAtJTI1MjBLYXdhc2FraSUyNTIwLSUyNTIwTW9kZWwlMjUyME5hbWVzJTI2dXRtX3Rlcm0lM2RTaGFmdCUyNnV0bV9jb250ZW50JTNkS2F3YXNha2klMjUyME1vZGVsJTI1MjBOYW1lcw%26rlid%3D987b0007cc2915340ce361a7f1a986e1&amp;vqd=3-257346121721291475195609908944791609251-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5753.1\" data-idx=\"0\" rel=\"noopener\">Kawasaki Parts</a><div class=\"result__snippet\">OEM Replacement Parts ATVs, Motorcycles &amp; PWCs.</div></div><div class=\"sitelink\" id=\"sl-1\" data-domain=\"partzilla.com\"><a class=\"result__sitelink-title result__a result__sitelink-title--desktop js-sitelinks-title\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=9c30832b7749d212aeec242faa38f7077b9e4480b73f45ad006d339013dc0257&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8cd5zKpnCRh9JDYfmRCjKwTVUCUzZoX%2DIZSdSW%2DDtV1o4Rm9yBT2Z0BuGHtBzDnoOEplSlFBnomLhSIhY2R4tKfUyJSwsrS%2DKG4gdP4vJAPlhLVBCcM5yt6lOonDQWaGAkhAhmQEcxV4fWiwf6EA_QRJvyX8F7nTIqpZiifnHDjbM5vrcwZ6d0vAIrku%2DoFQQyy1MSOcIs3NSXbETHINqzDZrhsGs5oCAsITjzVr1xCzmXo9MhTzQXrkcx8pgnkhjxG75FrjkvzwENjMwYpk%2Dd5AXu6UTO_B%2Dks%2Df8yhQM6ZUcoUiOGfypc5UE3i2qEn%2DDZTldQKMFhS%2DnqeTz_tz_nWxiW2GwryBMS408%2DTCu8s3ERoygA5cQisbF4o477j%2Dvu8ANBuk0A%2D_3f6vJQeM5dZXKSeZ7YCccKqc9l0OeJM6EyKuqC3KgfdCZ8828xEBLNofvcFl2epF94n8CcH4OfZbDV6A5AK3jH4Y0OMffhl8vjB4068NJKZ4459tHgaJ4yN_xFmdcocDGOFC0h2NDlMI_PIhVEYnxQS3vuCv8C6ZPUEuZfh00LUwYuZfPnk5aesv6ChIUeR%2DTlLYuNJZ6jWdQuvBZbihm3RaEgVsIdNXZCsF5hGBnnA0AqCWeB9J60jWNLYpnjYkf2K0aXDBveag1ctzjKOcnsCPxUHi3QnBB5OoP41ECdKOcJROEqOKfKKh3SRMcmP8GpH1NbTcfbjPh1p6063n3xeBErzHQDS59YdU3tjW%2DMJNQQefaeBkOQWip9m58yN_KUsPTOCy7x5L_Gc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmhlbHAlMmZjb250YWN0JTNmbXNjbGtpZCUzZGQwMmM2Yzg0ZThiNjE4ZWE2NDBjMGQyNGQ1MzY4NDUwJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkVE5UX1RleHQlMjUyMC0lMjUyMEthd2FzYWtpJTI1MjAtJTI1MjBNb2RlbCUyNTIwTmFtZXMlMjZ1dG1fdGVybSUzZFNoYWZ0JTI2dXRtX2NvbnRlbnQlM2RLYXdhc2FraSUyNTIwTW9kZWwlMjUyME5hbWVz%26rlid%3Dd02c6c84e8b618ea640c0d24d5368450&amp;vqd=3-244345998950386129695332286272754357424-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5755.1\" data-idx=\"1\" rel=\"noopener\">Contact Us</a><div class=\"result__snippet\">Have A Question? Contact Us For Help Today!</div></div><div class=\"sitelink\" id=\"sl-2\" data-domain=\"partzilla.com\"><a class=\"result__sitelink-title result__a result__sitelink-title--desktop js-sitelinks-title\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=d356c4ca848ef67ea2ddd6c46ec7b4967677d9abee9af78f8ea76654e1945341&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8SfkLaxa5gCGy2raq_RR4bDVUCUwa1n6skDKZJ7OAYoONRJSdARONJFT1lAbhNWIhaTvuzVLJ3Cq7lqqS9FFTEEbJ%2DOzunknPI7uu7Pknij8Ip%2D5dgJoW1_XykipieemtDiyHvQ9G7vqCjmqVTIBV4nSyBn5LBEqWpZ50oDnyWbx3CagFhO0kIcRGzyfa_2qyZjuSd7ThikkQNmTtwQrMav7HMpjViX_cQDLrlQ0NF7D%2DpbQqLeL6WozsV79bOIBW1VLxwktogUWoJUWSvfSwb9j2uJDBdLH9StiYMNn6wAnznxxQHyFOMk5%2DqChB_x3x_LpUpVG9iqGZw1lVJ99H5fyAdIymFpau8kbmyCFxk_DGdLCZDYFmqTqKIDy7TgzPSVcL3qo34O5ftImQ2uf1XzK09a_OXvLV6GH00BQcpVLdZxNvhttmiFW8htumT%2DSNdH24LLQ%2DbYJCI4mSb1ZMs6Tn1aLAzGiWlWOYhcxqHDkpv5GbJvYPR_ISN3N7DZmVAq6PGSDc1GFTfAxf3bL8sDh_BRRBFNggpnPN5eQeyldaSnCNBgHkgzyV3D89z42Hj7jPvXUwrlE1J5s6zGAHqd6gteuioglTfSbc_hzw4S9C3Gy2TdMi_1qRRWK4iaIw7cUnDapI_tFGJkYqZItGj35wvEz_k0I_f2YsoftTFoyrJv3yDVX0XlEX7nWh5d3NnC4qX1cWsxmZVlPMZu336re4Mq7DYhwcUp9hTDQGdEk3WCvHJETXvqLAJN9hEhPOt1AL9ulQJvRMbeYyG%2Dn6Mop_cUQ%26u%3DaHR0cCUzYSUyZiUyZnd3dy5wYXJ0emlsbGEuY29tJTJmcGFydHMlMmZzZWFyY2glMmZLYXdhc2FraSUyZkFUViUyZnBhcnRzLmh0bWwlM2Ztc2Nsa2lkJTNkYzk0MzBkNGNiYjY2MTY4ZDYzYzE2Y2VjODZlNmFiNWQlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RUTlRfVGV4dCUyNTIwLSUyNTIwS2F3YXNha2klMjUyMC0lMjUyME1vZGVsJTI1MjBOYW1lcyUyNnV0bV90ZXJtJTNkU2hhZnQlMjZ1dG1fY29udGVudCUzZEthd2FzYWtpJTI1MjBNb2RlbCUyNTIwTmFtZXM%26rlid%3Dc9430d4cbb66168d63c16cec86e6ab5d&amp;vqd=3-95468774142743456419096807086746277891-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5757.1\" data-idx=\"2\" rel=\"noopener\">Kawasaki ATV Parts</a><div class=\"result__snippet\">Shop OEM Kawasaki ATV Parts and Diagrams. Instock &amp; shipping today!</div></div><div class=\"sitelink\" id=\"sl-3\" data-domain=\"partzilla.com\"><a class=\"result__sitelink-title result__a result__sitelink-title--desktop js-sitelinks-title\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=7f7017a7a875b7a9fc604ddfd8ed190d8b82fd781b026eefd828f72a8778aa99&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8JuuM4_v6Yo8trx2YELqYqDVUCUxrAr6VQfaizQU8qbEP7M9a9Ie9ZlNE43u7BtFHyw96W_IuTNk1xe1sX8sHPO7zBgYkB_Nj089an8bcxNXy1pDeaKIz2so9j6OWCR1Hg_5o_b6WaMpUMwgWiPRZtTM2bhNobHqs_hO3M3LliKLkZbJv1canlwDwkpBcs6w2_TgMbmCpVhv5sNfE3WbvnFX0mYCuJeXEgX2o4EEaabKI1NlrAPo2A0tvHzAMMS0_G_ESN%2D97KL0p4uqYdb50xBI41pL%2Dc7WvA0s9L6WdosfhPDHU5SFdBibSZkIUg0kyhjnzl2ltBWHxssKxQN37qoIkMmB0Tb_6AW4jjhBfmsgV43hNGQ1q7dwxg2goLbSYtV5WeTgLDkV1DTwQpe1lKARn_WAqobXgiuQUd4KXHSgIXx3OU_H84rXtVYlyg%2DqsXaXhs1HPVRulLBwhvF3yNbbck_8KgVAgyUyyhQQYkCbjFvWY7lkzT1OxSWOOKnRqrwDcG4%2DbDCKHSIFY4TvSUF50VW0J35PzGJb3EYj3Ji93cfQexZCxIqlCUUfV%2DyeDpVnkGW3suqNsApusy7ZWritp5%2D1g%2DbsFVaXWrccyNQJPtSmGfuGlW4JNFpji61Vu1Jl7jEgzwv9OopdkoYB8UtVELHE3aE5VL4ddxxpAtVRx8sphQmtglfXXBAGVu7Fmo8bPw94K0Zoo5mIy8H0uAq_D1Y6imWpVZQfH4Jy1DTbts0Rt1Ct5k5sq6lEh2JXNXdp0HvsAj018JOo8i%2Dja3ahxy6U%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGFydHppbGxhLmNvbSUyZmNhdGFsb2clMmZhZnRlcm1hcmtldCUyZnBhcnRzJTNmbXNjbGtpZCUzZGRmNTcyZTg1NmY2YzEyNzM1NTNmNGYyNTUyZWNiMmVhJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkVE5UX1RleHQlMjUyMC0lMjUyMEthd2FzYWtpJTI1MjAtJTI1MjBNb2RlbCUyNTIwTmFtZXMlMjZ1dG1fdGVybSUzZFNoYWZ0JTI2dXRtX2NvbnRlbnQlM2RLYXdhc2FraSUyNTIwTW9kZWwlMjUyME5hbWVz%26rlid%3Ddf572e856f6c1273553f4f2552ecb2ea&amp;vqd=3-150254116565220550209509268131977192229-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5759.1\" data-idx=\"3\" rel=\"noopener\">Aftermarket Parts</a><div class=\"result__snippet\">Motorcycle &amp; Powersports Parts Select Your Part Category Here!</div></div></div><div id=\"ra-1\" class=\"result results_links highlight_a result--ad--good  result--ad  highlight_sponsored  sponsored result--url-above-snippet\" data-adn=\"3\" data-adf=\"1\" data-domain=\"electrocraft.com\" data-hostname=\"duckduckgo.com\" data-source=\"bingv7aa\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=1bb420a839ea2f8cb00f349d69e0d506dfdc8e870e3d0450d9a87dc91230ce52&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8cqYLv32rYPIPYTN1Ftj5iDVUCUz9kw13DAVRs08sgsQUqjPU648UTB6A_8nAbD6hxjFYwcpr3Ls6EWOmpgefrihGAvXLY6CTQ6mU1jmw1CE3sWoo5LYzDQ75DRGJtBp7qeiwWx3wvBWq20AHixXX__GG5%2DAblf459diQ_C3QyLiSSTIvsMyvBI%2DYmtbkUf92PgVSvRCWUp1RZiyiEuaA53eZrmVaXPEzErr0iu8ZuSMkPYehwfqmjnuqj_ClE705JBNIwzmpQWzuDcUoqmCyk0Dpbns3%2D_6Hdqgq%2DnqnQV9HpTLOKwQTyzBt8ZB%2DgCrjIONz6DyrwLBPXg7g_d0jXP7lHo6hMgg8S3w1PVs09%2Dcv7EXrcUM5XrSjJcx_x8_jhbPebbWtcvfFd9k48prARQG4Xkx4nIqwlOAnkW3E3HfZE9WRlFKpvZ9yxhq4j2dv7y7%2DswxOBGBw0yXbJu9D1ORHsqwrNHxRdKpBWdQ5IE9368MyTuoxUza8V9Lbox5VPTyNCxikyk4Zbefn_mYRNwbQ0t2GtxQV_QjMus6loPAIc%2DZYDt5FLf4XL3qI_3OIgdTF7YAKiZV3NYN5vMXbsmcpXSFfIWuW9XW87uyCRgmRt03ZJUH_MF6q9fyBP%2DucePdoLYaMxYM%2DPe1FevNAOeskIgZb_Wbps66iskEkkrYCcR9Pu10Ue0i4pJGyhU8XjDxb9uPP7srji08BHqxYlrG4W4UqsbzR08eQXfkBUrVz74UIfLRtCZ3Yg9wG_CzRi1LPXg%26u%3Dd3d3LmVsZWN0cm9jcmFmdC5jb20lMmYlM2ZtbV9jYW1wYWlnbiUzZDg2OTcxOWJlZmFlYTJkNDRjNTZiNzUzNTBmYjA0YjkyJTI2a2V5d29yZCUzZCUyNTJCbW90b3IlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RzX2Jyb2FkJTI2bXNjbGtpZCUzZGI3NWJmZjZmY2Y1YTE4ZGIyMjdkOWVjZmYyZGE0YmIz%26rlid%3Db75bff6fcf5a18db227d9ecff2da4bb3&amp;vqd=3-122468749435478510415403611029445247432-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5766.1\">Specialty Motors &amp; Drives</a><a class=\"result__check\" rel=\"noopener\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=1bb420a839ea2f8cb00f349d69e0d506dfdc8e870e3d0450d9a87dc91230ce52&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8cqYLv32rYPIPYTN1Ftj5iDVUCUz9kw13DAVRs08sgsQUqjPU648UTB6A_8nAbD6hxjFYwcpr3Ls6EWOmpgefrihGAvXLY6CTQ6mU1jmw1CE3sWoo5LYzDQ75DRGJtBp7qeiwWx3wvBWq20AHixXX__GG5%2DAblf459diQ_C3QyLiSSTIvsMyvBI%2DYmtbkUf92PgVSvRCWUp1RZiyiEuaA53eZrmVaXPEzErr0iu8ZuSMkPYehwfqmjnuqj_ClE705JBNIwzmpQWzuDcUoqmCyk0Dpbns3%2D_6Hdqgq%2DnqnQV9HpTLOKwQTyzBt8ZB%2DgCrjIONz6DyrwLBPXg7g_d0jXP7lHo6hMgg8S3w1PVs09%2Dcv7EXrcUM5XrSjJcx_x8_jhbPebbWtcvfFd9k48prARQG4Xkx4nIqwlOAnkW3E3HfZE9WRlFKpvZ9yxhq4j2dv7y7%2DswxOBGBw0yXbJu9D1ORHsqwrNHxRdKpBWdQ5IE9368MyTuoxUza8V9Lbox5VPTyNCxikyk4Zbefn_mYRNwbQ0t2GtxQV_QjMus6loPAIc%2DZYDt5FLf4XL3qI_3OIgdTF7YAKiZV3NYN5vMXbsmcpXSFfIWuW9XW87uyCRgmRt03ZJUH_MF6q9fyBP%2DucePdoLYaMxYM%2DPe1FevNAOeskIgZb_Wbps66iskEkkrYCcR9Pu10Ue0i4pJGyhU8XjDxb9uPP7srji08BHqxYlrG4W4UqsbzR08eQXfkBUrVz74UIfLRtCZ3Yg9wG_CzRi1LPXg%26u%3Dd3d3LmVsZWN0cm9jcmFmdC5jb20lMmYlM2ZtbV9jYW1wYWlnbiUzZDg2OTcxOWJlZmFlYTJkNDRjNTZiNzUzNTBmYjA0YjkyJTI2a2V5d29yZCUzZCUyNTJCbW90b3IlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RzX2Jyb2FkJTI2bXNjbGtpZCUzZGI3NWJmZjZmY2Y1YTE4ZGIyMjdkOWVjZmYyZGE0YmIz%26rlid%3Db75bff6fcf5a18db227d9ecff2da4bb3&amp;vqd=3-122468749435478510415403611029445247432-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5766.1\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a><span class=\"badge--ad-wrap badge--ad-wrap--default\">&nbsp;<span class=\"badge--ad js-badge--ad\">Ad</span></span></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=1bb420a839ea2f8cb00f349d69e0d506dfdc8e870e3d0450d9a87dc91230ce52&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8cqYLv32rYPIPYTN1Ftj5iDVUCUz9kw13DAVRs08sgsQUqjPU648UTB6A_8nAbD6hxjFYwcpr3Ls6EWOmpgefrihGAvXLY6CTQ6mU1jmw1CE3sWoo5LYzDQ75DRGJtBp7qeiwWx3wvBWq20AHixXX__GG5%2DAblf459diQ_C3QyLiSSTIvsMyvBI%2DYmtbkUf92PgVSvRCWUp1RZiyiEuaA53eZrmVaXPEzErr0iu8ZuSMkPYehwfqmjnuqj_ClE705JBNIwzmpQWzuDcUoqmCyk0Dpbns3%2D_6Hdqgq%2DnqnQV9HpTLOKwQTyzBt8ZB%2DgCrjIONz6DyrwLBPXg7g_d0jXP7lHo6hMgg8S3w1PVs09%2Dcv7EXrcUM5XrSjJcx_x8_jhbPebbWtcvfFd9k48prARQG4Xkx4nIqwlOAnkW3E3HfZE9WRlFKpvZ9yxhq4j2dv7y7%2DswxOBGBw0yXbJu9D1ORHsqwrNHxRdKpBWdQ5IE9368MyTuoxUza8V9Lbox5VPTyNCxikyk4Zbefn_mYRNwbQ0t2GtxQV_QjMus6loPAIc%2DZYDt5FLf4XL3qI_3OIgdTF7YAKiZV3NYN5vMXbsmcpXSFfIWuW9XW87uyCRgmRt03ZJUH_MF6q9fyBP%2DucePdoLYaMxYM%2DPe1FevNAOeskIgZb_Wbps66iskEkkrYCcR9Pu10Ue0i4pJGyhU8XjDxb9uPP7srji08BHqxYlrG4W4UqsbzR08eQXfkBUrVz74UIfLRtCZ3Yg9wG_CzRi1LPXg%26u%3Dd3d3LmVsZWN0cm9jcmFmdC5jb20lMmYlM2ZtbV9jYW1wYWlnbiUzZDg2OTcxOWJlZmFlYTJkNDRjNTZiNzUzNTBmYjA0YjkyJTI2a2V5d29yZCUzZCUyNTJCbW90b3IlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RzX2Jyb2FkJTI2bXNjbGtpZCUzZGI3NWJmZjZmY2Y1YTE4ZGIyMjdkOWVjZmYyZGE0YmIz%26rlid%3Db75bff6fcf5a18db227d9ecff2da4bb3&amp;vqd=3-122468749435478510415403611029445247432-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5766.1\" rel=\"noopener\" class=\"result__url js-result-extras-url\">electrocraft.com</a></div><div class=\"report-ad\"><span class=\"report-ad__start js-report-ad-start\"><i class=\"ddgsi-comment ddgsi\"></i><a href=\"#\" class=\"report-ad__link\">Report Ad</a></span></div></div><div class=\"result__snippet js-result-snippet\"><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=1bb420a839ea2f8cb00f349d69e0d506dfdc8e870e3d0450d9a87dc91230ce52&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8cqYLv32rYPIPYTN1Ftj5iDVUCUz9kw13DAVRs08sgsQUqjPU648UTB6A_8nAbD6hxjFYwcpr3Ls6EWOmpgefrihGAvXLY6CTQ6mU1jmw1CE3sWoo5LYzDQ75DRGJtBp7qeiwWx3wvBWq20AHixXX__GG5%2DAblf459diQ_C3QyLiSSTIvsMyvBI%2DYmtbkUf92PgVSvRCWUp1RZiyiEuaA53eZrmVaXPEzErr0iu8ZuSMkPYehwfqmjnuqj_ClE705JBNIwzmpQWzuDcUoqmCyk0Dpbns3%2D_6Hdqgq%2DnqnQV9HpTLOKwQTyzBt8ZB%2DgCrjIONz6DyrwLBPXg7g_d0jXP7lHo6hMgg8S3w1PVs09%2Dcv7EXrcUM5XrSjJcx_x8_jhbPebbWtcvfFd9k48prARQG4Xkx4nIqwlOAnkW3E3HfZE9WRlFKpvZ9yxhq4j2dv7y7%2DswxOBGBw0yXbJu9D1ORHsqwrNHxRdKpBWdQ5IE9368MyTuoxUza8V9Lbox5VPTyNCxikyk4Zbefn_mYRNwbQ0t2GtxQV_QjMus6loPAIc%2DZYDt5FLf4XL3qI_3OIgdTF7YAKiZV3NYN5vMXbsmcpXSFfIWuW9XW87uyCRgmRt03ZJUH_MF6q9fyBP%2DucePdoLYaMxYM%2DPe1FevNAOeskIgZb_Wbps66iskEkkrYCcR9Pu10Ue0i4pJGyhU8XjDxb9uPP7srji08BHqxYlrG4W4UqsbzR08eQXfkBUrVz74UIfLRtCZ3Yg9wG_CzRi1LPXg%26u%3Dd3d3LmVsZWN0cm9jcmFmdC5jb20lMmYlM2ZtbV9jYW1wYWlnbiUzZDg2OTcxOWJlZmFlYTJkNDRjNTZiNzUzNTBmYjA0YjkyJTI2a2V5d29yZCUzZCUyNTJCbW90b3IlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RzX2Jyb2FkJTI2bXNjbGtpZCUzZGI3NWJmZjZmY2Y1YTE4ZGIyMjdkOWVjZmYyZGE0YmIz%26rlid%3Db75bff6fcf5a18db227d9ecff2da4bb3&amp;vqd=3-122468749435478510415403611029445247432-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5766.1\" rel=\"noopener\">AC, BLDC, PMDC, Drives &amp; Controls. Custom &amp; standard config. Call now.</a><br></div></div></div></div><div id=\"links\" class=\"results js-results\"><div id=\"r1-0\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"github.com\" data-hostname=\"github.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://github.com/MohabMohie/SHAFT_ENGINE\">GitHub - MohabMohie/SHAFT_ENGINE: SHAFT_ENGINE is a Test ...</a><a class=\"result__check\" rel=\"noopener\" href=\"https://github.com/MohabMohie/SHAFT_ENGINE\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:github.com&amp;t=h_\" title=\"Search domain github.com\" class=\"js-result-extras-site_search\"><img data-src=\"//external-content.duckduckgo.com/ip3/github.com.ico\" height=\"16\" width=\"16\" title=\"Search domain github.com\" class=\"result__icon__img js-lazyload-icons\" src=\"//external-content.duckduckgo.com/ip3/github.com.ico\"></a></span><a href=\"https://github.com/MohabMohie/SHAFT_ENGINE\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://github.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;MohabMohie › SHAFT_ENGINE</span></a></div></div><div class=\"result__snippet js-result-snippet\"><b>SHAFT_ENGINE</b> is a Test Automation Engine that provides a unified high-level interface to any of the underlying test automation frameworks. - GitHub - MohabMohie/<b>SHAFT_ENGINE</b>: <b>SHAFT_ENGINE</b> is a Test Automation Engine that provides a unified high-level interface to any of the underlying test automation frameworks.</div></div></div><div id=\"m1-0\" class=\"module-slot\"><div class=\"module module--images\" style=\"visibility: visible;\"><div class=\"module__header module__header--link js-images-show-more\"><span class=\"module__header__icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.5 7C5.32843 7 6 6.32843 6 5.5C6 4.67157 5.32843 4 4.5 4C3.67157 4 3 4.67157 3 5.5C3 6.32843 3.67157 7 4.5 7Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3.25 1C1.45507 1 0 2.45507 0 4.25V11.75C0 13.5449 1.45507 15 3.25 15H12.75C14.5449 15 16 13.5449 16 11.75V10.2593C16.0001 10.2531 16.0001 10.2469 16 10.2407V4.25C16 2.45507 14.5449 1 12.75 1H3.25ZM14.5 8.43928V4.25C14.5 3.2835 13.7165 2.5 12.75 2.5H3.25C2.2835 2.5 1.5 3.2835 1.5 4.25V11.75C1.5 11.9563 1.5357 12.1543 1.60126 12.3381L5.96967 7.96967C6.26256 7.67678 6.73744 7.67678 7.03033 7.96967L8.00003 8.93937L10.9697 5.96967C11.2626 5.67678 11.7375 5.67678 12.0304 5.96967L14.5 8.43928ZM9.06069 10L10.0303 10.9697C10.3232 11.2626 10.3232 11.7374 10.0303 12.0303C9.73744 12.3232 9.26256 12.3232 8.96967 12.0303L6.5 9.56066L2.66192 13.3987C2.84572 13.4643 3.04369 13.5 3.25 13.5H12.75C13.7165 13.5 14.5 12.7165 14.5 11.75V10.5606L11.5001 7.56066L9.06069 10Z\" fill=\"currentColor\"></path></svg></span><span>Images for <b>SHAFT_Engine</b></span></div><div class=\"module--images__thumbnails js-images-thumbnails\" style=\"height: 280px;\"><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/6/2/62554_zzz_500.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/6/2/62554_zzz_500.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5VEWs4c2rv28Av4O_SGE4QHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"8 HP (301cc) OHV Horizontal Shaft Gas Engine EPA\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1596/w.1000/h.1000/3.5+HP+Vertical+Shaft+Engine+143973800_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1596/w.1000/h.1000/3.5+HP+Vertical+Shaft+Engine+143973800_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EiEKdq1BfbB6QeCF0ykufgHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"3.5 HP Vertical Shaft Engine 143973800 | Tecumseh | Brands | www.surpluscenter.com\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1822/a.1/w.1000/h.1000/140cc+3+HP+Ducar+Vertical+Shaft+Engine+BCDPS.1401GC_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1822/a.1/w.1000/h.1000/140cc+3+HP+Ducar+Vertical+Shaft+Engine+BCDPS.1401GC_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.OraAXYa9rrJPKSn2haYurQHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"140cc 3 HP Ducar Vertical Shaft Engine BCDPS.1401GC | Vertical Shaft Engines | Gas &amp; Diesel ...\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1822/w.1000/h.1000/140cc+3+HP+Ducar+Vertical+Shaft+Engine+BCDPS.1401GC_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1822/w.1000/h.1000/140cc+3+HP+Ducar+Vertical+Shaft+Engine+BCDPS.1401GC_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.GYptja7X7j-umU5LveQBPwHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"140cc 3 HP Ducar Vertical Shaft Engine BCDPS.1401GC | Vertical Shaft Engines | Gas &amp; Diesel ...\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile is-last js-images-link\" style=\"height:132px;width:122px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1713/a.2/w.1000/h.1000/24+HP+GXV670+Honda+Vertical+Shaft+Engine_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1713/a.2/w.1000/h.1000/24+HP+GXV670+Honda+Vertical+Shaft+Engine_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.PZ1z6etaLCVsm-MhkvC7ywHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"24 HP GXV670 Honda Vertical Shaft Engine | Honda | Brands | www.surpluscenter.com\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1713/w.1000/h.1000/24+HP+GXV670+Honda+Vertical+Shaft+Engine_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1713/w.1000/h.1000/24+HP+GXV670+Honda+Vertical+Shaft+Engine_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SrReRHRgw7Nn14hwr8EmiQHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"24 HP GXV670 Honda Vertical Shaft Engine | Honda | Brands | www.surpluscenter.com\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"http://www.surpluscenter.com/productImages/image.axd/i.28-1898/a.3/w.1000/h.1000/6.5+HP+HY200+Powerpro+Engine+w+Threaded+Shaft_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=http://www.surpluscenter.com/productImages/image.axd/i.28-1898/a.3/w.1000/h.1000/6.5+HP+HY200+Powerpro+Engine+w+Threaded+Shaft_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ID7wFlwqMOYQPlw9WDR89wHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"6.5 HP HY200 Powerpro Engine w/Threaded Shaft | Horizontal Shaft Engines | Gas &amp; Diesel Engines ...\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1713/a.1/w.1000/h.1000/24+HP+GXV670+Honda+Vertical+Shaft+Engine_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1713/a.1/w.1000/h.1000/24+HP+GXV670+Honda+Vertical+Shaft+Engine_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.flBCwgo7eQ6A4wlHTV8wSwHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"24 HP GXV670 Honda Vertical Shaft Engine | Honda | Brands | www.surpluscenter.com\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile  js-images-link\" style=\"height:132px;width:123px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1822/a.2/w.1000/h.1000/3+HP+Ducar+Vertical+Shaft+Gas+Engine_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1822/a.2/w.1000/h.1000/3+HP+Ducar+Vertical+Shaft+Gas+Engine_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SzfHysQkjvTPLhgBEam1RgHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"3 HP Ducar Vertical Shaft Gas Engine | Vertical Shaft Engines | Gas &amp; Diesel Engines | Engines ...\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div><div class=\"module--images__thumbnails__tile is-last js-images-link\" style=\"height:132px;width:122px;\" data-id=\"https://www.surpluscenter.com/productImages/image.axd/i.28-1931/w.1000/h.1000/160cc+4.4+HP+Honda+Vertical+Shaft+Engine+GCV160_L.jpg\"><a href=\"/?q=SHAFT_Engine&amp;iax=images&amp;ia=images&amp;iai=https://www.surpluscenter.com/productImages/image.axd/i.28-1931/w.1000/h.1000/160cc+4.4+HP+Honda+Vertical+Shaft+Engine+GCV160_L.jpg&amp;t=h_\" class=\"module--images__thumbnails__link\"><img src=\"//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oG70WK4wKn2p3FabBNdLbgHaHa%26pid%3DApi%26h%3D160&amp;f=1\" alt=\"160cc 4.4 HP Honda Vertical Shaft Engine GCV160 | Honda | Brands | www.surpluscenter.com\" width=\"132\" height=\"132\" class=\"module--images__thumbnails__image\"></a></div></div><a class=\"js-images-show-more module__footer hide--mob\" href=\"#\"><span>More Images</span></a><div class=\"js-images-show-more module__toggle tx--bold show--mob\">More Images</div></div></div><div id=\"r1-1\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"outdoorpowerdirect.com\" data-hostname=\"outdoorpowerdirect.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://outdoorpowerdirect.com/collections/vertical-shaft-engines\">Vertical Shaft Engines- Outdoor Power Direct</a><a class=\"result__check\" rel=\"noopener\" href=\"https://outdoorpowerdirect.com/collections/vertical-shaft-engines\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:outdoorpowerdirect.com&amp;t=h_\" title=\"Search domain outdoorpowerdirect.com\" class=\"js-result-extras-site_search\"><img data-src=\"//external-content.duckduckgo.com/ip3/outdoorpowerdirect.com.ico\" height=\"16\" width=\"16\" title=\"Search domain outdoorpowerdirect.com\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://outdoorpowerdirect.com/collections/vertical-shaft-engines\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://outdoorpowerdirect.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;collections › vertical-shaft-engines</span></a></div></div><div class=\"result__snippet js-result-snippet\">Briggs &amp; Stratton 104M02-0196-F1 7.25 GT Vertical <b>Shaft</b> <b>Engine.</b> MPN: BS104M02-0196-F1. This genuine 163cc Briggs &amp; Stratton engine offers dependable power without sacrificing ease of use and user comfort. Advanced engineering delivers a lighter, quieter and smoother operating experience, and the...</div></div></div><div id=\"r1-2\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"www.surpluscenter.com\" data-hostname=\"www.surpluscenter.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://www.surpluscenter.com/Engines/Gas-Diesel-Engines/Vertical-Shaft-Engines/\">Vertical Shaft Engines | Gas &amp; Diesel Engines | Engines ...</a><a class=\"result__check\" rel=\"noopener\" href=\"https://www.surpluscenter.com/Engines/Gas-Diesel-Engines/Vertical-Shaft-Engines/\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:www.surpluscenter.com&amp;t=h_\" title=\"Search domain surpluscenter.com\" class=\"js-result-extras-site_search\"><img data-src=\"//external-content.duckduckgo.com/ip3/www.surpluscenter.com.ico\" height=\"16\" width=\"16\" title=\"Search domain surpluscenter.com\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://www.surpluscenter.com/Engines/Gas-Diesel-Engines/Vertical-Shaft-Engines/\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://www.surpluscenter.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;Engines › Gas-Diesel-Engines › Vertical-Shaft-Engines</span></a></div></div><div class=\"result__snippet js-result-snippet\">4.4 HP 160cc Honda Vertical <b>Shaft</b> <b>Engine</b> GCV160. Item Number: 28-1931 59 In Stock. Qty: $149.95. Quick View.</div></div></div><div id=\"r1-3\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"www.brandnewengines.com\" data-hostname=\"www.brandnewengines.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://www.brandnewengines.com/briggshorizontalshaft.aspx\">Briggs Horizontal Shaft Engines - Brand New Engines</a><a class=\"result__check\" rel=\"noopener\" href=\"https://www.brandnewengines.com/briggshorizontalshaft.aspx\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:www.brandnewengines.com&amp;t=h_\" title=\"Search domain brandnewengines.com\" class=\"js-result-extras-site_search\"><img data-src=\"//external-content.duckduckgo.com/ip3/www.brandnewengines.com.ico\" height=\"16\" width=\"16\" title=\"Search domain brandnewengines.com\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://www.brandnewengines.com/briggshorizontalshaft.aspx\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://www.brandnewengines.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;briggshorizontalshaft.aspx</span></a></div></div><div class=\"result__snippet js-result-snippet\">Briggs Horizontal <b>Shaft</b> <b>Engines</b> Information On Briggs Engine Labeling. Engines Home. Briggs Vertical. Briggs Horizontal. Briggs Snow. Briggs Engine Parts . Displaying products 1 - 60 of 60 results: Show: Sort: Briggs and Stratton 127cc XR Series Engine 3.5hp OHV 5/8\" Threaded Shaft #83132-0243 ...</div></div></div><div id=\"r1-4\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"www.northerntool.com\" data-hostname=\"www.northerntool.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://www.northerntool.com/shop/tools/NTESearch?Ntt=side+shaft+engine\">side shaft engine from Northern Tool</a><a class=\"result__check\" rel=\"noopener\" href=\"https://www.northerntool.com/shop/tools/NTESearch?Ntt=side+shaft+engine\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:www.northerntool.com&amp;t=h_\" title=\"Search domain northerntool.com\" class=\"js-result-extras-site_search\"><img data-src=\"//external-content.duckduckgo.com/ip3/www.northerntool.com.ico\" height=\"16\" width=\"16\" title=\"Search domain northerntool.com\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://www.northerntool.com/shop/tools/NTESearch?Ntt=side+shaft+engine\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://www.northerntool.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;shop › tools › NTESearch?Ntt=side+shaft+engine</span></a></div></div><div class=\"result__snippet js-result-snippet\">Shop 65 side <b>shaft</b> <b>engine</b> at Northern Tool + Equipment. Wacker Neuson 1in. Dia. x 15in.L Hybrid Concrete Vibrator Head Shape, Model# H25HA — For Drive Engine Models M1500/120 and M2500/120 and Flex Shaft Models SM1E, SM2E, SM3E, SM4E, SM5E, SM7E</div></div></div><div id=\"r1-5\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"www.brandnewengines.com\" data-hostname=\"www.brandnewengines.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://www.brandnewengines.com/briggsverticalshaft.aspx\">Briggs Vertical Shaft Engines - Brand New Engines</a><a class=\"result__check\" rel=\"noopener\" href=\"https://www.brandnewengines.com/briggsverticalshaft.aspx\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:www.brandnewengines.com&amp;t=h_\" title=\"Search domain brandnewengines.com\" class=\"js-result-extras-site_search\"><img data-src=\"//external-content.duckduckgo.com/ip3/www.brandnewengines.com.ico\" height=\"16\" width=\"16\" title=\"Search domain brandnewengines.com\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://www.brandnewengines.com/briggsverticalshaft.aspx\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://www.brandnewengines.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;briggsverticalshaft.aspx</span></a></div></div><div class=\"result__snippet js-result-snippet\">Briggs Vertical <b>Shaft</b> <b>Engines</b> Information On Briggs Engine Labeling. Engines Home. Briggs Vertical. Briggs Horizontal. Briggs Snow. Briggs Engine Parts . Displaying products 1 - 76 of 76 results: Show: Sort: Briggs &amp; Stratton Vertical Engine 6.25 TP 150cc 7/8\" x 3-5/32\" #93J02-0116 ...</div></div></div><div id=\"r1-6\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"www.amazon.com\" data-hostname=\"www.amazon.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://www.amazon.com/301cc-Horizontal-Shaft-Engine-Special/dp/B00TYEN3E8\">Amazon.com: 8 HP (301cc) OHV Horizontal Shaft Gas Engine ...</a><a class=\"result__check\" rel=\"noopener\" href=\"https://www.amazon.com/301cc-Horizontal-Shaft-Engine-Special/dp/B00TYEN3E8\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:www.amazon.com&amp;t=h_\" title=\"Search domain amazon.com\" class=\"js-result-extras-site_search\"><img data-src=\"/assets/icons/favicons/amazon.png\" height=\"16\" width=\"16\" title=\"Search domain amazon.com\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://www.amazon.com/301cc-Horizontal-Shaft-Engine-Special/dp/B00TYEN3E8\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://www.amazon.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;301cc-Horizontal-Shaft-Engine-Special › dp › B00TYEN3E8</span></a></div></div><div class=\"result__snippet js-result-snippet\">The horizontal shaft is ball-bearing mounted, making this gas engine an ideal replacement for most standard engine configurations. The powerful gas engine features a durable cast iron cylinder making it the perfect replacement engine for a lawn mower, log-splitter and dozens of other machines.</div></div></div><div id=\"r1-7\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"www.harborfreight.com\" data-hostname=\"www.harborfreight.com\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://www.harborfreight.com/engines-generators/gasoline-engines.html\">Engines - Harbor Freight Tools</a><a class=\"result__check\" rel=\"noopener\" href=\"https://www.harborfreight.com/engines-generators/gasoline-engines.html\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:www.harborfreight.com&amp;t=h_\" title=\"Search domain harborfreight.com\" class=\"js-result-extras-site_search\"><img data-src=\"//external-content.duckduckgo.com/ip3/www.harborfreight.com.ico\" height=\"16\" width=\"16\" title=\"Search domain harborfreight.com\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://www.harborfreight.com/engines-generators/gasoline-engines.html\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://www.harborfreight.com</span><span class=\"result__url__full\">&nbsp;›&nbsp;engines-generators › gasoline-engines.html</span></a></div></div><div class=\"result__snippet js-result-snippet\">13 HP (420cc) OHV Horizontal Shaft Gas Engine, EPA/CARB. 13 HP (420cc) OHV Horizontal Shaft Gas Engine, EPA/CARB. $39999. Add to Cart. Add to My List. PREDATOR. 22 HP (670cc) V-Twin Horizontal Shaft Gas Engine, EPA. 22 HP (670cc) V-Twin Horizontal Shaft Gas Engine, EPA. $89999.</div></div></div><div id=\"r1-8\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"en.wikipedia.org\" data-hostname=\"en.wikipedia.org\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://en.wikipedia.org/wiki/Crankshaft\">Crankshaft - Wikipedia</a><a class=\"result__check\" rel=\"noopener\" href=\"https://en.wikipedia.org/wiki/Crankshaft\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:en.wikipedia.org&amp;t=h_\" title=\"Search domain en.wikipedia.org\" class=\"js-result-extras-site_search\"><img data-src=\"/assets/icons/favicons/wikipedia.png\" height=\"16\" width=\"16\" title=\"Search domain en.wikipedia.org\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://en.wikipedia.org/wiki/Crankshaft\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://en.wikipedia.org</span><span class=\"result__url__full\">&nbsp;›&nbsp;wiki › Crankshaft</span></a></div></div><div class=\"result__snippet js-result-snippet\">A crankshaft is a shaft driven by a crank mechanism, consisting of a series of cranks and crankpins to which the connecting rods of an engine is attached. It is a mechanical part able to perform a conversion between reciprocating motion and rotational motion.In a reciprocating engine, it translates reciprocating motion of the piston into rotational motion, whereas in a reciprocating compressor ...</div></div></div><div id=\"r1-9\" class=\"result results_links_deep highlight_d result--url-above-snippet\" data-domain=\"en.wikipedia.org\" data-hostname=\"en.wikipedia.org\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://en.wikipedia.org/wiki/Turboshaft\">Turboshaft - Wikipedia</a><a class=\"result__check\" rel=\"noopener\" href=\"https://en.wikipedia.org/wiki/Turboshaft\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><span class=\"result__icon \"><a href=\"/?q=SHAFT_Engine+site:en.wikipedia.org&amp;t=h_\" title=\"Search domain en.wikipedia.org\" class=\"js-result-extras-site_search\"><img data-src=\"/assets/icons/favicons/wikipedia.png\" height=\"16\" width=\"16\" title=\"Search domain en.wikipedia.org\" class=\"result__icon__img js-lazyload-icons\"></a></span><a href=\"https://en.wikipedia.org/wiki/Turboshaft\" rel=\"noopener\" class=\"result__url js-result-extras-url\"><span class=\"result__url__domain\">https://en.wikipedia.org</span><span class=\"result__url__full\">&nbsp;›&nbsp;wiki › Turboshaft</span></a></div></div><div class=\"result__snippet js-result-snippet\">A turboshaft engine is a form of gas turbine that is optimized to produce shaftpower rather than jet thrust.In concept, turboshaft engines are very similar to turbojets, with additional turbine expansion to extract heat energy from the exhaust and convert it into output shaft power.They are even more similar to turboprops, with only minor differences, and a single engine is often sold in both ...</div></div></div><div class=\"result result--more\" id=\"rld-1\"><a href=\"javascript:;\" class=\"result--more__btn btn btn--full\">More results</a></div><div id=\"rrd-1\" class=\"js-result-hidden-el\" style=\"display: none;\"></div></div></div><div class=\"results--sidebar js-results-sidebar\"><div class=\"sidebar-modules js-sidebar-modules\"></div><div class=\"js-sidebar-ads\"><div id=\"m2-0\" class=\"module-slot\"><div class=\"related-searches t-m\"><p class=\"related-searches__title-long\">Searches related to \"SHAFT_Engine\"</p><p class=\"related-searches__title-short\">Related Searches</p><div class=\"related-searches__lists\"><ol class=\"related-searches__list related-searches__list--first\"><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=5%20hp%20vertical%20shaft%20engine&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>5</b> <b>hp</b> <b>vertical</b> shaft engine​</span></span></a></li><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=10%20hp%20vertical%20shaft%20engine&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>10</b> <b>hp</b> <b>vertical</b> shaft engine​</span></span></a></li><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=20%20hp%20horizontal%20shaft%20engine&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>20</b> <b>hp</b> <b>horizontal</b> shaft engine​</span></span></a></li><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=20%20hp%20vertical%20shaft%20engine&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>20</b> <b>hp</b> <b>vertical</b> shaft engine​</span></span></a></li></ol><ol class=\"related-searches__list\"><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=13%20hp%20vertical%20shaft%20engine&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>13</b> <b>hp</b> <b>vertical</b> shaft engine​</span></span></a></li><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=16%20hp%20vertical%20shaft%20engine&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>16</b> <b>hp</b> <b>vertical</b> shaft engine​</span></span></a></li><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=cheap%20vertical%20shaft%20engines&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>cheap</b> <b>vertical</b> shaft engines​</span></span></a></li><li class=\"related-searches__item\"><a class=\"result__a related-searches__link js-related-searches-link\" href=\"?q=predator%20vertical%20shaft%20engine&amp;t=h_\"><span class=\"related-searches__item-text\"><span><b>predator</b> <b>vertical</b> shaft engine​</span></span></a></li></ol></div></div></div><div id=\"ra-2\" class=\"result results_links highlight_a result--ad--good  result--ad  highlight_sponsored  sponsored result--ad--small result--url-above-snippet\" data-adn=\"3\" data-adf=\"1\" data-domain=\"grainger.com\" data-hostname=\"duckduckgo.com\" data-source=\"bingv7aa\" data-nir=\"1\"><div class=\"result__body links_main links_deep\"><h2 class=\"result__title js-result-title\"><a data-testid=\"result-title-a\" class=\"result__a js-result-title-link\" rel=\"noopener\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=2c731b6b52ee557ed06c49f120210ba1c803c748d93303025cf558438143cf20&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8tqermv91yPnJ5FPxfxnxLTVUCUyeq7GIeroBBLnSS83sCcp%2Df_2cJa2iKdeql5R9jWIGFzZ4AGPL%2Dh6uyLGSPT5crNR8%2DL%2DOXM1rqJp8WVE9eczXz1I4RNlgrQgz7Dv0NdLFBlZ2k7F7goKSakFWaktPdc97KJ1DQTB31URE3NaRGIcT1%2Df7pOp79id4rs_D5EmG5m56XFzGbXqrxS94WMZ8aMMniLcMOv9OHNsGR_h94WEgOX5LC3HBfK_hEfVkL1LfQA3r%2Dng6Q8pduvdeZ6JgR4ot5mkltO56jzNk0Yxzpz_XI_ITWa_vfwrsksmDRyJpgSO2VvechCkvDvoGxfwEWrNXIzS9Dm91HMwQd0gV2YNHQR8hNU8VoznXHOkKd7cBNirjFzf50tuevw2HgCBfduRfChVEcN_6XmTS%2DXe6XfhYwLIuFsc%2DKOyh5y53%2D09ihYGwJRpcK6BuAclhk1E8g9lNjs33n45zKyEy98EcYdxSLsmScFbzDktowQS%2DcOAtbtsvcH0kGA4AUTUYvbZrL2rN8_dJapdrkM%2D6m9Y77XT034uOdlvH4C1E6jLAQPaH2hWEfH_GpqeutJ8GN%2DBjSdDc5KBTVzNQg_JSKsvS_6BcKkRNJjumxPXRk3vmvEzCM%2D9PuqsNxxQ1lpy_KxTYV38BTyLDF7dTUnGcbTJT6n3o_knpRH1OrHl6KkZcy4fAKrF8WooV4IOUo0g%2DDmQ9zBZUEjM6gi95i1JA7X5RrlI2XB4Z_o%2DGwsblK61UXKUFsQ%26u%3DaHR0cHMlM2ElMmYlMmZjbGlja3NlcnZlLmRhcnRzZWFyY2gubmV0JTJmbGluayUyZmNsaWNrJTNmbGlkJTNkNDM3MDAwNjEwNDMxMDg1NTglMjZkc19zX2t3Z2lkJTNkNTg3MDAwMDY3MzY1NTE0MzclMjZkc19hX2NpZCUzZDY2NjY1OTQwNiUyNmRzX2FfY2FpZCUzZDEyNDc0MTQ2NzYwJTI2ZHNfYV9hZ2lkJTNkMTIyMjk3MDIwMDQ3JTI2ZHNfYV9saWQlM2Rrd2QtMzEwOTQxODM1MzI2JTI2JTI2ZHNfZV9hZGlkJTNkNzk2NDYwMjE4MzIzMzklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC03OTY0NjMwMDI2MDQ5MCUzYWxvYy00MTMyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkcyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZwaXhlbC5ldmVyZXN0dGVjaC5uZXQlMmYyOTY2JTJmY3ElM2Zldl9zaWQlM2QxMCUyNmV2X2xuJTNkU2hhZnQlMjUyME1vdG9yJTI2ZXZfbHR4JTNkJTI2ZXZfbHglM2Rrd2QtNzk2NDYzMDAyNjA0OTAlM2Fsb2MtNDEzMiUyNmV2X2NyeCUzZDc5NjQ2MDIxODMyMzM5JTI2ZXZfbXQlM2RlJTI2ZXZfZHZjJTNkYyUyNmV2X3BoeSUzZDExMTE2NiUyNmV2X2xvYyUzZCUyNmV2X2N4JTNkMzkxMTUyOTg1JTI2ZXZfYXglM2QxMjc0MzM0NjY1NDkxMzU3JTI2ZXZfZXglM2QlMjZldl9lZmlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlM2FHJTNhcyUyNnVybCUzZCFodHRwJTNhJTJmJTJmd3d3LmdyYWluZ2VyLmNvbSUyZnNlYXJjaCUzZnNlYXJjaFF1ZXJ5JTNkU2hhZnQlMmJNb3RvciUyNmd1Y2lkJTNkTiUzYU4lM2FQUyUzYVBhaWQlM2FNUyUzYUNTTS0yMjk2JTNhWksxTkZDJTNhMjA1MDA3MzElMjZlZl9pZCUzZDg1YzRlMTgwNWNjZDFkMzExMjdiODAyMDYxNGQ5NzhlJTNhRyUzYXMlMjZzX2t3Y2lkJTNkQUwhMjk2NiExMCE3OTY0NjAyMTgzMjMzOSE3OTY0NjMwMDI2MDQ5MCUyNmdjbGlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlMjZnY2xzcmMlM2QzcC5kcyUyNiUyNm1zY2xraWQlM2Q4NWM0ZTE4MDVjY2QxZDMxMTI3YjgwMjA2MTRkOTc4ZQ%26rlid%3D85c4e1805ccd1d31127b8020614d978e&amp;vqd=3-282870950130091981998147958864879246871-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5772.1\">Shaft Motor at Grainger® - On-Demand Technical Support</a><a class=\"result__check\" rel=\"noopener\" href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=2c731b6b52ee557ed06c49f120210ba1c803c748d93303025cf558438143cf20&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8tqermv91yPnJ5FPxfxnxLTVUCUyeq7GIeroBBLnSS83sCcp%2Df_2cJa2iKdeql5R9jWIGFzZ4AGPL%2Dh6uyLGSPT5crNR8%2DL%2DOXM1rqJp8WVE9eczXz1I4RNlgrQgz7Dv0NdLFBlZ2k7F7goKSakFWaktPdc97KJ1DQTB31URE3NaRGIcT1%2Df7pOp79id4rs_D5EmG5m56XFzGbXqrxS94WMZ8aMMniLcMOv9OHNsGR_h94WEgOX5LC3HBfK_hEfVkL1LfQA3r%2Dng6Q8pduvdeZ6JgR4ot5mkltO56jzNk0Yxzpz_XI_ITWa_vfwrsksmDRyJpgSO2VvechCkvDvoGxfwEWrNXIzS9Dm91HMwQd0gV2YNHQR8hNU8VoznXHOkKd7cBNirjFzf50tuevw2HgCBfduRfChVEcN_6XmTS%2DXe6XfhYwLIuFsc%2DKOyh5y53%2D09ihYGwJRpcK6BuAclhk1E8g9lNjs33n45zKyEy98EcYdxSLsmScFbzDktowQS%2DcOAtbtsvcH0kGA4AUTUYvbZrL2rN8_dJapdrkM%2D6m9Y77XT034uOdlvH4C1E6jLAQPaH2hWEfH_GpqeutJ8GN%2DBjSdDc5KBTVzNQg_JSKsvS_6BcKkRNJjumxPXRk3vmvEzCM%2D9PuqsNxxQ1lpy_KxTYV38BTyLDF7dTUnGcbTJT6n3o_knpRH1OrHl6KkZcy4fAKrF8WooV4IOUo0g%2DDmQ9zBZUEjM6gi95i1JA7X5RrlI2XB4Z_o%2DGwsblK61UXKUFsQ%26u%3DaHR0cHMlM2ElMmYlMmZjbGlja3NlcnZlLmRhcnRzZWFyY2gubmV0JTJmbGluayUyZmNsaWNrJTNmbGlkJTNkNDM3MDAwNjEwNDMxMDg1NTglMjZkc19zX2t3Z2lkJTNkNTg3MDAwMDY3MzY1NTE0MzclMjZkc19hX2NpZCUzZDY2NjY1OTQwNiUyNmRzX2FfY2FpZCUzZDEyNDc0MTQ2NzYwJTI2ZHNfYV9hZ2lkJTNkMTIyMjk3MDIwMDQ3JTI2ZHNfYV9saWQlM2Rrd2QtMzEwOTQxODM1MzI2JTI2JTI2ZHNfZV9hZGlkJTNkNzk2NDYwMjE4MzIzMzklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC03OTY0NjMwMDI2MDQ5MCUzYWxvYy00MTMyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkcyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZwaXhlbC5ldmVyZXN0dGVjaC5uZXQlMmYyOTY2JTJmY3ElM2Zldl9zaWQlM2QxMCUyNmV2X2xuJTNkU2hhZnQlMjUyME1vdG9yJTI2ZXZfbHR4JTNkJTI2ZXZfbHglM2Rrd2QtNzk2NDYzMDAyNjA0OTAlM2Fsb2MtNDEzMiUyNmV2X2NyeCUzZDc5NjQ2MDIxODMyMzM5JTI2ZXZfbXQlM2RlJTI2ZXZfZHZjJTNkYyUyNmV2X3BoeSUzZDExMTE2NiUyNmV2X2xvYyUzZCUyNmV2X2N4JTNkMzkxMTUyOTg1JTI2ZXZfYXglM2QxMjc0MzM0NjY1NDkxMzU3JTI2ZXZfZXglM2QlMjZldl9lZmlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlM2FHJTNhcyUyNnVybCUzZCFodHRwJTNhJTJmJTJmd3d3LmdyYWluZ2VyLmNvbSUyZnNlYXJjaCUzZnNlYXJjaFF1ZXJ5JTNkU2hhZnQlMmJNb3RvciUyNmd1Y2lkJTNkTiUzYU4lM2FQUyUzYVBhaWQlM2FNUyUzYUNTTS0yMjk2JTNhWksxTkZDJTNhMjA1MDA3MzElMjZlZl9pZCUzZDg1YzRlMTgwNWNjZDFkMzExMjdiODAyMDYxNGQ5NzhlJTNhRyUzYXMlMjZzX2t3Y2lkJTNkQUwhMjk2NiExMCE3OTY0NjAyMTgzMjMzOSE3OTY0NjMwMDI2MDQ5MCUyNmdjbGlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlMjZnY2xzcmMlM2QzcC5kcyUyNiUyNm1zY2xraWQlM2Q4NWM0ZTE4MDVjY2QxZDMxMTI3YjgwMjA2MTRkOTc4ZQ%26rlid%3D85c4e1805ccd1d31127b8020614d978e&amp;vqd=3-282870950130091981998147958864879246871-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5772.1\"><span class=\"result__check__tt\">Your browser indicates if you've visited this link</span></a><span class=\"badge--ad-wrap badge--ad-wrap--default\">&nbsp;<span class=\"badge--ad js-badge--ad\">Ad</span></span></h2><div class=\"result__extras js-result-extras\"><div class=\"result__extras__url\"><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=2c731b6b52ee557ed06c49f120210ba1c803c748d93303025cf558438143cf20&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8tqermv91yPnJ5FPxfxnxLTVUCUyeq7GIeroBBLnSS83sCcp%2Df_2cJa2iKdeql5R9jWIGFzZ4AGPL%2Dh6uyLGSPT5crNR8%2DL%2DOXM1rqJp8WVE9eczXz1I4RNlgrQgz7Dv0NdLFBlZ2k7F7goKSakFWaktPdc97KJ1DQTB31URE3NaRGIcT1%2Df7pOp79id4rs_D5EmG5m56XFzGbXqrxS94WMZ8aMMniLcMOv9OHNsGR_h94WEgOX5LC3HBfK_hEfVkL1LfQA3r%2Dng6Q8pduvdeZ6JgR4ot5mkltO56jzNk0Yxzpz_XI_ITWa_vfwrsksmDRyJpgSO2VvechCkvDvoGxfwEWrNXIzS9Dm91HMwQd0gV2YNHQR8hNU8VoznXHOkKd7cBNirjFzf50tuevw2HgCBfduRfChVEcN_6XmTS%2DXe6XfhYwLIuFsc%2DKOyh5y53%2D09ihYGwJRpcK6BuAclhk1E8g9lNjs33n45zKyEy98EcYdxSLsmScFbzDktowQS%2DcOAtbtsvcH0kGA4AUTUYvbZrL2rN8_dJapdrkM%2D6m9Y77XT034uOdlvH4C1E6jLAQPaH2hWEfH_GpqeutJ8GN%2DBjSdDc5KBTVzNQg_JSKsvS_6BcKkRNJjumxPXRk3vmvEzCM%2D9PuqsNxxQ1lpy_KxTYV38BTyLDF7dTUnGcbTJT6n3o_knpRH1OrHl6KkZcy4fAKrF8WooV4IOUo0g%2DDmQ9zBZUEjM6gi95i1JA7X5RrlI2XB4Z_o%2DGwsblK61UXKUFsQ%26u%3DaHR0cHMlM2ElMmYlMmZjbGlja3NlcnZlLmRhcnRzZWFyY2gubmV0JTJmbGluayUyZmNsaWNrJTNmbGlkJTNkNDM3MDAwNjEwNDMxMDg1NTglMjZkc19zX2t3Z2lkJTNkNTg3MDAwMDY3MzY1NTE0MzclMjZkc19hX2NpZCUzZDY2NjY1OTQwNiUyNmRzX2FfY2FpZCUzZDEyNDc0MTQ2NzYwJTI2ZHNfYV9hZ2lkJTNkMTIyMjk3MDIwMDQ3JTI2ZHNfYV9saWQlM2Rrd2QtMzEwOTQxODM1MzI2JTI2JTI2ZHNfZV9hZGlkJTNkNzk2NDYwMjE4MzIzMzklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC03OTY0NjMwMDI2MDQ5MCUzYWxvYy00MTMyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkcyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZwaXhlbC5ldmVyZXN0dGVjaC5uZXQlMmYyOTY2JTJmY3ElM2Zldl9zaWQlM2QxMCUyNmV2X2xuJTNkU2hhZnQlMjUyME1vdG9yJTI2ZXZfbHR4JTNkJTI2ZXZfbHglM2Rrd2QtNzk2NDYzMDAyNjA0OTAlM2Fsb2MtNDEzMiUyNmV2X2NyeCUzZDc5NjQ2MDIxODMyMzM5JTI2ZXZfbXQlM2RlJTI2ZXZfZHZjJTNkYyUyNmV2X3BoeSUzZDExMTE2NiUyNmV2X2xvYyUzZCUyNmV2X2N4JTNkMzkxMTUyOTg1JTI2ZXZfYXglM2QxMjc0MzM0NjY1NDkxMzU3JTI2ZXZfZXglM2QlMjZldl9lZmlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlM2FHJTNhcyUyNnVybCUzZCFodHRwJTNhJTJmJTJmd3d3LmdyYWluZ2VyLmNvbSUyZnNlYXJjaCUzZnNlYXJjaFF1ZXJ5JTNkU2hhZnQlMmJNb3RvciUyNmd1Y2lkJTNkTiUzYU4lM2FQUyUzYVBhaWQlM2FNUyUzYUNTTS0yMjk2JTNhWksxTkZDJTNhMjA1MDA3MzElMjZlZl9pZCUzZDg1YzRlMTgwNWNjZDFkMzExMjdiODAyMDYxNGQ5NzhlJTNhRyUzYXMlMjZzX2t3Y2lkJTNkQUwhMjk2NiExMCE3OTY0NjAyMTgzMjMzOSE3OTY0NjMwMDI2MDQ5MCUyNmdjbGlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlMjZnY2xzcmMlM2QzcC5kcyUyNiUyNm1zY2xraWQlM2Q4NWM0ZTE4MDVjY2QxZDMxMTI3YjgwMjA2MTRkOTc4ZQ%26rlid%3D85c4e1805ccd1d31127b8020614d978e&amp;vqd=3-282870950130091981998147958864879246871-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5772.1\" rel=\"noopener\" class=\"result__url js-result-extras-url\">grainger.com</a></div><div class=\"report-ad\"><span class=\"report-ad__start js-report-ad-start\"><i class=\"ddgsi-comment ddgsi\"></i><a href=\"#\" class=\"report-ad__link\">Report Ad</a></span></div></div><div class=\"result__snippet js-result-snippet\"><a href=\"https://duckduckgo.com/y.js?ad_provider=bingv7aa&amp;eddgt=8RtqX0K1NJOT7sEkUIboWg%3D%3D&amp;rut=2c731b6b52ee557ed06c49f120210ba1c803c748d93303025cf558438143cf20&amp;u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8tqermv91yPnJ5FPxfxnxLTVUCUyeq7GIeroBBLnSS83sCcp%2Df_2cJa2iKdeql5R9jWIGFzZ4AGPL%2Dh6uyLGSPT5crNR8%2DL%2DOXM1rqJp8WVE9eczXz1I4RNlgrQgz7Dv0NdLFBlZ2k7F7goKSakFWaktPdc97KJ1DQTB31URE3NaRGIcT1%2Df7pOp79id4rs_D5EmG5m56XFzGbXqrxS94WMZ8aMMniLcMOv9OHNsGR_h94WEgOX5LC3HBfK_hEfVkL1LfQA3r%2Dng6Q8pduvdeZ6JgR4ot5mkltO56jzNk0Yxzpz_XI_ITWa_vfwrsksmDRyJpgSO2VvechCkvDvoGxfwEWrNXIzS9Dm91HMwQd0gV2YNHQR8hNU8VoznXHOkKd7cBNirjFzf50tuevw2HgCBfduRfChVEcN_6XmTS%2DXe6XfhYwLIuFsc%2DKOyh5y53%2D09ihYGwJRpcK6BuAclhk1E8g9lNjs33n45zKyEy98EcYdxSLsmScFbzDktowQS%2DcOAtbtsvcH0kGA4AUTUYvbZrL2rN8_dJapdrkM%2D6m9Y77XT034uOdlvH4C1E6jLAQPaH2hWEfH_GpqeutJ8GN%2DBjSdDc5KBTVzNQg_JSKsvS_6BcKkRNJjumxPXRk3vmvEzCM%2D9PuqsNxxQ1lpy_KxTYV38BTyLDF7dTUnGcbTJT6n3o_knpRH1OrHl6KkZcy4fAKrF8WooV4IOUo0g%2DDmQ9zBZUEjM6gi95i1JA7X5RrlI2XB4Z_o%2DGwsblK61UXKUFsQ%26u%3DaHR0cHMlM2ElMmYlMmZjbGlja3NlcnZlLmRhcnRzZWFyY2gubmV0JTJmbGluayUyZmNsaWNrJTNmbGlkJTNkNDM3MDAwNjEwNDMxMDg1NTglMjZkc19zX2t3Z2lkJTNkNTg3MDAwMDY3MzY1NTE0MzclMjZkc19hX2NpZCUzZDY2NjY1OTQwNiUyNmRzX2FfY2FpZCUzZDEyNDc0MTQ2NzYwJTI2ZHNfYV9hZ2lkJTNkMTIyMjk3MDIwMDQ3JTI2ZHNfYV9saWQlM2Rrd2QtMzEwOTQxODM1MzI2JTI2JTI2ZHNfZV9hZGlkJTNkNzk2NDYwMjE4MzIzMzklMjZkc19lX3RhcmdldF9pZCUzZGt3ZC03OTY0NjMwMDI2MDQ5MCUzYWxvYy00MTMyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkcyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZwaXhlbC5ldmVyZXN0dGVjaC5uZXQlMmYyOTY2JTJmY3ElM2Zldl9zaWQlM2QxMCUyNmV2X2xuJTNkU2hhZnQlMjUyME1vdG9yJTI2ZXZfbHR4JTNkJTI2ZXZfbHglM2Rrd2QtNzk2NDYzMDAyNjA0OTAlM2Fsb2MtNDEzMiUyNmV2X2NyeCUzZDc5NjQ2MDIxODMyMzM5JTI2ZXZfbXQlM2RlJTI2ZXZfZHZjJTNkYyUyNmV2X3BoeSUzZDExMTE2NiUyNmV2X2xvYyUzZCUyNmV2X2N4JTNkMzkxMTUyOTg1JTI2ZXZfYXglM2QxMjc0MzM0NjY1NDkxMzU3JTI2ZXZfZXglM2QlMjZldl9lZmlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlM2FHJTNhcyUyNnVybCUzZCFodHRwJTNhJTJmJTJmd3d3LmdyYWluZ2VyLmNvbSUyZnNlYXJjaCUzZnNlYXJjaFF1ZXJ5JTNkU2hhZnQlMmJNb3RvciUyNmd1Y2lkJTNkTiUzYU4lM2FQUyUzYVBhaWQlM2FNUyUzYUNTTS0yMjk2JTNhWksxTkZDJTNhMjA1MDA3MzElMjZlZl9pZCUzZDg1YzRlMTgwNWNjZDFkMzExMjdiODAyMDYxNGQ5NzhlJTNhRyUzYXMlMjZzX2t3Y2lkJTNkQUwhMjk2NiExMCE3OTY0NjAyMTgzMjMzOSE3OTY0NjMwMDI2MDQ5MCUyNmdjbGlkJTNkODVjNGUxODA1Y2NkMWQzMTEyN2I4MDIwNjE0ZDk3OGUlMjZnY2xzcmMlM2QzcC5kcyUyNiUyNm1zY2xraWQlM2Q4NWM0ZTE4MDVjY2QxZDMxMTI3YjgwMjA2MTRkOTc4ZQ%26rlid%3D85c4e1805ccd1d31127b8020614d978e&amp;vqd=3-282870950130091981998147958864879246871-47022682185350441451176662655131592276&amp;iurl=%7B1%7DIG%3DE705DC8D951C4C98B607D18D4345348C%26CID%3D38F0823EBD916B9F0B8992C5BCB66ABF%26ID%3DDevEx%2C5772.1\" rel=\"noopener\">Setup Auto-Reorder &amp; Always Have the Motors You Need On-Hand.</a><br></div></div></div></div></div></div></div></div><div id=\"bottom_spacing2\"> </div><div class=\"nav-menu--slideout\"><ul class=\"nav-menu__list\"><i class=\"nav-menu__close  js-side-menu-close\">X</i><ul class=\"nav-menu--theme\"><li class=\"nav-menu__heading\"><span>Settings</span></li><li class=\"nav-menu__item clear\"><a href=\"/settings#theme\" data-settings=\"1\">Themes</a></li><li class=\"nav-menu__item\"><a href=\"/settings\" tabindex=\"-1\" data-settings=\"1\">All Settings</a></li><li class=\"nav-menu__item\"><a href=\"/bangs\">!Bang Search Shortcuts</a></li></ul><ul><li class=\"nav-menu__heading\"><span>Privacy Essentials</span></li><li class=\"nav-menu__item\"><a href=\"https://duckduckgo.com/\">Private Search</a></li><li class=\"nav-menu__item\"><a href=\"/app\">App and Extension</a></li></ul><ul><li class=\"nav-menu__heading\"><span>Why Privacy</span></li><li class=\"nav-menu__item\"><a href=\"https://spreadprivacy.com/\">Privacy Blog</a></li><li class=\"nav-menu__item\"><a href=\"https://duckduckgo.com/newsletter\">Privacy Crash Course</a></li><li class=\"nav-menu__item\"><a href=\"/spread\">Help Spread Privacy</a></li></ul><ul><li class=\"nav-menu__heading\"><span>Who We Are</span></li><li class=\"nav-menu__item\"><a href=\"/about\">About Us</a></li><li class=\"nav-menu__item\"><a href=\"/privacy\">Privacy Policy</a></li><li class=\"nav-menu__item\"><a href=\"/hiring\">Careers</a></li><li class=\"nav-menu__item\"><a href=\"/press\">Press Kit</a></li></ul><ul><li class=\"nav-menu__heading\"><span>Keep in Touch</span></li><li class=\"nav-menu__item\"><a href=\"https://twitter.com/duckduckgo\">Twitter</a></li><li class=\"nav-menu__item\"><a href=\"https://reddit.com/r/duckduckgo\">Reddit</a></li><li class=\"nav-menu__item\"><a href=\"https://help.duckduckgo.com/\">Help</a></li></ul></ul></div><div class=\"badge-link badge-link--serp  ddg-extension-hide js-badge-link\"><div class=\"badge-link__wrap js-badge-main-msg\"><div class=\"badge-link__thumb\"><img class=\"badge-link__thumb__img\" src=\"assets/onboarding/robot-icon-frameless.svg\"></div><p class=\"badge-link__title js-badge-link__title\">Switch to DuckDuckGo and take back your privacy!</p><ol class=\"badge-link__bullets\"><li class=\"badge-link__bullet\"><span class=\"badge-link__bullet-num\">1</span>We don't store your personal info.</li><li class=\"badge-link__bullet\"><span class=\"badge-link__bullet-num\">2</span>We don't follow you around with ads.</li><li class=\"badge-link__bullet\"><span class=\"badge-link__bullet-num\">3</span>We don't track you. Ever.</li></ol><div class=\"badge-link__btn-group\"><span class=\"badge-link__btn btn btn--primary js-badge-link-button\">Add DuckDuckGo to Safari</span></div><span class=\"ddgsi badge-link__close js-badge-link-dismiss\">×</span></div><div class=\"badge-link__wrap badge-link__wrap--hidden js-badge-cookie-msg\"><div class=\"badge-link__cookie-msg\"><p>Clear your cookies often?</p><p>Try our homepage that never shows these messages:</p><p><b><a href=\"https://start.duckduckgo.com\">start.duckduckgo.com</a></b></p></div><span class=\"ddgsi badge-link__close js-badge-link-close\">×</span></div></div><div class=\"tooltip is-hidden js-tooltip is-hoverable\"><div class=\"tooltip__triangle-outer js-tooltip-triangle-outer\"></div><div class=\"tooltip__triangle-inner js-tooltip-triangle-inner\"></div><span>Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by Microsoft's ad network (<a href=\"https://help.duckduckgo.com/company/ads-by-microsoft-on-duckduckgo-private-search\" class=\"tooltip-link\">More Info</a>).</span></div><div class=\"tooltip is-hidden js-tooltip is-hoverable\"><div class=\"tooltip__triangle-outer js-tooltip-triangle-outer\"></div><div class=\"tooltip__triangle-inner js-tooltip-triangle-inner\"></div><span>Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by Microsoft's ad network (<a href=\"https://help.duckduckgo.com/company/ads-by-microsoft-on-duckduckgo-private-search\" class=\"tooltip-link\">More Info</a>).</span></div><div class=\"tooltip is-hidden js-tooltip is-hoverable\"><div class=\"tooltip__triangle-outer js-tooltip-triangle-outer\"></div><div class=\"tooltip__triangle-inner js-tooltip-triangle-inner\"></div><span>Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by Microsoft's ad network (<a href=\"https://help.duckduckgo.com/company/ads-by-microsoft-on-duckduckgo-private-search\" class=\"tooltip-link\">More Info</a>).</span></div></div><div class=\"footer\" style=\"display: block;\"><div class=\"footer__left\"><div class=\"footer_cards\"><a class=\"footer__card js-footer-card bg-clr--white\" href=\"https://duckduckgo.com/spread\" data-id=\"sp\"><img class=\"footer__card__icon js-footer-lazysvg\" data-src=\"/assets/icons/spread.svg\" alt=\"\" aria-hidden=\"true\" loading=\"lazy\" height=\"50\" width=\"50\"><h3 class=\"footer__card__title tx-clr--slate\" title=\"Help Spread DuckDuckGo\">Help Spread DuckDuckGo</h3><p class=\"footer__text\">Help your friends and family join the Duck Side!</p></a><a class=\"footer__card js-footer-card bg-clr--white\" href=\"https://duckduckgo.com/hiring\" data-id=\"hiring\"><img class=\"footer__card__icon js-footer-lazysvg\" data-src=\"/assets/icons/employees.svg\" alt=\"\" aria-hidden=\"true\" loading=\"lazy\" height=\"50\" width=\"50\"><h3 class=\"footer__card__title tx-clr--slate\" title=\"Work With Us Remotely\">Work With Us Remotely</h3><p class=\"footer__text\">Help us raise the standard of trust online — from anywhere!</p></a><a class=\"footer__card js-footer-card bg-clr--white\" href=\"https://help.duckduckgo.com/results/syntax\" data-id=\"syntax\"><img class=\"footer__card__icon js-footer-lazysvg\" data-src=\"/assets/icons/private-searches.svg\" alt=\"\" aria-hidden=\"true\" loading=\"lazy\" height=\"50\" width=\"50\"><h3 class=\"footer__card__title tx-clr--slate\" title=\"Fine-tune Your Search\">Fine-tune Your Search</h3><p class=\"footer__text\">Learn how to search like the pros.</p></a></div></div><div class=\"footer__right\"><div class=\"footer__column\"><h2 class=\"footer__title tx-clr--slate-light\">Stay Informed</h2><p class=\"footer__text\">We don't track you, but others do.</p><p class=\"footer__text\">Learn how to protect your privacy.</p><div class=\"footer__links\"><a href=\"https://spreadprivacy.com\" class=\"js-footer-link\" data-id=\"bl\"><img class=\"footer__social-icon js-footer-lazysvg\" data-src=\"/assets/icons/footer/blog.svg\" alt=\"\" aria-hidden=\"true\" loading=\"lazy\" height=\"20\" width=\"20\"></a><a href=\"https://twitter.com/duckduckgo\" class=\"js-footer-link\" data-id=\"tw\"><img class=\"footer__social-icon js-footer-lazysvg\" data-src=\"/assets/icons/footer/twr.svg\" alt=\"\" aria-hidden=\"true\" loading=\"lazy\" height=\"20\" width=\"20\"></a><a href=\"https://reddit.com/r/duckduckgo\" class=\"js-footer-link\" data-id=\"rd\"><img class=\"footer__social-icon js-footer-lazysvg\" data-src=\"/assets/icons/footer/reddit.svg\" alt=\"\" aria-hidden=\"true\" loading=\"lazy\" height=\"20\" width=\"20\"></a><a href=\"https://duckduckgo.com/newsletter\" class=\"js-footer-link\" data-id=\"nl\"><img class=\"footer__social-icon js-footer-lazysvg\" data-src=\"/assets/icons/footer/newsletter.svg\" alt=\"\" aria-hidden=\"true\" loading=\"lazy\" height=\"20\" width=\"20\"></a></div></div></div></div><script type=\"text/javascript\"></script><script type=\"text/JavaScript\">function nrji() {nrj('/t.js?q=SHAFT_Engine&l=us-en&s=0&dl=en&ct=US&ss_mkt=us&p_ent=&ex=-1');DDG.deep.initialize('/d.js?q=SHAFT_Engine&l=us-en&s=0&a=h_&dl=en&ct=US&ss_mkt=us&vqd=3-182388767959602968667494298295195236850-47022682185350441451176662655131592276&p_ent=&ex=-1&sp=1');;};DDG.ready(nrji, 1);</script><script src=\"/g2722.js\"></script><script type=\"text/javascript\">DDG.page = new DDG.Pages.SERP({ showSafeSearch: 0, instantAnswerAds: false, hostRegion: \"usw\" });</script><div id=\"z2\"> </div><div id=\"z\"></div><script type=\"text/JavaScript\">DDG.index = DDG.index || {}; DDG.index.signalSummary = \"\";</script><iframe id=\"iframe_hidden\" src=\"/post3.html\"></iframe></body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1637891530797,
+      "stop" : 1637891531483,
+      "duration" : 686
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1637891530797,
+        "stop" : 1637891530797,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "352"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 4, New issues for Failed Tests = 2, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1637891530809,
+        "stop" : 1637891530810,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "260f37dbc9b5b27",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211126-015210",
+        "source" : "260f37dbc9b5b27.csv",
+        "type" : "text/csv",
+        "size" : 502
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "353"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 4, New issues for Failed Tests = 2, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211126-015210, java.io.ByteArrayInputStream@38bad2b1]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f4542e1c4661df21",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211126-015210",
+      "source" : "f4542e1c4661df21.txt",
+      "type" : "text/plain",
+      "size" : 209564
+    }, {
+      "uid" : "3d36cdc3118a9362",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "3d36cdc3118a9362.html",
+      "type" : "text/html",
+      "size" : 9890861
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_RelativeLocators"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_RelativeLocators"
+  }, {
+    "name" : "testMethod",
+    "value" : "relativeLocatorsTest1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_RelativeLocators"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1637889787607.local"
+  }, {
+    "name" : "thread",
+    "value" : "2383@Mac-1637889787607.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "aaa5d7dde6d7d109",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/940//#testresult/aaa5d7dde6d7d109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637739664781,
+          "stop" : 1637739668800,
+          "duration" : 4019
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6f9a915c46d85601.json",
+  "parameterValues" : [ ]
+}
