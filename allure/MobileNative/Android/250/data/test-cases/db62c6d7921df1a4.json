@@ -1,0 +1,568 @@
+{
+  "uid" : "db62c6d7921df1a4",
+  "name" : "scrollInExpandableLists_horizontalScrolling_insideElement",
+  "fullName" : "testPackage01.appium.AndroidBasicInteractionsTest.scrollInExpandableLists_horizontalScrolling_insideElement",
+  "historyId" : "52c3cbf56fab7052b382aedcd21178e6",
+  "time" : {
+    "start" : 1637978154590,
+    "stop" : 1637978177991,
+    "duration" : 23401
+  },
+  "status" : "failed",
+  "statusMessage" : "Element Action [SwipeElementIntoView] failed.",
+  "statusTrace" : "java.lang.AssertionError: Element Action [SwipeElementIntoView] failed.\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1454)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1302)\n\tat com.shaft.gui.element.TouchActions.swipeElementIntoView(TouchActions.java:545)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.scrollInExpandableLists_horizontalScrolling_insideElement(AndroidBasicInteractionsTest.java:69)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1637978129219,
+      "stop" : 1637978133188,
+      "duration" : 3969
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637978129290,
+        "stop" : 1637978129292,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637978129294,
+        "stop" : 1637978129294,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1637978129295,
+        "stop" : 1637978129295,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637978132079,
+        "stop" : 1637978132079,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1637978132105,
+        "stop" : 1637978132105,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1637978132224,
+        "stop" : 1637978132224,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "31900683e803c27a",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "31900683e803c27a.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1637978133246,
+      "stop" : 1637978154376,
+      "duration" : 21130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub].",
+      "time" : {
+        "start" : 1637978133278,
+        "stop" : 1637978133279,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "7"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [NativeMobileApp].",
+      "time" : {
+        "start" : 1637978153745,
+        "stop" : 1637978153746,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "8"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [NativeMobileApp]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element Action [SwipeElementIntoView] failed.",
+    "statusTrace" : "java.lang.AssertionError: Element Action [SwipeElementIntoView] failed.\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1454)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1302)\n\tat com.shaft.gui.element.TouchActions.swipeElementIntoView(TouchActions.java:545)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.scrollInExpandableLists_horizontalScrolling_insideElement(AndroidBasicInteractionsTest.java:69)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [Views].",
+      "time" : {
+        "start" : 1637978159623,
+        "stop" : 1637978159629,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "9"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [Views]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [SwipeElementIntoView] successfully performed.",
+      "time" : {
+        "start" : 1637978168495,
+        "stop" : 1637978168495,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "10"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [SwipeElementIntoView] successfully performed."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [Tabs].",
+      "time" : {
+        "start" : 1637978170077,
+        "stop" : 1637978170078,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "11"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [Tabs]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [5. Scrollable].",
+      "time" : {
+        "start" : 1637978172299,
+        "stop" : 1637978172300,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "12"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [5. Scrollable]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [SwipeElementIntoView] failed.",
+      "time" : {
+        "start" : 1637978177953,
+        "stop" : 1637978177966,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dbb203548b3b2987",
+        "name" : "Attachment: Screenshot - 1637978177532_scrollInExpandableLists_horizontalScrolling_insideElement_SwipeElementIntoView_failed",
+        "source" : "dbb203548b3b2987.png",
+        "type" : "image/png",
+        "size" : 7662
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "13"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [SwipeElementIntoView] failed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1637978177532_scrollInExpandableLists_horizontalScrolling_insideElement_SwipeElementIntoView_failed, java.io.ByteArrayInputStream@2d1f9ec3]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "99682812794fdebb",
+      "name" : "Attachment: Animated Gif - scrollInExpandableLists_horizontalScrolling_insideElement",
+      "source" : "99682812794fdebb.gif",
+      "type" : "image/gif",
+      "size" : 35759
+    }, {
+      "uid" : "f5feaba9e53c787f",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: scrollInExpandableLists_horizontalScrolling_insideElement",
+      "source" : "f5feaba9e53c787f.txt",
+      "type" : "text/plain",
+      "size" : 3530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1637978178000,
+      "stop" : 1637978179578,
+      "duration" : 1578
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1637978179578,
+        "stop" : 1637978179578,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "14"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "36e473a8c47c8079",
+      "name" : "Attachment: Video Recording - teardown",
+      "source" : "36e473a8c47c8079.mp4",
+      "type" : "video/mp4",
+      "size" : 4934
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1637978479685,
+      "stop" : 1637978480128,
+      "duration" : 443
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 3, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1637978479695,
+        "stop" : 1637978479697,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "117859ce4d92d567",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211127-020119",
+        "source" : "117859ce4d92d567.csv",
+        "type" : "text/csv",
+        "size" : 518
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "67"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 3, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211127-020119, java.io.ByteArrayInputStream@16c9ec5b]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "476f95a33349267c",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211127-020119",
+      "source" : "476f95a33349267c.txt",
+      "type" : "text/plain",
+      "size" : 89274
+    }, {
+      "uid" : "e5c6e8b0e0b548b6",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "e5c6e8b0e0b548b6.html",
+      "type" : "text/html",
+      "size" : 453701
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "scrollInExpandableLists_horizontalScrolling_insideElement"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1637974609776.local"
+  }, {
+    "name" : "thread",
+    "value" : "6714@Mac-1637974609776.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "93cb946747fed7ee",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/248//#testresult/93cb946747fed7ee",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1637891795394,
+          "stop" : 1637891823182,
+          "duration" : 27788
+        }
+      }, {
+        "uid" : "2972b72cb8a6f19e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/247//#testresult/2972b72cb8a6f19e",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1637805684174,
+          "stop" : 1637805709922,
+          "duration" : 25748
+        }
+      }, {
+        "uid" : "9ca6de09ec8250b6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/246//#testresult/9ca6de09ec8250b6",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1637740074458,
+          "stop" : 1637740131713,
+          "duration" : 57255
+        }
+      }, {
+        "uid" : "b94b6965bee4101a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/245//#testresult/b94b6965bee4101a",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1637738837936,
+          "stop" : 1637738871819,
+          "duration" : 33883
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "db62c6d7921df1a4.json",
+  "parameterValues" : [ ]
+}
