@@ -1,0 +1,585 @@
+{
+  "uid" : "1574db46efe8bb31",
+  "name" : "waitForElementToBePresent_false_expectedToPass",
+  "fullName" : "unitTests.tests_element_elementActions.waitForElementToBePresent_false_expectedToPass",
+  "historyId" : "265ede85dd354b1c18327880ee92510d",
+  "time" : {
+    "start" : 1638409910288,
+    "stop" : 1638409910320,
+    "duration" : 32
+  },
+  "status" : "skipped",
+  "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+  "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:306)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:576)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat unitTests.tests_element_elementActions.beforeMethod(tests_element_elementActions.java:73)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1638409910126,
+      "stop" : 1638409910263,
+      "duration" : 137
+    },
+    "description" : "",
+    "status" : "failed",
+    "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+    "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:306)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:576)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat unitTests.tests_element_elementActions.beforeMethod(tests_element_elementActions.java:73)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1638409910126,
+        "stop" : 1638409910127,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "13"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure..",
+      "time" : {
+        "start" : 1638409910259,
+        "stop" : 1638409910260,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1015681341c7fac0",
+        "name" : "Attachment: Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException",
+        "source" : "1015681341c7fac0.txt",
+        "type" : "text/plain",
+        "size" : 14747
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "14"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, org.openqa.selenium.SessionNotCreatedException, org.openqa.selenium.SessionNotCreatedException:\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:87)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:69)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:573)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\nunitTests.tests_element_elementActions.beforeMethod(tests_element_elementActions.java:73)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\norg.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\norg.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\norg.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\norg.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\norg.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\norg.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\norg.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\norg.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\norg.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\norg.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:794)\norg.testng.TestRunner.run(TestRunner.java:596)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:377)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\norg.testng.SuiteRunner.run(SuiteRunner.java:276)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1134)\norg.testng.TestNG.runSuites(TestNG.java:1063)\norg.testng.TestNG.run(TestNG.java:1031)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.openqa.selenium.WebDriverException:\nTimed out waiting for driver server to start.\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1638409675603.local', ip: '10.212.11.61', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: driver.version: SafariDriver\norg.openqa.selenium.remote.service.DriverService.start(DriverService.java:227)\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:95)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:87)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:69)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:573)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\nunitTests.tests_element_elementActions.beforeMethod(tests_element_elementActions.java:73)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\norg.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\norg.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\norg.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\norg.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\norg.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\norg.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\norg.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\norg.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\norg.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\norg.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:794)\norg.testng.TestRunner.run(TestRunner.java:596)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:377)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\norg.testng.SuiteRunner.run(SuiteRunner.java:276)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1134)\norg.testng.TestNG.runSuites(TestNG.java:1063)\norg.testng.TestNG.run(TestNG.java:1031)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: java.util.concurrent.ExecutionException:\norg.openqa.selenium.WebDriverException: java.lang.RuntimeException: java.net.SocketException: Invalid argument\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1638409675603.local', ip: '10.212.11.61', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: driver.version: unknown\njava.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)\njava.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)\norg.openqa.selenium.remote.service.DriverService.start(DriverService.java:217)\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:95)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:87)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:69)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:573)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\nunitTests.tests_element_elementActions.beforeMethod(tests_element_elementActions.java:73)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\norg.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\norg.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\norg.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\norg.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\norg.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\norg.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\norg.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\norg.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\norg.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\norg.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:794)\norg.testng.TestRunner.run(TestRunner.java:596)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:377)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\norg.testng.SuiteRunner.run(SuiteRunner.java:276)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1134)\norg.testng.TestNG.runSuites(TestNG.java:1063)\norg.testng.TestNG.run(TestNG.java:1031)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.openqa.selenium.WebDriverException:\njava.lang.RuntimeException: java.net.SocketException: Invalid argument\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1638409675603.local', ip: '10.212.11.61', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: driver.version: unknown\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:86)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:202)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n\nCaused by: java.lang.RuntimeException:\njava.net.SocketException: Invalid argument\norg.openqa.selenium.net.PortProber.waitForPortUp(PortProber.java:116)\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:84)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:202)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n\nCaused by: java.net.SocketException:\nInvalid argument\njava.base/sun.nio.ch.Net.connect0(Native Method)\njava.base/sun.nio.ch.Net.connect(Net.java:579)\njava.base/sun.nio.ch.Net.connect(Net.java:568)\njava.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)\njava.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\njava.base/java.net.Socket.connect(Socket.java:633)\norg.openqa.selenium.net.PortProber.waitForPortUp(PortProber.java:111)\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:84)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:202)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+      "time" : {
+        "start" : 1638409910261,
+        "stop" : 1638409910261,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "16"
+      }, {
+        "name" : "logText",
+        "value" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "91b21c76d70a2c36",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeMethod",
+      "source" : "91b21c76d70a2c36.txt",
+      "type" : "text/plain",
+      "size" : 837
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1638409895519,
+      "stop" : 1638409898001,
+      "duration" : 2482
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1638409895601,
+        "stop" : 1638409895604,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1638409895606,
+        "stop" : 1638409895606,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1638409895607,
+        "stop" : 1638409895607,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1638409897202,
+        "stop" : 1638409897202,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.16.1/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1638409897210,
+        "stop" : 1638409897210,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1638409897304,
+        "stop" : 1638409897304,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "402d05ec317fa037",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "402d05ec317fa037.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "1e49b431a66f5185",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "1e49b431a66f5185.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "c1ba51b84a8d0b16",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "c1ba51b84a8d0b16.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "c492476896414443",
+      "name" : "Attachment: Properties - path",
+      "source" : "c492476896414443.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "c393e70aefbfd64c",
+      "name" : "Attachment: Properties - video",
+      "source" : "c393e70aefbfd64c.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "78884633379019b1",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "78884633379019b1.properties",
+      "type" : "text/plain",
+      "size" : 564
+    }, {
+      "uid" : "edd3f57af2c1ff2f",
+      "name" : "Attachment: Properties - internal",
+      "source" : "edd3f57af2c1ff2f.properties",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "629dc158d8ba0057",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "629dc158d8ba0057.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "a620ef126ca1a7d7",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "a620ef126ca1a7d7.properties",
+      "type" : "text/plain",
+      "size" : 226
+    }, {
+      "uid" : "f3542b9f3e0b220c",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "f3542b9f3e0b220c.properties",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "280074db47e3b0dc",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "280074db47e3b0dc.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "8abddf117def65df",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "8abddf117def65df.properties",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "fc60cc225548e339",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "fc60cc225548e339.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "311a2ccbbb6413b9",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "311a2ccbbb6413b9.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+    "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:306)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:576)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat unitTests.tests_element_elementActions.beforeMethod(tests_element_elementActions.java:73)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86ecb56cec8313b8",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: waitForElementToBePresent_false_expectedToPass",
+      "source" : "86ecb56cec8313b8.txt",
+      "type" : "text/plain",
+      "size" : 458
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1638409910347,
+      "stop" : 1638409910347,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1638410204620,
+      "stop" : 1638410205202,
+      "duration" : 582
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1638410204621,
+        "stop" : 1638410204621,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "353"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1638410204635,
+        "stop" : 1638410204635,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43436454c52f79fa",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211202-015644",
+        "source" : "43436454c52f79fa.csv",
+        "type" : "text/csv",
+        "size" : 361
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "354"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211202-015644, java.io.ByteArrayInputStream@77a65ccd]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "14893160c4eac386",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211202-015644",
+      "source" : "14893160c4eac386.txt",
+      "type" : "text/plain",
+      "size" : 221183
+    }, {
+      "uid" : "a5354cccdd6c575c",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "a5354cccdd6c575c.html",
+      "type" : "text/html",
+      "size" : 6228785
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "unitTests.tests_element_elementActions"
+  }, {
+    "name" : "testClass",
+    "value" : "unitTests.tests_element_elementActions"
+  }, {
+    "name" : "testMethod",
+    "value" : "waitForElementToBePresent_false_expectedToPass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "unitTests.tests_element_elementActions"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1638409675603.local"
+  }, {
+    "name" : "thread",
+    "value" : "2341@Mac-1638409675603.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "52f88a5e5ae39377",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/953//#testresult/52f88a5e5ae39377",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638354421933,
+          "stop" : 1638354433959,
+          "duration" : 12026
+        }
+      }, {
+        "uid" : "c7848861af5ca8ea",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/951//#testresult/c7848861af5ca8ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638346096225,
+          "stop" : 1638346103487,
+          "duration" : 7262
+        }
+      }, {
+        "uid" : "55eaf8dbb07da4a2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/950//#testresult/55eaf8dbb07da4a2",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+        "time" : {
+          "start" : 1638323865934,
+          "stop" : 1638323865936,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "9a71830a8fb73300",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/946//#testresult/9a71830a8fb73300",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+        "time" : {
+          "start" : 1638150632129,
+          "stop" : 1638150632131,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "b912cc92aeae7afd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/945//#testresult/b912cc92aeae7afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638063996235,
+          "stop" : 1638064004230,
+          "duration" : 7995
+        }
+      }, {
+        "uid" : "7e802ea3ed4c1a44",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/944//#testresult/7e802ea3ed4c1a44",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+        "time" : {
+          "start" : 1637977629897,
+          "stop" : 1637977629906,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "84fb13f9412528f7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/942//#testresult/84fb13f9412528f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637891311793,
+          "stop" : 1637891319258,
+          "duration" : 7465
+        }
+      }, {
+        "uid" : "91e57b2015b6f1b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/940//#testresult/91e57b2015b6f1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637739448399,
+          "stop" : 1637739455536,
+          "duration" : 7137
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1574db46efe8bb31.json",
+  "parameterValues" : [ ]
+}
