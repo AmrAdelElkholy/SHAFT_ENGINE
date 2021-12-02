@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.util.concurrent.TimeoutException\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'fv-az292-87', ip: '10.1.0.120', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1021-azure', java.version: '17.0.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [062d23e2b8cd3d56ec60e9944d2f8226, setWindowPosition {x=0, y=0}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /tmp/.com.google.Chrome.VsrrCm}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://0.0.0.0:4444/session/0..., se:cdpVersion: 95.0.4638.69, se:vnc: ws://0.0.0.0:4444/session/0..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 062d23e2b8cd3d56ec60e9944d2f8226",
+      "children" : [ {
+        "name" : "fullScreenWindow",
+        "uid" : "d8ed0122eaecd47e",
+        "parentUid" : "b142096f31d5362b18649964f8c0b2c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638410240837,
+          "stop" : 1638410420886,
+          "duration" : 180049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b142096f31d5362b18649964f8c0b2c4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Browser Action [NavigateToNewURL] failed. With the following test data [https://www.google.com/ncr].",
+      "children" : [ {
+        "name" : "navigateForward",
+        "uid" : "c1378177864d3040",
+        "parentUid" : "ef3b18db22ccd1ffca3c296455f97941",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638410465806,
+          "stop" : 1638410645908,
+          "duration" : 180102
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef3b18db22ccd1ffca3c296455f97941"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
