@@ -1,0 +1,708 @@
+{
+  "uid" : "f2821d05387041f",
+  "name" : "typeTextAndCopyPaste",
+  "fullName" : "testPackage01.Test_clipboardActions.typeTextAndCopyPaste",
+  "historyId" : "50bcdd7464e6ba911e244a1b1a36da44",
+  "time" : {
+    "start" : 1640138513780,
+    "stop" : 1640138513782,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+  "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:306)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:576)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat testPackage01.Test_clipboardActions.beforeClass(Test_clipboardActions.java:37)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1640138420081,
+      "stop" : 1640138423229,
+      "duration" : 3148
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1640138420159,
+        "stop" : 1640138420161,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1640138420162,
+        "stop" : 1640138420162,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.2/allure-commandline-2.17.2.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1640138420163,
+        "stop" : 1640138420163,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.2/allure-commandline-2.17.2.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.2/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1640138422404,
+        "stop" : 1640138422404,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.2/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1640138422412,
+        "stop" : 1640138422412,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1640138422499,
+        "stop" : 1640138422499,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bbf6577e1a131522",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "bbf6577e1a131522.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "83954175c38c23f1",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "83954175c38c23f1.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "5f659d22b07c2609",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "5f659d22b07c2609.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "3de818a40e898e2",
+      "name" : "Attachment: Properties - path",
+      "source" : "3de818a40e898e2.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "3ecc10e3119b2d0c",
+      "name" : "Attachment: Properties - video",
+      "source" : "3ecc10e3119b2d0c.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "d97bc7a49d79faa4",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "d97bc7a49d79faa4.properties",
+      "type" : "text/plain",
+      "size" : 564
+    }, {
+      "uid" : "4e9ee9daef736dd3",
+      "name" : "Attachment: Properties - internal",
+      "source" : "4e9ee9daef736dd3.properties",
+      "type" : "text/plain",
+      "size" : 117
+    }, {
+      "uid" : "c1db71e049f180bf",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "c1db71e049f180bf.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "6574dfd09e20db6a",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "6574dfd09e20db6a.properties",
+      "type" : "text/plain",
+      "size" : 226
+    }, {
+      "uid" : "9a321bbcba3e4d05",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "9a321bbcba3e4d05.properties",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "2b560f26c2546fb1",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "2b560f26c2546fb1.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "b17550a404896462",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "b17550a404896462.properties",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "f27ceb8dfa80528",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "f27ceb8dfa80528.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "53802d96ebbe0abb",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "53802d96ebbe0abb.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1640138513639,
+      "stop" : 1640138513776,
+      "duration" : 137
+    },
+    "description" : "",
+    "status" : "failed",
+    "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+    "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:306)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:576)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat testPackage01.Test_clipboardActions.beforeClass(Test_clipboardActions.java:37)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1640138513640,
+        "stop" : 1640138513640,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "166"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure..",
+      "time" : {
+        "start" : 1640138513775,
+        "stop" : 1640138513776,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24784874eb119e07",
+        "name" : "Attachment: Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException",
+        "source" : "24784874eb119e07.txt",
+        "type" : "text/plain",
+        "size" : 13433
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "167"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, org.openqa.selenium.SessionNotCreatedException, org.openqa.selenium.SessionNotCreatedException:\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:87)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:69)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:573)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\ntestPackage01.Test_clipboardActions.beforeClass(Test_clipboardActions.java:37)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\norg.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\norg.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\norg.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\norg.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:794)\norg.testng.TestRunner.run(TestRunner.java:596)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:377)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\norg.testng.SuiteRunner.run(SuiteRunner.java:276)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1134)\norg.testng.TestNG.runSuites(TestNG.java:1063)\norg.testng.TestNG.run(TestNG.java:1031)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.openqa.selenium.WebDriverException:\nTimed out waiting for driver server to start.\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1640138071879.local', ip: '10.212.9.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: driver.version: SafariDriver\norg.openqa.selenium.remote.service.DriverService.start(DriverService.java:227)\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:95)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:87)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:69)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:573)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\ntestPackage01.Test_clipboardActions.beforeClass(Test_clipboardActions.java:37)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\norg.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\norg.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\norg.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\norg.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:794)\norg.testng.TestRunner.run(TestRunner.java:596)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:377)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\norg.testng.SuiteRunner.run(SuiteRunner.java:276)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1134)\norg.testng.TestNG.runSuites(TestNG.java:1063)\norg.testng.TestNG.run(TestNG.java:1031)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: java.util.concurrent.ExecutionException:\norg.openqa.selenium.WebDriverException: java.lang.RuntimeException: java.net.SocketException: Invalid argument\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1640138071879.local', ip: '10.212.9.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: driver.version: unknown\njava.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)\njava.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)\norg.openqa.selenium.remote.service.DriverService.start(DriverService.java:217)\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:95)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:87)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:69)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:573)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\ntestPackage01.Test_clipboardActions.beforeClass(Test_clipboardActions.java:37)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\norg.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\norg.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\norg.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\norg.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\norg.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:794)\norg.testng.TestRunner.run(TestRunner.java:596)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:377)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\norg.testng.SuiteRunner.run(SuiteRunner.java:276)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1134)\norg.testng.TestNG.runSuites(TestNG.java:1063)\norg.testng.TestNG.run(TestNG.java:1031)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.openqa.selenium.WebDriverException:\njava.lang.RuntimeException: java.net.SocketException: Invalid argument\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1640138071879.local', ip: '10.212.9.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: driver.version: unknown\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:86)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:202)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n\nCaused by: java.lang.RuntimeException:\njava.net.SocketException: Invalid argument\norg.openqa.selenium.net.PortProber.waitForPortUp(PortProber.java:116)\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:84)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:202)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n\nCaused by: java.net.SocketException:\nInvalid argument\njava.base/sun.nio.ch.Net.connect0(Native Method)\njava.base/sun.nio.ch.Net.connect(Net.java:579)\njava.base/sun.nio.ch.Net.connect(Net.java:568)\njava.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)\njava.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\njava.base/java.net.Socket.connect(Socket.java:633)\norg.openqa.selenium.net.PortProber.waitForPortUp(PortProber.java:111)\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:84)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:202)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+      "time" : {
+        "start" : 1640138513776,
+        "stop" : 1640138513776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "169"
+      }, {
+        "name" : "logText",
+        "value" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+    "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:306)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:576)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:596)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:815)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:140)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat testPackage01.Test_clipboardActions.beforeClass(Test_clipboardActions.java:37)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54dcb3194c1983c9",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: typeTextAndCopyPaste",
+      "source" : "54dcb3194c1983c9.txt",
+      "type" : "text/plain",
+      "size" : 430
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1640138513783,
+      "stop" : 1640138513783,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1640138745746,
+      "stop" : 1640138746473,
+      "duration" : 727
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1640138745746,
+        "stop" : 1640138745746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "418"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1640138745780,
+        "stop" : 1640138745822,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "140f25d317097cf7",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211222-020545",
+        "source" : "140f25d317097cf7.csv",
+        "type" : "text/csv",
+        "size" : 369
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "419"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 1, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211222-020545, java.io.ByteArrayInputStream@2c4cd967]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d5079ebd7e8f2d8c",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211222-020545",
+      "source" : "d5079ebd7e8f2d8c.txt",
+      "type" : "text/plain",
+      "size" : 259070
+    }, {
+      "uid" : "9715b5126c41a380",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "9715b5126c41a380.html",
+      "type" : "text/html",
+      "size" : 7161779
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_clipboardActions"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_clipboardActions"
+  }, {
+    "name" : "testMethod",
+    "value" : "typeTextAndCopyPaste"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_clipboardActions"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1640138071879.local"
+  }, {
+    "name" : "thread",
+    "value" : "5535@Mac-1640138071879.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 28,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 31
+      },
+      "items" : [ {
+        "uid" : "b067bd9d89e7f3f4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/999//#testresult/b067bd9d89e7f3f4",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1640051253232.local', ip: '10.212.0.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [9D1E1780-E7F9-4B7C-9212-C73053545FE9, actions {actions=[org.openqa.selenium.interactions.Sequence@4203bb7]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 9D1E1780-E7F9-4B7C-9212-C73053545FE9",
+        "time" : {
+          "start" : 1640052071242,
+          "stop" : 1640052073015,
+          "duration" : 1773
+        }
+      }, {
+        "uid" : "ee3c496a6af1b5be",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/996//#testresult/ee3c496a6af1b5be",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639965036347.local', ip: '10.212.11.74', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [AA1E4B38-A2C3-401F-B61E-854A344F0E80, actions {actions=[org.openqa.selenium.interactions.Sequence@64c191e1]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: AA1E4B38-A2C3-401F-B61E-854A344F0E80",
+        "time" : {
+          "start" : 1639965626592,
+          "stop" : 1639965633398,
+          "duration" : 6806
+        }
+      }, {
+        "uid" : "7b766741bbf7b243",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/995//#testresult/7b766741bbf7b243",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639878560366.local', ip: '10.212.11.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [DFFFD76D-2310-4E25-89DE-153195AFEF41, actions {actions=[org.openqa.selenium.interactions.Sequence@30b5c1e7]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: DFFFD76D-2310-4E25-89DE-153195AFEF41",
+        "time" : {
+          "start" : 1639879345541,
+          "stop" : 1639879347645,
+          "duration" : 2104
+        }
+      }, {
+        "uid" : "6612cc8d3d6035e0",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/994//#testresult/6612cc8d3d6035e0",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639792334896.local', ip: '10.212.6.193', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [AE8618D1-9948-4416-996F-656D48F3C32E, actions {actions=[org.openqa.selenium.interactions.Sequence@4ee80d4c]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: AE8618D1-9948-4416-996F-656D48F3C32E",
+        "time" : {
+          "start" : 1639792906753,
+          "stop" : 1639792909384,
+          "duration" : 2631
+        }
+      }, {
+        "uid" : "ea6bd2240950cecd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/993//#testresult/ea6bd2240950cecd",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639706011551.local', ip: '10.212.20.178', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [3DDCDB95-B4B0-469B-8B2B-BEA328803D93, actions {actions=[org.openqa.selenium.interactions.Sequence@47812337]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 3DDCDB95-B4B0-469B-8B2B-BEA328803D93",
+        "time" : {
+          "start" : 1639706283181,
+          "stop" : 1639706284827,
+          "duration" : 1646
+        }
+      }, {
+        "uid" : "50e2abd30449f2da",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/992//#testresult/50e2abd30449f2da",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639619440135.local', ip: '10.212.11.43', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [C8239C9A-4A31-46B4-8A3F-9343D0C5C0E2, actions {actions=[org.openqa.selenium.interactions.Sequence@10b5f853]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: C8239C9A-4A31-46B4-8A3F-9343D0C5C0E2",
+        "time" : {
+          "start" : 1639619621698,
+          "stop" : 1639619623812,
+          "duration" : 2114
+        }
+      }, {
+        "uid" : "3daa654fc8b3f9f1",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/990//#testresult/3daa654fc8b3f9f1",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639506137736.local', ip: '10.212.0.110', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [B71A54E0-A25A-4902-A18F-7F9491F84D40, actions {actions=[org.openqa.selenium.interactions.Sequence@39c81c69]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: B71A54E0-A25A-4902-A18F-7F9491F84D40",
+        "time" : {
+          "start" : 1639506316295,
+          "stop" : 1639506318300,
+          "duration" : 2005
+        }
+      }, {
+        "uid" : "b1e769ec927a880c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/988//#testresult/b1e769ec927a880c",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639505459971.local', ip: '10.213.3.87', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [B42FE0D4-724F-4486-A6FE-ECBE06D64008, actions {actions=[org.openqa.selenium.interactions.Sequence@14d2b5bf]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: B42FE0D4-724F-4486-A6FE-ECBE06D64008",
+        "time" : {
+          "start" : 1639505657167,
+          "stop" : 1639505659213,
+          "duration" : 2046
+        }
+      }, {
+        "uid" : "7dae004adaed9ab7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/982//#testresult/7dae004adaed9ab7",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639273872170.local', ip: '10.212.11.16', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [F92A5CBB-5E79-4ABD-A4A4-AE9FA850AE85, actions {actions=[org.openqa.selenium.interactions.Sequence@44dd53c0]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: F92A5CBB-5E79-4ABD-A4A4-AE9FA850AE85",
+        "time" : {
+          "start" : 1639274419866,
+          "stop" : 1639274422078,
+          "duration" : 2212
+        }
+      }, {
+        "uid" : "792fcbcde73a50ad",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/981//#testresult/792fcbcde73a50ad",
+        "status" : "skipped",
+        "statusDetails" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+        "time" : {
+          "start" : 1639247533862,
+          "stop" : 1639247533864,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "bd3b4f150f4b3a0c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/980//#testresult/bd3b4f150f4b3a0c",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639246888012.local', ip: '10.212.6.197', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [1035E546-701A-44B6-B719-8A24A08E31DD, actions {actions=[org.openqa.selenium.interactions.Sequence@2bf94e3a]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 1035E546-701A-44B6-B719-8A24A08E31DD",
+        "time" : {
+          "start" : 1639247376933,
+          "stop" : 1639247379490,
+          "duration" : 2557
+        }
+      }, {
+        "uid" : "706a1c975963c71f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/977//#testresult/706a1c975963c71f",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639245959637.local', ip: '10.212.11.74', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [E7840146-BBDE-4DC8-B03F-662C1576A318, actions {actions=[org.openqa.selenium.interactions.Sequence@3fd87902]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: E7840146-BBDE-4DC8-B03F-662C1576A318",
+        "time" : {
+          "start" : 1639246560249,
+          "stop" : 1639246562585,
+          "duration" : 2336
+        }
+      }, {
+        "uid" : "b06ca4029fe9cc47",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/976//#testresult/b06ca4029fe9cc47",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639187348089.local', ip: '10.212.6.193', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [0D785168-01BC-44E7-9A46-599774E93289, actions {actions=[org.openqa.selenium.interactions.Sequence@3ee15053]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 0D785168-01BC-44E7-9A46-599774E93289",
+        "time" : {
+          "start" : 1639187553269,
+          "stop" : 1639187555445,
+          "duration" : 2176
+        }
+      }, {
+        "uid" : "117d449f01760f26",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/974//#testresult/117d449f01760f26",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639100703108.local', ip: '10.212.6.186', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [C8BC3F48-958A-4756-9B63-7EB175D2B07E, actions {actions=[org.openqa.selenium.interactions.Sequence@2e681871]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: C8BC3F48-958A-4756-9B63-7EB175D2B07E",
+        "time" : {
+          "start" : 1639101293699,
+          "stop" : 1639101296368,
+          "duration" : 2669
+        }
+      }, {
+        "uid" : "d07428dfdb365813",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/972//#testresult/d07428dfdb365813",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1639014615750.local', ip: '10.212.3.161', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [2BA5CEF0-FF55-4887-B0BF-927FA7FF841C, actions {actions=[org.openqa.selenium.interactions.Sequence@32b128cc]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 2BA5CEF0-FF55-4887-B0BF-927FA7FF841C",
+        "time" : {
+          "start" : 1639014930861,
+          "stop" : 1639014933527,
+          "duration" : 2666
+        }
+      }, {
+        "uid" : "c9fe6ae115fa34cd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/968//#testresult/c9fe6ae115fa34cd",
+        "status" : "broken",
+        "statusDetails" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.0', revision: '87802e897b'\nSystem info: host: 'Mac-1638841829032.local', ip: '10.212.9.37', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '17.0.1'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [211C61EB-E68A-4642-8E0A-A221A88FF7EB, actions {actions=[org.openqa.selenium.interactions.Sequence@10235312]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G224, safari:platformVersion: 11.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 211C61EB-E68A-4642-8E0A-A221A88FF7EB",
+        "time" : {
+          "start" : 1638842341095,
+          "stop" : 1638842344397,
+          "duration" : 3302
+        }
+      }, {
+        "uid" : "6b40fca64bd88011",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/967//#testresult/6b40fca64bd88011",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"com.aventstack.extentreports.ExtentReports.createTest(String)\" because \"com.shaft.tools.io.ReportManagerHelper.extentReport\" is null",
+        "time" : {
+          "start" : 1638794018718,
+          "stop" : 1638794018718,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b6d7fb31be0d7afc",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/964//#testresult/b6d7fb31be0d7afc",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"com.aventstack.extentreports.ExtentReports.createTest(String)\" because \"com.shaft.tools.io.ReportManagerHelper.extentReport\" is null",
+        "time" : {
+          "start" : 1638669483101,
+          "stop" : 1638669483102,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "49dad97bf0c39b83",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/963//#testresult/49dad97bf0c39b83",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"com.aventstack.extentreports.ExtentReports.createTest(String)\" because \"com.shaft.tools.io.ReportManagerHelper.extentReport\" is null",
+        "time" : {
+          "start" : 1638631928385,
+          "stop" : 1638631928386,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "dce89199aac2c75b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/macOS/Web/962//#testresult/dce89199aac2c75b",
+        "status" : "broken",
+        "statusDetails" : "Cannot invoke \"com.aventstack.extentreports.ExtentReports.createTest(String)\" because \"com.shaft.tools.io.ReportManagerHelper.extentReport\" is null",
+        "time" : {
+          "start" : 1638582661164,
+          "stop" : 1638582661165,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f2821d05387041f.json",
+  "parameterValues" : [ ]
+}
