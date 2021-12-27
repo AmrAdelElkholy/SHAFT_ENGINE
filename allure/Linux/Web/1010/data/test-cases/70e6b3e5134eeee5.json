@@ -1,0 +1,427 @@
+{
+  "uid" : "70e6b3e5134eeee5",
+  "name" : "assertElementAttribute_true_containsComparison_expectedToPass",
+  "fullName" : "unitTests.tests_validations_assertions.assertElementAttribute_true_containsComparison_expectedToPass",
+  "historyId" : "19a9da5f20787f6a62b7cf5efdc0b4e3",
+  "time" : {
+    "start" : 1640570591800,
+    "stop" : 1640570591804,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "statusMessage" : "Browser Action [NavigateToNewURL] failed. With the following test data [https://www.google.com/ncr].",
+  "statusTrace" : "java.lang.AssertionError: Browser Action [NavigateToNewURL] failed. With the following test data [https://www.google.com/ncr].\n\tat org.testng.Assert.fail(Assert.java:87)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:610)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:603)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:662)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:285)\n\tat com.shaft.gui.browser.BrowserActions.navigateToURL(BrowserActions.java:107)\n\tat unitTests.tests_validations_assertions.beforeMethod(tests_validations_assertions.java:407)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az219-507', ip: '10.1.0.28', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '17.0.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [e55d9171ade30efdb469f67e3c89a4a2, get {url=https://www.google.com/ncr}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /tmp/.com.google.Chrome.5qBb3O}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://0.0.0.0:4444/session/e..., se:cdpVersion: 95.0.4638.69, se:vnc: ws://0.0.0.0:4444/session/e..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e55d9171ade30efdb469f67e3c89a4a2\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)\n\tat net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.Execution.executeSync(Execution.java:128)\n\tat net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)\n\tat net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)\n\tat net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.Execution.executeSync(Execution.java:128)\n\tat net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)\n\tat net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\n\tat org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)\n\tat org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)\n\tat org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:998)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:660)\n\t... 40 more\nCaused by: java.util.concurrent.TimeoutException\n\tat java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)\n\tat org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)\n\t... 71 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1640570591796,
+      "stop" : 1640570591796,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1640570238866,
+      "stop" : 1640570239656,
+      "duration" : 790
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1640570238989,
+        "stop" : 1640570238991,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "470c05503ed51c4",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "470c05503ed51c4.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Browser Action [NavigateToNewURL] failed. With the following test data [https://www.google.com/ncr].",
+    "statusTrace" : "java.lang.AssertionError: Browser Action [NavigateToNewURL] failed. With the following test data [https://www.google.com/ncr].\n\tat org.testng.Assert.fail(Assert.java:87)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:610)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:603)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:662)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:285)\n\tat com.shaft.gui.browser.BrowserActions.navigateToURL(BrowserActions.java:107)\n\tat unitTests.tests_validations_assertions.beforeMethod(tests_validations_assertions.java:407)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az219-507', ip: '10.1.0.28', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '17.0.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [e55d9171ade30efdb469f67e3c89a4a2, get {url=https://www.google.com/ncr}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /tmp/.com.google.Chrome.5qBb3O}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://0.0.0.0:4444/session/e..., se:cdpVersion: 95.0.4638.69, se:vnc: ws://0.0.0.0:4444/session/e..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e55d9171ade30efdb469f67e3c89a4a2\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)\n\tat net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.Execution.executeSync(Execution.java:128)\n\tat net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)\n\tat net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:83)\n\tat net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)\n\tat net.jodah.failsafe.Execution.executeSync(Execution.java:128)\n\tat net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)\n\tat net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)\n\tat org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:83)\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\n\tat org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:110)\n\tat org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)\n\tat org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:998)\n\tat com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:660)\n\t... 40 more\nCaused by: java.util.concurrent.TimeoutException\n\tat java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)\n\tat org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)\n\t... 71 more\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68036e17e1c2e17a",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: assertElementAttribute_true_containsComparison_expectedToPass",
+      "source" : "68036e17e1c2e17a.txt",
+      "type" : "text/plain",
+      "size" : 474
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1640570591806,
+      "stop" : 1640570591806,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1640571013914,
+      "stop" : 1640571014394,
+      "duration" : 480
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1640571013914,
+        "stop" : 1640571013914,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "462"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1640571013923,
+        "stop" : 1640571013924,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fce231bbe0039c75",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211227-021013",
+        "source" : "fce231bbe0039c75.csv",
+        "type" : "text/csv",
+        "size" : 228
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "463"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 2, New issues for Failed Tests = 0, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211227-021013, java.io.ByteArrayInputStream@734c50d8]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "eab3cd14806c5872",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211227-021013",
+      "source" : "eab3cd14806c5872.txt",
+      "type" : "text/plain",
+      "size" : 294712
+    }, {
+      "uid" : "fdb8316cf64ffc48",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "fdb8316cf64ffc48.html",
+      "type" : "text/html",
+      "size" : 12032490
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "testClass",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "testMethod",
+    "value" : "assertElementAttribute_true_containsComparison_expectedToPass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "unitTests.tests_validations_assertions"
+  }, {
+    "name" : "host",
+    "value" : "fv-az219-507"
+  }, {
+    "name" : "thread",
+    "value" : "4363@fv-az219-507.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 30,
+        "unknown" : 0,
+        "total" : 31
+      },
+      "items" : [ {
+        "uid" : "358212ece7e76665",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1007//#testresult/358212ece7e76665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640484268788,
+          "stop" : 1640484269821,
+          "duration" : 1033
+        }
+      }, {
+        "uid" : "e66f218928d030bb",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1005//#testresult/e66f218928d030bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640311110050,
+          "stop" : 1640311111222,
+          "duration" : 1172
+        }
+      }, {
+        "uid" : "6c353d6ecfefa77f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1001//#testresult/6c353d6ecfefa77f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640224813968,
+          "stop" : 1640224815109,
+          "duration" : 1141
+        }
+      }, {
+        "uid" : "5eb9c2a0a2640cf0",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/999//#testresult/5eb9c2a0a2640cf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640052130758,
+          "stop" : 1640052131835,
+          "duration" : 1077
+        }
+      }, {
+        "uid" : "ab2c391f5b075300",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/996//#testresult/ab2c391f5b075300",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639965653520,
+          "stop" : 1639965654745,
+          "duration" : 1225
+        }
+      }, {
+        "uid" : "d4b998d4d60dfe30",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/995//#testresult/d4b998d4d60dfe30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639879417438,
+          "stop" : 1639879418437,
+          "duration" : 999
+        }
+      }, {
+        "uid" : "4d3a63ff0d1848a2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/994//#testresult/4d3a63ff0d1848a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639792886957,
+          "stop" : 1639792887980,
+          "duration" : 1023
+        }
+      }, {
+        "uid" : "f153d42f466a321f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/993//#testresult/f153d42f466a321f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639706467498,
+          "stop" : 1639706468765,
+          "duration" : 1267
+        }
+      }, {
+        "uid" : "a145202f1e866913",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/991//#testresult/a145202f1e866913",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639533431036,
+          "stop" : 1639533432283,
+          "duration" : 1247
+        }
+      }, {
+        "uid" : "3fa217552773bd6d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/988//#testresult/3fa217552773bd6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639505842879,
+          "stop" : 1639505843930,
+          "duration" : 1051
+        }
+      }, {
+        "uid" : "ece64343f496234c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/985//#testresult/ece64343f496234c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639447207558,
+          "stop" : 1639447208605,
+          "duration" : 1047
+        }
+      }, {
+        "uid" : "302e83b5f1dcd117",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/983//#testresult/302e83b5f1dcd117",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639360800161,
+          "stop" : 1639360801222,
+          "duration" : 1061
+        }
+      }, {
+        "uid" : "97f61081681d0548",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/982//#testresult/97f61081681d0548",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639274585577,
+          "stop" : 1639274586787,
+          "duration" : 1210
+        }
+      }, {
+        "uid" : "690fb9aa0caf3e2c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/979//#testresult/690fb9aa0caf3e2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639246822025,
+          "stop" : 1639246823134,
+          "duration" : 1109
+        }
+      }, {
+        "uid" : "76c2141fc88fa9fc",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/976//#testresult/76c2141fc88fa9fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639187879320,
+          "stop" : 1639187880379,
+          "duration" : 1059
+        }
+      }, {
+        "uid" : "c6a1d0064972c962",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/972//#testresult/c6a1d0064972c962",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639015260494,
+          "stop" : 1639015261988,
+          "duration" : 1494
+        }
+      }, {
+        "uid" : "49bcd8e6bd2f2afe",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/969//#testresult/49bcd8e6bd2f2afe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638928912336,
+          "stop" : 1638928913489,
+          "duration" : 1153
+        }
+      }, {
+        "uid" : "a9c91162f8f8a9c6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/968//#testresult/a9c91162f8f8a9c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638842651142,
+          "stop" : 1638842652442,
+          "duration" : 1300
+        }
+      }, {
+        "uid" : "8fac8ddd24a0e0cf",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/967//#testresult/8fac8ddd24a0e0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638794478970,
+          "stop" : 1638794480118,
+          "duration" : 1148
+        }
+      }, {
+        "uid" : "b1a98a5cf4a9e409",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/964//#testresult/b1a98a5cf4a9e409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638670099226,
+          "stop" : 1638670100332,
+          "duration" : 1106
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "70e6b3e5134eeee5.json",
+  "parameterValues" : [ ]
+}
