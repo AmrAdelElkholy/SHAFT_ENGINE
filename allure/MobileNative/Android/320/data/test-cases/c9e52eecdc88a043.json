@@ -1,0 +1,740 @@
+{
+  "uid" : "c9e52eecdc88a043",
+  "name" : "scrollInExpandableLists_horizontalScrolling_insideElement",
+  "fullName" : "testPackage01.appium.AndroidBasicInteractionsTest.scrollInExpandableLists_horizontalScrolling_insideElement",
+  "historyId" : "52c3cbf56fab7052b382aedcd21178e6",
+  "time" : {
+    "start" : 1640743412296,
+    "stop" : 1640743435246,
+    "duration" : 22950
+  },
+  "status" : "failed",
+  "statusMessage" : "Element Action [SwipeElementIntoView] failed.",
+  "statusTrace" : "java.lang.AssertionError: Element Action [SwipeElementIntoView] failed.\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1454)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1302)\n\tat com.shaft.gui.element.TouchActions.swipeElementIntoView(TouchActions.java:545)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.scrollInExpandableLists_horizontalScrolling_insideElement(AndroidBasicInteractionsTest.java:69)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1640743388252,
+      "stop" : 1640743390953,
+      "duration" : 2701
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1640743388377,
+        "stop" : 1640743388379,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1640743388380,
+        "stop" : 1640743388380,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.2/allure-commandline-2.17.2.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1640743388381,
+        "stop" : 1640743388381,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.2/allure-commandline-2.17.2.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.2/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1640743390010,
+        "stop" : 1640743390010,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.2/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1640743390035,
+        "stop" : 1640743390035,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1640743390157,
+        "stop" : 1640743390157,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "33faa90ff7ec509f",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "33faa90ff7ec509f.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1640743390994,
+      "stop" : 1640743412165,
+      "duration" : 21171
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub].",
+      "time" : {
+        "start" : 1640743391018,
+        "stop" : 1640743391018,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "7"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [NativeMobileApp].",
+      "time" : {
+        "start" : 1640743411579,
+        "stop" : 1640743411580,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "8"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [NativeMobileApp]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1d8097295f5c2eed",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: setup",
+      "source" : "1d8097295f5c2eed.txt",
+      "type" : "text/plain",
+      "size" : 667
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element Action [SwipeElementIntoView] failed.",
+    "statusTrace" : "java.lang.AssertionError: Element Action [SwipeElementIntoView] failed.\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1454)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1302)\n\tat com.shaft.gui.element.TouchActions.swipeElementIntoView(TouchActions.java:545)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.scrollInExpandableLists_horizontalScrolling_insideElement(AndroidBasicInteractionsTest.java:69)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [Views].",
+      "time" : {
+        "start" : 1640743417189,
+        "stop" : 1640743417194,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "9"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [Views]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [SwipeElementIntoView] successfully performed.",
+      "time" : {
+        "start" : 1640743426322,
+        "stop" : 1640743426323,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "10"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [SwipeElementIntoView] successfully performed."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [Tabs].",
+      "time" : {
+        "start" : 1640743428128,
+        "stop" : 1640743428129,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "11"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [Tabs]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Tap] successfully performed. With the following test data [5. Scrollable].",
+      "time" : {
+        "start" : 1640743430157,
+        "stop" : 1640743430158,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "12"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed. With the following test data [5. Scrollable]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [SwipeElementIntoView] failed.",
+      "time" : {
+        "start" : 1640743435202,
+        "stop" : 1640743435212,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e21196a32d18390d",
+        "name" : "Attachment: Screenshot - 1640743434782_scrollInExpandableLists_horizontalScrolling_insideElement_SwipeElementIntoView_failed",
+        "source" : "e21196a32d18390d.png",
+        "type" : "image/png",
+        "size" : 7662
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "13"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [SwipeElementIntoView] failed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1640743434782_scrollInExpandableLists_horizontalScrolling_insideElement_SwipeElementIntoView_failed, java.io.ByteArrayInputStream@4220468]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "15aac5f2f16ac394",
+      "name" : "Attachment: Animated Gif - scrollInExpandableLists_horizontalScrolling_insideElement",
+      "source" : "15aac5f2f16ac394.gif",
+      "type" : "image/gif",
+      "size" : 35759
+    }, {
+      "uid" : "7917c7153c98923b",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: scrollInExpandableLists_horizontalScrolling_insideElement",
+      "source" : "7917c7153c98923b.txt",
+      "type" : "text/plain",
+      "size" : 3530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1640743435255,
+      "stop" : 1640743436781,
+      "duration" : 1526
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1640743436779,
+        "stop" : 1640743436780,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "14"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "98ce870f5da68922",
+      "name" : "Attachment: Video Recording - teardown",
+      "source" : "98ce870f5da68922.mp4",
+      "type" : "video/mp4",
+      "size" : 4934
+    }, {
+      "uid" : "3a86ade2b41b4c05",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: teardown",
+      "source" : "3a86ade2b41b4c05.txt",
+      "type" : "text/plain",
+      "size" : 182
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1640743729228,
+      "stop" : 1640743729727,
+      "duration" : 499
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Issue Summary: Total Issues = 4, New issues for Failed Tests = 4, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1640743729248,
+        "stop" : 1640743729249,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc2cdcbee5a83582",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20211229-020849",
+        "source" : "cc2cdcbee5a83582.csv",
+        "type" : "text/csv",
+        "size" : 700
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "64"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 4, New issues for Failed Tests = 4, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20211229-020849, java.io.ByteArrayInputStream@7ec63b9a]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7e4c856def0b6244",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20211229-020849",
+      "source" : "7e4c856def0b6244.txt",
+      "type" : "text/plain",
+      "size" : 81202
+    }, {
+      "uid" : "8b6bfc3e8c153c47",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "8b6bfc3e8c153c47.html",
+      "type" : "text/html",
+      "size" : 433492
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "scrollInExpandableLists_horizontalScrolling_insideElement"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1640742856451.local"
+  }, {
+    "name" : "thread",
+    "value" : "9875@Mac-1640742856451.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 40,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 44
+      },
+      "items" : [ {
+        "uid" : "c1ccdba0a9e00c5f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/317//#testresult/c1ccdba0a9e00c5f",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640657055002,
+          "stop" : 1640657085573,
+          "duration" : 30571
+        }
+      }, {
+        "uid" : "fa8c92fb7c6d829",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/316//#testresult/fa8c92fb7c6d829",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640570766605,
+          "stop" : 1640570790827,
+          "duration" : 24222
+        }
+      }, {
+        "uid" : "5e3fb8c070a31864",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/313//#testresult/5e3fb8c070a31864",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640484493816,
+          "stop" : 1640484518585,
+          "duration" : 24769
+        }
+      }, {
+        "uid" : "f18eeac69702226e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/312//#testresult/f18eeac69702226e",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640397685359,
+          "stop" : 1640397709945,
+          "duration" : 24586
+        }
+      }, {
+        "uid" : "6ebd2c191e2459d4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/311//#testresult/6ebd2c191e2459d4",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640311442433,
+          "stop" : 1640311466940,
+          "duration" : 24507
+        }
+      }, {
+        "uid" : "e01987d435ee85a6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/308//#testresult/e01987d435ee85a6",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640255724478,
+          "stop" : 1640255751828,
+          "duration" : 27350
+        }
+      }, {
+        "uid" : "35788eae194070cb",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/307//#testresult/35788eae194070cb",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640225051517,
+          "stop" : 1640225074569,
+          "duration" : 23052
+        }
+      }, {
+        "uid" : "e2a18108d77b479f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/306//#testresult/e2a18108d77b479f",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640138776213,
+          "stop" : 1640138801622,
+          "duration" : 25409
+        }
+      }, {
+        "uid" : "fce09137483452ab",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/305//#testresult/fce09137483452ab",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1640052421379,
+          "stop" : 1640052448532,
+          "duration" : 27153
+        }
+      }, {
+        "uid" : "448caec0370239ae",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/302//#testresult/448caec0370239ae",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639966043282,
+          "stop" : 1639966068400,
+          "duration" : 25118
+        }
+      }, {
+        "uid" : "20facea42426c5dd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/301//#testresult/20facea42426c5dd",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639879921344,
+          "stop" : 1639879948842,
+          "duration" : 27498
+        }
+      }, {
+        "uid" : "8bbd4cfca6c6aa3f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/300//#testresult/8bbd4cfca6c6aa3f",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639793284927,
+          "stop" : 1639793309408,
+          "duration" : 24481
+        }
+      }, {
+        "uid" : "76c0c6151ad266d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/299//#testresult/76c0c6151ad266d",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639706760252,
+          "stop" : 1639706798536,
+          "duration" : 38284
+        }
+      }, {
+        "uid" : "84aea6f4c8973508",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/298//#testresult/84aea6f4c8973508",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639620238181,
+          "stop" : 1639620263962,
+          "duration" : 25781
+        }
+      }, {
+        "uid" : "c8ff308ca4c65ce7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/297//#testresult/c8ff308ca4c65ce7",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639533849625,
+          "stop" : 1639533873764,
+          "duration" : 24139
+        }
+      }, {
+        "uid" : "d03e2263c8faa7e6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/295//#testresult/d03e2263c8faa7e6",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639505986328,
+          "stop" : 1639506014001,
+          "duration" : 27673
+        }
+      }, {
+        "uid" : "b5a3bc3f963270a4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/291//#testresult/b5a3bc3f963270a4",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639447699048,
+          "stop" : 1639447736235,
+          "duration" : 37187
+        }
+      }, {
+        "uid" : "8472618dde7e7fd0",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/289//#testresult/8472618dde7e7fd0",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639361123117,
+          "stop" : 1639361152941,
+          "duration" : 29824
+        }
+      }, {
+        "uid" : "153731a5f9668c26",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/288//#testresult/153731a5f9668c26",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639274686749,
+          "stop" : 1639274719263,
+          "duration" : 32514
+        }
+      }, {
+        "uid" : "566e655e61310803",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/287//#testresult/566e655e61310803",
+        "status" : "failed",
+        "statusDetails" : "Element Action [SwipeElementIntoView] failed.",
+        "time" : {
+          "start" : 1639247930229,
+          "stop" : 1639247958743,
+          "duration" : 28514
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c9e52eecdc88a043.json",
+  "parameterValues" : [ ]
+}
