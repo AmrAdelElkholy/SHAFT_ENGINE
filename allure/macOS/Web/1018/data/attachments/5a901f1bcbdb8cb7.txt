@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	[121 out of 146] test cases in the current suite
+Test Method:		[testPackage01.Test_sendGraphqlRequest.sendGraphqlRequestUsingQuery]
+################################################################################################################################################
+[ReportManager] GraphQl Request is being Performed with the Following Parameters [Service URL: https://api.spacex.land/graphql | Request Body: {"query":"{company {ceo}}"}] @31-12-2021 02:01:25.0762 AM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @31-12-2021 02:01:26.0046 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @31-12-2021 02:01:26.0046 AM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @31-12-2021 02:01:26.0046 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://api.spacex.land/graphql" | Content Type: "application/json" | Response Time: "278ms"]. @31-12-2021 02:01:26.0059 AM
+[ReportManager] Successfully created attachment [API Request - Specifications] @31-12-2021 02:01:26.0060 AM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @31-12-2021 02:01:26.0061 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @31-12-2021 02:01:26.0062 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [data.company.ceo]. @31-12-2021 02:01:26.0076 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Elon Musk] and Actual [Elon Musk]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @31-12-2021 02:01:26.0076 A
