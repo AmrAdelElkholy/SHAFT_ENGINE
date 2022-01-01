@@ -1,0 +1,680 @@
+{
+  "uid" : "7adbaf9da0826a4e",
+  "name" : "visualElementIdentification_samedpi",
+  "fullName" : "testPackage01.appium.AndroidBasicInteractionsTest.visualElementIdentification_samedpi",
+  "historyId" : "400927def6193b091203ec0a55fad150",
+  "time" : {
+    "start" : 1641003154185,
+    "stop" : 1641003186709,
+    "duration" : 32524
+  },
+  "status" : "failed",
+  "statusMessage" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+  "statusTrace" : "java.lang.AssertionError: Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.validation.ValidationsHelper.reportValidationState(ValidationsHelper.java:860)\n\tat com.shaft.validation.ValidationsHelper.fail(ValidationsHelper.java:588)\n\tat com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:155)\n\tat com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.visualElementIdentification_samedpi(AndroidBasicInteractionsTest.java:81)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1641002807548,
+      "stop" : 1641002810781,
+      "duration" : 3233
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1641002807600,
+        "stop" : 1641002807602,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1641002807604,
+        "stop" : 1641002807604,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.2/allure-commandline-2.17.2.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1641002807605,
+        "stop" : 1641002807605,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.2/allure-commandline-2.17.2.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.2/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1641002809803,
+        "stop" : 1641002809803,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.2/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1641002809829,
+        "stop" : 1641002809829,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1641002809957,
+        "stop" : 1641002809957,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2dc1b6ee61ad66af",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "2dc1b6ee61ad66af.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1641003146186,
+      "stop" : 1641003154182,
+      "duration" : 7996
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub].",
+      "time" : {
+        "start" : 1641003146187,
+        "stop" : 1641003146187,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "62"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [NativeMobileApp].",
+      "time" : {
+        "start" : 1641003153622,
+        "stop" : 1641003153622,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "63"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [NativeMobileApp]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "13d37cceaac70df6",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: setup",
+      "source" : "13d37cceaac70df6.txt",
+      "type" : "text/plain",
+      "size" : 667
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+    "statusTrace" : "java.lang.AssertionError: Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat com.shaft.validation.ValidationsHelper.reportValidationState(ValidationsHelper.java:860)\n\tat com.shaft.validation.ValidationsHelper.fail(ValidationsHelper.java:588)\n\tat com.shaft.validation.ValidationsHelper.validateElementExists(ValidationsHelper.java:155)\n\tat com.shaft.validation.ValidationsExecutor.perform(ValidationsExecutor.java:146)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.visualElementIdentification_samedpi(AndroidBasicInteractionsTest.java:81)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:276)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1134)\n\tat org.testng.TestNG.runSuites(TestNG.java:1063)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Element Action [Tap] successfully performed.",
+      "time" : {
+        "start" : 1641003154713,
+        "stop" : 1641003154713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "64"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] successfully performed."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion Failed: Then I Assert that the element found by [AppiumBy.accessibilityId: Assets] exists.",
+      "time" : {
+        "start" : 1641003186703,
+        "stop" : 1641003186706,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92620a01c60ac49d",
+        "name" : "Attachment: Screenshot - 1641003186154_visualElementIdentification_samedpi_ValidateElementExists_failed",
+        "source" : "92620a01c60ac49d.png",
+        "type" : "image/png",
+        "size" : 7662
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "65"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Failed: Then I Assert that the element found by [AppiumBy.accessibilityId: Assets] exists."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1641003186154_visualElementIdentification_samedpi_ValidateElementExists_failed, java.io.ByteArrayInputStream@5a14a8c1]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9398036d5413b3e1",
+      "name" : "Attachment: Animated Gif - visualElementIdentification_samedpi",
+      "source" : "9398036d5413b3e1.gif",
+      "type" : "image/gif",
+      "size" : 7151
+    }, {
+      "uid" : "976a4d17ed7ca257",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: visualElementIdentification_samedpi",
+      "source" : "976a4d17ed7ca257.txt",
+      "type" : "text/plain",
+      "size" : 21830
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1641003186711,
+      "stop" : 1641003187977,
+      "duration" : 1266
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1641003187976,
+        "stop" : 1641003187976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "66"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a308e32c987054ad",
+      "name" : "Attachment: Video Recording - teardown",
+      "source" : "a308e32c987054ad.mp4",
+      "type" : "video/mp4",
+      "size" : 4808
+    }, {
+      "uid" : "5728cf433a017497",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: teardown",
+      "source" : "5728cf433a017497.txt",
+      "type" : "text/plain",
+      "size" : 182
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1641003187989,
+      "stop" : 1641003188602,
+      "duration" : 613
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 3, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1641003187998,
+        "stop" : 1641003187999,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7273397c2bc98da1",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220101-021307",
+        "source" : "7273397c2bc98da1.csv",
+        "type" : "text/csv",
+        "size" : 518
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "67"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 3, New issues for Failed Tests = 3, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220101-021307, java.io.ByteArrayInputStream@61c1be2f]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bfaea79af479aeef",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220101-021307",
+      "source" : "bfaea79af479aeef.txt",
+      "type" : "text/plain",
+      "size" : 89283
+    }, {
+      "uid" : "ce9a9f16fcbb7b39",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "ce9a9f16fcbb7b39.html",
+      "type" : "text/html",
+      "size" : 453697
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "visualElementIdentification_samedpi"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1641001951045.local"
+  }, {
+    "name" : "thread",
+    "value" : "7621@Mac-1641001951045.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 43,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "755b09fd7161fb9a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/324//#testresult/755b09fd7161fb9a",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640916707390,
+          "stop" : 1640916740147,
+          "duration" : 32757
+        }
+      }, {
+        "uid" : "96c76781316a2717",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/323//#testresult/96c76781316a2717",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640830253368,
+          "stop" : 1640830285955,
+          "duration" : 32587
+        }
+      }, {
+        "uid" : "81fc9355aa56706b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/320//#testresult/81fc9355aa56706b",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640743695106,
+          "stop" : 1640743727963,
+          "duration" : 32857
+        }
+      }, {
+        "uid" : "57f29cc452147cab",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/317//#testresult/57f29cc452147cab",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640657373345,
+          "stop" : 1640657406057,
+          "duration" : 32712
+        }
+      }, {
+        "uid" : "5dad3d233d53c0c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/316//#testresult/5dad3d233d53c0c",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640571108418,
+          "stop" : 1640571140875,
+          "duration" : 32457
+        }
+      }, {
+        "uid" : "59ceba60f52843ed",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/313//#testresult/59ceba60f52843ed",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640484812463,
+          "stop" : 1640484845265,
+          "duration" : 32802
+        }
+      }, {
+        "uid" : "d54ca00be7692c8d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/312//#testresult/d54ca00be7692c8d",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640397980860,
+          "stop" : 1640398012670,
+          "duration" : 31810
+        }
+      }, {
+        "uid" : "ed00dec27444e198",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/311//#testresult/ed00dec27444e198",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640311780243,
+          "stop" : 1640311812302,
+          "duration" : 32059
+        }
+      }, {
+        "uid" : "9d2f95ae3a271176",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/308//#testresult/9d2f95ae3a271176",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640256051368,
+          "stop" : 1640256083898,
+          "duration" : 32530
+        }
+      }, {
+        "uid" : "b2e92e03def0627",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/307//#testresult/b2e92e03def0627",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640225360244,
+          "stop" : 1640225392568,
+          "duration" : 32324
+        }
+      }, {
+        "uid" : "89a99bdd662a6940",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/306//#testresult/89a99bdd662a6940",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640139107011,
+          "stop" : 1640139140150,
+          "duration" : 33139
+        }
+      }, {
+        "uid" : "57a4195a22a85152",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/305//#testresult/57a4195a22a85152",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1640052761495,
+          "stop" : 1640052794039,
+          "duration" : 32544
+        }
+      }, {
+        "uid" : "f39c3c7def87fb0",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/302//#testresult/f39c3c7def87fb0",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639966371824,
+          "stop" : 1639966404277,
+          "duration" : 32453
+        }
+      }, {
+        "uid" : "4d09a61f07804389",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/301//#testresult/4d09a61f07804389",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639880238183,
+          "stop" : 1639880270852,
+          "duration" : 32669
+        }
+      }, {
+        "uid" : "73405e878be7ecae",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/300//#testresult/73405e878be7ecae",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639793608969,
+          "stop" : 1639793641172,
+          "duration" : 32203
+        }
+      }, {
+        "uid" : "cd717ec22190ac7b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/299//#testresult/cd717ec22190ac7b",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639707099820,
+          "stop" : 1639707132389,
+          "duration" : 32569
+        }
+      }, {
+        "uid" : "3e70d3bbc7a9e1d1",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/298//#testresult/3e70d3bbc7a9e1d1",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639620544684,
+          "stop" : 1639620576744,
+          "duration" : 32060
+        }
+      }, {
+        "uid" : "9f811339e481d2b6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/297//#testresult/9f811339e481d2b6",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639534149826,
+          "stop" : 1639534182006,
+          "duration" : 32180
+        }
+      }, {
+        "uid" : "28521aa9edf83a8c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/295//#testresult/28521aa9edf83a8c",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639506323880,
+          "stop" : 1639506356806,
+          "duration" : 32926
+        }
+      }, {
+        "uid" : "4ce3dc04f45ee165",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/291//#testresult/4ce3dc04f45ee165",
+        "status" : "failed",
+        "statusDetails" : "Assertion [ValidateElementExists] FAILED. Expected [Element Should Exist, locator 'AppiumBy.accessibilityId: Assets'] and Actual [Element Doesn't Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+        "time" : {
+          "start" : 1639448027677,
+          "stop" : 1639448059493,
+          "duration" : 31816
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7adbaf9da0826a4e.json",
+  "parameterValues" : [ ]
+}
