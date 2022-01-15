@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element Action [WaitForAlertToBePresent] failed.",
+      "children" : [ {
+        "name" : "acceptAlert",
+        "uid" : "c4e983c467aeaae2",
+        "parentUid" : "3b1405a02fab9ea241a32e8f506f0ac9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642212432531,
+          "stop" : 1642212462924,
+          "duration" : 30393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "acceptAlert",
+        "uid" : "a959ae7a2f642804",
+        "parentUid" : "3b1405a02fab9ea241a32e8f506f0ac9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642212778437,
+          "stop" : 1642212808930,
+          "duration" : 30493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "acceptPromptAlertWithoutTypingTextMessage",
+        "uid" : "18b3af2c48d63634",
+        "parentUid" : "3b1405a02fab9ea241a32e8f506f0ac9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642212813353,
+          "stop" : 1642212843828,
+          "duration" : 30475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b1405a02fab9ea241a32e8f506f0ac9"
+    }, {
+      "name" : "Driver Factory Action [createNewRemoteDriverInstance] failed. With the following test data [Unhandled Error.].",
+      "children" : [ {
+        "name" : "simpleSelect",
+        "uid" : "cc8a0834505f6537",
+        "parentUid" : "3f658a18a7bdbab0395294c0ca29fa46",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642212467333,
+          "stop" : 1642212647353,
+          "duration" : 180020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f658a18a7bdbab0395294c0ca29fa46"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Unable to parse: \nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az213-638', ip: '10.1.0.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1025-azure', java.version: '17.0.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [a1a43cc06ae5c1ad9ec2694ce2502b9f, findChildElements {id=8abe22d5-9039-4c9d-87cd-a4b2d6d09fa3, using=tag name, value=option}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /tmp/.com.google.Chrome.bzXrfI}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://0.0.0.0:4444/session/a..., se:cdpVersion: 95.0.4638.69, se:vnc: ws://0.0.0.0:4444/session/a..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a1a43cc06ae5c1ad9ec2694ce2502b9f",
+      "children" : [ {
+        "name" : "multipleSelect",
+        "uid" : "5dc78a37fb3bcc79",
+        "parentUid" : "b83d5e4bd97bc047bbfc53612ef7418d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1642212463080,
+          "stop" : 1642212467332,
+          "duration" : 4252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b83d5e4bd97bc047bbfc53612ef7418d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
