@@ -1,0 +1,14 @@
+
+################################################################################################################################################
+Starting Execution:	[19 out of 162] test cases in the current suite
+Test Method:		[testPackage01.Test_checkJDKShellFilesGenerated.testJDKGeneratedSuccessfully]
+################################################################################################################################################
+[ReportManager] Configuring JDK @16-01-2022 15:00:01.0060 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative File Path: "generateJdk.bat"]. @16-01-2022 15:00:01.0061 PM
+[ReportManager] File Action [WriteToFile] successfully performed. With the following test data [Target File Path: "D:\a\SHAFT_ENGINE\SHAFT_ENGINE\generateJdk.bat"]. @16-01-2022 15:00:01.0061 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative File Path: "generateJdk.sh"]. @16-01-2022 15:00:01.0061 PM
+[ReportManager] File Action [WriteToFile] successfully performed. With the following test data [Target File Path: "D:\a\SHAFT_ENGINE\SHAFT_ENGINE\generateJdk.sh"]. @16-01-2022 15:00:01.0062 PM
+[ReportManager] Assertion Passed: Then I Assert that [[@echo off, set JAVA_HOME=C:\hostedtoolcache\windows\Java_Zulu_jdk\17.0.1-12\x64, set M2=%M2_HOME%\bin, set PATH=%JAVA_HOME%\bin;%M2%;%PATH%, echo %JAVA_HOME%, echo %PATH%]] contains [17.0.1]. @16-01-2022 15:00:01.0062 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [17.0.1] and Actual [[@echo off, set JAVA_HOME=C:\hostedtoolcache\windows\Java_Zulu_jdk\17.0.1-12\x64, set M2=%M2_HOME%\bin, set PATH=%JAVA_HOME%\bin;%M2%;%PATH%, echo %JAVA_HOME%, echo %PATH%]]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @16-01-2022 15:00:01.0062 PM
+[ReportManager] Assertion Passed: Then I Assert that [[#!/bin/bash, export JAVA_HOME=/C/hostedtoolcache/windows/Java_Zulu_jdk/17.0.1-12/x64, export PATH=$JAVA_HOME/bin:$PATH, echo $JAVA_HOME, echo $PATH, $SHELL]] contains [17.0.1]. @16-01-2022 15:00:01.0064 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [17.0.1] and Actual [[#!/bin/bash, export JAVA_HOME=/C/hostedtoolcache/windows/Java_Zulu_jdk/17.0.1-12/x64, export PATH=$JAVA_HOME/bin:$PATH, echo $JAVA_HOME, echo $PATH, $SHELL]]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @16-01-2022 15:00:01.0064 PM
