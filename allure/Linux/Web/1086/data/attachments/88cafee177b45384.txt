@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	[155 out of 162] test cases in the current suite
+Test Method:		[testPackage01.Test_checkJDKShellFilesGenerated.testJDKGeneratedSuccessfully]
+################################################################################################################################################
+[ReportManager] Configuring JDK @24-01-2022 02:08:10.0208 AM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative File Path: "generateJdkMac.sh"]. @24-01-2022 02:08:10.0208 AM
+[ReportManager] File Action [WriteToFile] successfully performed. With the following test data [Target File Path: "/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/generateJdkMac.sh"]. @24-01-2022 02:08:10.0209 AM
+[ReportManager] Attempting to perform the following command locally. Command: [chmod u+x generateJdk.sh] @24-01-2022 02:08:10.0209 AM
+[ReportManager] Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: "localHost" | Command: "chmod u+x generateJdk.sh" | Exit Status: "1"]. @24-01-2022 02:08:10.0216 AM
+[ReportManager] Successfully created attachment [Terminal Action Actual Result - Command Log] @24-01-2022 02:08:10.0216 AM
+[ReportManager] Assertion Passed: Then I Assert that [[#!/bin/bash, export JAVA_HOME=$(/usr/libexec/java_home), export PATH=$JAVA_HOME/bin:$PATH, source ~/.zshenv, echo $JAVA_HOME, echo $PATH, exec bash]] contains [JAVA_HOME=$(/usr/libexec/java_home)]. @24-01-2022 02:08:10.0216 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [JAVA_HOME=$(/usr/libexec/java_home)] and Actual [[#!/bin/bash, export JAVA_HOME=$(/usr/libexec/java_home), export PATH=$JAVA_HOME/bin:$PATH, source ~/.zshenv, echo $JAVA_HOME, echo $PATH, exec bash]]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @24-01-2022 02:08:10.0216 A
