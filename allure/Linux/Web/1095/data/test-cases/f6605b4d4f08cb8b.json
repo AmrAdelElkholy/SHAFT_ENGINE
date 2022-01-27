@@ -1,0 +1,388 @@
+{
+  "uid" : "f6605b4d4f08cb8b",
+  "name" : "specialCharacters",
+  "fullName" : "testPackage01.Test_JsonCompareWithSpecialCharacters.specialCharacters",
+  "historyId" : "b27c77614b887aad9233c87f6d999b88",
+  "time" : {
+    "start" : 1643248424405,
+    "stop" : 1643248424450,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1643248322944,
+      "stop" : 1643248323633,
+      "duration" : 689
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1643248323051,
+        "stop" : 1643248323052,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1643248323631,
+        "stop" : 1643248323632,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8e2dc44b18d6842a",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "8e2dc44b18d6842a.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d597c9a6ec3f7d71",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "d597c9a6ec3f7d71.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "File Action [ReadFromFile] successfully performed. With the following test data [File Path: \"/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/test/resources/testDataFiles/specialCharacters.json\"].",
+      "time" : {
+        "start" : 1643248424420,
+        "stop" : 1643248424421,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b389035a3acb5ba",
+        "name" : "Attachment: File Action Actual Result - Command Log",
+        "source" : "5b389035a3acb5ba.txt",
+        "type" : "text/plain",
+        "size" : 14264
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "107"
+      }, {
+        "name" : "logText",
+        "value" : "File Action [ReadFromFile] successfully performed. With the following test data [File Path: \"/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/test/resources/testDataFiles/specialCharacters.json\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[File Action Actual Result, Command Log, {\n  \"data\": {\n    \"mergeColumns\": false,\n    \"subqueryComplete\": true,\n    \"startRow\": 0,\n    \"isSampled\": false,\n    \"endRow\": 107,\n    \"measureTypes\": [\n      \"long\",\n      \"string\"\n    ],\n    \"totalRows\": 107,\n    \"type\": \"table\",\n    \"labels\": [\n      \"Employee Id\",\n      \"Employee Id Chr\"\n    ],\n    \"isAggregated\": false,\n    \"id\": \"28dc2f23-a772-a906-43ac-e598813a8f5e\",\n    \"complete\": true,\n    \"rowTypes\": [],\n    \"rowTree\": {\n      \"r\": [\n        [\n          {\n            \"v\": \"200\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"201\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"202\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"114\"\n          },\n          {\n            \"v\": \"r\"\n          }\n        ],\n        [\n          {\n            \"v\": \"115\"\n          },\n          {\n            \"v\": \"s\"\n          }\n        ],\n        [\n          {\n            \"v\": \"116\"\n          },\n          {\n            \"v\": \"t\"\n          }\n        ],\n        [\n          {\n            \"v\": \"117\"\n          },\n          {\n            \"v\": \"u\"\n          }\n        ],\n        [\n          {\n            \"v\": \"118\"\n          },\n          {\n            \"v\": \"v\"\n          }\n        ],\n        [\n          {\n            \"v\": \"119\"\n          },\n          {\n            \"v\": \"w\"\n          }\n        ],\n        [\n          {\n            \"v\": \"203\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"120\"\n          },\n          {\n            \"v\": \"x\"\n          }\n        ],\n        [\n          {\n            \"v\": \"121\"\n          },\n          {\n            \"v\": \"y\"\n          }\n        ],\n        [\n          {\n            \"v\": \"122\"\n          },\n          {\n            \"v\": \"z\"\n          }\n        ],\n        [\n          {\n            \"v\": \"123\"\n          },\n          {\n            \"v\": \"{\"\n          }\n        ],\n        [\n          {\n            \"v\": \"124\"\n          },\n          {\n            \"v\": \"|\"\n          }\n        ],\n        [\n          {\n            \"v\": \"125\"\n          },\n          {\n            \"v\": \"}\"\n          }\n        ],\n        [\n          {\n            \"v\": \"126\"\n          },\n          {\n            \"v\": \"~\"\n          }\n        ],\n        [\n          {\n            \"v\": \"127\"\n          },\n          {\n            \"v\": \"\"\n          }\n        ],\n        [\n          {\n            \"v\": \"128\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"129\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"130\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"131\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"132\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"133\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"134\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"135\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"136\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"137\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"138\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"139\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"140\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"141\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"142\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"143\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"144\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"180\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"181\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"182\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"183\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"184\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"185\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"186\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"187\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"188\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"189\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"190\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"191\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"192\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"193\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"194\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"195\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"196\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"197\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"198\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"199\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"103\"\n          },\n          {\n            \"v\": \"g\"\n          }\n        ],\n        [\n          {\n            \"v\": \"104\"\n          },\n          {\n            \"v\": \"h\"\n          }\n        ],\n        [\n          {\n            \"v\": \"105\"\n          },\n          {\n            \"v\": \"i\"\n          }\n        ],\n        [\n          {\n            \"v\": \"106\"\n          },\n          {\n            \"v\": \"j\"\n          }\n        ],\n        [\n          {\n            \"v\": \"107\"\n          },\n          {\n            \"v\": \"k\"\n          }\n        ],\n        [\n          {\n            \"v\": \"204\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"145\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"146\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"147\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"148\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"149\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"150\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"151\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"152\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"153\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"154\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"155\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"156\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"157\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"158\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"159\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"160\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"161\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"162\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"163\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"164\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"165\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"166\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"167\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"168\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"169\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"170\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"171\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"172\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"173\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"174\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"175\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"176\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"177\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"179\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"100\"\n          },\n          {\n            \"v\": \"d\"\n          }\n        ],\n        [\n          {\n            \"v\": \"101\"\n          },\n          {\n            \"v\": \"e\"\n          }\n        ],\n        [\n          {\n            \"v\": \"102\"\n          },\n          {\n            \"v\": \"f\"\n          }\n        ],\n        [\n          {\n            \"v\": \"108\"\n          },\n          {\n            \"v\": \"l\"\n          }\n        ],\n        [\n          {\n            \"v\": \"109\"\n          },\n          {\n            \"v\": \"m\"\n          }\n        ],\n        [\n          {\n            \"v\": \"110\"\n          },\n          {\n            \"v\": \"n\"\n          }\n        ],\n        [\n          {\n            \"v\": \"111\"\n          },\n          {\n            \"v\": \"o\"\n          }\n        ],\n        [\n          {\n            \"v\": \"112\"\n          },\n          {\n            \"v\": \"p\"\n          }\n        ],\n        [\n          {\n            \"v\": \"113\"\n          },\n          {\n            \"v\": \"q\"\n          }\n        ],\n        [\n          {\n            \"v\": \"205\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"206\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ],\n        [\n          {\n            \"v\": \"178\"\n          },\n          {\n            \"v\": \"?\"\n          }\n        ]\n      ]\n    }\n  },\n  \"meta\": {\n    \"groupFilters\": [],\n    \"settings\": {\n      \"maxRows\": 1000,\n      \"fixedColumns\": 0,\n      \"exportToExternalApi\": false,\n      \"autoRefresh\": true,\n      \"showHeader\": true,\n      \"showTotal\": false,\n      \"showSubtotal\": false,\n      \"showLegend\": true,\n      \"dynamicGroupBy\": false,\n      \"aggregated\": false,\n      \"onlyShowSelectedGroup\": false,\n      \"transpose\": false\n    },\n    \"measures\": [\n      {\n        \"dashboardDrillDowns\": [],\n        \"runningTotal\": false,\n        \"conditionalFormats\": [],\n        \"numberFormat\": \"###,###\",\n        \"ranges\": [],\n        \"showNumberScale\": true,\n        \"column\": {\n          \"field\": \"C388961_MVs_SQL_chrFunction.C388961.EMPLOYEE_ID\",\n          \"name\": \"Employee Id\"\n        },\n        \"chartType\": \"line\",\n        \"aggregation\": \"sum\",\n        \"trendLines\": [],\n        \"filters\": [],\n        \"baseField\": {\n          \"enabled\": false\n        }\n      },\n      {\n        \"dashboardDrillDowns\": [],\n        \"runningTotal\": false,\n        \"conditionalFormats\": [],\n        \"numberFormat\": \"0.##\",\n        \"ranges\": [],\n        \"showNumberScale\": true,\n        \"column\": {\n          \"field\": \"C388961_MVs_SQL_chrFunction.C388961.EMPLOYEE_ID_chr\",\n          \"name\": \"Employee Id Chr\"\n        },\n        \"chartType\": \"line\",\n        \"aggregation\": \"none\",\n        \"trendLines\": [],\n        \"filters\": [],\n        \"baseField\": {\n          \"enabled\": false\n        }\n      }\n    ],\n    \"appliedFilters\": [],\n    \"distinctFilters\": [],\n    \"columns\": [],\n    \"sorting\": [],\n    \"joinRules\": [],\n    \"rows\": []\n  },\n  \"type\": \"table\"\n}]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verification [ValidateJSONFileContent] PASSED. Expected [Response data should match the JSON File in this path 'src/test/resources/testDataFiles/specialCharacters.json'] and Actual [TRUE]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1643248424447,
+        "stop" : 1643248424449,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40e03afa4ef3b7ea",
+        "name" : "Attachment: Validation Test Data - Expected JSON Value",
+        "source" : "40e03afa4ef3b7ea.json",
+        "type" : "text/json",
+        "size" : 14264
+      }, {
+        "uid" : "abc383732ae4b9ee",
+        "name" : "Attachment: Validation Test Data - Actual JSON Value",
+        "source" : "abc383732ae4b9ee.json",
+        "type" : "text/json",
+        "size" : 14264
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "108"
+      }, {
+        "name" : "logText",
+        "value" : "Verification [ValidateJSONFileContent] PASSED. Expected [Response data should match the JSON File in this path 'src/test/resources/testDataFiles/specialCharacters.json'] and Actual [TRUE]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Validation Test Data, Expected JSON Value, java.io.ByteArrayInputStream@574108a0], [Validation Test Data, Actual JSON Value, java.io.ByteArrayInputStream@7895bad0]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "dd00607ffd1287c4",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: specialCharacters",
+      "source" : "dd00607ffd1287c4.txt",
+      "type" : "text/plain",
+      "size" : 2370
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1643248974550,
+      "stop" : 1643248975090,
+      "duration" : 540
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1643248974551,
+        "stop" : 1643248974551,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "588"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1643248974561,
+        "stop" : 1643248974562,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0dac9bb83420707",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220127-020254",
+        "source" : "d0dac9bb83420707.csv",
+        "type" : "text/csv",
+        "size" : 612
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "589"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220127-020254, java.io.ByteArrayInputStream@555f8f3]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "65b91d330fc8884",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220127-020254",
+      "source" : "65b91d330fc8884.txt",
+      "type" : "text/plain",
+      "size" : 376421
+    }, {
+      "uid" : "4d5edde6fc2583e5",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "4d5edde6fc2583e5.html",
+      "type" : "text/html",
+      "size" : 19160747
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_JsonCompareWithSpecialCharacters"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_JsonCompareWithSpecialCharacters"
+  }, {
+    "name" : "testMethod",
+    "value" : "specialCharacters"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_JsonCompareWithSpecialCharacters"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-793"
+  }, {
+    "name" : "thread",
+    "value" : "4010@fv-az204-793.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "cc74fa9e647f0a6a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1094//#testresult/cc74fa9e647f0a6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643162439579,
+          "stop" : 1643162439607,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "d373b00eb87a4a6d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1086//#testresult/d373b00eb87a4a6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642989899275,
+          "stop" : 1642989899308,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "861b70d9f7c782c7",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1083//#testresult/861b70d9f7c782c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642816416361,
+          "stop" : 1642816416401,
+          "duration" : 40
+        }
+      }, {
+        "uid" : "4f5d6838e42a9368",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1081//#testresult/4f5d6838e42a9368",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642730382939,
+          "stop" : 1642730382973,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "67e69d443de0b025",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1077//#testresult/67e69d443de0b025",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642539420655,
+          "stop" : 1642539420694,
+          "duration" : 39
+        }
+      }, {
+        "uid" : "34a82e12944672f6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1073//#testresult/34a82e12944672f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642385335939,
+          "stop" : 1642385335970,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "85219de2346d6e4e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1072//#testresult/85219de2346d6e4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642345562664,
+          "stop" : 1642345562692,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "48fa8f73ff4f1dec",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1068//#testresult/48fa8f73ff4f1dec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642299071081,
+          "stop" : 1642299071128,
+          "duration" : 47
+        }
+      }, {
+        "uid" : "5512cce70fc5fea2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1067//#testresult/5512cce70fc5fea2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642212352798,
+          "stop" : 1642212352869,
+          "duration" : 71
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f6605b4d4f08cb8b.json",
+  "parameterValues" : [ ]
+}
