@@ -1,0 +1,424 @@
+{
+  "uid" : "a3178bb460ce7ec4",
+  "name" : "sendGraphqlRequestUsingQuery",
+  "fullName" : "testPackage01.Test_sendGraphqlRequest.sendGraphqlRequestUsingQuery",
+  "historyId" : "a55bf854e3301a0d60e84ba8c52fc696",
+  "time" : {
+    "start" : 1643507488500,
+    "stop" : 1643507488642,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1643507427794,
+      "stop" : 1643507428536,
+      "duration" : 742
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1643507427946,
+        "stop" : 1643507427951,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1643507428534,
+        "stop" : 1643507428535,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2d6250b37f3f7e4",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "c2d6250b37f3f7e4.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5c00875ebdcb18c0",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "5c00875ebdcb18c0.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: Evaluating the actual response status code against the expected one...",
+      "time" : {
+        "start" : 1643507488594,
+        "stop" : 1643507488596,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "52"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Evaluating the actual response status code against the expected one..."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"POST\" | Target Status Code: \"200\" | Service URL: \"https://api.spacex.land/graphql\" | Content Type: \"application/json\" | Response Time: \"80ms\"].",
+      "time" : {
+        "start" : 1643507488619,
+        "stop" : 1643507488620,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8257baf68ef1576",
+        "name" : "Attachment: API Request - Specifications",
+        "source" : "c8257baf68ef1576.txt",
+        "type" : "text/plain",
+        "size" : 57
+      }, {
+        "uid" : "c5eee1598702c887",
+        "name" : "Attachment: API Request - JSON Body",
+        "source" : "c5eee1598702c887.json",
+        "type" : "text/json",
+        "size" : 32
+      }, {
+        "uid" : "fa59faffe154e869",
+        "name" : "Attachment: API Response - JSON Body",
+        "source" : "fa59faffe154e869.json",
+        "type" : "text/json",
+        "size" : 67
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "53"
+      }, {
+        "name" : "logText",
+        "value" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"POST\" | Target Status Code: \"200\" | Service URL: \"https://api.spacex.land/graphql\" | Content Type: \"application/json\" | Response Time: \"80ms\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[API Request, Specifications, Headers:\n_______________\n\nContent-Type=application/json\n\n], [API Request, JSON Body, java.io.ByteArrayInputStream@71b54162], null, [API Response, JSON Body, java.io.ByteArrayInputStream@70700265]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateEquals] PASSED. Expected [Elon Musk] and Actual [Elon Musk]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1643507488640,
+        "stop" : 1643507488641,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "54"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected [Elon Musk] and Actual [Elon Musk]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d4fce8ffd911bd90",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: sendGraphqlRequestUsingQuery",
+      "source" : "d4fce8ffd911bd90.txt",
+      "type" : "text/plain",
+      "size" : 1992
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1643508096892,
+      "stop" : 1643508097762,
+      "duration" : 870
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1643508096892,
+        "stop" : 1643508096893,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "588"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1643508096907,
+        "stop" : 1643508096908,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc64660b539022e8",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220130-020136",
+        "source" : "fc64660b539022e8.csv",
+        "type" : "text/csv",
+        "size" : 612
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "589"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220130-020136, java.io.ByteArrayInputStream@9bb297f]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "656aa2eacc645b",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220130-020136",
+      "source" : "656aa2eacc645b.txt",
+      "type" : "text/plain",
+      "size" : 396331
+    }, {
+      "uid" : "d420aa3c955829b4",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "d420aa3c955829b4.html",
+      "type" : "text/html",
+      "size" : 13493712
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_sendGraphqlRequest"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_sendGraphqlRequest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sendGraphqlRequestUsingQuery"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_sendGraphqlRequest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-371"
+  }, {
+    "name" : "thread",
+    "value" : "4040@fv-az204-371.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "d36b9c69aebad70e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1095//#testresult/d36b9c69aebad70e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643248380247,
+          "stop" : 1643248380465,
+          "duration" : 218
+        }
+      }, {
+        "uid" : "ee1093336a413894",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1094//#testresult/ee1093336a413894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643162396693,
+          "stop" : 1643162396946,
+          "duration" : 253
+        }
+      }, {
+        "uid" : "6a8421c244353fa8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1086//#testresult/6a8421c244353fa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642989944876,
+          "stop" : 1642989945003,
+          "duration" : 127
+        }
+      }, {
+        "uid" : "eb97be14ce1e95c3",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1083//#testresult/eb97be14ce1e95c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642816461387,
+          "stop" : 1642816461511,
+          "duration" : 124
+        }
+      }, {
+        "uid" : "5772208ef3c3843b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1081//#testresult/5772208ef3c3843b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642730427869,
+          "stop" : 1642730428187,
+          "duration" : 318
+        }
+      }, {
+        "uid" : "bf69a5a79a72722e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1077//#testresult/bf69a5a79a72722e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642539466127,
+          "stop" : 1642539466247,
+          "duration" : 120
+        }
+      }, {
+        "uid" : "2750b6d232a61bc0",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1073//#testresult/2750b6d232a61bc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642385380650,
+          "stop" : 1642385380979,
+          "duration" : 329
+        }
+      }, {
+        "uid" : "d8ab7abea4241a89",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1072//#testresult/d8ab7abea4241a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642345607131,
+          "stop" : 1642345607240,
+          "duration" : 109
+        }
+      }, {
+        "uid" : "62f5597648d782b1",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1068//#testresult/62f5597648d782b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642299116416,
+          "stop" : 1642299116539,
+          "duration" : 123
+        }
+      }, {
+        "uid" : "8906554a0675e92d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1067//#testresult/8906554a0675e92d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642212397473,
+          "stop" : 1642212397590,
+          "duration" : 117
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a3178bb460ce7ec4.json",
+  "parameterValues" : [ ]
+}
