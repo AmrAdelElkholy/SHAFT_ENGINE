@@ -1,0 +1,637 @@
+{
+  "uid" : "ff81067bc1b32fbc",
+  "name" : "acceptAlert",
+  "fullName" : "testPackage01.TestJSConfirmBox.acceptAlert",
+  "historyId" : "33865050f01a74fce461b1ec0dbab96f",
+  "time" : {
+    "start" : 1644610304583,
+    "stop" : 1644610335118,
+    "duration" : 30535
+  },
+  "status" : "failed",
+  "statusMessage" : "Element Action [WaitForAlertToBePresent] failed.",
+  "statusTrace" : "java.lang.AssertionError: Element Action [WaitForAlertToBePresent] failed.\n\tat org.testng.Assert.fail(Assert.java:98)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1465)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1304)\n\tat com.shaft.gui.element.AlertActions.waitForAlertToBePresent(AlertActions.java:29)\n\tat com.shaft.gui.element.AlertActions.acceptAlert(AlertActions.java:51)\n\tat testPackage01.TestJSConfirmBox.acceptAlert(TestJSConfirmBox.java:52)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az290-820', ip: '10.1.1.161', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /tmp/.com.google.Chrome.FROtpe}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://0.0.0.0:4444/session/3..., se:cdpVersion: 95.0.4638.69, se:vnc: ws://0.0.0.0:4444/session/3..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3bd1a01d4edd6a9234c47c831d385faf\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat com.shaft.gui.element.AlertActions.waitForAlertToBePresent(AlertActions.java:24)\n\t... 35 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "navigateToJSAlertPage",
+    "time" : {
+      "start" : 1644610301698,
+      "stop" : 1644610303110,
+      "duration" : 1412
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1644610301698,
+        "stop" : 1644610301698,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "86"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1644610302389,
+        "stop" : 1644610302389,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "87"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [http://the-internet.herokuapp.com/javascript_alerts].",
+      "time" : {
+        "start" : 1644610303108,
+        "stop" : 1644610303110,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "88"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [http://the-internet.herokuapp.com/javascript_alerts]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1644610218313,
+      "stop" : 1644610219154,
+      "duration" : 841
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "An Exception Occured with this Message: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 308; Element or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName..",
+      "time" : {
+        "start" : 1644610218442,
+        "stop" : 1644610218446,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fecc0f1d32b8272",
+        "name" : "Attachment: Exception Stack Trace - javax.xml.transform.TransformerException",
+        "source" : "fecc0f1d32b8272.xml",
+        "type" : "text/xml",
+        "size" : 5588
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 308; Element or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName.."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, javax.xml.transform.TransformerException, javax.xml.transform.TransformerException:\norg.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 308; Element or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName.\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:794)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:397)\ncom.shaft.api.RestActions.prettyFormatXML(RestActions.java:742)\ncom.shaft.api.RestActions.formatXML(RestActions.java:401)\ncom.shaft.tools.io.ReportManagerHelper.writeEnvironmentVariablesToAllureResultsDirectory(ReportManagerHelper.java:713)\ncom.shaft.tools.io.ReportManagerHelper.initializeAllureReportingEnvironment(ReportManagerHelper.java:196)\ncom.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:20)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:368)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.xml.sax.SAXParseException:\nElement or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName.\njava.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)\njava.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:668)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:782)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:397)\ncom.shaft.api.RestActions.prettyFormatXML(RestActions.java:742)\ncom.shaft.api.RestActions.formatXML(RestActions.java:401)\ncom.shaft.tools.io.ReportManagerHelper.writeEnvironmentVariablesToAllureResultsDirectory(ReportManagerHelper.java:713)\ncom.shaft.tools.io.ReportManagerHelper.initializeAllureReportingEnvironment(ReportManagerHelper.java:196)\ncom.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:20)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:368)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1644610218456,
+        "stop" : 1644610218456,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1644610219151,
+        "stop" : 1644610219152,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77ed69dee476834d",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "77ed69dee476834d.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "41867e3a7f9a74a8",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "41867e3a7f9a74a8.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element Action [WaitForAlertToBePresent] failed.",
+    "statusTrace" : "java.lang.AssertionError: Element Action [WaitForAlertToBePresent] failed.\n\tat org.testng.Assert.fail(Assert.java:98)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1465)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1304)\n\tat com.shaft.gui.element.AlertActions.waitForAlertToBePresent(AlertActions.java:29)\n\tat com.shaft.gui.element.AlertActions.acceptAlert(AlertActions.java:51)\n\tat testPackage01.TestJSConfirmBox.acceptAlert(TestJSConfirmBox.java:52)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az290-820', ip: '10.1.1.161', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /tmp/.com.google.Chrome.FROtpe}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://0.0.0.0:4444/session/3..., se:cdpVersion: 95.0.4638.69, se:vnc: ws://0.0.0.0:4444/session/3..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3bd1a01d4edd6a9234c47c831d385faf\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat com.shaft.gui.element.AlertActions.waitForAlertToBePresent(AlertActions.java:24)\n\t... 35 more\n",
+    "steps" : [ {
+      "name" : "Element Action [WaitForAlertToBePresent] failed.",
+      "time" : {
+        "start" : 1644610335102,
+        "stop" : 1644610335103,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98cc5d267fa8c71b",
+        "name" : "Attachment: Screenshot - 1644610334912_acceptAlert_WaitForAlertToBePresent_failed",
+        "source" : "98cc5d267fa8c71b.png",
+        "type" : "image/png",
+        "size" : 49137
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "98"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [WaitForAlertToBePresent] failed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1644610334912_acceptAlert_WaitForAlertToBePresent_failed, java.io.ByteArrayInputStream@4d5d5a46]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d72ddbda337ba9e",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: acceptAlert",
+      "source" : "d72ddbda337ba9e.txt",
+      "type" : "text/plain",
+      "size" : 725
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1644610335136,
+      "stop" : 1644610335271,
+      "duration" : 135
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1644610335271,
+        "stop" : 1644610335271,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "25e90f3ac4f9ab66",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "25e90f3ac4f9ab66.html",
+        "type" : "text/html",
+        "size" : 2485
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "99"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html class=\"no-js\" lang=\"en\"><!--<![endif]--><head>\n    <script src=\"/js/vendor/298279967.js\"></script>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>The Internet</title>\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n    <link href=\"/css/font-awesome.css\" rel=\"stylesheet\">\n    <script src=\"/js/vendor/jquery-1.11.3.min.js\"></script>\n    <script src=\"/js/vendor/jquery-ui-1.11.4/jquery-ui.js\"></script>\n    <script src=\"/js/foundation/foundation.js\"></script><meta class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><style></style>\n    <script src=\"/js/foundation/foundation.alerts.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </head>\n  <body>\n    <div class=\"row\">\n      <div id=\"flash-messages\" class=\"large-12 columns\">\n      \n        \n      \n        \n      \n        \n      \n      </div>\n    </div>\n    <div class=\"row\">\n      <a href=\"https://github.com/tourdedave/the-internet\"><img style=\"position: absolute; top: 0; right: 0; border: 0;\" src=\"/img/forkme_right_green_007200.png\" alt=\"Fork me on GitHub\"></a>\n      <div id=\"content\" class=\"large-12 columns\">\n        <script>\n  function jsAlert() {\n    alert('I am a JS Alert');\n    log('You successfully clicked an alert');\n  }\n\n  function jsConfirm() {\n    var c = confirm('I am a JS Confirm');\n    var result = c === true ? 'Ok' : 'Cancel';\n    log('You clicked: ' + result);\n  }\n\n  function jsPrompt() {\n    var p = prompt('I am a JS prompt');\n    log('You entered: ' + p);\n  }\n\n  function log(msg) {\n    var result = document.getElementById('result');\n    result.innerHTML = msg;\n  }\n</script>\n<div class=\"example\">\n  <h3>JavaScript Alerts</h3>\n  <p>Here are some examples of different JavaScript alerts which can be troublesome for automation</p>\n  <ul style=\"list-style-type: none;\">\n    <li><button onclick=\"jsAlert()\">Click for JS Alert</button></li>\n    <li><button onclick=\"jsConfirm()\">Click for JS Confirm</button></li>\n    <li><button onclick=\"jsPrompt()\">Click for JS Prompt</button></li>\n  </ul>\n  <h4>Result:</h4>\n  <p id=\"result\" style=\"color:green\">You clicked: Ok</p>\n</div>\n\n      </div>\n    </div>\n    <div id=\"page-footer\" class=\"row\">\n      <div class=\"large-4 large-centered columns\">\n        <hr>\n        <div style=\"text-align: center;\">Powered by <a target=\"_blank\" href=\"http://elementalselenium.com/\">Elemental Selenium</a></div>\n      </div>\n    </div>\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1644610888066,
+      "stop" : 1644610888718,
+      "duration" : 652
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1644610888197,
+        "stop" : 1644610888197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "616"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1644610888204,
+        "stop" : 1644610888204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "352a3911d18ab85",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220211-202128",
+        "source" : "352a3911d18ab85.csv",
+        "type" : "text/csv",
+        "size" : 612
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "617"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220211-202128, java.io.ByteArrayInputStream@2f4dec7]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a847a5d9c7c4ef9c",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220211-202128",
+      "source" : "a847a5d9c7c4ef9c.txt",
+      "type" : "text/plain",
+      "size" : 401845
+    }, {
+      "uid" : "b9d84224954d4189",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "b9d84224954d4189.html",
+      "type" : "text/html",
+      "size" : 14036521
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.TestJSConfirmBox"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.TestJSConfirmBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "acceptAlert"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.TestJSConfirmBox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az290-820"
+  }, {
+    "name" : "thread",
+    "value" : "4180@fv-az290-820.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 21,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "c77ff4323014fa82",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1135//#testresult/c77ff4323014fa82",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1644544630305,
+          "stop" : 1644544660823,
+          "duration" : 30518
+        }
+      }, {
+        "uid" : "2815ebc65ff445d2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1132//#testresult/2815ebc65ff445d2",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1644458044989,
+          "stop" : 1644458075735,
+          "duration" : 30746
+        }
+      }, {
+        "uid" : "dcf0e8d8763b05e4",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1126//#testresult/dcf0e8d8763b05e4",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1644285339336,
+          "stop" : 1644285370007,
+          "duration" : 30671
+        }
+      }, {
+        "uid" : "67d8919276a80103",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1123//#testresult/67d8919276a80103",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1644256450923,
+          "stop" : 1644256481496,
+          "duration" : 30573
+        }
+      }, {
+        "uid" : "40e3605e1f4125ac",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1118//#testresult/40e3605e1f4125ac",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1644198783827,
+          "stop" : 1644198814463,
+          "duration" : 30636
+        }
+      }, {
+        "uid" : "2b5eb9da2941c319",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1117//#testresult/2b5eb9da2941c319",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1644158051562,
+          "stop" : 1644158082152,
+          "duration" : 30590
+        }
+      }, {
+        "uid" : "8390bd4c32219eb8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1110//#testresult/8390bd4c32219eb8",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1643939040550,
+          "stop" : 1643939071292,
+          "duration" : 30742
+        }
+      }, {
+        "uid" : "6b37b536aec765b8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1104//#testresult/6b37b536aec765b8",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1643852951070,
+          "stop" : 1643852981621,
+          "duration" : 30551
+        }
+      }, {
+        "uid" : "2f38ed33acba160c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1099//#testresult/2f38ed33acba160c",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1643593805006,
+          "stop" : 1643593835683,
+          "duration" : 30677
+        }
+      }, {
+        "uid" : "6e32c8b8f8a12cde",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1098//#testresult/6e32c8b8f8a12cde",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1643507536840,
+          "stop" : 1643507567242,
+          "duration" : 30402
+        }
+      }, {
+        "uid" : "c52a656ab0fb1563",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1095//#testresult/c52a656ab0fb1563",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1643248430081,
+          "stop" : 1643248460626,
+          "duration" : 30545
+        }
+      }, {
+        "uid" : "6226223175849401",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1094//#testresult/6226223175849401",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1643162445404,
+          "stop" : 1643162475898,
+          "duration" : 30494
+        }
+      }, {
+        "uid" : "7f247173ab91f196",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1086//#testresult/7f247173ab91f196",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642990024557,
+          "stop" : 1642990055057,
+          "duration" : 30500
+        }
+      }, {
+        "uid" : "6f2bf0a1164a1d3a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1083//#testresult/6f2bf0a1164a1d3a",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642816541624,
+          "stop" : 1642816572020,
+          "duration" : 30396
+        }
+      }, {
+        "uid" : "7b300de9c0a5f26",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1081//#testresult/7b300de9c0a5f26",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642730508113,
+          "stop" : 1642730538604,
+          "duration" : 30491
+        }
+      }, {
+        "uid" : "3359cbb13738a2f5",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1077//#testresult/3359cbb13738a2f5",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642539545936,
+          "stop" : 1642539576376,
+          "duration" : 30440
+        }
+      }, {
+        "uid" : "4e88ae35c231f969",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1073//#testresult/4e88ae35c231f969",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642385466896,
+          "stop" : 1642385497357,
+          "duration" : 30461
+        }
+      }, {
+        "uid" : "21c903f2a8901358",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1072//#testresult/21c903f2a8901358",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642345983085,
+          "stop" : 1642346013480,
+          "duration" : 30395
+        }
+      }, {
+        "uid" : "45d076d710b85fba",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1068//#testresult/45d076d710b85fba",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642299201394,
+          "stop" : 1642299231926,
+          "duration" : 30532
+        }
+      }, {
+        "uid" : "a959ae7a2f642804",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1067//#testresult/a959ae7a2f642804",
+        "status" : "failed",
+        "statusDetails" : "Element Action [WaitForAlertToBePresent] failed.",
+        "time" : {
+          "start" : 1642212778437,
+          "stop" : 1642212808930,
+          "duration" : 30493
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ff81067bc1b32fbc.json",
+  "parameterValues" : [ ]
+}
