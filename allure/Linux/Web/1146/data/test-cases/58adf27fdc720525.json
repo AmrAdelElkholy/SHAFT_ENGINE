@@ -1,0 +1,612 @@
+{
+  "uid" : "58adf27fdc720525",
+  "name" : "assertOnCancelAlertResultText",
+  "fullName" : "testPackage01.TestJSPromptBox.assertOnCancelAlertResultText",
+  "historyId" : "2b4f1cef406e9101284474f8f715b361",
+  "time" : {
+    "start" : 1644717487511,
+    "stop" : 1644717488038,
+    "duration" : 527
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "navigateToJSAlertPage",
+    "time" : {
+      "start" : 1644717484461,
+      "stop" : 1644717487125,
+      "duration" : 2664
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1644717484461,
+        "stop" : 1644717484462,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "100"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1644717486687,
+        "stop" : 1644717486687,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "101"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [http://the-internet.herokuapp.com/javascript_alerts].",
+      "time" : {
+        "start" : 1644717487125,
+        "stop" : 1644717487125,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "102"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [http://the-internet.herokuapp.com/javascript_alerts]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1644717370216,
+      "stop" : 1644717370919,
+      "duration" : 703
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "An Exception Occured with this Message: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 308; Element or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName..",
+      "time" : {
+        "start" : 1644717370294,
+        "stop" : 1644717370298,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a13a7219da67482",
+        "name" : "Attachment: Exception Stack Trace - javax.xml.transform.TransformerException",
+        "source" : "8a13a7219da67482.xml",
+        "type" : "text/xml",
+        "size" : 5588
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 308; Element or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName.."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, javax.xml.transform.TransformerException, javax.xml.transform.TransformerException:\norg.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 308; Element or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName.\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:794)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:397)\ncom.shaft.api.RestActions.prettyFormatXML(RestActions.java:742)\ncom.shaft.api.RestActions.formatXML(RestActions.java:401)\ncom.shaft.tools.io.ReportManagerHelper.writeEnvironmentVariablesToAllureResultsDirectory(ReportManagerHelper.java:713)\ncom.shaft.tools.io.ReportManagerHelper.initializeAllureReportingEnvironment(ReportManagerHelper.java:196)\ncom.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:20)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:368)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.xml.sax.SAXParseException:\nElement or attribute \"JiraProjectID:\" do not match QName production: QName::=(NCName:)?NCName.\njava.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)\njava.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:668)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:782)\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:397)\ncom.shaft.api.RestActions.prettyFormatXML(RestActions.java:742)\ncom.shaft.api.RestActions.formatXML(RestActions.java:401)\ncom.shaft.tools.io.ReportManagerHelper.writeEnvironmentVariablesToAllureResultsDirectory(ReportManagerHelper.java:713)\ncom.shaft.tools.io.ReportManagerHelper.initializeAllureReportingEnvironment(ReportManagerHelper.java:196)\ncom.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:20)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:368)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1644717370310,
+        "stop" : 1644717370310,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1644717370915,
+        "stop" : 1644717370917,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89f71c4c49780a95",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "89f71c4c49780a95.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "807aac29b6f439c7",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "807aac29b6f439c7.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: Then I Assert that the element found by [By.id: result] attribute [TEXT] is equal to [You entered: null].",
+      "time" : {
+        "start" : 1644717488030,
+        "stop" : 1644717488031,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "da4bc975eb2ed2c5",
+        "name" : "Attachment: Screenshot - 1644717487910_assertOnCancelAlertResultText_ValidateElementAttribute_passed",
+        "source" : "da4bc975eb2ed2c5.png",
+        "type" : "image/png",
+        "size" : 133544
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "105"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Then I Assert that the element found by [By.id: result] attribute [TEXT] is equal to [You entered: null]."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateElementAttribute] PASSED. Expected [Value Should be 'You entered: null' for the 'text' attribute, element locator 'By.id: result'] and Actual [You entered: null]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1644717487910_assertOnCancelAlertResultText_ValidateElementAttribute_passed, java.io.ByteArrayInputStream@651d2d15]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9d00aa45d0ea51bb",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: assertOnCancelAlertResultText",
+      "source" : "9d00aa45d0ea51bb.txt",
+      "type" : "text/plain",
+      "size" : 1195
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1644717518983,
+      "stop" : 1644717519119,
+      "duration" : 136
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1644717519119,
+        "stop" : 1644717519119,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f33ac83ce08741",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "6f33ac83ce08741.html",
+        "type" : "text/html",
+        "size" : 2483
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "113"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html class=\"no-js\" lang=\"en\"><!--<![endif]--><head>\n    <script src=\"/js/vendor/298279967.js\"></script>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>The Internet</title>\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n    <link href=\"/css/font-awesome.css\" rel=\"stylesheet\">\n    <script src=\"/js/vendor/jquery-1.11.3.min.js\"></script>\n    <script src=\"/js/vendor/jquery-ui-1.11.4/jquery-ui.js\"></script>\n    <script src=\"/js/foundation/foundation.js\"></script><meta class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><style></style>\n    <script src=\"/js/foundation/foundation.alerts.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </head>\n  <body>\n    <div class=\"row\">\n      <div id=\"flash-messages\" class=\"large-12 columns\">\n      \n        \n      \n        \n      \n        \n      \n      </div>\n    </div>\n    <div class=\"row\">\n      <a href=\"https://github.com/tourdedave/the-internet\"><img style=\"position: absolute; top: 0; right: 0; border: 0;\" src=\"/img/forkme_right_green_007200.png\" alt=\"Fork me on GitHub\"></a>\n      <div id=\"content\" class=\"large-12 columns\">\n        <script>\n  function jsAlert() {\n    alert('I am a JS Alert');\n    log('You successfully clicked an alert');\n  }\n\n  function jsConfirm() {\n    var c = confirm('I am a JS Confirm');\n    var result = c === true ? 'Ok' : 'Cancel';\n    log('You clicked: ' + result);\n  }\n\n  function jsPrompt() {\n    var p = prompt('I am a JS prompt');\n    log('You entered: ' + p);\n  }\n\n  function log(msg) {\n    var result = document.getElementById('result');\n    result.innerHTML = msg;\n  }\n</script>\n<div class=\"example\">\n  <h3>JavaScript Alerts</h3>\n  <p>Here are some examples of different JavaScript alerts which can be troublesome for automation</p>\n  <ul style=\"list-style-type: none;\">\n    <li><button onclick=\"jsAlert()\">Click for JS Alert</button></li>\n    <li><button onclick=\"jsConfirm()\">Click for JS Confirm</button></li>\n    <li><button onclick=\"jsPrompt()\">Click for JS Prompt</button></li>\n  </ul>\n  <h4>Result:</h4>\n  <p id=\"result\" style=\"color:green\">You entered: </p>\n</div>\n\n      </div>\n    </div>\n    <div id=\"page-footer\" class=\"row\">\n      <div class=\"large-4 large-centered columns\">\n        <hr>\n        <div style=\"text-align: center;\">Powered by <a target=\"_blank\" href=\"http://elementalselenium.com/\">Elemental Selenium</a></div>\n      </div>\n    </div>\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1644718217109,
+      "stop" : 1644718217806,
+      "duration" : 697
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1644718217235,
+        "stop" : 1644718217235,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "616"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1644718217245,
+        "stop" : 1644718217245,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "766d98398870aa11",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220213-021017",
+        "source" : "766d98398870aa11.csv",
+        "type" : "text/csv",
+        "size" : 612
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "617"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220213-021017, java.io.ByteArrayInputStream@31ca9133]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cdb7680fb4cb5b9d",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220213-021017",
+      "source" : "cdb7680fb4cb5b9d.txt",
+      "type" : "text/plain",
+      "size" : 401832
+    }, {
+      "uid" : "5d4ac4d5f36b7f7b",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "5d4ac4d5f36b7f7b.html",
+      "type" : "text/html",
+      "size" : 13488126
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.TestJSPromptBox"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.TestJSPromptBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "assertOnCancelAlertResultText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.TestJSPromptBox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-331"
+  }, {
+    "name" : "thread",
+    "value" : "4038@fv-az204-331.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 22,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "f9489addf7d26591",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1140//#testresult/f9489addf7d26591",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644610338631,
+          "stop" : 1644610339199,
+          "duration" : 568
+        }
+      }, {
+        "uid" : "1a3a19e7f0852af2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1135//#testresult/1a3a19e7f0852af2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644544664045,
+          "stop" : 1644544664651,
+          "duration" : 606
+        }
+      }, {
+        "uid" : "7584f4c753c84362",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1132//#testresult/7584f4c753c84362",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644458078616,
+          "stop" : 1644458079306,
+          "duration" : 690
+        }
+      }, {
+        "uid" : "5ead830088167800",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1126//#testresult/5ead830088167800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644285373078,
+          "stop" : 1644285373779,
+          "duration" : 701
+        }
+      }, {
+        "uid" : "fe7cae8381834c94",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1123//#testresult/fe7cae8381834c94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644256484929,
+          "stop" : 1644256485517,
+          "duration" : 588
+        }
+      }, {
+        "uid" : "e41a85d0ffaa106a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1118//#testresult/e41a85d0ffaa106a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644198817866,
+          "stop" : 1644198818499,
+          "duration" : 633
+        }
+      }, {
+        "uid" : "b2090611dbf765d8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1117//#testresult/b2090611dbf765d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644158085277,
+          "stop" : 1644158085844,
+          "duration" : 567
+        }
+      }, {
+        "uid" : "10a19fb3eb4f740c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1110//#testresult/10a19fb3eb4f740c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643939074570,
+          "stop" : 1643939075259,
+          "duration" : 689
+        }
+      }, {
+        "uid" : "c358dba45f63d907",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1104//#testresult/c358dba45f63d907",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643853184490,
+          "stop" : 1643853185116,
+          "duration" : 626
+        }
+      }, {
+        "uid" : "8343ded23f6e9f8d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1099//#testresult/8343ded23f6e9f8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643594038778,
+          "stop" : 1643594039483,
+          "duration" : 705
+        }
+      }, {
+        "uid" : "6fa474aa60224764",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1098//#testresult/6fa474aa60224764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643507770923,
+          "stop" : 1643507771479,
+          "duration" : 556
+        }
+      }, {
+        "uid" : "5bc00e676d6431da",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1095//#testresult/5bc00e676d6431da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643248664054,
+          "stop" : 1643248664593,
+          "duration" : 539
+        }
+      }, {
+        "uid" : "b06878472da471b3",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1094//#testresult/b06878472da471b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643162679569,
+          "stop" : 1643162680089,
+          "duration" : 520
+        }
+      }, {
+        "uid" : "12915264e68360d9",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1086//#testresult/12915264e68360d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642990058578,
+          "stop" : 1642990059170,
+          "duration" : 592
+        }
+      }, {
+        "uid" : "ec2248c3b17989b0",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1083//#testresult/ec2248c3b17989b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642816575747,
+          "stop" : 1642816576300,
+          "duration" : 553
+        }
+      }, {
+        "uid" : "e7795ea8f06660b1",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1081//#testresult/e7795ea8f06660b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642730542070,
+          "stop" : 1642730542696,
+          "duration" : 626
+        }
+      }, {
+        "uid" : "8212813d4d6fb04",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1077//#testresult/8212813d4d6fb04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642539580029,
+          "stop" : 1642539580615,
+          "duration" : 586
+        }
+      }, {
+        "uid" : "f6bfc11b3124301f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1073//#testresult/f6bfc11b3124301f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642385500139,
+          "stop" : 1642385500788,
+          "duration" : 649
+        }
+      }, {
+        "uid" : "33334c60a3651ece",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1072//#testresult/33334c60a3651ece",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642346017152,
+          "stop" : 1642346017732,
+          "duration" : 580
+        }
+      }, {
+        "uid" : "f07da646b0a60b88",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1068//#testresult/f07da646b0a60b88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642299235516,
+          "stop" : 1642299236197,
+          "duration" : 681
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "58adf27fdc720525.json",
+  "parameterValues" : [ ]
+}
