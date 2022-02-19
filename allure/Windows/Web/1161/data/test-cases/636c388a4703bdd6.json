@@ -1,0 +1,619 @@
+{
+  "uid" : "636c388a4703bdd6",
+  "name" : "assertOnConfirmAlertResultText",
+  "fullName" : "testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText",
+  "historyId" : "19999555bce5de3735ec04b0e0646e14",
+  "time" : {
+    "start" : 1645257399878,
+    "stop" : 1645257399883,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@658255aa depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@658255aa]",
+  "statusTrace" : "java.lang.Throwable: Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@658255aa depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@658255aa]\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\r\n\tat org.testng.TestRunner.run(TestRunner.java:603)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\r\n\tat org.testng.TestNG.run(TestNG.java:1060)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1645257340430,
+      "stop" : 1645257342945,
+      "duration" : 2515
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1645257340494,
+        "stop" : 1645257340496,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Folder [C:\\Users\\runneradmin\\.m2\\repository\\allure\\] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1645257340500,
+        "stop" : 1645257340500,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [C:\\Users\\runneradmin\\.m2\\repository\\allure\\] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target\\allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1645257340501,
+        "stop" : 1645257340501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target\\allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "An Exception Occured with this Message: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 2032; Element or attribute \"reportPath:\" do not match QName production: QName::=(NCName:)?NCName..",
+      "time" : {
+        "start" : 1645257342139,
+        "stop" : 1645257342142,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43a21f411c6c8598",
+        "name" : "Attachment: Exception Stack Trace - javax.xml.transform.TransformerException",
+        "source" : "43a21f411c6c8598.xml",
+        "type" : "text/xml",
+        "size" : 5653
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 2032; Element or attribute \"reportPath:\" do not match QName production: QName::=(NCName:)?NCName.."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, javax.xml.transform.TransformerException, javax.xml.transform.TransformerException:\r\norg.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 2032; Element or attribute \"reportPath:\" do not match QName production: QName::=(NCName:)?NCName.\r\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:794)\r\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:397)\r\ncom.shaft.api.RestActions.prettyFormatXML(RestActions.java:742)\r\ncom.shaft.api.RestActions.formatXML(RestActions.java:401)\r\ncom.shaft.tools.io.ReportManagerHelper.writeEnvironmentVariablesToAllureResultsDirectory(ReportManagerHelper.java:713)\r\ncom.shaft.tools.io.ReportManagerHelper.initializeAllureReportingEnvironment(ReportManagerHelper.java:196)\r\ncom.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:20)\r\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\r\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\r\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\r\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\r\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\r\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:368)\r\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\r\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\r\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\norg.testng.TestNG.runSuites(TestNG.java:1092)\r\norg.testng.TestNG.run(TestNG.java:1060)\r\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n\r\nCaused by: org.xml.sax.SAXParseException:\r\nElement or attribute \"reportPath:\" do not match QName production: QName::=(NCName:)?NCName.\r\njava.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)\r\njava.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)\r\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:668)\r\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:782)\r\njava.xml/com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:397)\r\ncom.shaft.api.RestActions.prettyFormatXML(RestActions.java:742)\r\ncom.shaft.api.RestActions.formatXML(RestActions.java:401)\r\ncom.shaft.tools.io.ReportManagerHelper.writeEnvironmentVariablesToAllureResultsDirectory(ReportManagerHelper.java:713)\r\ncom.shaft.tools.io.ReportManagerHelper.initializeAllureReportingEnvironment(ReportManagerHelper.java:196)\r\ncom.shaft.tools.io.LogsHelper.setupActivities(LogsHelper.java:20)\r\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\r\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\r\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\r\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\r\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\r\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:368)\r\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\r\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\r\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\norg.testng.TestNG.runSuites(TestNG.java:1092)\r\norg.testng.TestNG.run(TestNG.java:1060)\r\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n]]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1645257342150,
+        "stop" : 1645257342150,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a7f321d2a824343a",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "a7f321d2a824343a.uri",
+      "type" : "text/uri-list",
+      "size" : 335
+    }, {
+      "uid" : "2441090da4584c9",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "2441090da4584c9.properties",
+      "type" : "text/plain",
+      "size" : 899
+    }, {
+      "uid" : "fd8177f80939453",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "fd8177f80939453.properties",
+      "type" : "text/plain",
+      "size" : 265
+    }, {
+      "uid" : "f262ca28baba76c8",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "f262ca28baba76c8.properties",
+      "type" : "text/plain",
+      "size" : 403
+    }, {
+      "uid" : "b1fc5438b9b27547",
+      "name" : "Attachment: Properties - internal",
+      "source" : "b1fc5438b9b27547.properties",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "ee6cf0f7799b0dfe",
+      "name" : "Attachment: Properties - JiraXRay",
+      "source" : "ee6cf0f7799b0dfe.properties",
+      "type" : "text/plain",
+      "size" : 1262
+    }, {
+      "uid" : "986152f4f80d9401",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "986152f4f80d9401.properties",
+      "type" : "text/plain",
+      "size" : 484
+    }, {
+      "uid" : "2ae51d39d2d3bd49",
+      "name" : "Attachment: Properties - path",
+      "source" : "2ae51d39d2d3bd49.properties",
+      "type" : "text/plain",
+      "size" : 704
+    }, {
+      "uid" : "280b9e03d1da6510",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "280b9e03d1da6510.properties",
+      "type" : "text/plain",
+      "size" : 576
+    }, {
+      "uid" : "bf3329f634ab6492",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "bf3329f634ab6492.properties",
+      "type" : "text/plain",
+      "size" : 783
+    }, {
+      "uid" : "e417bb61b60dc64c",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "e417bb61b60dc64c.properties",
+      "type" : "text/plain",
+      "size" : 629
+    }, {
+      "uid" : "fc44521989b05d3c",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "fc44521989b05d3c.properties",
+      "type" : "text/plain",
+      "size" : 505
+    }, {
+      "uid" : "2ea1c62d4fceadb",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "2ea1c62d4fceadb.properties",
+      "type" : "text/plain",
+      "size" : 744
+    }, {
+      "uid" : "25969478269a49a8",
+      "name" : "Attachment: Properties - video",
+      "source" : "25969478269a49a8.properties",
+      "type" : "text/plain",
+      "size" : 785
+    }, {
+      "uid" : "a9595228732eada1",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "a9595228732eada1.properties",
+      "type" : "text/plain",
+      "size" : 740
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "navigateToJSAlertPage",
+    "time" : {
+      "start" : 1645257362769,
+      "stop" : 1645257368565,
+      "duration" : 5796
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Windows-64], [MicrosoftEdge], Headless Execution.",
+      "time" : {
+        "start" : 1645257362772,
+        "stop" : 1645257362772,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "37"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Windows-64], [MicrosoftEdge], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...",
+      "time" : {
+        "start" : 1645257362772,
+        "stop" : 1645257362773,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "38"
+      }, {
+        "name" : "logText",
+        "value" : "Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Successfully Opened Microsoft Edge.",
+      "time" : {
+        "start" : 1645257365681,
+        "stop" : 1645257365681,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "39"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened Microsoft Edge."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1040, 744)].",
+      "time" : {
+        "start" : 1645257365834,
+        "stop" : 1645257365834,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "40"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1040, 744)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [http://the-internet.herokuapp.com/javascript_alerts].",
+      "time" : {
+        "start" : 1645257368564,
+        "stop" : 1645257368565,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "41"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [http://the-internet.herokuapp.com/javascript_alerts]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@658255aa depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@658255aa]",
+    "statusTrace" : "java.lang.Throwable: Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@658255aa depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@658255aa]\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\r\n\tat org.testng.TestRunner.run(TestRunner.java:603)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\r\n\tat org.testng.TestNG.run(TestNG.java:1060)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b0b2ba6c8fb41f17",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: assertOnConfirmAlertResultText",
+      "source" : "b0b2ba6c8fb41f17.txt",
+      "type" : "text/plain",
+      "size" : 436
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1645257399886,
+      "stop" : 1645257400146,
+      "duration" : 260
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1645257400145,
+        "stop" : 1645257400146,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "241e49eacacb8175",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "241e49eacacb8175.html",
+        "type" : "text/html",
+        "size" : 2503
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "49"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html class=\"no-js\" lang=\"en\"><!--<![endif]--><head>\n    <script src=\"/js/vendor/298279967.js\"></script>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>The Internet</title>\n    <link href=\"/css/app.css\" rel=\"stylesheet\">\n    <link href=\"/css/font-awesome.css\" rel=\"stylesheet\">\n    <script src=\"/js/vendor/jquery-1.11.3.min.js\"></script>\n    <script src=\"/js/vendor/jquery-ui-1.11.4/jquery-ui.js\"></script>\n    <script src=\"/js/foundation/foundation.js\"></script><meta class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><style></style>\n    <script src=\"/js/foundation/foundation.alerts.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </head>\n  <body>\n    <div class=\"row\">\n      <div id=\"flash-messages\" class=\"large-12 columns\">\n      \n        \n      \n        \n      \n        \n      \n      </div>\n    </div>\n    <div class=\"row\">\n      <a href=\"https://github.com/tourdedave/the-internet\"><img style=\"position: absolute; top: 0; right: 0; border: 0;\" src=\"/img/forkme_right_green_007200.png\" alt=\"Fork me on GitHub\"></a>\n      <div id=\"content\" class=\"large-12 columns\">\n        <script>\n  function jsAlert() {\n    alert('I am a JS Alert');\n    log('You successfully clicked an alert');\n  }\n\n  function jsConfirm() {\n    var c = confirm('I am a JS Confirm');\n    var result = c === true ? 'Ok' : 'Cancel';\n    log('You clicked: ' + result);\n  }\n\n  function jsPrompt() {\n    var p = prompt('I am a JS prompt');\n    log('You entered: ' + p);\n  }\n\n  function log(msg) {\n    var result = document.getElementById('result');\n    result.innerHTML = msg;\n  }\n</script>\n<div class=\"example\">\n  <h3>JavaScript Alerts</h3>\n  <p>Here are some examples of different JavaScript alerts which can be troublesome for automation</p>\n  <ul style=\"list-style-type: none;\">\n    <li><button onclick=\"jsAlert()\">Click for JS Alert</button></li>\n    <li><button onclick=\"jsConfirm()\">Click for JS Confirm</button></li>\n    <li><button onclick=\"jsPrompt()\">Click for JS Prompt</button></li>\n  </ul>\n  <h4>Result:</h4>\n  <p id=\"result\" style=\"color:green\">You successfully clicked an alert</p>\n</div>\n\n      </div>\n    </div>\n    <div id=\"page-footer\" class=\"row\">\n      <div class=\"large-4 large-centered columns\">\n        <hr>\n        <div style=\"text-align: center;\">Powered by <a target=\"_blank\" href=\"http://elementalselenium.com/\">Elemental Selenium</a></div>\n      </div>\n    </div>\n  \n\n</body></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1645257897402,
+      "stop" : 1645257898367,
+      "duration" : 965
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1645257897402,
+        "stop" : 1645257897402,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "774"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1645257897413,
+        "stop" : 1645257897413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0096904fd1164f2",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220219-080457",
+        "source" : "a0096904fd1164f2.csv",
+        "type" : "text/csv",
+        "size" : 616
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "775"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220219-080457, java.io.ByteArrayInputStream@2a7f145c]]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7e6002104948cc99",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220219-080457",
+      "source" : "7e6002104948cc99.txt",
+      "type" : "text/plain",
+      "size" : 447977
+    }, {
+      "uid" : "3359419abe3cb7a2",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "3359419abe3cb7a2.html",
+      "type" : "text/html",
+      "size" : 12869036
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.TestJSAlertBox"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.TestJSAlertBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "assertOnConfirmAlertResultText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.TestJSAlertBox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az448-481"
+  }, {
+    "name" : "thread",
+    "value" : "4632@fv-az448-481.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "822f64e569596eef",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1159//#testresult/822f64e569596eef",
+        "status" : "skipped",
+        "statusDetails" : "Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@658255aa depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@658255aa]",
+        "time" : {
+          "start" : 1645235879676,
+          "stop" : 1645235879682,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "ba129912cdb84eb2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1156//#testresult/ba129912cdb84eb2",
+        "status" : "skipped",
+        "statusDetails" : "Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@25290bca depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@25290bca]",
+        "time" : {
+          "start" : 1645149678439,
+          "stop" : 1645149678445,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "27bda674488dd8",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1155//#testresult/27bda674488dd8",
+        "status" : "skipped",
+        "statusDetails" : "Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@5679e96b depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@5679e96b]",
+        "time" : {
+          "start" : 1645105180331,
+          "stop" : 1645105180340,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "55a2de50a666a189",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1154//#testresult/55a2de50a666a189",
+        "status" : "skipped",
+        "statusDetails" : "Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@66273da0 depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@66273da0]",
+        "time" : {
+          "start" : 1645062420791,
+          "stop" : 1645062420797,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "a5d4b93d05dfcc0f",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1152//#testresult/a5d4b93d05dfcc0f",
+        "status" : "skipped",
+        "statusDetails" : "Method testPackage01.TestJSAlertBox.assertOnConfirmAlertResultText() on instance testPackage01.TestJSAlertBox@210308d5 depends on not successfully finished methods \n[testPackage01.TestJSAlertBox.acceptAlert() on instance testPackage01.TestJSAlertBox@210308d5]",
+        "time" : {
+          "start" : 1644977077148,
+          "stop" : 1644977077154,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "636c388a4703bdd6.json",
+  "parameterValues" : [ ]
+}
