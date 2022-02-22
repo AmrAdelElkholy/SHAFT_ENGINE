@@ -1,0 +1,169 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "f1088c2d5a604096",
+        "parentUid" : "5fce0f3af93bc53d296839ac0bf638d1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645542677056,
+          "stop" : 1645542677057,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeMethod",
+        "uid" : "eff97504ceb1cb48",
+        "parentUid" : "5fce0f3af93bc53d296839ac0bf638d1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645542715870,
+          "stop" : 1645542715870,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5fce0f3af93bc53d296839ac0bf638d1"
+    }, {
+      "name" : "Browser Action [NavigateToNewURL] failed. With the following test data [https://fineuploader.com/demos.html#gallery-view].",
+      "children" : [ {
+        "name" : "uploadFile_invisibleUploadInput",
+        "uid" : "b215b727b8be36cb",
+        "parentUid" : "987501715e11261f3b246b7fa071623a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645542722452,
+          "stop" : 1645542752639,
+          "duration" : 30187
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "987501715e11261f3b246b7fa071623a"
+    }, {
+      "name" : "Element Action [WaitForAlertToBePresent] failed.",
+      "children" : [ {
+        "name" : "acceptPromptAlertWithoutTypingTextMessage",
+        "uid" : "ca1b1a8d6addf2a",
+        "parentUid" : "3b1405a02fab9ea241a32e8f506f0ac9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645542768945,
+          "stop" : 1645542799633,
+          "duration" : 30688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "acceptAlert",
+        "uid" : "5a7ff7ce354c2a05",
+        "parentUid" : "3b1405a02fab9ea241a32e8f506f0ac9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645542950265,
+          "stop" : 1645542980410,
+          "duration" : 30145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "acceptAlert",
+        "uid" : "1c8b0a1831f0bd3b",
+        "parentUid" : "3b1405a02fab9ea241a32e8f506f0ac9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645542983580,
+          "stop" : 1645543013916,
+          "duration" : 30336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b1405a02fab9ea241a32e8f506f0ac9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Encountered key input source with invalid 'value' in payload: {\n    actions =     (\n                {\n            type = keyDown;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue03d\";\n        },\n                {\n            type = keyDown;\n            value = a;\n        },\n                {\n            type = keyUp;\n            value = a;\n        },\n                {\n            type = keyDown;\n            value = \"\\Ue000\";\n        },\n                {\n            type = keyUp;\n            value = \"\\Ue000\";\n        }\n    );\n    id = \"default keyboard\";\n    type = key;\n}\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'Mac-1645542478028.local', ip: '10.212.9.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.3', java.version: '17.0.2'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [7F266A53-FF99-4B29-BC28-FAB4A140ECBD, actions {actions=[org.openqa.selenium.interactions.Sequence@21fa667a]}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.3, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G415, safari:platformVersion: 11.6.3, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nSession ID: 7F266A53-FF99-4B29-BC28-FAB4A140ECBD",
+      "children" : [ {
+        "name" : "typeTextAndCopyPaste",
+        "uid" : "e650b5fc2a070aae",
+        "parentUid" : "12e41120e77b12f043d4da2dbf9719ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645542944659,
+          "stop" : 1645542947362,
+          "duration" : 2703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12e41120e77b12f043d4da2dbf9719ef"
+    }, {
+      "name" : "Build info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'Mac-1645542478028.local', ip: '10.212.9.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.3', java.version: '17.0.2'\nDriver info: org.openqa.selenium.safari.SafariDriver\nCommand: [4142FF94-D548-4041-A70D-2323B190CF74, getElementRect {id=node-3175FA84-629A-4AE2-9EED-4E7445539C37}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.3, goog:loggingPrefs: {browser: ALL, client: ALL, driver: ALL, performance: ALL, profiler: ALL, server: ALL}, javascriptEnabled: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G415, safari:platformVersion: 11.6.3, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, timeouts: {pageLoad: 30000, script: 30000}, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nElement: [[SafariDriver: Safari on MAC (4142FF94-D548-4041-A70D-2323B190CF74)] -> id: finish]\nSession ID: 4142FF94-D548-4041-A70D-2323B190CF74",
+      "children" : [ {
+        "name" : "dynamicLoading_elementIsHidden",
+        "uid" : "e82d04fe7169bbae",
+        "parentUid" : "5ba15a9365bf8e2a27a47184ecb4ab87",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645543260547,
+          "stop" : 1645543262115,
+          "duration" : 1568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5ba15a9365bf8e2a27a47184ecb4ab87"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
