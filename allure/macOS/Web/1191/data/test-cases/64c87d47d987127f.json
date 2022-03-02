@@ -1,0 +1,875 @@
+{
+  "uid" : "64c87d47d987127f",
+  "name" : "beforeClass",
+  "fullName" : "testPackage01.Test_verifyEquals.beforeClass",
+  "historyId" : "d117b46cc7c34cd5954cdf85dcde7a70",
+  "time" : {
+    "start" : 1646187103431,
+    "stop" : 1646187103431,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+  "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:308)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:578)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:598)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:817)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:142)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat testPackage01.Test_verifyEquals.beforeClass(Test_verifyEquals.java:48)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1646186763458,
+      "stop" : 1646186766840,
+      "duration" : 3382
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646186763917,
+        "stop" : 1646186763919,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646186763920,
+        "stop" : 1646186763920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1646186763921,
+        "stop" : 1646186763921,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.3/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1646186765560,
+        "stop" : 1646186765560,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.3/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1646186765568,
+        "stop" : 1646186765568,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646186765674,
+        "stop" : 1646186765674,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1646186766833,
+        "stop" : 1646186766837,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77c01902e839399a",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "77c01902e839399a.txt",
+        "type" : "text/plain",
+        "size" : 48
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "7"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: generateJdk.sh: No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "564392fd3850497e",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "564392fd3850497e.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "2573c108ad203a4b",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "2573c108ad203a4b.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "1b24852541ed03d5",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "1b24852541ed03d5.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "a98ba39d3d775507",
+      "name" : "Attachment: Properties - path",
+      "source" : "a98ba39d3d775507.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "e81069e30e5f603c",
+      "name" : "Attachment: Properties - video",
+      "source" : "e81069e30e5f603c.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "fd07f4bc39fce78f",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "fd07f4bc39fce78f.properties",
+      "type" : "text/plain",
+      "size" : 566
+    }, {
+      "uid" : "a28f796817d0ac98",
+      "name" : "Attachment: Properties - internal",
+      "source" : "a28f796817d0ac98.properties",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "2ebba6d9333531d3",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "2ebba6d9333531d3.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "33c40b98d5dfa0ec",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "33c40b98d5dfa0ec.properties",
+      "type" : "text/plain",
+      "size" : 261
+    }, {
+      "uid" : "9dff2e06484b3c20",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "9dff2e06484b3c20.properties",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "532cb384ee09aa7",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "532cb384ee09aa7.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "acfbc0240b4d3007",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "acfbc0240b4d3007.properties",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "c5dd37b8b770d6ce",
+      "name" : "Attachment: Properties - healenium",
+      "source" : "c5dd37b8b770d6ce.properties",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "d47d219b3ebf6834",
+      "name" : "Attachment: Properties - JiraXRay",
+      "source" : "d47d219b3ebf6834.properties",
+      "type" : "text/plain",
+      "size" : 501
+    }, {
+      "uid" : "795fc9193be07da9",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "795fc9193be07da9.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "4527a6fa192acdc3",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "4527a6fa192acdc3.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1646186763458,
+      "stop" : 1646186766840,
+      "duration" : 3382
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646186763917,
+        "stop" : 1646186763919,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646186763920,
+        "stop" : 1646186763920,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1646186763921,
+        "stop" : 1646186763921,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.3/bin/allure\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1646186765560,
+        "stop" : 1646186765560,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x /Users/runner/.m2/repository/allure/allure-2.17.3/bin/allure\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1646186765568,
+        "stop" : 1646186765568,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646186765674,
+        "stop" : 1646186765674,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1646186766833,
+        "stop" : 1646186766837,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77c01902e839399a",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "77c01902e839399a.txt",
+        "type" : "text/plain",
+        "size" : 48
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "7"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: generateJdk.sh: No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "564392fd3850497e",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "564392fd3850497e.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    }, {
+      "uid" : "2573c108ad203a4b",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "2573c108ad203a4b.properties",
+      "type" : "text/plain",
+      "size" : 492
+    }, {
+      "uid" : "1b24852541ed03d5",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "1b24852541ed03d5.properties",
+      "type" : "text/plain",
+      "size" : 394
+    }, {
+      "uid" : "a98ba39d3d775507",
+      "name" : "Attachment: Properties - path",
+      "source" : "a98ba39d3d775507.properties",
+      "type" : "text/plain",
+      "size" : 687
+    }, {
+      "uid" : "e81069e30e5f603c",
+      "name" : "Attachment: Properties - video",
+      "source" : "e81069e30e5f603c.properties",
+      "type" : "text/plain",
+      "size" : 763
+    }, {
+      "uid" : "fd07f4bc39fce78f",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "fd07f4bc39fce78f.properties",
+      "type" : "text/plain",
+      "size" : 566
+    }, {
+      "uid" : "a28f796817d0ac98",
+      "name" : "Attachment: Properties - internal",
+      "source" : "a28f796817d0ac98.properties",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "2ebba6d9333531d3",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "2ebba6d9333531d3.properties",
+      "type" : "text/plain",
+      "size" : 470
+    }, {
+      "uid" : "33c40b98d5dfa0ec",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "33c40b98d5dfa0ec.properties",
+      "type" : "text/plain",
+      "size" : 261
+    }, {
+      "uid" : "9dff2e06484b3c20",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "9dff2e06484b3c20.properties",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "532cb384ee09aa7",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "532cb384ee09aa7.properties",
+      "type" : "text/plain",
+      "size" : 722
+    }, {
+      "uid" : "acfbc0240b4d3007",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "acfbc0240b4d3007.properties",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "c5dd37b8b770d6ce",
+      "name" : "Attachment: Properties - healenium",
+      "source" : "c5dd37b8b770d6ce.properties",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "d47d219b3ebf6834",
+      "name" : "Attachment: Properties - JiraXRay",
+      "source" : "d47d219b3ebf6834.properties",
+      "type" : "text/plain",
+      "size" : 501
+    }, {
+      "uid" : "795fc9193be07da9",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "795fc9193be07da9.properties",
+      "type" : "text/plain",
+      "size" : 877
+    }, {
+      "uid" : "4527a6fa192acdc3",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "4527a6fa192acdc3.properties",
+      "type" : "text/plain",
+      "size" : 723
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1646187103386,
+      "stop" : 1646187103429,
+      "duration" : 43
+    },
+    "description" : "",
+    "status" : "failed",
+    "statusMessage" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+    "statusTrace" : "java.lang.AssertionError: Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.shaft.driver.DriverFactoryHelper.failAction(DriverFactoryHelper.java:308)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:578)\n\tat com.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:598)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:817)\n\tat com.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:142)\n\tat com.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\n\tat com.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\n\tat testPackage01.Test_verifyEquals.beforeClass(Test_verifyEquals.java:48)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution.",
+      "time" : {
+        "start" : 1646187103387,
+        "stop" : 1646187103387,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "364"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Mac-64], [Safari], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure..",
+      "time" : {
+        "start" : 1646187103428,
+        "stop" : 1646187103429,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fdf450525451503",
+        "name" : "Attachment: Exception Stack Trace - org.openqa.selenium.SessionNotCreatedException",
+        "source" : "fdf450525451503.txt",
+        "type" : "text/plain",
+        "size" : 13589
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "365"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, org.openqa.selenium.SessionNotCreatedException, org.openqa.selenium.SessionNotCreatedException:\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:89)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:71)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:575)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:598)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:817)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:142)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\ntestPackage01.Test_verifyEquals.beforeClass(Test_verifyEquals.java:48)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\norg.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:808)\norg.testng.TestRunner.run(TestRunner.java:603)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:429)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.openqa.selenium.WebDriverException:\nTimed out waiting for driver server to start.\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'Mac-1646186248512.local', ip: '10.212.11.196', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.4', java.version: '17.0.2'\nDriver info: driver.version: SafariDriver\norg.openqa.selenium.remote.service.DriverService.start(DriverService.java:230)\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:98)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:89)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:71)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:575)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:598)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:817)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:142)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\ntestPackage01.Test_verifyEquals.beforeClass(Test_verifyEquals.java:48)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\norg.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:808)\norg.testng.TestRunner.run(TestRunner.java:603)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:429)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: java.util.concurrent.ExecutionException:\norg.openqa.selenium.WebDriverException: java.io.UncheckedIOException: java.net.SocketException: Invalid argument\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'Mac-1646186248512.local', ip: '10.212.11.196', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.4', java.version: '17.0.2'\nDriver info: driver.version: unknown\njava.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)\njava.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)\norg.openqa.selenium.remote.service.DriverService.start(DriverService.java:220)\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:98)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\norg.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\norg.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:89)\norg.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:71)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstanceForSafari(DriverFactoryHelper.java:575)\ncom.shaft.driver.DriverFactoryHelper.createNewLocalDriverInstance(DriverFactoryHelper.java:598)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:817)\ncom.shaft.driver.DriverFactoryHelper.getDriver(DriverFactoryHelper.java:142)\ncom.shaft.driver.DriverFactory.getDriver(DriverFactory.java:27)\ncom.shaft.gui.browser.BrowserFactory.getBrowser(BrowserFactory.java:21)\ntestPackage01.Test_verifyEquals.beforeClass(Test_verifyEquals.java:48)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)\norg.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)\norg.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)\norg.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:808)\norg.testng.TestRunner.run(TestRunner.java:603)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:429)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n\nCaused by: org.openqa.selenium.WebDriverException:\njava.io.UncheckedIOException: java.net.SocketException: Invalid argument\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'Mac-1646186248512.local', ip: '10.212.11.196', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.4', java.version: '17.0.2'\nDriver info: driver.version: unknown\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:86)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:205)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n\nCaused by: java.io.UncheckedIOException:\njava.net.SocketException: Invalid argument\norg.openqa.selenium.net.PortProber.waitForPortUp(PortProber.java:117)\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:84)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:205)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n\nCaused by: java.net.SocketException:\nInvalid argument\njava.base/sun.nio.ch.Net.connect0(Native Method)\njava.base/sun.nio.ch.Net.connect(Net.java:579)\njava.base/sun.nio.ch.Net.connect(Net.java:568)\njava.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)\njava.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\njava.base/java.net.Socket.connect(Socket.java:633)\norg.openqa.selenium.net.PortProber.waitForPortUp(PortProber.java:112)\norg.openqa.selenium.safari.SafariDriverService.waitUntilAvailable(SafariDriverService.java:84)\norg.openqa.selenium.remote.service.DriverService.lambda$start$1(DriverService.java:205)\njava.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)\njava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\njava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\njava.base/java.lang.Thread.run(Thread.java:833)\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI].",
+      "time" : {
+        "start" : 1646187103429,
+        "stop" : 1646187103429,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "367"
+      }, {
+        "name" : "logText",
+        "value" : "Driver Factory Action [createNewLocalDriverInstanceForSafari] failed. With the following test data [Failed to create a session on DESKTOP_SAFARI]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1646187103435,
+      "stop" : 1646187103435,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1646187134007,
+      "stop" : 1646187137258,
+      "duration" : 3251
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1646187134310,
+        "stop" : 1646187134310,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "428"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1646187134324,
+        "stop" : 1646187134366,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90229f2f7eb2c3f0",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220302-021214",
+        "source" : "90229f2f7eb2c3f0.csv",
+        "type" : "text/csv",
+        "size" : 738
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "429"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220302-021214, java.io.ByteArrayInputStream@173b7227]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2fd1b3380e93a8dc",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220302-021214",
+      "source" : "2fd1b3380e93a8dc.txt",
+      "type" : "text/plain",
+      "size" : 259129
+    }, {
+      "uid" : "d0e1d760c8671f89",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "d0e1d760c8671f89.html",
+      "type" : "text/html",
+      "size" : 5748949
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1646187134007,
+      "stop" : 1646187137258,
+      "duration" : 3251
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1646187134310,
+        "stop" : 1646187134310,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "428"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1646187134324,
+        "stop" : 1646187134366,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90229f2f7eb2c3f0",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220302-021214",
+        "source" : "90229f2f7eb2c3f0.csv",
+        "type" : "text/csv",
+        "size" : 738
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "429"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220302-021214, java.io.ByteArrayInputStream@173b7227]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2fd1b3380e93a8dc",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220302-021214",
+      "source" : "2fd1b3380e93a8dc.txt",
+      "type" : "text/plain",
+      "size" : 259129
+    }, {
+      "uid" : "d0e1d760c8671f89",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "d0e1d760c8671f89.html",
+      "type" : "text/html",
+      "size" : 5748949
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_verifyEquals"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_verifyEquals"
+  }, {
+    "name" : "testMethod",
+    "value" : "beforeClass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_verifyEquals"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1646186248512.local"
+  }, {
+    "name" : "thread",
+    "value" : "1782@Mac-1646186248512.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "64c87d47d987127f.json",
+  "parameterValues" : [ ]
+}
