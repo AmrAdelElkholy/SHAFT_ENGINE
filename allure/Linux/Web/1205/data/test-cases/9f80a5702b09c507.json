@@ -1,0 +1,337 @@
+{
+  "uid" : "9f80a5702b09c507",
+  "name" : "forceFail",
+  "fullName" : "testPackage01.Test_NewValidationHelper.forceFail",
+  "historyId" : "973cdadfe7b0529022bcd219aff55968",
+  "time" : {
+    "start" : 1646649294332,
+    "stop" : 1646649294333,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1646649017315,
+      "stop" : 1646649018206,
+      "duration" : 891
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646649017446,
+        "stop" : 1646649017448,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1646649018204,
+        "stop" : 1646649018205,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a34d510d001ce64",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "3a34d510d001ce64.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9eb6e32c8801ba54",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "9eb6e32c8801ba54.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion [ValidateFail] FAILED. Successfully force failed the test.",
+      "time" : {
+        "start" : 1646649294332,
+        "stop" : 1646649294332,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "259"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateFail] FAILED. Successfully force failed the test."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3f2c250454914dc7",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: forceFail",
+      "source" : "3f2c250454914dc7.txt",
+      "type" : "text/plain",
+      "size" : 536
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1646649500511,
+      "stop" : 1646649501233,
+      "duration" : 722
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1646649500635,
+        "stop" : 1646649500635,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "614"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1646649500649,
+        "stop" : 1646649500650,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff936a25f59c2d07",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220307-103820",
+        "source" : "ff936a25f59c2d07.csv",
+        "type" : "text/csv",
+        "size" : 748
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "615"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 6, New issues for Failed Tests = 4, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220307-103820, java.io.ByteArrayInputStream@2262d2da]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ff2452c51f6d4cc7",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220307-103820",
+      "source" : "ff2452c51f6d4cc7.txt",
+      "type" : "text/plain",
+      "size" : 402597
+    }, {
+      "uid" : "f1eeeb052373ad4",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "f1eeeb052373ad4.html",
+      "type" : "text/html",
+      "size" : 14692655
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "testMethod",
+    "value" : "forceFail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_NewValidationHelper"
+  }, {
+    "name" : "host",
+    "value" : "fv-az502-417"
+  }, {
+    "name" : "thread",
+    "value" : "3363@fv-az502-417.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "c493a60896007c4e",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1203//#testresult/c493a60896007c4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646619007510,
+          "stop" : 1646619007511,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ac1570554fec9cc2",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1200//#testresult/ac1570554fec9cc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646532396427,
+          "stop" : 1646532396429,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "aeab6b74721fa03a",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1199//#testresult/aeab6b74721fa03a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646504516148,
+          "stop" : 1646504516149,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b77ea410289c4a06",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1191//#testresult/b77ea410289c4a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646187050525,
+          "stop" : 1646187050527,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "4d8328a72f6680ba",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1187//#testresult/4d8328a72f6680ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646013880550,
+          "stop" : 1646013880554,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "4dbbd740ddf0a457",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1184//#testresult/4dbbd740ddf0a457",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645897216503,
+          "stop" : 1645897216508,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "1a14381be4dba426",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1183//#testresult/1a14381be4dba426",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645840565104,
+          "stop" : 1645840565105,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bd2365ebbc79e686",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Linux/Web/1180//#testresult/bd2365ebbc79e686",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645697724164,
+          "stop" : 1645697724165,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9f80a5702b09c507.json",
+  "parameterValues" : [ ]
+}
