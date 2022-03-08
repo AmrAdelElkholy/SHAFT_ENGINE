@@ -1,0 +1,749 @@
+{
+  "uid" : "a990c81420f660dc",
+  "name" : "TC002 - Search for Query and Assert that the number of results is displayed",
+  "fullName" : "testPackage01.Test_google.searchForQueryandAssertResultsNumDisplayed",
+  "historyId" : "d305933be8c1545e88e65f9f5733babf",
+  "time" : {
+    "start" : 1646705543317,
+    "stop" : 1646705545833,
+    "duration" : 2516
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1646705360586,
+      "stop" : 1646705363884,
+      "duration" : 3298
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646705360681,
+        "stop" : 1646705360684,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Folder [C:\\Users\\runneradmin\\.m2\\repository\\allure\\] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646705360689,
+        "stop" : 1646705360689,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [C:\\Users\\runneradmin\\.m2\\repository\\allure\\] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target\\allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1646705360690,
+        "stop" : 1646705360690,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target\\allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646705362811,
+        "stop" : 1646705362811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "829e1ee36de044a7",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "829e1ee36de044a7.uri",
+      "type" : "text/uri-list",
+      "size" : 335
+    }, {
+      "uid" : "c11fb93251e4df35",
+      "name" : "Attachment: Properties - browserStack",
+      "source" : "c11fb93251e4df35.properties",
+      "type" : "text/plain",
+      "size" : 899
+    }, {
+      "uid" : "ff6182df1a3d5598",
+      "name" : "Attachment: Properties - cucumber",
+      "source" : "ff6182df1a3d5598.properties",
+      "type" : "text/plain",
+      "size" : 265
+    }, {
+      "uid" : "a84e18019d0a8c7c",
+      "name" : "Attachment: Properties - ExecutionPlatform",
+      "source" : "a84e18019d0a8c7c.properties",
+      "type" : "text/plain",
+      "size" : 403
+    }, {
+      "uid" : "4f5f22e1ecac5369",
+      "name" : "Attachment: Properties - healenium",
+      "source" : "4f5f22e1ecac5369.properties",
+      "type" : "text/plain",
+      "size" : 120
+    }, {
+      "uid" : "c6470f307da5701a",
+      "name" : "Attachment: Properties - internal",
+      "source" : "c6470f307da5701a.properties",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "db70729d261871c",
+      "name" : "Attachment: Properties - JiraXRay",
+      "source" : "db70729d261871c.properties",
+      "type" : "text/plain",
+      "size" : 515
+    }, {
+      "uid" : "a245b7046a78ef2",
+      "name" : "Attachment: Properties - MobileCapabilities",
+      "source" : "a245b7046a78ef2.properties",
+      "type" : "text/plain",
+      "size" : 484
+    }, {
+      "uid" : "9a25479b41e7ecc4",
+      "name" : "Attachment: Properties - path",
+      "source" : "9a25479b41e7ecc4.properties",
+      "type" : "text/plain",
+      "size" : 704
+    }, {
+      "uid" : "f9acc207aa82e305",
+      "name" : "Attachment: Properties - pattern",
+      "source" : "f9acc207aa82e305.properties",
+      "type" : "text/plain",
+      "size" : 576
+    }, {
+      "uid" : "581ecf9d2a1e08e4",
+      "name" : "Attachment: Properties - PlatformFlags",
+      "source" : "581ecf9d2a1e08e4.properties",
+      "type" : "text/plain",
+      "size" : 783
+    }, {
+      "uid" : "1ac4f7f2a79e2020",
+      "name" : "Attachment: Properties - Reporting",
+      "source" : "1ac4f7f2a79e2020.properties",
+      "type" : "text/plain",
+      "size" : 629
+    }, {
+      "uid" : "cb6c6bca1a8e26be",
+      "name" : "Attachment: Properties - testNG",
+      "source" : "cb6c6bca1a8e26be.properties",
+      "type" : "text/plain",
+      "size" : 505
+    }, {
+      "uid" : "f6dc997ed66f8eee",
+      "name" : "Attachment: Properties - Timeouts",
+      "source" : "f6dc997ed66f8eee.properties",
+      "type" : "text/plain",
+      "size" : 744
+    }, {
+      "uid" : "5e9601e0702f45c9",
+      "name" : "Attachment: Properties - video",
+      "source" : "5e9601e0702f45c9.properties",
+      "type" : "text/plain",
+      "size" : 785
+    }, {
+      "uid" : "d68598104e9546b2",
+      "name" : "Attachment: Properties - VisualValidations",
+      "source" : "d68598104e9546b2.properties",
+      "type" : "text/plain",
+      "size" : 740
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 16
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1646705538865,
+      "stop" : 1646705541552,
+      "duration" : 2687
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/testDataFiles/testSuite01/TestData.xlsx].",
+      "time" : {
+        "start" : 1646705540222,
+        "stop" : 1646705540224,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11aad84203c66f23",
+        "name" : "Attachment: Test Data - Excel",
+        "source" : "11aad84203c66f23.xlsx",
+        "type" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size" : 12483
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "165"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/testDataFiles/testSuite01/TestData.xlsx]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, Excel, java.io.FileInputStream@3d0eefba]]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Attempting to run locally on: [Windows-64], [MicrosoftEdge], Headless Execution.",
+      "time" : {
+        "start" : 1646705540225,
+        "stop" : 1646705540225,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "166"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run locally on: [Windows-64], [MicrosoftEdge], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...",
+      "time" : {
+        "start" : 1646705540225,
+        "stop" : 1646705540230,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "167"
+      }, {
+        "name" : "logText",
+        "value" : "Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Successfully Opened Microsoft Edge.",
+      "time" : {
+        "start" : 1646705541389,
+        "stop" : 1646705541389,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "168"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened Microsoft Edge."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1040, 744)].",
+      "time" : {
+        "start" : 1646705541552,
+        "stop" : 1646705541552,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "169"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [MaximizeWindow] successfully performed. With the following test data [New screen size is now: (1040, 744)]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element Action [Type] successfully performed. With the following test data [SHAFT_Engine].",
+      "time" : {
+        "start" : 1646705543857,
+        "stop" : 1646705543858,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "172"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Type] successfully performed. With the following test data [SHAFT_Engine]."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Element Action [KeyPress] successfully performed. With the following test data [Enter].",
+      "time" : {
+        "start" : 1646705545495,
+        "stop" : 1646705545496,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "173"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [KeyPress] successfully performed. With the following test data [Enter]."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Assertion Passed: Then I Assert that the element found by [By.id: appbar] text does not equal [].",
+      "time" : {
+        "start" : 1646705545829,
+        "stop" : 1646705545832,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0c84f7afbced222",
+        "name" : "Attachment: Screenshot - 1646705545739_searchForQueryandAssertResultsNumDisplayed_ValidateElementAttribute_passed",
+        "source" : "b0c84f7afbced222.png",
+        "type" : "image/png",
+        "size" : 266659
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "174"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Then I Assert that the element found by [By.id: appbar] text does not equal []."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateElementAttribute] PASSED. Expected [Value Should not be '' for the 'text' attribute, element locator 'By.id: appbar'] and Actual [About 719,000 results (0.51 seconds) ]. Comparison Type [EQUALS]. Validation Type [NEGATIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1646705545739_searchForQueryandAssertResultsNumDisplayed_ValidateElementAttribute_passed, java.io.ByteArrayInputStream@7123f4ff]]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "9fe64b58dbaf777d",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: searchForQueryandAssertResultsNumDisplayed",
+      "source" : "9fe64b58dbaf777d.txt",
+      "type" : "text/plain",
+      "size" : 1593
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1646705547584,
+      "stop" : 1646705551764,
+      "duration" : 4180
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1646705551763,
+        "stop" : 1646705551764,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "176"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1646706031659,
+      "stop" : 1646706032585,
+      "duration" : 926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1646706031659,
+        "stop" : 1646706031659,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "772"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1646706031672,
+        "stop" : 1646706031672,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a3c8fd7412322af",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220308-022031",
+        "source" : "8a3c8fd7412322af.csv",
+        "type" : "text/csv",
+        "size" : 616
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "773"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 3, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220308-022031, java.io.ByteArrayInputStream@124ff130]]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "ab993a7d9480a9d3",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220308-022031",
+      "source" : "ab993a7d9480a9d3.txt",
+      "type" : "text/plain",
+      "size" : 447966
+    }, {
+      "uid" : "36df078a71721bac",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "36df078a71721bac.html",
+      "type" : "text/html",
+      "size" : 13045499
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_google"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_google"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchForQueryandAssertResultsNumDisplayed"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_google"
+  }, {
+    "name" : "host",
+    "value" : "fv-az450-665"
+  }, {
+    "name" : "thread",
+    "value" : "5440@fv-az450-665.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "15201a014da47ccb",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1197//#testresult/15201a014da47ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646504420202,
+          "stop" : 1646504422663,
+          "duration" : 2461
+        }
+      }, {
+        "uid" : "10d1b82eca4c521b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1194//#testresult/10d1b82eca4c521b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646360376873,
+          "stop" : 1646360378858,
+          "duration" : 1985
+        }
+      }, {
+        "uid" : "6c2728c838917860",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1188//#testresult/6c2728c838917860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646100885526,
+          "stop" : 1646100887565,
+          "duration" : 2039
+        }
+      }, {
+        "uid" : "43001fcc32f94d25",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1186//#testresult/43001fcc32f94d25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645927343273,
+          "stop" : 1645927345337,
+          "duration" : 2064
+        }
+      }, {
+        "uid" : "b0714f728db92daf",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1184//#testresult/b0714f728db92daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645897124342,
+          "stop" : 1645897126598,
+          "duration" : 2256
+        }
+      }, {
+        "uid" : "da398a86bc6a3cc5",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1181//#testresult/da398a86bc6a3cc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645754798701,
+          "stop" : 1645754800860,
+          "duration" : 2159
+        }
+      }, {
+        "uid" : "4ed94c0dbaa373dd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1180//#testresult/4ed94c0dbaa373dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645697703306,
+          "stop" : 1645697705412,
+          "duration" : 2106
+        }
+      }, {
+        "uid" : "867874a9574cec2c",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1167//#testresult/867874a9574cec2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645542869542,
+          "stop" : 1645542871828,
+          "duration" : 2286
+        }
+      }, {
+        "uid" : "e802660e189c8370",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1165//#testresult/e802660e189c8370",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645495048741,
+          "stop" : 1645495051156,
+          "duration" : 2415
+        }
+      }, {
+        "uid" : "c2e77c7c38e29a0b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1162//#testresult/c2e77c7c38e29a0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645257560958,
+          "stop" : 1645257563493,
+          "duration" : 2535
+        }
+      }, {
+        "uid" : "c1e94807bfa33d7b",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1159//#testresult/c1e94807bfa33d7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645235986818,
+          "stop" : 1645235988779,
+          "duration" : 1961
+        }
+      }, {
+        "uid" : "d98bec3159fdbec6",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1156//#testresult/d98bec3159fdbec6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645149802348,
+          "stop" : 1645149804690,
+          "duration" : 2342
+        }
+      }, {
+        "uid" : "d5d59c5e889e0388",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1155//#testresult/d5d59c5e889e0388",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645105313476,
+          "stop" : 1645105322290,
+          "duration" : 8814
+        }
+      }, {
+        "uid" : "d58962bee5bb0113",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1154//#testresult/d58962bee5bb0113",
+        "status" : "skipped",
+        "statusDetails" : "Method testPackage01.Test_google.searchForQueryandAssertResultsNumDisplayed() on instance testPackage01.Test_google@262816a8 depends on not successfully finished methods \n[testPackage01.Test_google.navigateToURLandVerifyGoogleLogoIsDisplayed() on instance testPackage01.Test_google@262816a8]",
+        "time" : {
+          "start" : 1645062570655,
+          "stop" : 1645062570659,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "3f8e31a7ceb80b9d",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/Windows/Web/1152//#testresult/3f8e31a7ceb80b9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644977195616,
+          "stop" : 1644977197830,
+          "duration" : 2214
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a990c81420f660dc.json",
+  "parameterValues" : [ ]
+}
