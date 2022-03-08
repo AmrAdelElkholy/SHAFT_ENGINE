@@ -1,0 +1,533 @@
+{
+  "uid" : "7b33aa2052f9a7ff",
+  "name" : "visualElementIdentification_samedpi",
+  "fullName" : "testPackage01.appium.AndroidBasicInteractionsTest.visualElementIdentification_samedpi",
+  "historyId" : "400927def6193b091203ec0a55fad150",
+  "time" : {
+    "start" : 1646705714402,
+    "stop" : 1646705739888,
+    "duration" : 25486
+  },
+  "status" : "failed",
+  "statusMessage" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+  "statusTrace" : "java.lang.AssertionError: Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1467)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1314)\n\tat com.shaft.gui.element.TouchActions.tap(TouchActions.java:107)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.visualElementIdentification_samedpi(AndroidBasicInteractionsTest.java:73)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1646705521533,
+      "stop" : 1646705525199,
+      "duration" : 3666
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [allure-results] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646705521679,
+        "stop" : 1646705521682,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [allure-results] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646705521683,
+        "stop" : 1646705521683,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [/Users/runner/.m2/repository/allure/] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time...",
+      "time" : {
+        "start" : 1646705521684,
+        "stop" : 1646705521684,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Downloading a file from this url [https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.3/allure-commandline-2.17.3.zip] to this directory [target/allureBinary.zip], please wait as downloading may take some time..."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"].",
+      "time" : {
+        "start" : 1646705523585,
+        "stop" : 1646705523585,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generate_allure_report.sh\" | Exit Status: \"0\"]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1646705523713,
+        "stop" : 1646705523713,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1646705525195,
+        "stop" : 1646705525197,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed319e5a48d4d8d8",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "ed319e5a48d4d8d8.txt",
+        "type" : "text/plain",
+        "size" : 48
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: generateJdk.sh: No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a1f94ac53a46d122",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "a1f94ac53a46d122.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1646705697906,
+      "stop" : 1646705714397,
+      "duration" : 16491
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub].",
+      "time" : {
+        "start" : 1646705697907,
+        "stop" : 1646705697907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "41"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Android], [http://0.0.0.0:4723/wd/hub]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [NativeMobileApp].",
+      "time" : {
+        "start" : 1646705713338,
+        "stop" : 1646705713338,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "42"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [NativeMobileApp]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+    "statusTrace" : "java.lang.AssertionError: Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].\n\tat org.testng.Assert.fail(Assert.java:110)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1467)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1314)\n\tat com.shaft.gui.element.TouchActions.tap(TouchActions.java:107)\n\tat testPackage01.appium.AndroidBasicInteractionsTest.visualElementIdentification_samedpi(AndroidBasicInteractionsTest.java:73)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+      "time" : {
+        "start" : 1646705739884,
+        "stop" : 1646705739887,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "144036db0adb9ee4",
+        "name" : "Attachment: Screenshot - 1646705739862_visualElementIdentification_samedpi_tap - Reference Screenshot_passed",
+        "source" : "144036db0adb9ee4.png",
+        "type" : "image/png",
+        "size" : 3176
+      }, {
+        "uid" : "5031d4e26a6677d2",
+        "name" : "Attachment: Screenshot - 1646705739783_visualElementIdentification_samedpi_tap - Current Screen Image_passed",
+        "source" : "5031d4e26a6677d2.png",
+        "type" : "image/png",
+        "size" : 7662
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "43"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1646705739862_visualElementIdentification_samedpi_tap - Reference Screenshot_passed, java.io.ByteArrayInputStream@4a83d61c], [Screenshot, 1646705739783_visualElementIdentification_samedpi_tap - Current Screen Image_passed, java.io.ByteArrayInputStream@624268ab]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7016124b9c730e34",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: visualElementIdentification_samedpi",
+      "source" : "7016124b9c730e34.txt",
+      "type" : "text/plain",
+      "size" : 30228
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1646705739900,
+      "stop" : 1646705742915,
+      "duration" : 3015
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1646705742915,
+        "stop" : 1646705742915,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "44"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ac1ad82580afc864",
+      "name" : "Attachment: Video Recording - teardown",
+      "source" : "ac1ad82580afc864.mp4",
+      "type" : "video/mp4",
+      "size" : 4808
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1646705742926,
+      "stop" : 1646705743623,
+      "duration" : 697
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 5, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1646705742940,
+        "stop" : 1646705742941,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9c1b8eb6ed7cf86",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220308-021542",
+        "source" : "b9c1b8eb6ed7cf86.csv",
+        "type" : "text/csv",
+        "size" : 891
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "45"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 5, New issues for Failed Tests = 5, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220308-021542, java.io.ByteArrayInputStream@3ede428e]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c4126ab6489f400b",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220308-021542",
+      "source" : "c4126ab6489f400b.txt",
+      "type" : "text/plain",
+      "size" : 46863
+    }, {
+      "uid" : "fc6b194e3ef7a6e2",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "fc6b194e3ef7a6e2.html",
+      "type" : "text/html",
+      "size" : 251549
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "visualElementIdentification_samedpi"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.appium.AndroidBasicInteractionsTest"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1646705029760.local"
+  }, {
+    "name" : "thread",
+    "value" : "12641@Mac-1646705029760.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "133f7023ac66f5",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/511//#testresult/133f7023ac66f5",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1646649554722,
+          "stop" : 1646649580183,
+          "duration" : 25461
+        }
+      }, {
+        "uid" : "da5c82384715ae59",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/509//#testresult/da5c82384715ae59",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1646619652279,
+          "stop" : 1646619677626,
+          "duration" : 25347
+        }
+      }, {
+        "uid" : "1dc2e8c6ff456cd3",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/506//#testresult/1dc2e8c6ff456cd3",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1646532785967,
+          "stop" : 1646532811964,
+          "duration" : 25997
+        }
+      }, {
+        "uid" : "73398d3cd36d1c36",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/502//#testresult/73398d3cd36d1c36",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1646446399039,
+          "stop" : 1646446424709,
+          "duration" : 25670
+        }
+      }, {
+        "uid" : "69924e578511a967",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/499//#testresult/69924e578511a967",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1646274012535,
+          "stop" : 1646274038715,
+          "duration" : 26180
+        }
+      }, {
+        "uid" : "861c1d065ad308cd",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/497//#testresult/861c1d065ad308cd",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1646187841684,
+          "stop" : 1646187867235,
+          "duration" : 25551
+        }
+      }, {
+        "uid" : "76e99fb43f818432",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/493//#testresult/76e99fb43f818432",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1646014255563,
+          "stop" : 1646014282413,
+          "duration" : 26850
+        }
+      }, {
+        "uid" : "7e408bb2055d4fad",
+        "reportUrl" : "https://MohabMohie.github.io/SHAFT_ENGINE/allure/MobileNative/Android/489//#testresult/7e408bb2055d4fad",
+        "status" : "failed",
+        "statusDetails" : "Element Action [Tap] failed. With the following test data [Couldn't find reference element on the current screen. If you can see it in the attached image then kindly consider cropping it and updating your reference image.].",
+        "time" : {
+          "start" : 1645841088525,
+          "stop" : 1645841113738,
+          "duration" : 25213
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7b33aa2052f9a7ff.json",
+  "parameterValues" : [ ]
+}
