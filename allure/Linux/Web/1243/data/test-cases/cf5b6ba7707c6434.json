@@ -1,0 +1,450 @@
+{
+  "uid" : "cf5b6ba7707c6434",
+  "name" : "uploadFile_visibleUploadInput",
+  "fullName" : "testPackage01.Test_uploadFile.uploadFile_visibleUploadInput",
+  "historyId" : "2935f6195ae2ad2b57e1bc1f5cb3a205",
+  "time" : {
+    "start" : 1647754398907,
+    "stop" : 1647754403712,
+    "duration" : 4805
+  },
+  "status" : "failed",
+  "statusMessage" : "Element Action [Click] failed.",
+  "statusTrace" : "java.lang.AssertionError: Element Action [Click] failed.\n\tat org.testng.Assert.fail(Assert.java:98)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1478)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1304)\n\tat com.shaft.gui.element.WebDriverElementActions.click(WebDriverElementActions.java:146)\n\tat com.shaft.gui.element.ElementActions.click(ElementActions.java:71)\n\tat com.shaft.gui.element.ElementActions.click(ElementActions.java:659)\n\tat testPackage01.Test_uploadFile.uploadFile_visibleUploadInput(Test_uploadFile.java:21)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type=\"checkbox\" class=\"field_check\" id=\"terms\" name=\"terms\"> is not clickable at point (692, 290). Other element would receive the click: <div id=\"ccpa-consent-manager-parent\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);\">...</div>\n  (Session info: headless chrome=99.0.4844.74)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az504-326', ip: '10.1.0.168', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [004294e352b3eadfd109eaf6fd56a482, clickElement {id=7eceb967-5aa7-4b48-a4e0-c5e602524f7e}]\nCapabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.3KHY9L}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 99.0.4844.74, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[RemoteWebDriver: chrome on LINUX (004294e352b3eadfd109eaf6fd56a482)] -> id: terms]\nSession ID: 004294e352b3eadfd109eaf6fd56a482\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat com.shaft.gui.element.WebDriverElementActions.click(WebDriverElementActions.java:133)\n\t... 36 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1647754398646,
+      "stop" : 1647754398889,
+      "duration" : 243
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1647754398646,
+        "stop" : 1647754398646,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "49"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1647754398888,
+        "stop" : 1647754398889,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "50"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setupActivities",
+    "time" : {
+      "start" : 1647754367374,
+      "stop" : 1647754368468,
+      "duration" : 1094
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Folder [extent-reports] was not found, it may have already been deleted.",
+      "time" : {
+        "start" : 1647754367578,
+        "stop" : 1647754367582,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Folder [extent-reports] was not found, it may have already been deleted."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"].",
+      "time" : {
+        "start" : 1647754368465,
+        "stop" : 1647754368467,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1000401cf42595e3",
+        "name" : "Attachment: Terminal Action Actual Result - Command Log",
+        "source" : "1000401cf42595e3.txt",
+        "type" : "text/plain",
+        "size" : 64
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Terminal Action [PerformTerminalCommands] successfully performed. With the following test data [Host Name: \"localHost\" | Command: \"chmod u+x generateJdk.sh\" | Exit Status: \"1\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Terminal Action Actual Result, Command Log, chmod: cannot access 'generateJdk.sh': No such file or directory]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b28fb1bccab9f803",
+      "name" : "Attachment: SHAFT Links - Important",
+      "source" : "b28fb1bccab9f803.uri",
+      "type" : "text/uri-list",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element Action [Click] failed.",
+    "statusTrace" : "java.lang.AssertionError: Element Action [Click] failed.\n\tat org.testng.Assert.fail(Assert.java:98)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1478)\n\tat com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1304)\n\tat com.shaft.gui.element.WebDriverElementActions.click(WebDriverElementActions.java:146)\n\tat com.shaft.gui.element.ElementActions.click(ElementActions.java:71)\n\tat com.shaft.gui.element.ElementActions.click(ElementActions.java:659)\n\tat testPackage01.Test_uploadFile.uploadFile_visibleUploadInput(Test_uploadFile.java:21)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:326)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\n\tat org.testng.TestNG.runSuites(TestNG.java:1092)\n\tat org.testng.TestNG.run(TestNG.java:1060)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type=\"checkbox\" class=\"field_check\" id=\"terms\" name=\"terms\"> is not clickable at point (692, 290). Other element would receive the click: <div id=\"ccpa-consent-manager-parent\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);\">...</div>\n  (Session info: headless chrome=99.0.4844.74)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az504-326', ip: '10.1.0.168', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [004294e352b3eadfd109eaf6fd56a482, clickElement {id=7eceb967-5aa7-4b48-a4e0-c5e602524f7e}]\nCapabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.3KHY9L}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 99.0.4844.74, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[RemoteWebDriver: chrome on LINUX (004294e352b3eadfd109eaf6fd56a482)] -> id: terms]\nSession ID: 004294e352b3eadfd109eaf6fd56a482\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat com.shaft.gui.element.WebDriverElementActions.click(WebDriverElementActions.java:133)\n\t... 36 more\n",
+    "steps" : [ {
+      "name" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://demo.guru99.com/test/upload/].",
+      "time" : {
+        "start" : 1647754401501,
+        "stop" : 1647754401501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "51"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [NavigateToURL] successfully performed. With the following test data [https://demo.guru99.com/test/upload/]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [TypeFileLocationForUpload] successfully performed. With the following test data [/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png].",
+      "time" : {
+        "start" : 1647754401780,
+        "stop" : 1647754401780,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "52"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [TypeFileLocationForUpload] successfully performed. With the following test data [/home/runner/work/SHAFT_ENGINE/SHAFT_ENGINE/src/main/resources/images/shaft.png]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "An Exception Occured with this Message: element click intercepted: Element <input type=\"checkbox\" class=\"field_check\" id=\"terms\" name=\"terms\"> is not clickable at point (692, 290). Other element would receive the click: <div id=\"ccpa-consent-manager-parent\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);\">...</div>.",
+      "time" : {
+        "start" : 1647754403210,
+        "stop" : 1647754403210,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d779829a46207172",
+        "name" : "Attachment: Exception Stack Trace - org.openqa.selenium.ElementClickInterceptedException",
+        "source" : "d779829a46207172.txt",
+        "type" : "text/plain",
+        "size" : 5721
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "53"
+      }, {
+        "name" : "logText",
+        "value" : "An Exception Occured with this Message: element click intercepted: Element <input type=\"checkbox\" class=\"field_check\" id=\"terms\" name=\"terms\"> is not clickable at point (692, 290). Other element would receive the click: <div id=\"ccpa-consent-manager-parent\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);\">...</div>."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Exception Stack Trace, org.openqa.selenium.ElementClickInterceptedException, org.openqa.selenium.ElementClickInterceptedException:\nelement click intercepted: Element <input type=\"checkbox\" class=\"field_check\" id=\"terms\" name=\"terms\"> is not clickable at point (692, 290). Other element would receive the click: <div id=\"ccpa-consent-manager-parent\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);\">...</div>\n  (Session info: headless chrome=99.0.4844.74)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'fv-az504-326', ip: '10.1.0.168', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [004294e352b3eadfd109eaf6fd56a482, clickElement {id=7eceb967-5aa7-4b48-a4e0-c5e602524f7e}]\nCapabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.3KHY9L}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.4:4444/sessio..., se:cdpVersion: 99.0.4844.74, se:vnc: ws://172.18.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[RemoteWebDriver: chrome on LINUX (004294e352b3eadfd109eaf6fd56a482)] -> id: terms]\nSession ID: 004294e352b3eadfd109eaf6fd56a482\njava.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\njava.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\njava.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\njava.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\norg.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\norg.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\norg.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\norg.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\norg.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\norg.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\norg.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\ncom.shaft.gui.element.WebDriverElementActions.click(WebDriverElementActions.java:133)\ncom.shaft.gui.element.ElementActions.click(ElementActions.java:71)\ncom.shaft.gui.element.ElementActions.click(ElementActions.java:659)\ntestPackage01.Test_uploadFile.uploadFile_visibleUploadInput(Test_uploadFile.java:21)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\njava.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\njava.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.base/java.lang.reflect.Method.invoke(Method.java:568)\norg.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\norg.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\norg.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\norg.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\norg.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\norg.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\norg.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\norg.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\njava.base/java.util.ArrayList.forEach(ArrayList.java:1511)\norg.testng.TestRunner.privateRun(TestRunner.java:808)\norg.testng.TestRunner.run(TestRunner.java:603)\norg.testng.SuiteRunner.runTest(SuiteRunner.java:429)\norg.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)\norg.testng.SuiteRunner.privateRun(SuiteRunner.java:383)\norg.testng.SuiteRunner.run(SuiteRunner.java:326)\norg.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\norg.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\norg.testng.TestNG.runSuitesSequentially(TestNG.java:1249)\norg.testng.TestNG.runSuitesLocally(TestNG.java:1169)\norg.testng.TestNG.runSuites(TestNG.java:1092)\norg.testng.TestNG.run(TestNG.java:1060)\norg.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)\norg.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)\norg.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\norg.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\norg.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\norg.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\norg.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Element Action [Click] failed.",
+      "time" : {
+        "start" : 1647754403693,
+        "stop" : 1647754403694,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c70ca7bdba261fee",
+        "name" : "Attachment: Screenshot - 1647754403414_uploadFile_visibleUploadInput_Click_failed",
+        "source" : "c70ca7bdba261fee.png",
+        "type" : "image/png",
+        "size" : 52829
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "55"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [Click] failed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Screenshot, 1647754403414_uploadFile_visibleUploadInput_Click_failed, java.io.ByteArrayInputStream@31782447]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "adef2488ded366e7",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: uploadFile_visibleUploadInput",
+      "source" : "adef2488ded366e7.txt",
+      "type" : "text/plain",
+      "size" : 2001
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1647754403723,
+      "stop" : 1647754403870,
+      "duration" : 147
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Browser Action [CloseCurrentWindow] successfully performed.",
+      "time" : {
+        "start" : 1647754403869,
+        "stop" : 1647754403869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e24206f1a75430e1",
+        "name" : "Attachment: Browser Action Test Data - CloseCurrentWindow - Actual Value",
+        "source" : "e24206f1a75430e1.xhtml",
+        "type" : "application/xhtml+xml",
+        "size" : 38229
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "56"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [CloseCurrentWindow] successfully performed."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Browser Action Test Data - CloseCurrentWindow, Actual Value, <html dir=\"LTR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><head>\n    \n <script type=\"text/javascript\" async=\"\" src=\"https://www.google-analytics.com/analytics.js\"></script><script src=\"https://securepubads.g.doubleclick.net/gpt/pubads_impl_page_level_ads_2022031401.js\"></script><script async=\"\" defer=\"\" src=\"https://ccpa.privacymanager.io/1/ccpa.bundle.js\"></script><script type=\"text/javascript\" async=\"\" src=\"https://ccpa-wrapper.privacymanager.io/ccpa/75b86dcc-d9aa-4442-a859-bcb098cdb7d8/ccpa-liveramp.js\"></script><script async=\"async\" src=\"https://www.googletagservices.com/tag/js/gpt.js\"></script>\n<script>var gptadslots=[];\nvar googletag=googletag||{cmd:[]};\nwindow.googletag = window.googletag || {cmd: []};\nvar interstitialSlot, staticSlot, staticSlot1;\n</script>\n\n<script type=\"text/javascript\" src=\"//fdyn.pubwise.io/script/b7da2361-4ada-4374-9097-af748311b5fe/v3/dyn/pre_pws.js\"></script><meta http-equiv=\"origin-trial\" content=\"AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=\"><meta http-equiv=\"origin-trial\" content=\"Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9\"><meta http-equiv=\"origin-trial\" content=\"A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9\"><meta http-equiv=\"origin-trial\" content=\"AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9\"><meta http-equiv=\"origin-trial\" content=\"A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==\"><meta http-equiv=\"origin-trial\" content=\"A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9\"><meta http-equiv=\"origin-trial\" content=\"A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9\"><meta http-equiv=\"origin-trial\" content=\"A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9\"><script src=\"https://securepubads.g.doubleclick.net/gpt/pubads_impl_2022031401.js\" async=\"\"></script>\n<script type=\"text/javascript\" src=\"//fdyn.pubwise.io/script/b7da2361-4ada-4374-9097-af748311b5fe/v3/dyn/pws.js\" async=\"\"></script>\n\n<script>\ngoogletag.cmd.push(function(){\ngoogletag.pubads().collapseEmptyDivs(true);\ngoogletag.pubads().disableInitialLoad();\n\n\ngptadslots['interstitial'] = googletag.defineOutOfPageSlot('/24132379/INTERSTITIAL_DemoGuru99', googletag.enums.OutOfPageFormat.INTERSTITIAL).addService(googletag.pubads());\n\n\ngoogletag.enableServices();\ngoogletag.pubads().setTargeting('TestMode', ['True']);\n});</script>\n\n<script src=\"//btloader.com/tag?o=5764509824188416&amp;upapi=true\"></script><script async=\"\" src=\"https://fundingchoicesmessages.google.com/i/103512698?ers=3\"></script><script async=\"\" src=\"https://fundingchoicesmessages.google.com/f/AGSKWxW1NhNTQu1cjBjSEz2z5TNlRn6-XJSZZKLPGR5o6sEER0Q0Oh86nHtTT_wvjLjAGzfNxi8_RG1R_lobYbIuAZ4=?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNjQ3NzU0Mzk5LDc5ODAwMDAwMF0sIkEyRkUxOTMxLUI3NEMtNDVCNS1BNzkwLTUxNzA3ODE2QzVCRCIsIjIyQkJEREUzLTM2RkQtNEI0Ri05MEZBLUQ0NEEwOUFEN0U3MSIsbnVsbCxbbnVsbCxbN11dLCJodHRwczovL2RlbW8uZ3VydTk5LmNvbS90ZXN0L3VwbG9hZC8iLG51bGwsW11d\"></script><script async=\"\" src=\"https://fundingchoicesmessages.google.com/f/AGSKWxWNdtaZroUlw7dDGyr2LnJW3c1-MSIKWB37sbR8jRh7H0G03VYwWbakDupszDFR1ppXdxTqq8q8HZ-WOMLDOT_g8BZoZaQABm2xcA4RHUuE0iqyPKa6bwAxAHZdUbece7AzkMuH_pyQvy1b2f1XaaNgdCSAA6xsJdoqwBVPPb4thZIL8-oV2se66T1t?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNjQ3NzU0Mzk5LDg2ODAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsOV0sbnVsbCwyXSwiaHR0cHM6Ly9kZW1vLmd1cnU5OS5jb20vdGVzdC91cGxvYWQvIixudWxsLFtdXQ\"></script><style type=\"text/css\">\n\t\t\t\t.cyyxthk {\n\t\t\t\t\tbackground-color: #48484a;\n\t\t\t\t\tcolor: #ffffff;\n\t\t\t\t\tborder: solid #48484a 0px;\n\t\t\t\t\tborder-radius: 4px;\n\t\t\t\t\twidth: 166px;\n\t\t\t\t\theight: 36px;\n\t\t\t\t\toverflow: hidden;\n\t\t\t\t\ttext-overflow: ellipsis;\n\t\t\t\t\twhite-space: nowrap;\n\t\t\t\t\tcursor: pointer;\n\t\t\t\t\tfont-weight: 600;\n\t\t\t\t\tline-height: normal;\n\t\t\t\t\tbox-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4);\n\t\t\t\t}\n\t\t\t\t.cyyxthk span {\n\t\t\t\t\tfont-size: 12px;\n\t\t\t\t\tline-height: 24px;\n\t\t\t\t}\n\t\t\t\t.cyyxthk svg {\n\t\t\t\t\tdisplay: block;\n\t\t\t\t\tfloat: left;\n\t\t\t\t\tmargin: 2px 0px 0 4px;\n\t\t\t\t\theight: 20px;\n\t\t\t\t\twidth: 20px;\n\t\t\t\t}\n\t\t\t</style><link rel=\"preload\" href=\"https://adservice.google.com/adsid/integrator.js?domain=demo.guru99.com\" as=\"script\"><script type=\"text/javascript\" src=\"https://adservice.google.com/adsid/integrator.js?domain=demo.guru99.com\"></script><meta http-equiv=\"origin-trial\" content=\"AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=\"><meta http-equiv=\"origin-trial\" content=\"Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9\"><meta http-equiv=\"origin-trial\" content=\"A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9\"><meta http-equiv=\"origin-trial\" content=\"AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9\"><meta http-equiv=\"origin-trial\" content=\"A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==\"><meta http-equiv=\"origin-trial\" content=\"A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9\"><meta http-equiv=\"origin-trial\" content=\"A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9\"><meta http-equiv=\"origin-trial\" content=\"A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9\"><script async=\"\" src=\"https://fundingchoicesmessages.google.com/f/AGSKWxUNgrqFLNLavY5j2o6CGaPrYi1CdQAcA-kjE1PR-EWMLzTQBTOBOn7VUg97Ke5rhdbHdxBWg0mSEy3yOa5t1iHbn3r7LCv_2UimefHbMtaj2_RkhJSIUXnnkBIaPV1pROj7Vydq0ulbDodpnxD_BDafBpQmtJf-vBPNzCFJqwRbgflnoPurMzDgyM4v?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNjQ3NzU0NDAxLDY2MDAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsOSw2XSxudWxsLDIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCwxXSwiaHR0cHM6Ly9kZW1vLmd1cnU5OS5jb20vdGVzdC91cGxvYWQvIixudWxsLFtdXQ\"></script></head><body aria-hidden=\"false\" style=\"\"><div id=\"interstitial\">\n <script type=\"text/javascript\"> \n if (typeof(pubwise) != 'undefined' && pubwise.enabled === true) {\n pubwise.que.push(function() {              \n pubwise.renderAd('interstitial');\n      });\n    }else{\n googletag.cmd.push(function () {                    \n googletag.display('interstitial');\n googletag.pubads().refresh([gptadslots['interstitial']]);          \n      });\n    }\n </script>\n</div>\n\n<div id=\"static-ad-1\"></div>\n<script>\n        googletag.cmd.push(function() {\n        googletag.display(staticSlot);\n        });\n</script>   \n    \n    \n    \n    <meta name=\"robots\" content=\"nofollow, noindex\">\n    \n    <title>File Upload Demo</title>\n    \n   <link href=\"../css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link href=\"../css/main.css\" rel=\"stylesheet\">\n    <link href=\"../css/custom.css\" rel=\"stylesheet\">\n    <link href=\"../css/slider-cars.css\" rel=\"stylesheet\"><iframe name=\"googlefcPresent\" style=\"display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\"></iframe>\n    <link href=\"../css/home-bar.css\" rel=\"stylesheet\"> \n   \t <link rel=\"stylesheet\" type=\"text/css\" href=\"../css/bd.css\">\n<style>\n.spinner {\n    opacity: 0;\n    display:none;\n    width: 20px;\n    height:10px;\n    -webkit-transition: opacity 0.25s, max-width 0.45s;\n    -moz-transition: opacity 0.25s, max-width 0.45s;\n    -o-transition: opacity 0.25s, max-width 0.45s;\n    transition: opacity 0.25s, max-width 0.45s;\n    /* Duration fixed since we animate additional hidden width */\n}\n.has-spinner.active {\n    cursor:progress;\n}\n.has-spinner.active .spinner {\n    display:inline-block;\n    opacity: 1;\n    max-width: 50px;\n    /* More than it will ever come, notice that this affects on animation duration */\n}\n.demo{\n  display:none; !important\n  }\n\n</style>\n<script src=\"//cdn.guru99.com/media/jui/js/jquery.min.js\"></script><iframe src=\"https://503c10f496339de0329839d464d959b0.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html\" style=\"visibility: hidden; display: none;\"></iframe><iframe name=\"__ccpaLocator\" style=\"display: none;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe><img src=\"https://ad.doubleclick.net/favicon.ico?ad=300x250&amp;ad_box_=1&amp;adnet=1&amp;showad=1&amp;size=250x250\" style=\"display: none !important; width: 1px !important; height: 1px !important;\"><img src=\"https://ad-delivery.net/px.gif?ch=1&amp;e=0.8043525759226358\" style=\"display: none !important; width: 1px !important; height: 1px !important;\"><iframe name=\"__tcfapiLocator\" src=\"about:blank\" style=\"display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\"></iframe><iframe name=\"googlefcInactive\" src=\"about:blank\" style=\"display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\"></iframe><iframe name=\"googlefcLoaded\" src=\"about:blank\" style=\"display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\"></iframe><div id=\"toggle\" style=\"position: fixed; cursor: pointer; z-index: 2147483646; bottom: 10px; right: 10px; display: none;\"><button class=\"cyyxthk\">\n\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\">\n\t\t\t\t\t<path fill=\"#ffffff\" fill-rule=\"nonzero\" d=\"M18.585 12.333c.038-.276.058-.554.06-.833a6.624 6.624 0 0 0-.06-.833l1.794-1.402a.425.425 0 0 0 .102-.544l-1.7-2.941a.425.425 0 0 0-.519-.187l-2.116.85a6.21 6.21 0 0 0-1.437-.833l-.323-2.253A.415.415 0 0 0 13.97 3h-3.4a.415.415 0 0 0-.417.357L9.83 5.61a6.53 6.53 0 0 0-1.436.833l-2.117-.85a.425.425 0 0 0-.519.187l-1.7 2.94a.42.42 0 0 0 .103.545l1.793 1.402a6.741 6.741 0 0 0-.06.833c.003.279.023.557.06.833l-1.793 1.403a.425.425 0 0 0-.102.544l1.7 2.94a.425.425 0 0 0 .518.188l2.117-.85c.44.34.922.62 1.436.833l.323 2.252c.03.207.208.36.417.357h3.4a.415.415 0 0 0 .416-.357l.323-2.252a6.53 6.53 0 0 0 1.437-.833l2.116.85c.05.016.101.025.153.025.151 0 .29-.082.366-.212l1.7-2.941a.425.425 0 0 0-.102-.544l-1.794-1.403zm-1.683-1.453c.029.205.043.413.043.62 0 .179-.017.366-.043.62l-.119.961.757.595.918.714-.595 1.029-1.08-.434-.884-.357-.765.578c-.327.25-.684.458-1.062.62l-.901.366-.136.96-.17 1.148h-1.19l-.162-1.147-.136-.96-.9-.366a4.823 4.823 0 0 1-1.046-.604l-.774-.595-.9.366-1.08.433-.595-1.028.918-.714.756-.595-.119-.96a6.837 6.837 0 0 1-.042-.63c0-.17.017-.365.042-.62l.12-.96L7 9.323l-.918-.714.595-1.028 1.08.433.883.357.765-.578c.327-.25.684-.458 1.063-.62l.9-.366.137-.96.17-1.148h1.181l.162 1.148.136.96.9.366c.373.156.724.359 1.046.603l.774.595.9-.365 1.08-.434.595 1.029-.91.722-.756.595.12.96zM12.27 8.1a3.4 3.4 0 1 0 0 6.8 3.4 3.4 0 0 0 0-6.8zm0 5.1a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4z\"></path>\n\t\t\t\t</svg>\n\t\t\t\t<span>Do Not Sell My Info</span>\n\t\t\t</button></div><div id=\"ccpa-consent-manager-parent\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);\"><iframe src=\"https://ccpa-manager.privacymanager.io/latest/index.html#/notice\" id=\"ccpa-consent-notice\" class=\"faktor-iframe-wrapper\" frameborder=\"0\" scrolling=\"yes\" style=\"min-height: 220px; max-height: 350px; width: 100%; left: 0px; bottom: 0px; position: fixed; display: block; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 212px;\"></iframe></div> \n<script src=\"https://code.jquery.com/jquery-1.10.2.js\"></script>\n<script type=\"text/javascript\">\n\n  (function () {\n    $(document).on(\"click\", \"#submitbutton\", function (event) {\n        var elem = $(event.currentTarget);\n        elem.addClass('active');\n        $('#res').hide();\n        \n        $.ajax({url:\"/echo/html/\",data: {delay:900000000}}).always(function(){\n            elem.removeClass('active');\n            $('#res').show();\n        });\n       \n    });\n})();\n\n</script>\n\n<script type=\"text/javascript\">archive_analytics.values.server_name=\"wwwb-app14.us.archive.org\";archive_analytics.values.server_ms=477;</script>\n<link type=\"text/css\" rel=\"stylesheet\" href=\"css/banner-styles.css\">\n\n\n\n<link href=\"css/style.css\" type=\"text/css\" rel=\"stylesheet\">\n\n<script language=\"JavaScript\">\n<!--\nvar NoFileSelected='You must select a file to upload!';\nvar SenderRequired='You need enter your email to send the download link!';\nvar EmailInvalid='Email address is invalid!';\nvar TOSUnchecked='Before upload,you must agree with our terms of services!';\nvar MaxUploadsGot = 'You have used out max uploads!';\nvar NeedRegister ='This feature need register to access!';\nvar UploadInvalid='Upload file is invalid!';\nvar AllowedFiletypes='Allowed';\nvar DisabledFiletypes='Disabled';\n\nvar FormUploadHint='Click \"browser\" to select a file from your PC to upload!';\nvar FlashUploadHint='Use Flash object upload files easily,Note:Flash 8 Player is required!';\nvar UrlUploadHint='Enter your file URL,we will fetch it for you,Format:/web/20141011154238/http://remote.com/file.ext';\nvar FTPUploadHint='Enter your ftp URL,we will fetch it for you,Format:anonymous ftp://domain.com/file.ext or ftp://username:password@domain.com/file.ext!';\nvar FlashNotLoaded='Wait a moment,flash object is not loaded!';\n\nvar skinWeb = '/web/20141011154238/http://www.megafileupload.com/skin/custom';\nvar max_uploads = '2';\nvar allowed_types  = '';\nvar disabled_types = 'php,exe,cgi';\nvar custom_fields  = 'descr,pw';\nvar cgi_prog_mode  = 'ajax';\nvar url_prog_mode  = 'ajax';\nvar ftp_prog_mode  = 'ajax';\n//-->\n</script>\n\n\n\n\n\n<!-- BEGIN WAYBACK TOOLBAR INSERT -->\n\n<script type=\"text/javascript\">//<![CDATA[\nvar __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){\nvar wbPrefix = \"/web/\";\nvar wbCurrentUrl = \"http://www.megafileupload.com/\";\n\nvar firstYear = 1996;\nvar displayDay = \"11\";\nvar displayMonth = \"Oct\";\nvar displayYear = \"2014\";\nvar prettyMonths = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\nvar $D=document,$=function(n){return document.getElementById(n)};\nvar trackerVal,curYear = -1,curMonth = -1;\nvar yearTracker,monthTracker;\nfunction showTrackers(val) {\n  if (val===trackerVal) return;\n  var $ipp=$(\"wm-ipp\");\n  var $y=$(\"displayYearEl\"),$m=$(\"displayMonthEl\"),$d=$(\"displayDayEl\");\n  if (val) {\n    $ipp.className=\"hi\";\n  } else {\n    $ipp.className=\"\";\n    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;\n  }\n  yearTracker.style.display=val?\"inline\":\"none\";\n  monthTracker.style.display=val?\"inline\":\"none\";\n  trackerVal = val;\n}\nfunction trackMouseMove(event,element) {\n  var eventX = getEventX(event);\n  var elementX = getElementX(element);\n  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);\n  var monthOff = xOff % yearImgWidth;\n\n  var year = Math.floor(xOff / yearImgWidth);\n  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));\n  // 1 extra border pixel at the left edge of the year:\n  var month = (year * 12) + monthOfYear;\n  var day = monthOff % 2==1?15:1;\n  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +\n    zeroPad(day,2) + \"000000\";\n\n  $(\"displayYearEl\").innerHTML=year+firstYear;\n  $(\"displayMonthEl\").innerHTML=prettyMonths[monthOfYear];\n  // looks too jarring when it changes..\n  //$(\"displayDayEl\").innerHTML=zeroPad(day,2);\n  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;\n  $(\"wm-graph-anchor\").href=url;\n\n  if(curYear != year) {\n    var yrOff = year * yearImgWidth;\n    yearTracker.style.left = yrOff + \"px\";\n    curYear = year;\n  }\n  if(curMonth != month) {\n    var mtOff = year + (month * monthImgWidth) + 1;\n    monthTracker.style.left = mtOff + \"px\";\n    curMonth = month;\n  }\n}\nfunction hideToolbar() {\n  $(\"wm-ipp\").style.display=\"none\";\n}\nfunction bootstrap() {\n  var $spk=$(\"wm-ipp-sparkline\");\n  yearTracker=$D.createElement('div');\n  yearTracker.className='yt';\n  with(yearTracker.style){\n    display='none';width=yearImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  monthTracker=$D.createElement('div');\n  monthTracker.className='mt';\n  with(monthTracker.style){\n    display='none';width=monthImgWidth+\"px\";height=imgHeight+\"px\";\n  }\n  $spk.appendChild(yearTracker);\n  $spk.appendChild(monthTracker);\n\n  var $ipp=$(\"wm-ipp\");\n  $ipp&&disclaimElement($ipp);\n}\nreturn{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};\n})(550, 27, 25, 2);//]]>\n</script>\n<style type=\"text/css\">\nbody {\n  margin-top:0 !important;\n  padding-top:0 !important;\n  min-width:800px !important;\n  background-color: #FFF;\n  font-family: 'Quicksand', sans-serif;\n    font-weight: 700;\n    font-size: 14px;\n}\na:visited {\n     color: #000; \n}\na:link {\n     color: #000; \n}\n</style>\n\n<script type=\"text/javascript\">__wm.bt();</script>\n<!-- END WAYBACK TOOLBAR INSERT -->\n\n<script> \n    $(function(){\n        $(\"#includedContent\").load(\"https://demo.guru99.com/topmenu.html\"); \n    });\n    </script> \n\t\n\t\n\t<div id=\"includedContent\">\n <!-- Global site tag (gtag.js) - Google Analytics -->\n<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=UA-1248015-24\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-1248015-24');\n</script>  \n\n <div class=\"container-fluid\">\n        <!-- Top logo -->\n        <div class=\"row topper\">\n            <div class=\"col-md-4 header-section\">\n                <div class=\"logo\">\n                    <a href=\"#\" title=\"Home\" rel=\"home\" style=\"border: medium none;\"> <img src=\"/logo.png\" alt=\"Guru99 Demo Sites\" role=\"presentation\"> </a>\n                </div>\n                <div id=\"name-and-slogan\" style=\"padding-top: 0px;padding-left: 0px;\">\n                    <div id=\"site-name\" class=\"site-name\"><a href=\"#\" title=\"Home\" rel=\"home\" style=\"font-size:32px;\">Demo Site</a></div>\n                    \n                </div>\n            </div>\n            <div class=\"top-banner col-md-6\">\n               \n\n\n \n\n             \n\n            </div>\n        </div>\n        <!-- End Top -->\n        \n   \n<div class=\"row\">\n            <nav class=\"navbar navbar-default\" role=\"navigation\">\n                <div class=\"container\" style=\"padding-right: 0px;padding-left: 0px;\">\n                    <!-- Brand and toggle -->\n                   \n\n                    <!-- Nav links for toggling -->\n                    <div class=\"collapse navbar-collapse\" id=\"navbar-brand-centered\">\n                        <ul class=\"nav navbar-nav\">\n                            <li class=\"dropdown\">\n                                <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Selenium\n\t\t\t\t\t  <b class=\"caret\"></b></a>\n                                <ul class=\"dropdown-menu\">\n                                    <li><a href=\"../../test/flash-testing.html\">Flash Movie Demo</a></li>\n                                    <li><a href=\"../../test/radio.html\">Radio &amp; Checkbox Demo</a></li> \n                                    <li><a href=\"../../test/table.html\">Table Demo</a></li> \n                                    <li><a href=\"../../test/link.html\">Accessing Link</a></li>\n                                    <li><a href=\"../../test/ajax.html\">Ajax Demo</a></li>\n                                    <li><a href=\"../../test/block.html\">Inside &amp; Outside Block Level Tag</a></li>\n                                    <li><a href=\"../../test/delete_customer.php\">Delete Customer Form</a></li>\n                                    <li><a href=\"../../test/yahoo.html\">Yahoo</a></li>\n                                    <li><a href=\"../../test/tooltip.html\">Tooltip</a></li>\n                                    <li><a href=\"../../test/upload/\">File Upload</a></li>\n                                    <li><a href=\"../../test/login.html\">Login</a></li>\n                                    <li><a href=\"../../test/social-icon.html\">Social Icon</a></li>\n                                    <li><a href=\"../../test/autoit.html\">Selenium Auto IT</a></li>\n                                    <li><a href=\"../../test/facebook.html\">Selenium IDE Test</a></li>\n                                    <li><a href=\"../../test/guru99home/\">Guru99 Demo Page</a></li>\n                                    <li><a href=\"../../test/guru99home/scrolling.html\">Scrollbar Demo</a></li>\n                                    <li><a href=\"../../test/image_upload/\">File Upload using Sikuli Demo</a></li>\n                                    <li><a href=\"../../test/cookie/selenium_aut.php\">Cookie Handling Demo</a></li>\n                                    <li><a href=\"../../test/drag_drop.html\">Drag and Drop Action</a></li>\n                                    <li><a href=\"../../test/\">Selenium DatePicker Demo</a></li>\n                                </ul>\n                            </li>\n                             <li class=\"dropdown\">\n                                <a href=\"http://demo.guru99.com/insurance/v1/index.php\">Insurance Project</a>\n                                \n                            </li>\n                           <li class=\"dropdown\">\n                                <a href=\"http://demo.guru99.com/Agile_Project/Agi_V1/\">Agile Project</a>\n                               \n                            </li>\n                            <li class=\"dropdown\">\n                                <a href=\"http://demo.guru99.com/V1/index.php\">Bank Project</a>\n                                \n                            </li>\n                            <li class=\"dropdown\">\n                               <a href=\"http://demo.guru99.com/Security/SEC_V1/index.php\">Security Project</a>\n                            </li>\n                            <li class=\"dropdown\"><a href=\"http://demo.guru99.com/telecom/index.html\">Telecom Project</a></li>\n                            \n                            <li class=\"dropdown\"><a href=\"http://demo.guru99.com/payment-gateway/index.php\">Payment Gateway Project</a></li>\n                            \n                            <li class=\"dropdown\"><a href=\"http://demo.guru99.com/test/newtours/\">New Tours</a></li>\n                            \n                            <li class=\"dropdown\">\n                                <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" style=\"font-size: 14px;\">SEO\n\t\t\t\t\t  <b class=\"caret\"></b></a>\n                                <ul class=\"dropdown-menu\" style=\"font-size: 15px;\">\n                                   <li><a href=\"http://demo.guru99.com/seo/page-1.html\">Page-1</a></li>\n                                   <li><a href=\"http://demo.guru99.com/seo/page-2.html\">Page-2</a></li>\n                                   <li><a href=\"http://demo.guru99.com/seo/page-3.html\">Page-3</a></li>\n                                   <li><a href=\"http://demo.guru99.com/seo/page-4.html\">Page-4</a></li>\n                                   <li><a href=\"http://demo.guru99.com/seo/page-5.html\">Page-5</a></li>\n                                   <li><a href=\"http://demo.guru99.com/seo/page-6.html\">Page-6</a></li>\n                                </ul>\n                            </li>\n                        </ul>\n                        \n                        \n                    </div>\n                    <!-- /.navbar-collapse -->\n                </div>\n                <!-- /.container-fluid -->\n            </nav>\n        </div>\n         </div>\n</div>\n\n    <!-- ##### End Nav Bar ##### -->\n<div class=\"main_bg\">\n<div class=\"decor_bg\" style=\"background: #787C86;\">\n\n<div id=\"main\" class=\"main\">\n    \n\n\n\n \n    \n    <div style=\"text-align:center\">\n                  <!-- upload form start -->\n          <iframe width=\"0\" height=\"0\" name=\"uploadframe\" id=\"uploadframe\"></iframe>\n          <script>\n          var actions=new Array();\n          actions[1]='/web/20141011154238/http://212.7.194.85/cgi-bin/upload.cgi?sid=225b7867d510426ed86e1dcd57df2c69&maxfilesize=206000000&mode=ajax';\n          actions[2]='/web/20141011154238/http://212.7.194.85/uploading.php';\n          actions[3]='/web/20141011154238/http://212.7.194.85/uploading.php';\n          var progress_url='/web/20141011154238/http://212.7.194.85/progress.php';\n          var currentmode='1';\n          var flashPath='/web/20141011154238/http://www.megafileupload.com/includes/uploader.swf?UploadSession=225b7867d510426ed86e1dcd57df2c69&AccessKey=MTI=&ServerID=1';\n          var flashProgressPath = '/web/20141011154238/http://www.megafileupload.com/skin/custom/images/progress_bar.swf';\n          var use_flash_progress = parseInt(\"1\");\n          </script>\n          <div id=\"flashuploadobj\" style=\"top:-100px;left:-100px;position: absolute;visibility: visible;\"></div>\n\n          <form name=\"uploadform\" onsubmit=\"return postIt();\" action=\"/web/20141011154238/http://212.7.194.85/cgi-bin/upload.cgi?sid=225b7867d510426ed86e1dcd57df2c69&amp;maxfilesize=206000000\" method=\"post\" target=\"uploadframe\" enctype=\"multipart/form-data\">\n          <input type=\"hidden\" name=\"sessionid\" value=\"225b7867d510426ed86e1dcd57df2c69\">\n          <input type=\"hidden\" name=\"UploadSession\" value=\"225b7867d510426ed86e1dcd57df2c69\">\n          <input type=\"hidden\" name=\"AccessKey\" value=\"MTI=\">\n          <input type=\"hidden\" name=\"maxfilesize\" value=\"206000000\">\n          <input type=\"hidden\" name=\"phpuploadscript\" value=\"http://212.7.194.85/uploading.php\">\n          <input type=\"hidden\" name=\"returnurl\" value=\"http://www.megafileupload.com/cross.php\">\n\n          <div id=\"helpwindow\" style=\"display: none\">\n             <div class=\"info\">If you are interested in visiting one of the\n                  sponsored links during your upload,<br>please \"right click\" on\n                  the advertisement to avoid interruption of your upload.</div>\n          </div>\n\n          <div id=\"uploadwindow\">\n            <a name=\"up\"></a>\n\n\n            \n            \n\t\n            <div id=\"uploadmode1\" style=\"display:block\">\n                       \n            <div id=\"filelist\">\n             <div id=\"file_wraper0\">\n              <input type=\"file\" name=\"uploadfile_0\" class=\"upload_txt\" id=\"uploadfile_0\" size=\"40\">\n              <br>\n\t<div class=\"upload_options\">\n              <div id=\"file_options0\" style=\"display:none\">\n              <table>\n              <tbody><tr>\n                <td valign=\"bottom\" align=\"left\">\n                  <div class=\"field_title\">Meaningful file description (optional)</div>\n                  <textarea class=\"field_area\" id=\"file_descr_0\" name=\"file_descr[0]\" cols=\"50\" rows=\"10\"></textarea>\n                  <div class=\"field_title\">Password for download (optional)</div>\n                  <input type=\"text\" class=\"field_txt\" style=\"width:200px\" id=\"file_password_0\" name=\"file_password[0]\">\n                </td></tr>\n              </tbody></table>\n              </div>\n\t</div>\n             </div>\n            </div>\n                        </div>\n\n\t        <div id=\"flashversion\" style=\"display:none\">\n            You do not have the Flash plugin installed, or your browser does not support Javascript (you should enable it, perhaps?)\n\t        </div>\n            <div id=\"uploadmode4\" style=\"display:none\">\n                          <table id=\"uploadlist\" cellpadding=\"0\" cellspacing=\"0\" width=\"80%\">\n              <thead>\n              <tr><td>&nbsp;</td><td align=\"left\"><span class=\"field_title\"><b>File</b></span></td><td align=\"right\"><span class=\"field_title\"><b>Size</b></span></td><td>&nbsp;</td></tr>\n              </thead>\n              <tbody id=\"uploadlistbody\">\n              <tr><td></td><td></td></tr>\n              </tbody>\n              </table>\n              <table width=\"80%\" cellpadding=\"2\" cellspacing=\"0\" style=\"border-top:1px solid blue;\">\n              <tbody><tr><td>\n              <span class=\"field_title\">Please add files by using the<img src=\"/web/20141011154238im_/http://www.megafileupload.com/skin/custom/images/add.gif\" style=\"vertical-align:center\" alt=\"\"> icon in your lower right</span>\n              </td><td>\n              <span style=\"float:right;\"><a href=\"#up\" class=\"actionlink\" onclick=\"flashObj('flashUpload').addFiles();return false;\"><img src=\"/web/20141011154238im_/http://www.megafileupload.com/skin/custom/images/add.gif\" border=\"0\" alt=\"\"></a> <a href=\"#up\" class=\"actionlink\" onclick=\"flashObj('flashUpload').removeAllFiles();return false;\"><img src=\"/web/20141011154238im_/http://www.megafileupload.com/skin/custom/images/delete.png\" border=\"0\" alt=\"\"></a></span>\n              </td></tr>\n              </tbody></table>\n              <div id=\"flashoptions\" style=\"display:none\">\n              <table>\n              <tbody><tr>\n                <td valign=\"bottom\" align=\"left\" colspan=\"2\">\n                  <span class=\"field_title\">Edit <b><span id=\"flash_name\"></span></b></span>\n                  <input type=\"button\" onclick=\"save2Flash();\" value=\"Save\">\n                </td>\n              </tr>\n              <tr>\n                <td valign=\"bottom\" align=\"left\">\n                  <span class=\"field_title\"><b>Meaningful file description (optional)</b></span><br>\n                  <input type=\"text\" class=\"textinput\" style=\"width:200px\" id=\"flash_descr\" name=\"flash_descr\" value=\"\">\n                </td>\n                <td valign=\"bottom\" align=\"right\">\n                  <span class=\"field_title\"><b>Password for download (optional)</b></span><br>\n                  <input type=\"text\" class=\"textinput\" style=\"width:200px\" id=\"flash_password\" name=\"flash_password\">\n                </td>\n              </tr>\n              </tbody></table>\n              </div>\n                        </div>\n            \n            <div id=\"uploadmode2\" style=\"display:none\">\n                        <div class=\"warn\">This type of upload is disabled currently!please <a href=\"register.php\">register</a> to enable it!</div>\n                        </div>\n            \n            <div id=\"uploadmode3\" style=\"display:none\">\n                        <div class=\"warn\">This type of upload is disabled currently!please <a href=\"register.php\">register</a> to enable it!</div>\n                        </div>\n            <span class=\"field_title\" style=\"font-size:14px; color:#FFF;font-weight:400;\"><b>Select file to send(max 196.45 MB)</b></span>\n          </div>\n                    <div id=\"uploadoverview\" style=\"display: none; font-size: 9pt\"></div>\n          </form>\n          <script type=\"text/javascript\">\n            if(currentmode==4) buildFlashUpload(flashPath);\n          </script>\n          <!-- upload form end -->\n<!-- this is end -->    </div>\n    \n    \t        \n\n            <!-- email infomation start -->\n            <iframe width=\"0\" height=\"0\" name=\"emailframe\" id=\"emailframe\"></iframe>\n            <div id=\"emailwindow\">\n            <form name=\"emailform\" action=\"emaillinks.php\" method=\"post\" target=\"emailframe\">\n            <input type=\"hidden\" name=\"UploadSession\" value=\"225b7867d510426ed86e1dcd57df2c69\">\n            <input type=\"hidden\" name=\"AccessKey\" value=\"MTI=\">\n            <input type=\"hidden\" name=\"uploadmode\" value=\"1\">\n            <ul class=\"two_cols\">\n\t\t   \n\t\t    <li class=\"col_rgt\">\n\t\t    \n            <center><span class=\"field_title\" style=\"font-size:14px; color:#FFF;font-weight:400;\"><input type=\"checkbox\" class=\"field_check\" id=\"terms\" name=\"terms\"> I accept&nbsp;<a href=\"rules.php\" target=\"blank\" style=\"color:#FFF;\">terms of service</a></span></center> <br> <br> \n\n<div class=\"formbuttons\" style=\"text-align:center;\">\n    <button type=\"button\" id=\"submitbutton\" name=\"send\" class=\"btn buttoncolor has-spinner\" style=\"color:#000;\"> <span class=\"spinner\"><img src=\"images/spinner.gif\" width=\"15\" height=\"15\"></span>Submit File</button><br><br>\n    \n</div>\n\n<div class=\"formbuttons\">\n<h3 id=\"res\" class=\"demo\" style=\"color:#FFF;\"><center>1 file <br>has been successfully uploaded.</center></h3>\n    \n</div>\n\t    \t</li>\n\t        </ul> \n\t\t\t</form>\n            </div>\n            <!-- email infomation end -->\n\n    \n\n    <div class=\"clear\"></div>\n\n<!-- //INCLUDEPHP helloworld.html -->\n\n\n\n\n\n</div>\n\n\n<br><br><br><br><br><br><br><br><br><br><br><br><br><br>\n</div>\n</div>\n\n<script src=\"http://demo.guru99.com/adsfooter.js\"></script>\n\n     <script src=\"../js/jquery.js\"></script>\n    <script src=\"../js/bootstrap.min.js\"></script>\n    <script src=\"../js/treemenu.js\"></script>\n    <script src=\"../js/slider-cars.js\"></script>\n    <script src=\"../js/home-bar.js\"></script>   \n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=UA-1248015-24\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-1248015-24');\n</script>  \n\n\n\n\n\n\n\n\n\n\n<iframe src=\"https://www.google.com/recaptcha/api2/aframe\" width=\"0\" height=\"0\" style=\"display: none;\"></iframe></body><ins id=\"gpt_unit_/24132379/INTERSTITIAL_DemoGuru99_0\" data-google-query-id=\"CI3w1r370_YCFQs5rQYdPxsOlQ\" aria-hidden=\"true\" style=\"display: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: fixed !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647 !important; background: transparent !important;\" data-vignette-loaded=\"true\"><div id=\"google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0__container__\" style=\"border: 0pt none !important; display: inline-block !important; width: 100vw !important; height: 100vh !important; inset: auto !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;\"><iframe frameborder=\"0\" src=\"https://503c10f496339de0329839d464d959b0.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html\" id=\"google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"\" height=\"\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"1\" style=\"border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;\" data-load-complete=\"true\"></iframe></div></ins><iframe id=\"google_esf\" name=\"google_esf\" src=\"https://googleads.g.doubleclick.net/pagead/html/r20220316/r20190131/zrt_lookup.html\" style=\"display: none;\"></iframe></html>]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "teardownActivities",
+    "time" : {
+      "start" : 1647754867480,
+      "stop" : 1647754868202,
+      "duration" : 722
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully Closed All Drivers.",
+      "time" : {
+        "start" : 1647754867594,
+        "stop" : 1647754867594,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "615"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Drivers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Issue Summary: Total Issues = 7, New issues for Failed Tests = 5, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details.",
+      "time" : {
+        "start" : 1647754867605,
+        "stop" : 1647754867606,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e646d016ddf355f7",
+        "name" : "Attachment: SHAFT Engine Logs - Issues log CSV: 20220320-054107",
+        "source" : "e646d016ddf355f7.csv",
+        "type" : "text/csv",
+        "size" : 868
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "616"
+      }, {
+        "name" : "logText",
+        "value" : "Issue Summary: Total Issues = 7, New issues for Failed Tests = 5, Open issues for Passed Tests = 2, Open issues for Failed Tests = 0. Kindly check the attached Issue details."
+      }, {
+        "name" : "attachments",
+        "value" : "[[SHAFT Engine Logs, Issues log CSV: 20220320-054107, java.io.ByteArrayInputStream@246cba58]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "145c102463068cb9",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20220320-054107",
+      "source" : "145c102463068cb9.txt",
+      "type" : "text/plain",
+      "size" : 402572
+    }, {
+      "uid" : "ae7a214b78a457e6",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "ae7a214b78a457e6.html",
+      "type" : "text/html",
+      "size" : 14393131
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testPackage01.Test_uploadFile"
+  }, {
+    "name" : "testClass",
+    "value" : "testPackage01.Test_uploadFile"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadFile_visibleUploadInput"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPackage01.Test_uploadFile"
+  }, {
+    "name" : "host",
+    "value" : "fv-az504-326"
+  }, {
+    "name" : "thread",
+    "value" : "3593@fv-az504-326.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cf5b6ba7707c6434.json",
+  "parameterValues" : [ ]
+}
